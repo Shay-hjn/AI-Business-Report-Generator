@@ -1,0 +1,426 @@
+order_id,date,customer_id,product,category,region,quantity,unit_price,discount_pct,total_sales
+ORD-10001,2026-08-01,CUST-130,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-10002,2026-08-01,CUST-173,Business Laptop 14-inch,Electronics,North,1,1099.00,5,1044.05
+ORD-10003,2026-08-01,CUST-118,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-10004,2026-08-01,CUST-197,Ultrawide Monitor 34-inch,Electronics,North,1,449.00,0,449.00
+ORD-10005,2026-08-01,CUST-226,Office Laser Printer,Electronics,South,1,329.00,0,329.00
+ORD-10006,2026-08-01,CUST-166,AI Smart Webcam 4K,Electronics,West,1,249.00,5,236.55
+ORD-10007,2026-08-02,CUST-171,Business Laptop 14-inch,Electronics,East,2,1099.00,0,2198.00
+ORD-10008,2026-08-02,CUST-144,Business Laptop 14-inch,Electronics,North,1,1099.00,5,1044.05
+ORD-10009,2026-08-02,CUST-244,Business Headset,Accessories,South,2,149.00,0,298.00
+ORD-10010,2026-08-02,CUST-184,Laptop Sleeve,Accessories,South,2,39.00,0,78.00
+ORD-10011,2026-08-02,CUST-196,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+ORD-10012,2026-08-02,CUST-232,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-10013,2026-08-02,CUST-130,Ultrawide Monitor 34-inch,Electronics,West,1,449.00,5,426.55
+ORD-10014,2026-08-03,CUST-182,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10015,2026-08-03,CUST-127,Business Laptop 14-inch,Electronics,East,1,1099.00,5,1044.05
+ORD-10016,2026-08-03,CUST-226,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-10017,2026-08-03,CUST-221,Ultrawide Monitor 34-inch,Electronics,East,1,449.00,0,449.00
+ORD-10018,2026-08-03,CUST-153,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-10019,2026-08-03,CUST-159,Mini PC Workstation,Electronics,North,1,699.00,0,699.00
+ORD-10020,2026-08-03,CUST-203,Ultrawide Monitor 34-inch,Electronics,North,1,449.00,0,449.00
+ORD-10021,2026-08-03,CUST-182,Compact Office Desk,Furniture,North,1,279.00,5,265.05
+ORD-10022,2026-08-03,CUST-186,Meeting Room Table,Furniture,North,2,749.00,0,1498.00
+ORD-10023,2026-08-03,CUST-218,Ergonomic Office Chair,Furniture,South,1,359.00,0,359.00
+ORD-10024,2026-08-03,CUST-101,Meeting Room Table,Furniture,South,1,749.00,5,711.55
+ORD-10025,2026-08-03,CUST-156,Mini PC Workstation,Electronics,West,2,699.00,0,1398.00
+ORD-10026,2026-08-03,CUST-218,Office Laser Printer,Electronics,West,2,329.00,5,625.10
+ORD-10027,2026-08-04,CUST-103,Ergonomic Office Chair,Furniture,North,1,359.00,0,359.00
+ORD-10028,2026-08-04,CUST-101,Meeting Room Table,Furniture,North,1,749.00,0,749.00
+ORD-10029,2026-08-04,CUST-161,Business Tablet 10-inch,Electronics,South,1,399.00,5,379.05
+ORD-10030,2026-08-04,CUST-141,Office Laser Printer,Electronics,South,1,329.00,5,312.55
+ORD-10031,2026-08-04,CUST-177,Ultrawide Monitor 34-inch,Electronics,South,2,449.00,0,898.00
+ORD-10032,2026-08-04,CUST-107,Business Laptop 14-inch,Electronics,West,2,1099.00,0,2198.00
+ORD-10033,2026-08-05,CUST-229,USB-C Wall Charger,Accessories,East,1,89.00,5,84.55
+ORD-10034,2026-08-05,CUST-130,Business Laptop 14-inch,Electronics,East,2,1099.00,5,2088.10
+ORD-10035,2026-08-05,CUST-165,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-10036,2026-08-05,CUST-177,Filing Cabinet,Furniture,East,2,189.00,0,378.00
+ORD-10037,2026-08-05,CUST-157,Electric Standing Desk,Furniture,North,2,629.00,0,1258.00
+ORD-10038,2026-08-05,CUST-239,Office Laser Printer,Electronics,South,1,329.00,5,312.55
+ORD-10039,2026-08-05,CUST-106,Electric Standing Desk,Furniture,South,1,629.00,0,629.00
+ORD-10040,2026-08-05,CUST-239,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-10041,2026-08-05,CUST-151,Business Tablet 10-inch,Electronics,West,2,399.00,5,758.10
+ORD-10042,2026-08-05,CUST-120,Electric Standing Desk,Furniture,West,2,629.00,0,1258.00
+ORD-10043,2026-08-05,CUST-105,Meeting Room Table,Furniture,West,1,749.00,0,749.00
+ORD-10044,2026-08-06,CUST-189,Business Headset,Accessories,East,1,149.00,0,149.00
+ORD-10045,2026-08-06,CUST-140,USB-C Wall Charger,Accessories,East,2,89.00,0,178.00
+ORD-10046,2026-08-06,CUST-111,Office Laser Printer,Electronics,East,1,329.00,5,312.55
+ORD-10047,2026-08-06,CUST-122,Ergonomic Office Chair,Furniture,East,1,359.00,5,341.05
+ORD-10048,2026-08-06,CUST-114,Meeting Room Table,Furniture,East,1,749.00,5,711.55
+ORD-10049,2026-08-06,CUST-202,Mini PC Workstation,Electronics,North,1,699.00,5,664.05
+ORD-10050,2026-08-06,CUST-109,Wireless Mouse,Accessories,South,1,59.00,0,59.00
+ORD-10051,2026-08-06,CUST-192,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+ORD-10052,2026-08-06,CUST-194,Mini PC Workstation,Electronics,South,1,699.00,5,664.05
+ORD-10053,2026-08-06,CUST-137,Conference Speakerphone,Accessories,West,1,229.00,5,217.55
+ORD-10054,2026-08-06,CUST-115,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-10055,2026-08-06,CUST-222,Mini PC Workstation,Electronics,West,1,699.00,0,699.00
+ORD-10056,2026-08-06,CUST-228,Ultrawide Monitor 34-inch,Electronics,West,1,449.00,0,449.00
+ORD-10057,2026-08-07,CUST-241,Office Laser Printer,Electronics,East,1,329.00,0,329.00
+ORD-10058,2026-08-07,CUST-122,Portable SSD 1TB,Accessories,North,1,209.00,0,209.00
+ORD-10059,2026-08-07,CUST-230,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-10060,2026-08-07,CUST-119,Mobile Storage Pedestal,Furniture,North,1,169.00,5,160.55
+ORD-10061,2026-08-07,CUST-195,Noise-Cancelling Headset,Accessories,South,1,219.00,5,208.05
+ORD-10062,2026-08-07,CUST-104,Mini PC Workstation,Electronics,South,1,699.00,0,699.00
+ORD-10063,2026-08-07,CUST-188,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,5,426.55
+ORD-10064,2026-08-07,CUST-226,Wireless Keyboard,Accessories,West,2,119.00,5,226.10
+ORD-10065,2026-08-07,CUST-106,Business Laptop 14-inch,Electronics,West,2,1099.00,5,2088.10
+ORD-10066,2026-08-07,CUST-127,Office Laser Printer,Electronics,West,2,329.00,5,625.10
+ORD-10067,2026-08-08,CUST-173,Office Laser Printer,Electronics,East,1,329.00,0,329.00
+ORD-10068,2026-08-08,CUST-147,Office Laser Printer,Electronics,North,1,329.00,5,312.55
+ORD-10069,2026-08-08,CUST-225,Business Laptop 14-inch,Electronics,South,2,1099.00,0,2198.00
+ORD-10070,2026-08-08,CUST-193,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,0,449.00
+ORD-10071,2026-08-09,CUST-227,USB-C Docking Station,Accessories,East,1,179.00,5,170.05
+ORD-10072,2026-08-09,CUST-173,AI Smart Webcam 4K,Electronics,East,2,249.00,5,473.10
+ORD-10073,2026-08-09,CUST-153,Ultrawide Monitor 34-inch,Electronics,North,1,449.00,5,426.55
+ORD-10074,2026-08-09,CUST-240,Portable SSD 1TB,Accessories,South,1,209.00,5,198.55
+ORD-10075,2026-08-09,CUST-114,Mini PC Workstation,Electronics,South,2,699.00,0,1398.00
+ORD-10076,2026-08-09,CUST-232,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,0,449.00
+ORD-10077,2026-08-09,CUST-189,AI Smart Webcam 4K,Electronics,West,1,249.00,5,236.55
+ORD-10078,2026-08-09,CUST-172,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-10079,2026-08-09,CUST-148,Meeting Room Table,Furniture,West,1,749.00,5,711.55
+ORD-10080,2026-08-10,CUST-221,Portable SSD 1TB,Accessories,East,1,209.00,5,198.55
+ORD-10081,2026-08-10,CUST-234,USB-C Docking Station,Accessories,East,2,179.00,0,358.00
+ORD-10082,2026-08-10,CUST-127,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-10083,2026-08-10,CUST-127,Laptop Sleeve,Accessories,North,1,39.00,0,39.00
+ORD-10084,2026-08-10,CUST-186,Business Tablet 10-inch,Electronics,North,2,399.00,5,758.10
+ORD-10085,2026-08-10,CUST-144,Mini PC Workstation,Electronics,North,1,699.00,0,699.00
+ORD-10086,2026-08-10,CUST-165,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+ORD-10087,2026-08-10,CUST-143,Mini PC Workstation,Electronics,South,1,699.00,0,699.00
+ORD-10088,2026-08-10,CUST-196,Electric Standing Desk,Furniture,South,2,629.00,0,1258.00
+ORD-10089,2026-08-10,CUST-138,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+ORD-10090,2026-08-10,CUST-198,Office Laser Printer,Electronics,West,2,329.00,5,625.10
+ORD-10091,2026-08-10,CUST-132,Electric Standing Desk,Furniture,West,1,629.00,0,629.00
+ORD-10092,2026-08-10,CUST-154,Filing Cabinet,Furniture,West,1,189.00,0,189.00
+ORD-10093,2026-08-11,CUST-229,Mini PC Workstation,Electronics,East,1,699.00,0,699.00
+ORD-10094,2026-08-11,CUST-192,Filing Cabinet,Furniture,East,1,189.00,5,179.55
+ORD-10095,2026-08-11,CUST-219,Business Laptop 14-inch,Electronics,North,1,1099.00,5,1044.05
+ORD-10096,2026-08-11,CUST-131,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-10097,2026-08-11,CUST-224,Electric Standing Desk,Furniture,North,1,629.00,5,597.55
+ORD-10098,2026-08-11,CUST-168,Business Headset,Accessories,South,1,149.00,0,149.00
+ORD-10099,2026-08-11,CUST-201,Conference Speakerphone,Accessories,West,2,229.00,5,435.10
+ORD-10100,2026-08-11,CUST-180,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-10101,2026-08-11,CUST-147,Mini PC Workstation,Electronics,West,1,699.00,0,699.00
+ORD-10102,2026-08-12,CUST-169,Meeting Room Table,Furniture,East,1,749.00,0,749.00
+ORD-10103,2026-08-12,CUST-157,Mobile Storage Pedestal,Furniture,East,1,169.00,5,160.55
+ORD-10104,2026-08-12,CUST-233,USB-C Docking Station,Accessories,North,1,179.00,5,170.05
+ORD-10105,2026-08-12,CUST-120,USB-C Wall Charger,Accessories,North,2,89.00,0,178.00
+ORD-10106,2026-08-12,CUST-107,Business Laptop 14-inch,Electronics,North,1,1099.00,5,1044.05
+ORD-10107,2026-08-12,CUST-215,Office Laser Printer,Electronics,North,1,329.00,5,312.55
+ORD-10108,2026-08-12,CUST-139,Filing Cabinet,Furniture,South,1,189.00,0,189.00
+ORD-10109,2026-08-12,CUST-111,Mobile Storage Pedestal,Furniture,South,1,169.00,5,160.55
+ORD-10110,2026-08-12,CUST-110,AI Smart Webcam 4K,Electronics,West,2,249.00,0,498.00
+ORD-10111,2026-08-12,CUST-228,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+ORD-10112,2026-08-12,CUST-136,Ultrawide Monitor 34-inch,Electronics,West,2,449.00,5,853.10
+ORD-10113,2026-08-12,CUST-117,Ergonomic Office Chair,Furniture,West,1,359.00,5,341.05
+ORD-10114,2026-08-13,CUST-121,USB-C Docking Station,Accessories,East,1,179.00,5,170.05
+ORD-10115,2026-08-13,CUST-226,USB-C Wall Charger,Accessories,East,2,89.00,0,178.00
+ORD-10116,2026-08-13,CUST-187,AI Smart Webcam 4K,Electronics,East,1,249.00,5,236.55
+ORD-10117,2026-08-13,CUST-131,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-10118,2026-08-13,CUST-200,USB-C Wall Charger,Accessories,North,2,89.00,0,178.00
+ORD-10119,2026-08-13,CUST-177,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-10120,2026-08-13,CUST-168,Filing Cabinet,Furniture,North,1,189.00,0,189.00
+ORD-10121,2026-08-13,CUST-215,Business Headset,Accessories,West,1,149.00,0,149.00
+ORD-10122,2026-08-13,CUST-102,Filing Cabinet,Furniture,West,2,189.00,5,359.10
+ORD-10123,2026-08-14,CUST-218,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10124,2026-08-14,CUST-209,Portable SSD 1TB,Accessories,South,2,209.00,0,418.00
+ORD-10125,2026-08-14,CUST-223,Mobile Storage Pedestal,Furniture,South,1,169.00,0,169.00
+ORD-10126,2026-08-14,CUST-142,Business Headset,Accessories,West,1,149.00,5,141.55
+ORD-10127,2026-08-14,CUST-170,Conference Speakerphone,Accessories,West,1,229.00,5,217.55
+ORD-10128,2026-08-14,CUST-230,Noise-Cancelling Headset,Accessories,West,2,219.00,0,438.00
+ORD-10129,2026-08-14,CUST-158,USB-C Wall Charger,Accessories,West,1,89.00,0,89.00
+ORD-10130,2026-08-15,CUST-205,USB-C Docking Station,Accessories,North,1,179.00,0,179.00
+ORD-10131,2026-08-15,CUST-211,Mini PC Workstation,Electronics,North,1,699.00,0,699.00
+ORD-10132,2026-08-15,CUST-169,Office Laser Printer,Electronics,North,1,329.00,5,312.55
+ORD-10133,2026-08-15,CUST-133,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,0,449.00
+ORD-10134,2026-08-15,CUST-166,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-10135,2026-08-15,CUST-156,Meeting Room Table,Furniture,West,1,749.00,0,749.00
+ORD-10136,2026-08-16,CUST-131,Ultrawide Monitor 34-inch,Electronics,East,1,449.00,0,449.00
+ORD-10137,2026-08-16,CUST-180,Conference Speakerphone,Accessories,North,1,229.00,0,229.00
+ORD-10138,2026-08-16,CUST-133,Ergonomic Office Chair,Furniture,North,1,359.00,5,341.05
+ORD-10139,2026-08-16,CUST-197,AI Smart Webcam 4K,Electronics,South,2,249.00,0,498.00
+ORD-10140,2026-08-16,CUST-107,Wireless Keyboard,Accessories,West,1,119.00,0,119.00
+ORD-10141,2026-08-16,CUST-159,Electric Standing Desk,Furniture,West,2,629.00,5,1195.10
+ORD-10142,2026-08-16,CUST-210,Mobile Storage Pedestal,Furniture,West,1,169.00,0,169.00
+ORD-10143,2026-08-17,CUST-123,Business Tablet 10-inch,Electronics,East,2,399.00,0,798.00
+ORD-10144,2026-08-17,CUST-221,Ultrawide Monitor 34-inch,Electronics,East,1,449.00,0,449.00
+ORD-10145,2026-08-17,CUST-171,Laptop Sleeve,Accessories,North,1,39.00,0,39.00
+ORD-10146,2026-08-17,CUST-207,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10147,2026-08-17,CUST-223,Conference Speakerphone,Accessories,South,1,229.00,0,229.00
+ORD-10148,2026-08-17,CUST-209,Wireless Mouse,Accessories,South,1,59.00,0,59.00
+ORD-10149,2026-08-17,CUST-176,Mini PC Workstation,Electronics,South,2,699.00,0,1398.00
+ORD-10150,2026-08-17,CUST-225,Mini PC Workstation,Electronics,South,1,699.00,0,699.00
+ORD-10151,2026-08-17,CUST-150,Electric Standing Desk,Furniture,South,1,629.00,0,629.00
+ORD-10152,2026-08-17,CUST-153,USB-C Docking Station,Accessories,West,1,179.00,5,170.05
+ORD-10153,2026-08-17,CUST-221,QHD Monitor 27-inch,Electronics,West,1,289.00,5,274.55
+ORD-10154,2026-08-17,CUST-165,Filing Cabinet,Furniture,West,2,189.00,0,378.00
+ORD-10155,2026-08-18,CUST-106,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10156,2026-08-18,CUST-131,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-10157,2026-08-18,CUST-229,Ultrawide Monitor 34-inch,Electronics,North,1,449.00,0,449.00
+ORD-10158,2026-08-18,CUST-174,Ultrawide Monitor 34-inch,Electronics,North,2,449.00,0,898.00
+ORD-10159,2026-08-18,CUST-129,Electric Standing Desk,Furniture,North,1,629.00,0,629.00
+ORD-10160,2026-08-18,CUST-179,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+ORD-10161,2026-08-18,CUST-178,Meeting Room Table,Furniture,South,1,749.00,0,749.00
+ORD-10162,2026-08-18,CUST-193,Office Laser Printer,Electronics,West,1,329.00,0,329.00
+ORD-10163,2026-08-18,CUST-118,Ergonomic Office Chair,Furniture,West,1,359.00,0,359.00
+ORD-10164,2026-08-19,CUST-208,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-10165,2026-08-19,CUST-211,Filing Cabinet,Furniture,East,1,189.00,5,179.55
+ORD-10166,2026-08-19,CUST-159,Office Laser Printer,Electronics,North,1,329.00,5,312.55
+ORD-10167,2026-08-19,CUST-170,Ultrawide Monitor 34-inch,Electronics,North,1,449.00,0,449.00
+ORD-10168,2026-08-19,CUST-217,Conference Speakerphone,Accessories,South,1,229.00,0,229.00
+ORD-10169,2026-08-19,CUST-205,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,0,449.00
+ORD-10170,2026-08-19,CUST-181,Portable SSD 1TB,Accessories,West,2,209.00,0,418.00
+ORD-10171,2026-08-19,CUST-123,Office Laser Printer,Electronics,West,1,329.00,5,312.55
+ORD-10172,2026-08-20,CUST-105,Conference Speakerphone,Accessories,East,1,229.00,5,217.55
+ORD-10173,2026-08-20,CUST-115,Portable SSD 1TB,Accessories,East,1,209.00,0,209.00
+ORD-10174,2026-08-20,CUST-210,Mini PC Workstation,Electronics,East,1,699.00,0,699.00
+ORD-10175,2026-08-20,CUST-188,Office Laser Printer,Electronics,East,2,329.00,5,625.10
+ORD-10176,2026-08-20,CUST-143,Conference Speakerphone,Accessories,North,2,229.00,5,435.10
+ORD-10177,2026-08-20,CUST-104,AI Smart Webcam 4K,Electronics,South,1,249.00,5,236.55
+ORD-10178,2026-08-20,CUST-182,Business Laptop 14-inch,Electronics,South,2,1099.00,5,2088.10
+ORD-10179,2026-08-20,CUST-132,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,0,449.00
+ORD-10180,2026-08-20,CUST-105,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-10181,2026-08-20,CUST-210,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-10182,2026-08-21,CUST-231,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10183,2026-08-21,CUST-154,QHD Monitor 27-inch,Electronics,East,2,289.00,5,549.10
+ORD-10184,2026-08-21,CUST-117,Compact Office Desk,Furniture,East,2,279.00,0,558.00
+ORD-10185,2026-08-21,CUST-112,Mobile Storage Pedestal,Furniture,East,1,169.00,5,160.55
+ORD-10186,2026-08-21,CUST-190,Mini PC Workstation,Electronics,North,1,699.00,0,699.00
+ORD-10187,2026-08-21,CUST-193,USB-C Wall Charger,Accessories,South,1,89.00,0,89.00
+ORD-10188,2026-08-21,CUST-181,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,5,426.55
+ORD-10189,2026-08-21,CUST-166,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,5,426.55
+ORD-10190,2026-08-21,CUST-159,Filing Cabinet,Furniture,South,2,189.00,5,359.10
+ORD-10191,2026-08-21,CUST-180,Filing Cabinet,Furniture,South,2,189.00,0,378.00
+ORD-10192,2026-08-21,CUST-231,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-10193,2026-08-21,CUST-173,Mini PC Workstation,Electronics,West,2,699.00,0,1398.00
+ORD-10194,2026-08-22,CUST-233,Business Laptop 14-inch,Electronics,North,2,1099.00,0,2198.00
+ORD-10195,2026-08-22,CUST-198,Mini PC Workstation,Electronics,South,1,699.00,0,699.00
+ORD-10196,2026-08-23,CUST-126,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-10197,2026-08-23,CUST-124,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-10198,2026-08-23,CUST-147,Electric Standing Desk,Furniture,East,2,629.00,0,1258.00
+ORD-10199,2026-08-23,CUST-182,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-10200,2026-08-23,CUST-132,Wireless Mouse,Accessories,South,2,59.00,0,118.00
+ORD-10201,2026-08-23,CUST-129,Office Laser Printer,Electronics,South,1,329.00,5,312.55
+ORD-10202,2026-08-23,CUST-157,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+ORD-10203,2026-08-24,CUST-206,USB-C Wall Charger,Accessories,East,1,89.00,0,89.00
+ORD-10204,2026-08-24,CUST-240,Mini PC Workstation,Electronics,East,1,699.00,0,699.00
+ORD-10205,2026-08-24,CUST-190,Mobile Storage Pedestal,Furniture,East,1,169.00,0,169.00
+ORD-10206,2026-08-24,CUST-180,Conference Speakerphone,Accessories,North,1,229.00,0,229.00
+ORD-10207,2026-08-24,CUST-144,Ultrawide Monitor 34-inch,Electronics,North,1,449.00,0,449.00
+ORD-10208,2026-08-24,CUST-228,Filing Cabinet,Furniture,North,1,189.00,0,189.00
+ORD-10209,2026-08-24,CUST-226,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-10210,2026-08-24,CUST-173,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+ORD-10211,2026-08-25,CUST-153,Laptop Sleeve,Accessories,East,1,39.00,5,37.05
+ORD-10212,2026-08-25,CUST-228,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-10213,2026-08-25,CUST-158,QHD Monitor 27-inch,Electronics,East,2,289.00,5,549.10
+ORD-10214,2026-08-25,CUST-243,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-10215,2026-08-25,CUST-225,Ultrawide Monitor 34-inch,Electronics,East,1,449.00,0,449.00
+ORD-10216,2026-08-25,CUST-173,Business Headset,Accessories,North,2,149.00,5,283.10
+ORD-10217,2026-08-25,CUST-142,Wireless Keyboard,Accessories,North,1,119.00,0,119.00
+ORD-10218,2026-08-25,CUST-205,Office Laser Printer,Electronics,North,1,329.00,5,312.55
+ORD-10219,2026-08-25,CUST-104,Ultrawide Monitor 34-inch,Electronics,North,2,449.00,5,853.10
+ORD-10220,2026-08-25,CUST-136,Meeting Room Table,Furniture,North,1,749.00,5,711.55
+ORD-10221,2026-08-25,CUST-170,USB-C Wall Charger,Accessories,South,1,89.00,0,89.00
+ORD-10222,2026-08-25,CUST-137,Business Tablet 10-inch,Electronics,South,2,399.00,5,758.10
+ORD-10223,2026-08-25,CUST-234,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-10224,2026-08-25,CUST-197,Filing Cabinet,Furniture,South,1,189.00,0,189.00
+ORD-10225,2026-08-25,CUST-124,Mobile Storage Pedestal,Furniture,South,1,169.00,0,169.00
+ORD-10226,2026-08-25,CUST-184,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-10227,2026-08-25,CUST-214,Meeting Room Table,Furniture,West,2,749.00,0,1498.00
+ORD-10228,2026-08-25,CUST-129,Meeting Room Table,Furniture,West,1,749.00,0,749.00
+ORD-10229,2026-08-26,CUST-119,Portable SSD 1TB,Accessories,East,1,209.00,0,209.00
+ORD-10230,2026-08-26,CUST-178,Mini PC Workstation,Electronics,East,1,699.00,0,699.00
+ORD-10231,2026-08-26,CUST-169,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-10232,2026-08-26,CUST-151,Business Laptop 14-inch,Electronics,North,1,1099.00,5,1044.05
+ORD-10233,2026-08-26,CUST-225,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-10234,2026-08-26,CUST-176,Mini PC Workstation,Electronics,North,1,699.00,5,664.05
+ORD-10235,2026-08-26,CUST-240,Laptop Sleeve,Accessories,West,1,39.00,5,37.05
+ORD-10236,2026-08-26,CUST-158,Portable SSD 1TB,Accessories,West,2,209.00,0,418.00
+ORD-10237,2026-08-26,CUST-192,Ultrawide Monitor 34-inch,Electronics,West,1,449.00,5,426.55
+ORD-10238,2026-08-27,CUST-134,Mobile Storage Pedestal,Furniture,East,1,169.00,5,160.55
+ORD-10239,2026-08-27,CUST-197,USB-C Wall Charger,Accessories,North,2,89.00,0,178.00
+ORD-10240,2026-08-27,CUST-121,Conference Speakerphone,Accessories,South,1,229.00,0,229.00
+ORD-10241,2026-08-27,CUST-123,QHD Monitor 27-inch,Electronics,South,2,289.00,0,578.00
+ORD-10242,2026-08-27,CUST-138,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,5,426.55
+ORD-10243,2026-08-27,CUST-187,Electric Standing Desk,Furniture,South,2,629.00,0,1258.00
+ORD-10244,2026-08-27,CUST-244,Meeting Room Table,Furniture,West,1,749.00,5,711.55
+ORD-10245,2026-08-28,CUST-110,Mini PC Workstation,Electronics,East,2,699.00,5,1328.10
+ORD-10246,2026-08-28,CUST-216,Ultrawide Monitor 34-inch,Electronics,East,1,449.00,0,449.00
+ORD-10247,2026-08-28,CUST-239,Noise-Cancelling Headset,Accessories,North,1,219.00,0,219.00
+ORD-10248,2026-08-28,CUST-211,USB-C Docking Station,Accessories,North,1,179.00,0,179.00
+ORD-10249,2026-08-28,CUST-132,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-10250,2026-08-28,CUST-166,Compact Office Desk,Furniture,North,1,279.00,5,265.05
+ORD-10251,2026-08-28,CUST-230,Conference Speakerphone,Accessories,South,1,229.00,0,229.00
+ORD-10252,2026-08-28,CUST-156,Office Laser Printer,Electronics,South,1,329.00,0,329.00
+ORD-10253,2026-08-28,CUST-133,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,0,449.00
+ORD-10254,2026-08-28,CUST-198,Conference Speakerphone,Accessories,West,1,229.00,5,217.55
+ORD-10255,2026-08-28,CUST-181,Laptop Sleeve,Accessories,West,1,39.00,0,39.00
+ORD-10256,2026-08-28,CUST-242,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-10257,2026-08-29,CUST-225,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10258,2026-08-29,CUST-237,Meeting Room Table,Furniture,East,2,749.00,0,1498.00
+ORD-10259,2026-08-29,CUST-136,Office Laser Printer,Electronics,North,1,329.00,0,329.00
+ORD-10260,2026-08-29,CUST-204,Business Tablet 10-inch,Electronics,South,2,399.00,0,798.00
+ORD-10261,2026-08-29,CUST-237,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-10262,2026-08-29,CUST-217,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-10263,2026-08-30,CUST-192,Conference Speakerphone,Accessories,East,2,229.00,5,435.10
+ORD-10264,2026-08-30,CUST-169,Mini PC Workstation,Electronics,East,1,699.00,5,664.05
+ORD-10265,2026-08-30,CUST-191,Electric Standing Desk,Furniture,East,2,629.00,5,1195.10
+ORD-10266,2026-08-30,CUST-185,Electric Standing Desk,Furniture,South,1,629.00,0,629.00
+ORD-10267,2026-08-31,CUST-112,Conference Speakerphone,Accessories,East,1,229.00,5,217.55
+ORD-10268,2026-08-31,CUST-179,Meeting Room Table,Furniture,East,1,749.00,0,749.00
+ORD-10269,2026-08-31,CUST-153,Electric Standing Desk,Furniture,North,1,629.00,0,629.00
+ORD-10270,2026-08-31,CUST-131,Meeting Room Table,Furniture,North,1,749.00,0,749.00
+ORD-10271,2026-08-31,CUST-236,Office Laser Printer,Electronics,South,1,329.00,0,329.00
+ORD-10272,2026-08-31,CUST-141,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-10273,2026-09-01,CUST-166,USB-C Docking Station,Accessories,North,1,179.00,0,179.00
+ORD-10274,2026-09-01,CUST-191,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-10275,2026-09-01,CUST-124,Meeting Room Table,Furniture,North,1,749.00,0,749.00
+ORD-10276,2026-09-01,CUST-188,Wireless Mouse,Accessories,South,1,59.00,0,59.00
+ORD-10277,2026-09-01,CUST-188,Mini PC Workstation,Electronics,South,1,699.00,0,699.00
+ORD-10278,2026-09-01,CUST-155,USB-C Wall Charger,Accessories,West,1,89.00,0,89.00
+ORD-10279,2026-09-01,CUST-240,Filing Cabinet,Furniture,West,2,189.00,0,378.00
+ORD-10280,2026-09-02,CUST-147,Business Headset,Accessories,East,1,149.00,0,149.00
+ORD-10281,2026-09-02,CUST-158,Laptop Sleeve,Accessories,East,1,39.00,5,37.05
+ORD-10282,2026-09-02,CUST-164,Meeting Room Table,Furniture,East,1,749.00,0,749.00
+ORD-10283,2026-09-02,CUST-137,USB-C Wall Charger,Accessories,North,2,89.00,0,178.00
+ORD-10284,2026-09-02,CUST-221,Wireless Keyboard,Accessories,North,1,119.00,0,119.00
+ORD-10285,2026-09-02,CUST-231,Business Headset,Accessories,South,2,149.00,0,298.00
+ORD-10286,2026-09-02,CUST-238,Filing Cabinet,Furniture,West,2,189.00,5,359.10
+ORD-10287,2026-09-03,CUST-198,AI Smart Webcam 4K,Electronics,East,2,249.00,5,473.10
+ORD-10288,2026-09-03,CUST-245,Business Headset,Accessories,North,2,149.00,5,283.10
+ORD-10289,2026-09-03,CUST-191,Ergonomic Office Chair,Furniture,North,1,359.00,5,341.05
+ORD-10290,2026-09-03,CUST-199,Ergonomic Office Chair,Furniture,North,1,359.00,0,359.00
+ORD-10291,2026-09-03,CUST-122,USB-C Docking Station,Accessories,West,1,179.00,5,170.05
+ORD-10292,2026-09-04,CUST-179,Electric Standing Desk,Furniture,East,2,629.00,0,1258.00
+ORD-10293,2026-09-04,CUST-180,Conference Speakerphone,Accessories,North,1,229.00,0,229.00
+ORD-10294,2026-09-04,CUST-129,Conference Speakerphone,Accessories,North,1,229.00,0,229.00
+ORD-10295,2026-09-04,CUST-223,Conference Speakerphone,Accessories,South,1,229.00,0,229.00
+ORD-10296,2026-09-04,CUST-135,Electric Standing Desk,Furniture,South,1,629.00,0,629.00
+ORD-10297,2026-09-04,CUST-175,Filing Cabinet,Furniture,West,2,189.00,5,359.10
+ORD-10298,2026-09-05,CUST-144,Mobile Storage Pedestal,Furniture,East,1,169.00,5,160.55
+ORD-10299,2026-09-05,CUST-232,Electric Standing Desk,Furniture,West,1,629.00,0,629.00
+ORD-10300,2026-09-06,CUST-158,USB-C Docking Station,Accessories,East,2,179.00,0,358.00
+ORD-10301,2026-09-06,CUST-227,Electric Standing Desk,Furniture,East,2,629.00,5,1195.10
+ORD-10302,2026-09-06,CUST-241,Meeting Room Table,Furniture,West,1,749.00,0,749.00
+ORD-10303,2026-09-07,CUST-199,Meeting Room Table,Furniture,East,2,749.00,0,1498.00
+ORD-10304,2026-09-07,CUST-164,Noise-Cancelling Headset,Accessories,North,1,219.00,0,219.00
+ORD-10305,2026-09-07,CUST-134,Office Laser Printer,Electronics,North,1,329.00,5,312.55
+ORD-10306,2026-09-07,CUST-153,USB-C Wall Charger,Accessories,South,1,89.00,0,89.00
+ORD-10307,2026-09-07,CUST-119,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-10308,2026-09-08,CUST-156,Conference Speakerphone,Accessories,East,1,229.00,5,217.55
+ORD-10309,2026-09-08,CUST-121,Compact Office Desk,Furniture,East,2,279.00,0,558.00
+ORD-10310,2026-09-08,CUST-218,Meeting Room Table,Furniture,North,1,749.00,0,749.00
+ORD-10311,2026-09-08,CUST-233,Business Headset,Accessories,West,1,149.00,5,141.55
+ORD-10312,2026-09-08,CUST-160,Conference Speakerphone,Accessories,West,2,229.00,5,435.10
+ORD-10313,2026-09-08,CUST-179,Laptop Sleeve,Accessories,West,1,39.00,5,37.05
+ORD-10314,2026-09-09,CUST-178,Office Laser Printer,Electronics,East,1,329.00,0,329.00
+ORD-10315,2026-09-09,CUST-233,Meeting Room Table,Furniture,East,1,749.00,0,749.00
+ORD-10316,2026-09-09,CUST-187,Portable SSD 1TB,Accessories,North,1,209.00,0,209.00
+ORD-10317,2026-09-09,CUST-191,Noise-Cancelling Headset,Accessories,South,1,219.00,5,208.05
+ORD-10318,2026-09-09,CUST-239,Electric Standing Desk,Furniture,South,1,629.00,0,629.00
+ORD-10319,2026-09-09,CUST-117,Electric Standing Desk,Furniture,South,1,629.00,0,629.00
+ORD-10320,2026-09-09,CUST-132,Noise-Cancelling Headset,Accessories,West,2,219.00,0,438.00
+ORD-10321,2026-09-09,CUST-164,Mini PC Workstation,Electronics,West,2,699.00,0,1398.00
+ORD-10322,2026-09-09,CUST-237,Electric Standing Desk,Furniture,West,2,629.00,5,1195.10
+ORD-10323,2026-09-10,CUST-114,Meeting Room Table,Furniture,East,1,749.00,5,711.55
+ORD-10324,2026-09-10,CUST-228,Office Laser Printer,Electronics,West,2,329.00,5,625.10
+ORD-10325,2026-09-11,CUST-132,Ergonomic Office Chair,Furniture,East,1,359.00,5,341.05
+ORD-10326,2026-09-11,CUST-105,Laptop Sleeve,Accessories,South,2,39.00,0,78.00
+ORD-10327,2026-09-11,CUST-105,USB-C Wall Charger,Accessories,South,1,89.00,0,89.00
+ORD-10328,2026-09-11,CUST-122,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,5,426.55
+ORD-10329,2026-09-12,CUST-120,USB-C Docking Station,Accessories,East,1,179.00,5,170.05
+ORD-10330,2026-09-12,CUST-117,Filing Cabinet,Furniture,South,1,189.00,0,189.00
+ORD-10331,2026-09-12,CUST-211,Meeting Room Table,Furniture,South,1,749.00,0,749.00
+ORD-10332,2026-09-13,CUST-132,Conference Speakerphone,Accessories,East,1,229.00,5,217.55
+ORD-10333,2026-09-13,CUST-175,Meeting Room Table,Furniture,North,1,749.00,0,749.00
+ORD-10334,2026-09-13,CUST-134,Conference Speakerphone,Accessories,South,1,229.00,0,229.00
+ORD-10335,2026-09-13,CUST-180,Ergonomic Office Chair,Furniture,West,1,359.00,5,341.05
+ORD-10336,2026-09-13,CUST-240,Meeting Room Table,Furniture,West,1,749.00,5,711.55
+ORD-10337,2026-09-14,CUST-228,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-10338,2026-09-14,CUST-230,Laptop Sleeve,Accessories,North,1,39.00,0,39.00
+ORD-10339,2026-09-14,CUST-108,Wireless Mouse,Accessories,South,2,59.00,0,118.00
+ORD-10340,2026-09-14,CUST-160,Meeting Room Table,Furniture,West,1,749.00,0,749.00
+ORD-10341,2026-09-15,CUST-149,Portable SSD 1TB,Accessories,East,1,209.00,0,209.00
+ORD-10342,2026-09-15,CUST-244,USB-C Wall Charger,Accessories,East,2,89.00,0,178.00
+ORD-10343,2026-09-15,CUST-206,Mobile Storage Pedestal,Furniture,East,1,169.00,0,169.00
+ORD-10344,2026-09-15,CUST-221,Electric Standing Desk,Furniture,North,1,629.00,0,629.00
+ORD-10345,2026-09-15,CUST-158,Electric Standing Desk,Furniture,North,1,629.00,0,629.00
+ORD-10346,2026-09-15,CUST-238,Meeting Room Table,Furniture,North,2,749.00,0,1498.00
+ORD-10347,2026-09-15,CUST-140,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,0,449.00
+ORD-10348,2026-09-15,CUST-211,Filing Cabinet,Furniture,South,1,189.00,0,189.00
+ORD-10349,2026-09-15,CUST-126,Electric Standing Desk,Furniture,West,2,629.00,0,1258.00
+ORD-10350,2026-09-16,CUST-230,Filing Cabinet,Furniture,East,2,189.00,0,378.00
+ORD-10351,2026-09-16,CUST-234,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-10352,2026-09-16,CUST-160,Ultrawide Monitor 34-inch,Electronics,North,2,449.00,5,853.10
+ORD-10353,2026-09-16,CUST-218,Mobile Storage Pedestal,Furniture,North,1,169.00,5,160.55
+ORD-10354,2026-09-16,CUST-234,Wireless Keyboard,Accessories,West,2,119.00,5,226.10
+ORD-10355,2026-09-16,CUST-229,Ergonomic Office Chair,Furniture,West,1,359.00,5,341.05
+ORD-10356,2026-09-17,CUST-129,USB-C Docking Station,Accessories,North,1,179.00,5,170.05
+ORD-10357,2026-09-17,CUST-128,Electric Standing Desk,Furniture,South,2,629.00,0,1258.00
+ORD-10358,2026-09-17,CUST-151,Wireless Keyboard,Accessories,West,1,119.00,0,119.00
+ORD-10359,2026-09-18,CUST-181,USB-C Wall Charger,Accessories,East,1,89.00,5,84.55
+ORD-10360,2026-09-18,CUST-241,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-10361,2026-09-18,CUST-115,Laptop Sleeve,Accessories,North,1,39.00,0,39.00
+ORD-10362,2026-09-18,CUST-228,Noise-Cancelling Headset,Accessories,South,1,219.00,5,208.05
+ORD-10363,2026-09-18,CUST-124,Portable SSD 1TB,Accessories,South,1,209.00,5,198.55
+ORD-10364,2026-09-18,CUST-224,Electric Standing Desk,Furniture,South,2,629.00,0,1258.00
+ORD-10365,2026-09-18,CUST-208,Filing Cabinet,Furniture,South,2,189.00,0,378.00
+ORD-10366,2026-09-18,CUST-146,Mobile Storage Pedestal,Furniture,South,1,169.00,5,160.55
+ORD-10367,2026-09-18,CUST-219,Filing Cabinet,Furniture,West,1,189.00,0,189.00
+ORD-10368,2026-09-19,CUST-244,Business Laptop 14-inch,Electronics,East,1,1099.00,5,1044.05
+ORD-10369,2026-09-19,CUST-226,USB-C Wall Charger,Accessories,North,2,89.00,0,178.00
+ORD-10370,2026-09-19,CUST-127,USB-C Wall Charger,Accessories,West,1,89.00,0,89.00
+ORD-10371,2026-09-19,CUST-229,Meeting Room Table,Furniture,West,1,749.00,5,711.55
+ORD-10372,2026-09-20,CUST-168,Office Laser Printer,Electronics,North,1,329.00,5,312.55
+ORD-10373,2026-09-20,CUST-127,Office Laser Printer,Electronics,North,1,329.00,5,312.55
+ORD-10374,2026-09-20,CUST-130,Meeting Room Table,Furniture,South,1,749.00,5,711.55
+ORD-10375,2026-09-20,CUST-112,Mobile Storage Pedestal,Furniture,West,1,169.00,0,169.00
+ORD-10376,2026-09-21,CUST-164,Office Laser Printer,Electronics,East,2,329.00,5,625.10
+ORD-10377,2026-09-21,CUST-242,Compact Office Desk,Furniture,North,1,279.00,5,265.05
+ORD-10378,2026-09-21,CUST-179,Business Tablet 10-inch,Electronics,South,1,399.00,5,379.05
+ORD-10379,2026-09-22,CUST-129,Filing Cabinet,Furniture,North,1,189.00,0,189.00
+ORD-10380,2026-09-22,CUST-216,Meeting Room Table,Furniture,North,1,749.00,0,749.00
+ORD-10381,2026-09-22,CUST-137,Mini PC Workstation,Electronics,South,1,699.00,0,699.00
+ORD-10382,2026-09-23,CUST-101,Mobile Storage Pedestal,Furniture,East,1,169.00,5,160.55
+ORD-10383,2026-09-23,CUST-195,Business Headset,Accessories,North,2,149.00,5,283.10
+ORD-10384,2026-09-23,CUST-170,Conference Speakerphone,Accessories,North,2,229.00,5,435.10
+ORD-10385,2026-09-23,CUST-214,Business Headset,Accessories,South,1,149.00,0,149.00
+ORD-10386,2026-09-23,CUST-149,Conference Speakerphone,Accessories,South,1,229.00,0,229.00
+ORD-10387,2026-09-23,CUST-197,Conference Speakerphone,Accessories,West,1,229.00,5,217.55
+ORD-10388,2026-09-23,CUST-114,Mini PC Workstation,Electronics,West,2,699.00,0,1398.00
+ORD-10389,2026-09-24,CUST-135,USB-C Docking Station,Accessories,North,1,179.00,0,179.00
+ORD-10390,2026-09-24,CUST-153,Compact Office Desk,Furniture,North,1,279.00,5,265.05
+ORD-10391,2026-09-24,CUST-118,Filing Cabinet,Furniture,North,1,189.00,0,189.00
+ORD-10392,2026-09-24,CUST-159,Portable SSD 1TB,Accessories,South,2,209.00,0,418.00
+ORD-10393,2026-09-24,CUST-103,Wireless Mouse,Accessories,South,1,59.00,0,59.00
+ORD-10394,2026-09-24,CUST-136,Wireless Mouse,Accessories,South,2,59.00,0,118.00
+ORD-10395,2026-09-24,CUST-190,Portable SSD 1TB,Accessories,West,2,209.00,0,418.00
+ORD-10396,2026-09-25,CUST-188,Mini PC Workstation,Electronics,East,1,699.00,5,664.05
+ORD-10397,2026-09-25,CUST-150,Filing Cabinet,Furniture,East,1,189.00,5,179.55
+ORD-10398,2026-09-25,CUST-232,Mobile Storage Pedestal,Furniture,East,1,169.00,5,160.55
+ORD-10399,2026-09-25,CUST-131,Business Headset,Accessories,North,2,149.00,5,283.10
+ORD-10400,2026-09-25,CUST-112,Mobile Storage Pedestal,Furniture,South,1,169.00,0,169.00
+ORD-10401,2026-09-26,CUST-227,Portable SSD 1TB,Accessories,East,1,209.00,5,198.55
+ORD-10402,2026-09-26,CUST-225,USB-C Wall Charger,Accessories,East,1,89.00,0,89.00
+ORD-10403,2026-09-26,CUST-192,Filing Cabinet,Furniture,East,1,189.00,5,179.55
+ORD-10404,2026-09-26,CUST-141,USB-C Wall Charger,Accessories,North,2,89.00,0,178.00
+ORD-10405,2026-09-26,CUST-235,Conference Speakerphone,Accessories,South,1,229.00,0,229.00
+ORD-10406,2026-09-26,CUST-189,Ergonomic Office Chair,Furniture,South,1,359.00,0,359.00
+ORD-10407,2026-09-26,CUST-115,Conference Speakerphone,Accessories,West,1,229.00,5,217.55
+ORD-10408,2026-09-26,CUST-174,Conference Speakerphone,Accessories,West,1,229.00,5,217.55
+ORD-10409,2026-09-26,CUST-226,Meeting Room Table,Furniture,West,2,749.00,0,1498.00
+ORD-10410,2026-09-27,CUST-221,Portable SSD 1TB,Accessories,East,1,209.00,0,209.00
+ORD-10411,2026-09-27,CUST-132,Electric Standing Desk,Furniture,North,2,629.00,0,1258.00
+ORD-10412,2026-09-27,CUST-143,Filing Cabinet,Furniture,South,2,189.00,5,359.10
+ORD-10413,2026-09-27,CUST-207,Mobile Storage Pedestal,Furniture,South,1,169.00,0,169.00
+ORD-10414,2026-09-28,CUST-159,USB-C Docking Station,Accessories,East,1,179.00,5,170.05
+ORD-10415,2026-09-28,CUST-167,Electric Standing Desk,Furniture,North,1,629.00,5,597.55
+ORD-10416,2026-09-28,CUST-209,Mini PC Workstation,Electronics,South,2,699.00,0,1398.00
+ORD-10417,2026-09-28,CUST-153,Laptop Sleeve,Accessories,West,1,39.00,0,39.00
+ORD-10418,2026-09-29,CUST-102,USB-C Wall Charger,Accessories,East,2,89.00,0,178.00
+ORD-10419,2026-09-29,CUST-129,Business Headset,Accessories,West,1,149.00,0,149.00
+ORD-10420,2026-09-29,CUST-124,Portable SSD 1TB,Accessories,West,2,209.00,0,418.00
+ORD-10421,2026-09-29,CUST-194,Meeting Room Table,Furniture,West,1,749.00,5,711.55
+ORD-10422,2026-09-30,CUST-230,Conference Speakerphone,Accessories,East,2,229.00,5,435.10
+ORD-10423,2026-09-30,CUST-108,Meeting Room Table,Furniture,North,1,749.00,5,711.55
+ORD-10424,2026-09-30,CUST-162,Ergonomic Office Chair,Furniture,West,1,359.00,0,359.00
+ORD-10425,2026-09-30,CUST-158,Meeting Room Table,Furniture,West,1,749.00,0,749.00

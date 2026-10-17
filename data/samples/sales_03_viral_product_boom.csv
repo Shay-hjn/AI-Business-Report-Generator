@@ -1,0 +1,441 @@
+order_id,date,customer_id,product,category,region,quantity,unit_price,discount_pct,total_sales
+ORD-10001,2026-08-01,CUST-123,USB-C Docking Station,Accessories,East,1,179.00,5,170.05
+ORD-10002,2026-08-02,CUST-154,Business Tablet 10-inch,Electronics,South,2,399.00,5,758.10
+ORD-10003,2026-08-02,CUST-209,USB-C Wall Charger,Accessories,West,1,89.00,10,80.10
+ORD-10004,2026-08-03,CUST-142,USB-C Docking Station,Accessories,North,2,179.00,5,340.10
+ORD-10005,2026-08-03,CUST-126,Wireless Keyboard,Accessories,North,1,119.00,5,113.05
+ORD-10006,2026-08-04,CUST-122,Conference Speakerphone,Accessories,East,2,229.00,5,435.10
+ORD-10007,2026-08-04,CUST-234,Wireless Keyboard,Accessories,East,1,119.00,5,113.05
+ORD-10008,2026-08-04,CUST-145,Mini PC Workstation,Electronics,East,2,699.00,5,1328.10
+ORD-10009,2026-08-04,CUST-127,Wireless Mouse,Accessories,North,1,59.00,5,56.05
+ORD-10010,2026-08-04,CUST-107,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-10011,2026-08-05,CUST-205,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10012,2026-08-05,CUST-200,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10013,2026-08-05,CUST-142,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10014,2026-08-06,CUST-126,Laptop Sleeve,Accessories,East,1,39.00,10,35.10
+ORD-10015,2026-08-06,CUST-181,USB-C Docking Station,Accessories,East,1,179.00,5,170.05
+ORD-10016,2026-08-06,CUST-158,Business Laptop 14-inch,Electronics,East,2,1099.00,10,1978.20
+ORD-10017,2026-08-06,CUST-222,Noise-Cancelling Headset,Accessories,North,1,219.00,0,219.00
+ORD-10018,2026-08-06,CUST-185,Filing Cabinet,Furniture,South,1,189.00,10,170.10
+ORD-10019,2026-08-06,CUST-156,Wireless Keyboard,Accessories,West,1,119.00,5,113.05
+ORD-10020,2026-08-06,CUST-213,Ultrawide Monitor 34-inch,Electronics,West,2,449.00,0,898.00
+ORD-10021,2026-08-07,CUST-175,Wireless Keyboard,Accessories,East,2,119.00,10,214.20
+ORD-10022,2026-08-07,CUST-176,Office Laser Printer,Electronics,East,1,329.00,5,312.55
+ORD-10023,2026-08-07,CUST-242,Office Laser Printer,Electronics,East,1,329.00,5,312.55
+ORD-10024,2026-08-07,CUST-240,Noise-Cancelling Headset,Accessories,North,1,219.00,10,197.10
+ORD-10025,2026-08-07,CUST-149,Compact Office Desk,Furniture,North,1,279.00,5,265.05
+ORD-10026,2026-08-07,CUST-154,USB-C Wall Charger,Accessories,South,1,89.00,0,89.00
+ORD-10027,2026-08-07,CUST-119,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-10028,2026-08-07,CUST-172,QHD Monitor 27-inch,Electronics,South,1,289.00,10,260.10
+ORD-10029,2026-08-07,CUST-167,Wireless Keyboard,Accessories,West,2,119.00,5,226.10
+ORD-10030,2026-08-08,CUST-133,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-10031,2026-08-08,CUST-181,Ultrawide Monitor 34-inch,Electronics,East,2,449.00,5,853.10
+ORD-10032,2026-08-08,CUST-145,Mini PC Workstation,Electronics,North,1,699.00,5,664.05
+ORD-10033,2026-08-08,CUST-225,Filing Cabinet,Furniture,North,1,189.00,0,189.00
+ORD-10034,2026-08-08,CUST-219,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10035,2026-08-08,CUST-197,Mobile Storage Pedestal,Furniture,West,1,169.00,0,169.00
+ORD-10036,2026-08-09,CUST-129,Business Laptop 14-inch,Electronics,East,1,1099.00,10,989.10
+ORD-10037,2026-08-09,CUST-216,Meeting Room Table,Furniture,North,1,749.00,0,749.00
+ORD-10038,2026-08-09,CUST-186,USB-C Wall Charger,Accessories,South,1,89.00,0,89.00
+ORD-10039,2026-08-09,CUST-196,Business Tablet 10-inch,Electronics,West,1,399.00,10,359.10
+ORD-10040,2026-08-10,CUST-152,Laptop Sleeve,Accessories,East,2,39.00,5,74.10
+ORD-10041,2026-08-10,CUST-185,Business Laptop 14-inch,Electronics,East,1,1099.00,10,989.10
+ORD-10042,2026-08-10,CUST-207,Ultrawide Monitor 34-inch,Electronics,East,1,449.00,10,404.10
+ORD-10043,2026-08-10,CUST-163,Electric Standing Desk,Furniture,East,1,629.00,10,566.10
+ORD-10044,2026-08-10,CUST-208,Ergonomic Office Chair,Furniture,East,1,359.00,5,341.05
+ORD-10045,2026-08-10,CUST-161,Meeting Room Table,Furniture,South,1,749.00,0,749.00
+ORD-10046,2026-08-10,CUST-232,Compact Office Desk,Furniture,West,1,279.00,5,265.05
+ORD-10047,2026-08-11,CUST-243,Mobile Storage Pedestal,Furniture,East,1,169.00,10,152.10
+ORD-10048,2026-08-11,CUST-122,Conference Speakerphone,Accessories,North,1,229.00,10,206.10
+ORD-10049,2026-08-11,CUST-189,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-10050,2026-08-11,CUST-133,Mobile Storage Pedestal,Furniture,North,1,169.00,10,152.10
+ORD-10051,2026-08-11,CUST-218,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-10052,2026-08-11,CUST-178,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-10053,2026-08-11,CUST-142,USB-C Docking Station,Accessories,West,1,179.00,0,179.00
+ORD-10054,2026-08-12,CUST-134,Laptop Sleeve,Accessories,East,1,39.00,10,35.10
+ORD-10055,2026-08-12,CUST-193,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10056,2026-08-12,CUST-226,USB-C Wall Charger,Accessories,North,1,89.00,5,84.55
+ORD-10057,2026-08-12,CUST-229,Meeting Room Table,Furniture,North,2,749.00,10,1348.20
+ORD-10058,2026-08-12,CUST-117,Noise-Cancelling Headset,Accessories,West,2,219.00,10,394.20
+ORD-10059,2026-08-12,CUST-146,Filing Cabinet,Furniture,West,2,189.00,10,340.20
+ORD-10060,2026-08-13,CUST-150,Business Headset,Accessories,East,1,149.00,5,141.55
+ORD-10061,2026-08-13,CUST-236,Conference Speakerphone,Accessories,East,2,229.00,5,435.10
+ORD-10062,2026-08-13,CUST-203,Mobile Storage Pedestal,Furniture,East,2,169.00,0,338.00
+ORD-10063,2026-08-13,CUST-120,Ultrawide Monitor 34-inch,Electronics,North,1,449.00,5,426.55
+ORD-10064,2026-08-13,CUST-144,Business Headset,Accessories,South,2,149.00,10,268.20
+ORD-10065,2026-08-13,CUST-187,Laptop Sleeve,Accessories,South,2,39.00,5,74.10
+ORD-10066,2026-08-13,CUST-228,USB-C Wall Charger,Accessories,South,1,89.00,10,80.10
+ORD-10067,2026-08-13,CUST-106,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,5,426.55
+ORD-10068,2026-08-13,CUST-215,Portable SSD 1TB,Accessories,West,1,209.00,5,198.55
+ORD-10069,2026-08-13,CUST-110,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10070,2026-08-14,CUST-158,Ergonomic Office Chair,Furniture,East,1,359.00,10,323.10
+ORD-10071,2026-08-14,CUST-167,Business Headset,Accessories,North,2,149.00,5,283.10
+ORD-10072,2026-08-14,CUST-119,Wireless Mouse,Accessories,North,2,59.00,5,112.10
+ORD-10073,2026-08-14,CUST-196,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-10074,2026-08-14,CUST-110,Business Laptop 14-inch,Electronics,South,1,1099.00,10,989.10
+ORD-10075,2026-08-14,CUST-174,Laptop Sleeve,Accessories,West,1,39.00,10,35.10
+ORD-10076,2026-08-14,CUST-119,Wireless Keyboard,Accessories,West,1,119.00,5,113.05
+ORD-10077,2026-08-14,CUST-146,Wireless Mouse,Accessories,West,2,59.00,10,106.20
+ORD-10078,2026-08-14,CUST-225,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-10079,2026-08-15,CUST-149,Noise-Cancelling Headset,Accessories,South,1,219.00,0,219.00
+ORD-10080,2026-08-15,CUST-183,Wireless Keyboard,Accessories,South,2,119.00,0,238.00
+ORD-10081,2026-08-15,CUST-214,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-10082,2026-08-15,CUST-134,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-10083,2026-08-16,CUST-174,Business Tablet 10-inch,Electronics,West,2,399.00,0,798.00
+ORD-10084,2026-08-16,CUST-126,Business Tablet 10-inch,Electronics,West,2,399.00,10,718.20
+ORD-10085,2026-08-17,CUST-107,Laptop Sleeve,Accessories,North,1,39.00,0,39.00
+ORD-10086,2026-08-17,CUST-210,Noise-Cancelling Headset,Accessories,South,2,219.00,10,394.20
+ORD-10087,2026-08-17,CUST-168,USB-C Wall Charger,Accessories,West,2,89.00,0,178.00
+ORD-10088,2026-08-17,CUST-190,USB-C Wall Charger,Accessories,West,2,89.00,0,178.00
+ORD-10089,2026-08-18,CUST-224,Mini PC Workstation,Electronics,East,1,699.00,10,629.10
+ORD-10090,2026-08-18,CUST-204,Office Laser Printer,Electronics,East,1,329.00,5,312.55
+ORD-10091,2026-08-18,CUST-199,Mobile Storage Pedestal,Furniture,East,1,169.00,10,152.10
+ORD-10092,2026-08-18,CUST-198,Business Laptop 14-inch,Electronics,North,2,1099.00,0,2198.00
+ORD-10093,2026-08-18,CUST-168,Business Headset,Accessories,South,1,149.00,0,149.00
+ORD-10094,2026-08-18,CUST-178,USB-C Docking Station,Accessories,West,2,179.00,10,322.20
+ORD-10095,2026-08-18,CUST-144,Ergonomic Office Chair,Furniture,West,1,359.00,0,359.00
+ORD-10096,2026-08-19,CUST-117,Mini PC Workstation,Electronics,East,2,699.00,5,1328.10
+ORD-10097,2026-08-19,CUST-178,USB-C Wall Charger,Accessories,South,1,89.00,5,84.55
+ORD-10098,2026-08-19,CUST-172,Conference Speakerphone,Accessories,West,1,229.00,5,217.55
+ORD-10099,2026-08-20,CUST-151,Wireless Keyboard,Accessories,East,1,119.00,0,119.00
+ORD-10100,2026-08-20,CUST-217,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10101,2026-08-20,CUST-134,Wireless Keyboard,Accessories,South,1,119.00,10,107.10
+ORD-10102,2026-08-20,CUST-216,Noise-Cancelling Headset,Accessories,West,2,219.00,10,394.20
+ORD-10103,2026-08-20,CUST-190,Business Laptop 14-inch,Electronics,West,2,1099.00,5,2088.10
+ORD-10104,2026-08-20,CUST-151,Meeting Room Table,Furniture,West,2,749.00,5,1423.10
+ORD-10105,2026-08-21,CUST-178,Laptop Sleeve,Accessories,East,1,39.00,10,35.10
+ORD-10106,2026-08-21,CUST-144,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10107,2026-08-21,CUST-235,Business Tablet 10-inch,Electronics,North,2,399.00,10,718.20
+ORD-10108,2026-08-21,CUST-179,QHD Monitor 27-inch,Electronics,North,1,289.00,10,260.10
+ORD-10109,2026-08-21,CUST-191,Ultrawide Monitor 34-inch,Electronics,South,2,449.00,0,898.00
+ORD-10110,2026-08-22,CUST-187,Business Tablet 10-inch,Electronics,North,2,399.00,10,718.20
+ORD-10111,2026-08-22,CUST-183,Electric Standing Desk,Furniture,North,1,629.00,10,566.10
+ORD-10112,2026-08-22,CUST-120,Laptop Sleeve,Accessories,South,2,39.00,0,78.00
+ORD-10113,2026-08-22,CUST-200,Portable SSD 1TB,Accessories,West,1,209.00,0,209.00
+ORD-10114,2026-08-22,CUST-159,Compact Office Desk,Furniture,West,1,279.00,10,251.10
+ORD-10115,2026-08-23,CUST-163,Business Tablet 10-inch,Electronics,East,1,399.00,10,359.10
+ORD-10116,2026-08-23,CUST-132,Portable SSD 1TB,Accessories,North,1,209.00,5,198.55
+ORD-10117,2026-08-23,CUST-222,Noise-Cancelling Headset,Accessories,South,1,219.00,10,197.10
+ORD-10118,2026-08-23,CUST-129,Filing Cabinet,Furniture,South,1,189.00,0,189.00
+ORD-10119,2026-08-24,CUST-215,Laptop Sleeve,Accessories,North,2,39.00,0,78.00
+ORD-10120,2026-08-24,CUST-192,Business Tablet 10-inch,Electronics,North,2,399.00,10,718.20
+ORD-10121,2026-08-24,CUST-113,Mobile Storage Pedestal,Furniture,North,1,169.00,0,169.00
+ORD-10122,2026-08-24,CUST-145,Conference Speakerphone,Accessories,South,1,229.00,10,206.10
+ORD-10123,2026-08-24,CUST-180,Filing Cabinet,Furniture,South,1,189.00,5,179.55
+ORD-10124,2026-08-24,CUST-154,Mobile Storage Pedestal,Furniture,South,2,169.00,0,338.00
+ORD-10125,2026-08-25,CUST-221,Noise-Cancelling Headset,Accessories,East,1,219.00,5,208.05
+ORD-10126,2026-08-25,CUST-147,Business Laptop 14-inch,Electronics,North,2,1099.00,5,2088.10
+ORD-10127,2026-08-25,CUST-171,Mini PC Workstation,Electronics,South,1,699.00,0,699.00
+ORD-10128,2026-08-25,CUST-152,QHD Monitor 27-inch,Electronics,West,2,289.00,10,520.20
+ORD-10129,2026-08-26,CUST-183,Business Tablet 10-inch,Electronics,North,1,399.00,10,359.10
+ORD-10130,2026-08-26,CUST-170,Office Laser Printer,Electronics,North,1,329.00,0,329.00
+ORD-10131,2026-08-26,CUST-163,QHD Monitor 27-inch,Electronics,South,2,289.00,0,578.00
+ORD-10132,2026-08-26,CUST-143,Business Tablet 10-inch,Electronics,West,2,399.00,10,718.20
+ORD-10133,2026-08-26,CUST-162,Business Tablet 10-inch,Electronics,West,2,399.00,10,718.20
+ORD-10134,2026-08-26,CUST-217,Mini PC Workstation,Electronics,West,1,699.00,0,699.00
+ORD-10135,2026-08-27,CUST-122,Business Laptop 14-inch,Electronics,East,2,1099.00,5,2088.10
+ORD-10136,2026-08-27,CUST-190,Electric Standing Desk,Furniture,East,2,629.00,0,1258.00
+ORD-10137,2026-08-27,CUST-213,Conference Speakerphone,Accessories,North,2,229.00,10,412.20
+ORD-10138,2026-08-27,CUST-170,Mobile Storage Pedestal,Furniture,South,2,169.00,10,304.20
+ORD-10139,2026-08-27,CUST-143,Noise-Cancelling Headset,Accessories,West,2,219.00,0,438.00
+ORD-10140,2026-08-27,CUST-163,Meeting Room Table,Furniture,West,1,749.00,10,674.10
+ORD-10141,2026-08-28,CUST-104,Wireless Mouse,Accessories,East,1,59.00,0,59.00
+ORD-10142,2026-08-28,CUST-203,Business Tablet 10-inch,Electronics,East,2,399.00,5,758.10
+ORD-10143,2026-08-28,CUST-178,Mobile Storage Pedestal,Furniture,East,1,169.00,10,152.10
+ORD-10144,2026-08-28,CUST-238,Filing Cabinet,Furniture,North,2,189.00,5,359.10
+ORD-10145,2026-08-28,CUST-159,USB-C Docking Station,Accessories,South,2,179.00,0,358.00
+ORD-10146,2026-08-28,CUST-170,Business Laptop 14-inch,Electronics,South,1,1099.00,5,1044.05
+ORD-10147,2026-08-28,CUST-205,Electric Standing Desk,Furniture,South,1,629.00,10,566.10
+ORD-10148,2026-08-28,CUST-232,Mobile Storage Pedestal,Furniture,South,1,169.00,5,160.55
+ORD-10149,2026-08-28,CUST-157,Mini PC Workstation,Electronics,West,1,699.00,5,664.05
+ORD-10150,2026-08-28,CUST-140,Filing Cabinet,Furniture,West,1,189.00,5,179.55
+ORD-10151,2026-08-29,CUST-189,Office Laser Printer,Electronics,South,2,329.00,0,658.00
+ORD-10152,2026-08-29,CUST-198,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-10153,2026-08-29,CUST-131,Business Tablet 10-inch,Electronics,West,2,399.00,5,758.10
+ORD-10154,2026-08-30,CUST-122,Laptop Sleeve,Accessories,East,1,39.00,10,35.10
+ORD-10155,2026-08-30,CUST-154,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-10156,2026-08-30,CUST-207,QHD Monitor 27-inch,Electronics,South,2,289.00,10,520.20
+ORD-10157,2026-08-30,CUST-155,Mini PC Workstation,Electronics,West,1,699.00,0,699.00
+ORD-10158,2026-08-30,CUST-134,Office Laser Printer,Electronics,West,1,329.00,10,296.10
+ORD-10159,2026-08-31,CUST-141,Wireless Mouse,Accessories,East,1,59.00,0,59.00
+ORD-10160,2026-08-31,CUST-180,QHD Monitor 27-inch,Electronics,East,2,289.00,10,520.20
+ORD-10161,2026-08-31,CUST-171,Portable SSD 1TB,Accessories,North,1,209.00,0,209.00
+ORD-10162,2026-08-31,CUST-170,USB-C Docking Station,Accessories,North,2,179.00,10,322.20
+ORD-10163,2026-08-31,CUST-197,Wireless Keyboard,Accessories,North,2,119.00,10,214.20
+ORD-10164,2026-08-31,CUST-233,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-10165,2026-08-31,CUST-206,Mini PC Workstation,Electronics,North,1,699.00,0,699.00
+ORD-10166,2026-08-31,CUST-104,Office Laser Printer,Electronics,North,1,329.00,5,312.55
+ORD-10167,2026-08-31,CUST-220,Business Headset,Accessories,South,2,149.00,10,268.20
+ORD-10168,2026-08-31,CUST-118,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,10,404.10
+ORD-10169,2026-09-01,CUST-127,Wireless Mouse,Accessories,East,1,59.00,0,59.00
+ORD-10170,2026-09-01,CUST-233,Mini PC Workstation,Electronics,North,1,699.00,0,699.00
+ORD-10171,2026-09-01,CUST-150,QHD Monitor 27-inch,Electronics,North,1,289.00,10,260.10
+ORD-10172,2026-09-01,CUST-227,USB-C Wall Charger,Accessories,West,2,89.00,0,178.00
+ORD-10173,2026-09-02,CUST-115,USB-C Docking Station,Accessories,East,1,179.00,5,170.05
+ORD-10174,2026-09-02,CUST-228,Wireless Keyboard,Accessories,East,1,119.00,0,119.00
+ORD-10175,2026-09-02,CUST-157,Business Laptop 14-inch,Electronics,North,2,1099.00,5,2088.10
+ORD-10176,2026-09-02,CUST-226,Filing Cabinet,Furniture,North,1,189.00,0,189.00
+ORD-10177,2026-09-02,CUST-174,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10178,2026-09-02,CUST-164,Filing Cabinet,Furniture,South,1,189.00,5,179.55
+ORD-10179,2026-09-02,CUST-237,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10180,2026-09-02,CUST-150,Business Tablet 10-inch,Electronics,West,2,399.00,5,758.10
+ORD-10181,2026-09-03,CUST-157,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10182,2026-09-03,CUST-142,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10183,2026-09-03,CUST-122,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10184,2026-09-03,CUST-121,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10185,2026-09-03,CUST-182,Mini PC Workstation,Electronics,North,1,699.00,5,664.05
+ORD-10186,2026-09-03,CUST-193,Office Laser Printer,Electronics,North,1,329.00,0,329.00
+ORD-10187,2026-09-03,CUST-243,Business Headset,Accessories,South,2,149.00,10,268.20
+ORD-10188,2026-09-03,CUST-207,Laptop Sleeve,Accessories,South,2,39.00,0,78.00
+ORD-10189,2026-09-03,CUST-199,Business Laptop 14-inch,Electronics,South,1,1099.00,10,989.10
+ORD-10190,2026-09-03,CUST-178,Meeting Room Table,Furniture,South,1,749.00,0,749.00
+ORD-10191,2026-09-03,CUST-159,Noise-Cancelling Headset,Accessories,West,2,219.00,10,394.20
+ORD-10192,2026-09-03,CUST-215,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10193,2026-09-03,CUST-142,Compact Office Desk,Furniture,West,1,279.00,5,265.05
+ORD-10194,2026-09-04,CUST-224,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10195,2026-09-04,CUST-172,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10196,2026-09-04,CUST-104,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10197,2026-09-04,CUST-228,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10198,2026-09-04,CUST-182,Office Laser Printer,Electronics,East,1,329.00,5,312.55
+ORD-10199,2026-09-04,CUST-178,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10200,2026-09-04,CUST-225,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10201,2026-09-04,CUST-105,Business Tablet 10-inch,Electronics,North,2,399.00,10,718.20
+ORD-10202,2026-09-04,CUST-199,Compact Office Desk,Furniture,North,1,279.00,5,265.05
+ORD-10203,2026-09-04,CUST-106,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10204,2026-09-04,CUST-223,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10205,2026-09-05,CUST-178,Business Headset,Accessories,East,1,149.00,5,141.55
+ORD-10206,2026-09-05,CUST-238,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10207,2026-09-05,CUST-238,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10208,2026-09-05,CUST-141,Mobile Storage Pedestal,Furniture,South,2,169.00,0,338.00
+ORD-10209,2026-09-05,CUST-180,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10210,2026-09-06,CUST-140,Conference Speakerphone,Accessories,East,2,229.00,5,435.10
+ORD-10211,2026-09-06,CUST-147,Office Laser Printer,Electronics,East,1,329.00,5,312.55
+ORD-10212,2026-09-06,CUST-154,USB-C Wall Charger,Accessories,South,1,89.00,5,84.55
+ORD-10213,2026-09-06,CUST-162,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,10,404.10
+ORD-10214,2026-09-06,CUST-110,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10215,2026-09-06,CUST-209,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10216,2026-09-07,CUST-231,Laptop Sleeve,Accessories,East,1,39.00,10,35.10
+ORD-10217,2026-09-07,CUST-117,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10218,2026-09-07,CUST-201,Mobile Storage Pedestal,Furniture,East,2,169.00,0,338.00
+ORD-10219,2026-09-07,CUST-123,Noise-Cancelling Headset,Accessories,North,1,219.00,10,197.10
+ORD-10220,2026-09-07,CUST-151,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10221,2026-09-07,CUST-190,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10222,2026-09-07,CUST-173,Office Laser Printer,Electronics,North,1,329.00,5,312.55
+ORD-10223,2026-09-07,CUST-116,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-10224,2026-09-07,CUST-132,USB-C Docking Station,Accessories,South,2,179.00,0,358.00
+ORD-10225,2026-09-07,CUST-181,Ultrawide Monitor 34-inch,Electronics,South,1,449.00,5,426.55
+ORD-10226,2026-09-07,CUST-173,USB-C Docking Station,Accessories,West,2,179.00,10,322.20
+ORD-10227,2026-09-07,CUST-167,USB-C Wall Charger,Accessories,West,1,89.00,10,80.10
+ORD-10228,2026-09-07,CUST-221,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10229,2026-09-07,CUST-130,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10230,2026-09-07,CUST-231,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10231,2026-09-07,CUST-131,QHD Monitor 27-inch,Electronics,West,2,289.00,10,520.20
+ORD-10232,2026-09-08,CUST-163,Noise-Cancelling Headset,Accessories,East,1,219.00,5,208.05
+ORD-10233,2026-09-08,CUST-145,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10234,2026-09-08,CUST-143,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-10235,2026-09-08,CUST-192,Mobile Storage Pedestal,Furniture,East,1,169.00,10,152.10
+ORD-10236,2026-09-08,CUST-131,Wireless Keyboard,Accessories,North,2,119.00,10,214.20
+ORD-10237,2026-09-08,CUST-110,Business Headset,Accessories,South,1,149.00,0,149.00
+ORD-10238,2026-09-08,CUST-188,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10239,2026-09-08,CUST-196,Wireless Keyboard,Accessories,West,2,119.00,5,226.10
+ORD-10240,2026-09-08,CUST-147,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10241,2026-09-08,CUST-240,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10242,2026-09-08,CUST-181,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10243,2026-09-08,CUST-147,Business Tablet 10-inch,Electronics,West,2,399.00,10,718.20
+ORD-10244,2026-09-08,CUST-154,Meeting Room Table,Furniture,West,2,749.00,5,1423.10
+ORD-10245,2026-09-09,CUST-159,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10246,2026-09-09,CUST-165,Business Laptop 14-inch,Electronics,East,1,1099.00,10,989.10
+ORD-10247,2026-09-09,CUST-187,Electric Standing Desk,Furniture,East,1,629.00,10,566.10
+ORD-10248,2026-09-09,CUST-242,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10249,2026-09-09,CUST-147,Business Headset,Accessories,South,2,149.00,10,268.20
+ORD-10250,2026-09-09,CUST-216,Mini PC Workstation,Electronics,South,1,699.00,0,699.00
+ORD-10251,2026-09-09,CUST-124,QHD Monitor 27-inch,Electronics,South,2,289.00,0,578.00
+ORD-10252,2026-09-09,CUST-187,Wireless Mouse,Accessories,West,2,59.00,10,106.20
+ORD-10253,2026-09-09,CUST-116,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10254,2026-09-09,CUST-238,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10255,2026-09-09,CUST-225,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10256,2026-09-10,CUST-183,USB-C Docking Station,Accessories,East,1,179.00,5,170.05
+ORD-10257,2026-09-10,CUST-195,Ergonomic Office Chair,Furniture,East,1,359.00,5,341.05
+ORD-10258,2026-09-10,CUST-162,Laptop Sleeve,Accessories,North,1,39.00,0,39.00
+ORD-10259,2026-09-10,CUST-128,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10260,2026-09-10,CUST-229,Ultrawide Monitor 34-inch,Electronics,North,1,449.00,5,426.55
+ORD-10261,2026-09-10,CUST-106,Wireless Keyboard,Accessories,South,1,119.00,10,107.10
+ORD-10262,2026-09-10,CUST-134,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10263,2026-09-10,CUST-101,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10264,2026-09-10,CUST-211,QHD Monitor 27-inch,Electronics,South,1,289.00,10,260.10
+ORD-10265,2026-09-10,CUST-184,Filing Cabinet,Furniture,West,1,189.00,5,179.55
+ORD-10266,2026-09-11,CUST-121,Wireless Keyboard,Accessories,East,1,119.00,5,113.05
+ORD-10267,2026-09-11,CUST-166,Business Laptop 14-inch,Electronics,East,2,1099.00,5,2088.10
+ORD-10268,2026-09-11,CUST-234,Business Laptop 14-inch,Electronics,East,1,1099.00,10,989.10
+ORD-10269,2026-09-11,CUST-146,Ultrawide Monitor 34-inch,Electronics,East,1,449.00,10,404.10
+ORD-10270,2026-09-11,CUST-192,Portable SSD 1TB,Accessories,North,1,209.00,0,209.00
+ORD-10271,2026-09-11,CUST-126,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10272,2026-09-11,CUST-207,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10273,2026-09-11,CUST-184,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10274,2026-09-11,CUST-132,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10275,2026-09-11,CUST-171,Filing Cabinet,Furniture,South,1,189.00,10,170.10
+ORD-10276,2026-09-11,CUST-225,Portable SSD 1TB,Accessories,West,1,209.00,0,209.00
+ORD-10277,2026-09-11,CUST-142,USB-C Docking Station,Accessories,West,1,179.00,0,179.00
+ORD-10278,2026-09-11,CUST-117,Business Laptop 14-inch,Electronics,West,2,1099.00,5,2088.10
+ORD-10279,2026-09-11,CUST-147,Business Tablet 10-inch,Electronics,West,2,399.00,10,718.20
+ORD-10280,2026-09-12,CUST-153,Mini PC Workstation,Electronics,East,1,699.00,10,629.10
+ORD-10281,2026-09-12,CUST-208,Conference Speakerphone,Accessories,North,1,229.00,10,206.10
+ORD-10282,2026-09-12,CUST-197,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10283,2026-09-12,CUST-179,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-10284,2026-09-12,CUST-223,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10285,2026-09-12,CUST-172,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10286,2026-09-12,CUST-116,Portable SSD 1TB,Accessories,West,1,209.00,5,198.55
+ORD-10287,2026-09-12,CUST-114,Compact Office Desk,Furniture,West,1,279.00,10,251.10
+ORD-10288,2026-09-13,CUST-155,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10289,2026-09-13,CUST-212,Wireless Keyboard,Accessories,South,2,119.00,0,238.00
+ORD-10290,2026-09-13,CUST-133,Mobile Storage Pedestal,Furniture,South,2,169.00,10,304.20
+ORD-10291,2026-09-13,CUST-222,Wireless Keyboard,Accessories,West,1,119.00,5,113.05
+ORD-10292,2026-09-13,CUST-159,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-10293,2026-09-14,CUST-157,Wireless Mouse,Accessories,East,1,59.00,0,59.00
+ORD-10294,2026-09-14,CUST-173,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10295,2026-09-14,CUST-207,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10296,2026-09-14,CUST-183,Conference Speakerphone,Accessories,North,2,229.00,10,412.20
+ORD-10297,2026-09-14,CUST-125,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10298,2026-09-14,CUST-135,Business Tablet 10-inch,Electronics,South,2,399.00,5,758.10
+ORD-10299,2026-09-14,CUST-185,Filing Cabinet,Furniture,South,1,189.00,0,189.00
+ORD-10300,2026-09-14,CUST-233,Wireless Keyboard,Accessories,West,1,119.00,5,113.05
+ORD-10301,2026-09-14,CUST-211,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10302,2026-09-14,CUST-173,Mobile Storage Pedestal,Furniture,West,1,169.00,0,169.00
+ORD-10303,2026-09-15,CUST-190,Laptop Sleeve,Accessories,East,2,39.00,5,74.10
+ORD-10304,2026-09-15,CUST-161,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10305,2026-09-15,CUST-185,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10306,2026-09-15,CUST-236,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10307,2026-09-15,CUST-139,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-10308,2026-09-15,CUST-195,USB-C Wall Charger,Accessories,South,1,89.00,0,89.00
+ORD-10309,2026-09-15,CUST-212,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10310,2026-09-15,CUST-226,Mobile Storage Pedestal,Furniture,South,1,169.00,5,160.55
+ORD-10311,2026-09-15,CUST-231,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-10312,2026-09-16,CUST-139,Wireless Keyboard,Accessories,East,2,119.00,10,214.20
+ORD-10313,2026-09-16,CUST-115,Ergonomic Office Chair,Furniture,East,1,359.00,10,323.10
+ORD-10314,2026-09-16,CUST-181,Mobile Storage Pedestal,Furniture,East,1,169.00,10,152.10
+ORD-10315,2026-09-16,CUST-144,Portable SSD 1TB,Accessories,North,1,209.00,5,198.55
+ORD-10316,2026-09-16,CUST-225,USB-C Wall Charger,Accessories,South,1,89.00,10,80.10
+ORD-10317,2026-09-16,CUST-177,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10318,2026-09-16,CUST-158,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10319,2026-09-16,CUST-107,Electric Standing Desk,Furniture,South,1,629.00,10,566.10
+ORD-10320,2026-09-16,CUST-177,USB-C Wall Charger,Accessories,West,2,89.00,0,178.00
+ORD-10321,2026-09-16,CUST-148,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10322,2026-09-16,CUST-183,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10323,2026-09-16,CUST-123,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10324,2026-09-17,CUST-186,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10325,2026-09-17,CUST-221,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10326,2026-09-17,CUST-176,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10327,2026-09-17,CUST-212,Business Tablet 10-inch,Electronics,East,1,399.00,10,359.10
+ORD-10328,2026-09-17,CUST-193,Business Tablet 10-inch,Electronics,East,2,399.00,5,758.10
+ORD-10329,2026-09-17,CUST-184,Ultrawide Monitor 34-inch,Electronics,East,2,449.00,5,853.10
+ORD-10330,2026-09-17,CUST-245,USB-C Docking Station,Accessories,North,2,179.00,5,340.10
+ORD-10331,2026-09-17,CUST-245,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10332,2026-09-17,CUST-229,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10333,2026-09-17,CUST-129,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10334,2026-09-17,CUST-196,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-10335,2026-09-17,CUST-216,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10336,2026-09-17,CUST-135,Mini PC Workstation,Electronics,West,1,699.00,5,664.05
+ORD-10337,2026-09-18,CUST-152,Conference Speakerphone,Accessories,East,2,229.00,5,435.10
+ORD-10338,2026-09-18,CUST-244,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10339,2026-09-18,CUST-216,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-10340,2026-09-18,CUST-104,Business Tablet 10-inch,Electronics,West,2,399.00,0,798.00
+ORD-10341,2026-09-18,CUST-177,Meeting Room Table,Furniture,West,1,749.00,10,674.10
+ORD-10342,2026-09-19,CUST-166,Wireless Mouse,Accessories,North,1,59.00,5,56.05
+ORD-10343,2026-09-19,CUST-240,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10344,2026-09-19,CUST-140,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10345,2026-09-20,CUST-194,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10346,2026-09-20,CUST-202,Electric Standing Desk,Furniture,North,1,629.00,10,566.10
+ORD-10347,2026-09-20,CUST-242,Noise-Cancelling Headset,Accessories,South,1,219.00,10,197.10
+ORD-10348,2026-09-20,CUST-105,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10349,2026-09-20,CUST-139,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10350,2026-09-20,CUST-159,Conference Speakerphone,Accessories,West,1,229.00,5,217.55
+ORD-10351,2026-09-21,CUST-151,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10352,2026-09-21,CUST-222,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10353,2026-09-21,CUST-147,Mini PC Workstation,Electronics,East,2,699.00,5,1328.10
+ORD-10354,2026-09-21,CUST-221,Office Laser Printer,Electronics,East,1,329.00,5,312.55
+ORD-10355,2026-09-21,CUST-141,Business Tablet 10-inch,Electronics,North,1,399.00,10,359.10
+ORD-10356,2026-09-21,CUST-174,Conference Speakerphone,Accessories,South,1,229.00,10,206.10
+ORD-10357,2026-09-21,CUST-231,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10358,2026-09-22,CUST-169,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10359,2026-09-22,CUST-102,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10360,2026-09-22,CUST-134,QHD Monitor 27-inch,Electronics,East,2,289.00,10,520.20
+ORD-10361,2026-09-22,CUST-131,Mobile Storage Pedestal,Furniture,East,1,169.00,10,152.10
+ORD-10362,2026-09-22,CUST-213,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10363,2026-09-22,CUST-206,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10364,2026-09-22,CUST-166,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10365,2026-09-22,CUST-183,Filing Cabinet,Furniture,North,2,189.00,5,359.10
+ORD-10366,2026-09-22,CUST-187,Meeting Room Table,Furniture,North,1,749.00,0,749.00
+ORD-10367,2026-09-22,CUST-160,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10368,2026-09-22,CUST-124,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10369,2026-09-22,CUST-192,Business Tablet 10-inch,Electronics,West,1,399.00,10,359.10
+ORD-10370,2026-09-22,CUST-193,Office Laser Printer,Electronics,West,1,329.00,10,296.10
+ORD-10371,2026-09-23,CUST-127,Business Laptop 14-inch,Electronics,East,2,1099.00,10,1978.20
+ORD-10372,2026-09-23,CUST-167,Business Tablet 10-inch,Electronics,North,2,399.00,10,718.20
+ORD-10373,2026-09-23,CUST-166,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10374,2026-09-23,CUST-243,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10375,2026-09-23,CUST-200,Ultrawide Monitor 34-inch,Electronics,West,2,449.00,0,898.00
+ORD-10376,2026-09-24,CUST-218,Laptop Sleeve,Accessories,East,1,39.00,10,35.10
+ORD-10377,2026-09-24,CUST-123,Laptop Sleeve,Accessories,East,1,39.00,10,35.10
+ORD-10378,2026-09-24,CUST-189,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10379,2026-09-24,CUST-167,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10380,2026-09-24,CUST-185,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10381,2026-09-24,CUST-201,Mini PC Workstation,Electronics,East,2,699.00,5,1328.10
+ORD-10382,2026-09-24,CUST-101,Wireless Keyboard,Accessories,North,1,119.00,5,113.05
+ORD-10383,2026-09-24,CUST-190,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10384,2026-09-24,CUST-235,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10385,2026-09-24,CUST-237,Mobile Storage Pedestal,Furniture,North,1,169.00,0,169.00
+ORD-10386,2026-09-24,CUST-198,Laptop Sleeve,Accessories,South,2,39.00,5,74.10
+ORD-10387,2026-09-24,CUST-141,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10388,2026-09-24,CUST-198,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10389,2026-09-24,CUST-104,Filing Cabinet,Furniture,West,2,189.00,10,340.20
+ORD-10390,2026-09-25,CUST-195,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10391,2026-09-25,CUST-139,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10392,2026-09-25,CUST-136,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10393,2026-09-25,CUST-168,Laptop Sleeve,Accessories,North,2,39.00,0,78.00
+ORD-10394,2026-09-25,CUST-209,USB-C Wall Charger,Accessories,North,1,89.00,5,84.55
+ORD-10395,2026-09-25,CUST-128,Wireless Mouse,Accessories,North,2,59.00,5,112.10
+ORD-10396,2026-09-25,CUST-188,Business Laptop 14-inch,Electronics,North,2,1099.00,0,2198.00
+ORD-10397,2026-09-25,CUST-175,Business Tablet 10-inch,Electronics,North,2,399.00,10,718.20
+ORD-10398,2026-09-25,CUST-242,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10399,2026-09-25,CUST-158,Business Laptop 14-inch,Electronics,South,1,1099.00,5,1044.05
+ORD-10400,2026-09-25,CUST-130,QHD Monitor 27-inch,Electronics,South,2,289.00,10,520.20
+ORD-10401,2026-09-25,CUST-227,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-10402,2026-09-25,CUST-162,Business Tablet 10-inch,Electronics,West,2,399.00,10,718.20
+ORD-10403,2026-09-25,CUST-120,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-10404,2026-09-26,CUST-109,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10405,2026-09-26,CUST-128,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-10406,2026-09-26,CUST-201,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10407,2026-09-27,CUST-102,Mobile Storage Pedestal,Furniture,North,1,169.00,10,152.10
+ORD-10408,2026-09-27,CUST-112,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10409,2026-09-27,CUST-223,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-10410,2026-09-27,CUST-207,Laptop Sleeve,Accessories,West,1,39.00,10,35.10
+ORD-10411,2026-09-28,CUST-103,Laptop Sleeve,Accessories,East,1,39.00,10,35.10
+ORD-10412,2026-09-28,CUST-184,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10413,2026-09-28,CUST-206,Business Headset,Accessories,North,2,149.00,5,283.10
+ORD-10414,2026-09-28,CUST-112,USB-C Docking Station,Accessories,North,2,179.00,10,322.20
+ORD-10415,2026-09-28,CUST-234,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10416,2026-09-28,CUST-107,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-10417,2026-09-28,CUST-240,USB-C Wall Charger,Accessories,South,1,89.00,0,89.00
+ORD-10418,2026-09-28,CUST-155,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10419,2026-09-28,CUST-157,Ultrawide Monitor 34-inch,Electronics,South,2,449.00,0,898.00
+ORD-10420,2026-09-28,CUST-238,Noise-Cancelling Headset,Accessories,West,2,219.00,0,438.00
+ORD-10421,2026-09-28,CUST-158,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10422,2026-09-28,CUST-217,Mini PC Workstation,Electronics,West,1,699.00,0,699.00
+ORD-10423,2026-09-29,CUST-210,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+ORD-10424,2026-09-29,CUST-220,Noise-Cancelling Headset,Accessories,North,1,219.00,0,219.00
+ORD-10425,2026-09-29,CUST-188,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10426,2026-09-29,CUST-111,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10427,2026-09-29,CUST-201,Noise-Cancelling Headset,Accessories,South,2,219.00,10,394.20
+ORD-10428,2026-09-29,CUST-107,Noise-Cancelling Headset,Accessories,South,1,219.00,0,219.00
+ORD-10429,2026-09-29,CUST-245,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10430,2026-09-29,CUST-120,Office Laser Printer,Electronics,South,2,329.00,0,658.00
+ORD-10431,2026-09-29,CUST-103,Noise-Cancelling Headset,Accessories,West,2,219.00,10,394.20
+ORD-10432,2026-09-29,CUST-122,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10433,2026-09-29,CUST-169,Mini PC Workstation,Electronics,West,1,699.00,0,699.00
+ORD-10434,2026-09-30,CUST-103,Electric Standing Desk,Furniture,East,2,629.00,0,1258.00
+ORD-10435,2026-09-30,CUST-152,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10436,2026-09-30,CUST-133,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+ORD-10437,2026-09-30,CUST-117,Meeting Room Table,Furniture,North,2,749.00,10,1348.20
+ORD-10438,2026-09-30,CUST-157,AI Smart Webcam 4K,Electronics,South,3,249.00,0,747.00
+ORD-10439,2026-09-30,CUST-188,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+ORD-10440,2026-09-30,CUST-215,Ergonomic Office Chair,Furniture,West,1,359.00,0,359.00

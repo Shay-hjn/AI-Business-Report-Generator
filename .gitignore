@@ -1,0 +1,29 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Testing cache
+.pytest_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Generated reports
+reports/
+
+# macOS system files
+.DS_Store
