@@ -32,7 +32,6 @@ def report_json(insight):
             "executive_summary": "Revenue decreased by €26,459.3.",
             "key_insights": [insight],
             "notable_changes": ["Revenue was €84,380.0, then €57,920.7."],
-            "recommendations": ["Investigate the factors behind the change."],
         }
     )
 

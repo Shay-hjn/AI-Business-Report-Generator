@@ -18,7 +18,6 @@ FAKE_AI_RESULT = {
         "executive_summary": ("Revenue increased between August and September."),
         "key_insights": ["September revenue was higher than August revenue."],
         "notable_changes": ["Overall revenue increased."],
-        "recommendations": ["Investigate the drivers of revenue growth."],
     },
 }
 
@@ -77,6 +76,9 @@ def test_valid_csv_upload(mock_generate_report):
     # Verify the simulated AI report was included.
     assert result["narrative_generated"] is True
     assert result["ai_report"] == FAKE_AI_RESULT["ai_report"]
+    assert set(result["ai_report"]) == {
+        "executive_summary", "key_insights", "notable_changes"
+    }
 
     # Verify that the LLM service was called exactly once.
     mock_generate_report.assert_called_once()

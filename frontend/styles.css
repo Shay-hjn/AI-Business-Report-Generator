@@ -1,0 +1,242 @@
+:root {
+    --panel: #111E31;
+    --panel-2: #14253B;
+    --border: #283A53;
+    --text: #EDF5FF;
+    --muted: #A8BAD0;
+    --teal: #42E3D0;
+}
+.stApp {background: #0A1220;}
+.block-container {
+    max-width: 1370px;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+/* Leave sidebar sizing and collapse animations to Streamlit.
+   Previously forcing 338px in BOTH states left a sidebar strip visible
+   after collapse and stranded the reopen control. */
+[data-testid="stSidebar"][aria-expanded="true"] {
+    border-right: 1px solid #24344A;
+}
+[data-testid="stSidebar"][aria-expanded="false"] {
+    min-width: 0 !important;
+    max-width: 0 !important;
+    width: 0 !important;
+    border-right: 0 !important;
+}
+/* Keep the built-in reopen button at the top-left when collapsed. */
+[data-testid="stSidebarCollapsedControl"] {
+    position: fixed !important;
+    top: 12px !important;
+    left: 12px !important;
+    z-index: 999 !important;
+}
+/* Disable Streamlit's heading permalink icon on every report heading. */
+[data-testid="stHeaderActionElements"],
+[data-testid="stMarkdownContainer"] :is(h1, h2, h3, h4, h5, h6) > a,
+a.anchor-link {
+    display: none !important;
+}
+[data-testid="stSidebar"] .block-container {padding-top: 1.5rem;}
+[data-testid="stSidebar"] [data-testid="stFileUploader"] {
+    border-radius: 14px;
+}
+[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] {
+    min-height: 118px;
+    background: #122238;
+    border: 1px dashed #486680;
+    border-radius: 13px;
+}
+[data-testid="stSidebar"] .stButton > button[kind="primary"] {
+    min-height: 55px;
+    border-radius: 12px;
+    background: #0F766E;
+    border: 1px solid #189A8C;
+    color: white;
+    font-size: 1rem;
+    font-weight: 750;
+    box-shadow: 0 8px 24px #00141035;
+}
+[data-testid="stSidebar"] .stButton > button[kind="primary"]:hover {
+    background: #11867B;
+    border-color: #41DAC8;
+}
+[data-testid="stSidebar"] .stButton > button:disabled {
+    opacity: .58;
+    box-shadow: none;
+}
+.si-brand {display: flex; align-items: center; gap: 13px; padding: 10px 0 22px;}
+.si-brand-icon {
+    display: grid; place-items: center; width: 46px; height: 46px;
+    border-radius: 13px; background: #103C42; color: #55F2DA;
+    border: 1px solid #246A6B; font-size: 29px; font-weight: 700;
+}
+.si-brand-title {font-size: 20px; font-weight: 800; color: #F4F8FF; letter-spacing: -.6px;}
+.si-brand-caption {font-size: 12px; color: #A9BCD2; margin-top: 3px;}
+.si-sidebar-label {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 1.8px;
+    color: #65DCCE; font-weight: 800; margin: 12px 0 9px;
+}
+.si-sidebar-description {font-size: 14px; color: #B6C6D8; line-height: 1.65; margin-bottom: 17px;}
+.si-sidebar-note {
+    padding: 15px 17px; border-radius: 12px;
+    background: #13253B; border: 1px solid #28415A;
+    font-size: 13px; color: #B6C8DC; line-height: 1.8;
+}
+.si-sidebar-note strong {color: #E7F5FF;}
+.si-sidebar-foot {font-size: 12px; color: #96ADC5; padding-top: 10px;}
+.si-hero {
+    position: relative; overflow: hidden; border-radius: 21px;
+    border: 1px solid #29556B;
+    padding: 35px 42px;
+    background: linear-gradient(118deg, #142941 8%, #174256 62%, #0D676A 120%);
+    margin-bottom: 30px;
+    box-shadow: 0 16px 45px #01050F40;
+}
+.si-hero::after {
+    content: ""; position: absolute; height: 330px; width: 330px;
+    right: -94px; top: -145px; border-radius: 50%;
+    border: 55px solid #4DDBCA18; pointer-events: none;
+}
+.si-eyebrow {
+    font-size: 20px; font-weight: 800; letter-spacing: 2px;
+    text-transform: uppercase; color: #54E3D1; margin-bottom: 12px;
+}
+.si-hero .si-hero-title {color: #F8FBFF !important; font-size: clamp(28px,3vw,41px); margin: 0 0 11px; letter-spacing: -1.4px; font-weight: 820;}
+.si-hero p {font-size: 15px; line-height: 1.7; color: #C4D9E7; margin: 0; max-width: 680px;}
+.si-report-heading {margin: 4px 0 19px;}
+.si-report-heading h2 {font-size: 30px; letter-spacing: -1px; color: #F3F7FE; margin: 5px 0 9px;}
+.si-report-sub {font-size: 13px; color: #ADC0D3; line-height: 1.6;}
+.si-report-status {
+    display: inline-flex; align-items: center; gap: 9px;
+    background: #133B3A; border: 1px solid #276D66;
+    color: #89F0D9; padding: 7px 13px;
+    border-radius: 9px; font-size: 12px; font-weight: 750;
+    letter-spacing: .15px; margin: 3px 0 10px;
+}
+.si-report-status-dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: #5EE0AB; display: inline-block;
+}
+.si-report-status-muted {
+    background: #1D2A3B; border-color: #3C5069; color: #BACBDD;
+}
+.si-section-heading {margin: 33px 0 16px;}
+.si-section-heading h3 {font-size: 35px; letter-spacing: -.4px; margin: 0; color: #EDF5FF; font-weight: 760;}
+.si-section-heading p {font-size: 13px; color: #9DB1C8; margin: 5px 0 0;}
+.si-summary {
+    padding: 27px 31px; border-radius: 17px;
+    background: linear-gradient(120deg, #163449 0%, #15263D 85%);
+    border: 1px solid #286A70; border-left: 4px solid #4CE0CF;
+    box-shadow: 0 10px 24px #0207132B; margin-bottom: 17px;
+}
+.si-card-kicker {color: #64E4D3; font-size: 20px; font-weight: 850; letter-spacing: 1.9px; margin-bottom: 12px;}
+.si-summary p {color: #E8F5FD; font-size: 16px; line-height: 1.85; margin: 0;}
+.si-report-card {
+    padding: 24px 27px; background: #111F33; border: 1px solid #2B405B;
+    border-radius: 16px; margin-bottom: 13px; min-height: 100%;
+}
+.si-report-card h4 {font-size: 30px; color: #F2F7FF; margin: 0 0 17px; font-weight: 750;}
+.si-report-card.insights {border-top: 3px solid #2CD5C5;}
+.si-report-card.changes {border-top: 3px solid #72A8FC;}
+.si-list {list-style: none; padding: 0; margin: 0;}
+.si-list li {
+    position: relative; padding: 0 0 13px 19px;
+    margin: 0 0 13px; border-bottom: 1px solid #273950;
+    color: #D7E4F1; font-size: 14px; line-height: 1.75;
+}
+.si-list li:last-child {border: 0; padding-bottom: 0; margin-bottom: 0;}
+.si-list li::before {
+    content: ""; position: absolute; left: 0; top: 10px; width: 7px;
+    height: 7px; border-radius: 50%; background: #42DCCA;
+}
+.si-report-card.changes .si-list li::before {background: #77ABF6;}
+.si-ai-note {font-size: 12px; color: #9CB0C5; margin: 12px 0 0; line-height: 1.7;}
+.si-kpi-grid {display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 15px;}
+.si-kpi {
+    padding: 21px 23px; border-radius: 15px; border: 1px solid #293A53;
+    background: linear-gradient(160deg, #16263C, #101C2F);
+    min-height: 151px;
+}
+.si-kpi-top {display: flex; align-items: center; justify-content: space-between; gap: 10px;}
+.si-kpi-label {font-size: 20px; color: #ABC0D6; font-weight: 650;}
+.si-kpi-icon {font-size: 15px; color: #55CBBE; background: #153E45; border-radius: 8px; padding: 4px 9px;}
+.si-kpi-value {font-size: clamp(24px,2.3vw,32px); font-weight: 820; letter-spacing: -.7px; color: #F5F9FF; margin: 12px 0 9px; font-variant-numeric: tabular-nums;}
+.si-kpi-delta {font-size: 12px; font-weight: 750;}
+.si-positive {color: #5EE0AB;} .si-negative {color: #FF929B;} .si-neutral {color: #AFC1D5;}
+.st-key-revenue-chart, .st-key-category-chart, .st-key-region-chart {
+    background: #111E31; border: 1px solid #2A3B54;
+    border-radius: 16px; padding: 20px 22px 10px;
+}
+.si-chart-title {font-size: 30px; color: #EDF5FF; font-weight: 750; margin: 0 0 5px;}
+.si-chart-sub {font-size: 12px; color: #9EB2C9; margin-bottom: 13px;}
+.si-empty {
+    background: #111F33; border: 1px dashed #38556F;
+    border-radius: 18px; padding: 31px; margin: 18px 0 30px;
+}
+.si-empty h3 {font-size: 22px; margin: 0 0 7px; color: #F0F7FF;}
+.si-empty p {font-size: 15px; color: #B0C2D5; line-height: 1.7;}
+.si-bottom {text-align: center; font-size: 12px; color: #748DA9; margin-top: 35px;}
+@media(max-width: 980px) {
+    .si-kpi-grid {grid-template-columns: repeat(2,minmax(0,1fr));}
+    .si-hero {padding: 27px;}
+}
+@media(max-width: 680px) {
+    .si-kpi-grid {grid-template-columns: 1fr;}
+    .si-summary,.si-report-card {padding: 22px;}
+}
+
+/* The CSV template opens as a full-width modal instead of a cramped sidebar list. */
+[data-testid="stSidebar"] .stButton > button[kind="secondary"] {
+    min-height: 46px;
+    border: 1px solid #33506C;
+    border-radius: 11px;
+    background: #15283F;
+    color: #DAEAF8;
+    font-weight: 650;
+}
+[data-testid="stSidebar"] .stButton > button[kind="secondary"]:hover {
+    border-color: #42DCCA;
+    color: #F4FAFF;
+    background: #19324C;
+}
+.si-footer-separator {color: #42CDBE; padding: 0 7px;}
+
+/* Streamlit 1.66: the '+' is a trailing button on the uploaded file chips,
+   NOT a button inside stFileUploaderDropzone.  The native button is
+   <button aria-label="Add files">; preserve its click and the native X. */
+[data-testid="stSidebar"] .st-key-sales_csv_file button[aria-label="Add files"] {
+    width: auto !important;
+    min-width: 68px !important;
+    height: 27px !important;
+    min-height: 27px !important;
+    padding: 0 10px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 1px solid #355672 !important;
+    border-radius: 7px !important;
+    background: #1A3048 !important;
+    color: #D7E6F4 !important;
+    cursor: pointer !important;
+}
+
+/* Replace only the visible '+' graphic with a text label. */
+[data-testid="stSidebar"] .st-key-sales_csv_file button[aria-label="Add files"] > * {
+    display: none !important;
+}
+
+[data-testid="stSidebar"] .st-key-sales_csv_file button[aria-label="Add files"]::after {
+    content: "Replace";
+    display: inline-block !important;
+    color: #D7E6F4 !important;
+    font-size: 12px !important;
+    font-weight: 650 !important;
+    line-height: 1 !important;
+    pointer-events: none;
+}
+
+[data-testid="stSidebar"] .st-key-sales_csv_file button[aria-label="Add files"]:hover {
+    border-color: #42DCCA !important;
+    background: #1C3A50 !important;
+}

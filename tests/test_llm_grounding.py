@@ -69,7 +69,6 @@ def report_json(
             "executive_summary": summary,
             "key_insights": [insight],
             "notable_changes": ["North region revenue decreased."],
-            "recommendations": ["Investigate regional changes."],
         }
     )
 

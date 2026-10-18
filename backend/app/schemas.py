@@ -9,4 +9,3 @@ class BusinessReport(BaseModel):
     executive_summary: str
     key_insights: list[str]
     notable_changes: list[str]
-    recommendations: list[str]

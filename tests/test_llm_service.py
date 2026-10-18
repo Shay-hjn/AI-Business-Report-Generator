@@ -41,7 +41,6 @@ def valid_report_json():
             "executive_summary": ("Revenue increased from 10,000 to 12,000."),
             "key_insights": ["September revenue was 12,000."],
             "notable_changes": ["Revenue increased by 20%."],
-            "recommendations": ["Investigate the factors behind the increase."],
         }
     )
 
@@ -121,8 +120,7 @@ def test_retry_after_pydantic_validation_error():
         {
             "executive_summary": "Revenue increased.",
             "key_insights": [],
-            "notable_changes": [],
-            # recommendations is deliberately missing
+            # notable_changes is deliberately missing
         }
     )
 
@@ -141,7 +139,7 @@ def test_retry_after_pydantic_validation_error():
 
     retry_request = client.chat.completions.create.call_args_list[1].kwargs
 
-    assert "recommendations" in (retry_request["messages"][-1]["content"])
+    assert "notable_changes" in (retry_request["messages"][-1]["content"])
 
 
 def test_fallback_after_two_invalid_responses():
@@ -213,4 +211,19 @@ def test_unexpected_fields_are_rejected():
 
     assert result["narrative_generated"] is False
     assert result["ai_report"] is None
+    assert client.chat.completions.create.call_count == 2
+
+
+def test_legacy_recommendations_field_is_rejected():
+    """Old four-section output is no longer accepted by strict schema."""
+    client = Mock()
+    old_report = json.loads(valid_report_json())
+    old_report["recommendations"] = ["Change pricing immediately."]
+    client.chat.completions.create.return_value = fake_response(
+        json.dumps(old_report)
+    )
+
+    result = generate_business_report(sample_analysis(), client=client)
+
+    assert result == {"narrative_generated": False, "ai_report": None}
     assert client.chat.completions.create.call_count == 2

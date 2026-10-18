@@ -90,8 +90,6 @@ REPORT STRUCTURE:
    not a duplicate list of notable changes.
 3. notable_changes: Significant changes flagged by Python.
    Use the supplied numbers and percentages, not new calculations.
-4. recommendations: Cautious investigations, KPI monitoring,
-   and data collection. Do not prescribe unproven corrective actions.
 
 WRITING QUALITY:
 - Use concise, professional, neutral business language.
@@ -146,7 +144,6 @@ def report_sections(report: BusinessReport) -> list[str]:
         report.executive_summary,
         *report.key_insights,
         *report.notable_changes,
-        *report.recommendations,
     ]
 
 
@@ -201,7 +198,6 @@ def normalize_report_spacing(report: BusinessReport) -> BusinessReport:
         executive_summary=normalize_text_spacing(report.executive_summary),
         key_insights=[normalize_text_spacing(s) for s in report.key_insights],
         notable_changes=[normalize_text_spacing(s) for s in report.notable_changes],
-        recommendations=[normalize_text_spacing(s) for s in report.recommendations],
     )
 
 
