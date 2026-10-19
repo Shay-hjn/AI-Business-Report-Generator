@@ -3,7 +3,6 @@ from types import SimpleNamespace
 from unittest.mock import Mock
 
 import httpx
-from groq import APIConnectionError
 
 from backend.app.services.llm_service import generate_business_report
 
@@ -46,11 +45,9 @@ def valid_report_json():
 
 
 def fake_response(content):
-    """Simulate a Groq API response."""
+    """Simulate a Gemini API response."""
 
-    return SimpleNamespace(
-        choices=[SimpleNamespace(message=SimpleNamespace(content=content))]
-    )
+    return SimpleNamespace(text=content)
 
 
 def test_successful_generation():
@@ -58,7 +55,7 @@ def test_successful_generation():
 
     client = Mock()
 
-    client.chat.completions.create.return_value = fake_response(valid_report_json())
+    client.models.generate_content.return_value = fake_response(valid_report_json())
 
     result = generate_business_report(
         sample_analysis(),
@@ -73,12 +70,13 @@ def test_successful_generation():
         == "Revenue increased from 10,000 to 12,000."
     )
 
-    assert client.chat.completions.create.call_count == 1
+    assert client.models.generate_content.call_count == 1
 
-    # Verify that Groq is asked for strict structured output
-    request = client.chat.completions.create.call_args.kwargs
+    # Verify that Gemini is asked for strict structured output
+    request = client.models.generate_content.call_args.kwargs
 
-    assert request["response_format"]["json_schema"]["strict"] is True
+    assert request["config"].response_mime_type == "application/json"
+    assert "additionalProperties" not in request["config"].response_schema
 
 
 def test_retry_after_invalid_json():
@@ -86,7 +84,7 @@ def test_retry_after_invalid_json():
 
     client = Mock()
 
-    client.chat.completions.create.side_effect = [
+    client.models.generate_content.side_effect = [
         fake_response("This is not valid JSON"),
         fake_response(valid_report_json()),
     ]
@@ -97,18 +95,18 @@ def test_retry_after_invalid_json():
     )
 
     assert result["narrative_generated"] is True
-    assert client.chat.completions.create.call_count == 2
+    assert client.models.generate_content.call_count == 2
 
     # Verify that the retry contains validation feedback
-    retry_request = client.chat.completions.create.call_args_list[1].kwargs
+    retry_request = client.models.generate_content.call_args_list[1].kwargs
 
-    retry_messages = retry_request["messages"]
+    retry_contents = retry_request["contents"]
 
-    assert "Invalid JSON syntax" in retry_messages[-1]["content"]
+    assert "Invalid JSON syntax" in retry_contents
 
     # The original verified input and system instructions remain
-    assert retry_messages[0]["role"] == "system"
-    assert "verified analysis data" in retry_messages[1]["content"]
+    assert "verified analysis data" in retry_contents
+    assert "business analyst" in retry_request["config"].system_instruction.lower()
 
 
 def test_retry_after_pydantic_validation_error():
@@ -124,7 +122,7 @@ def test_retry_after_pydantic_validation_error():
         }
     )
 
-    client.chat.completions.create.side_effect = [
+    client.models.generate_content.side_effect = [
         fake_response(invalid_report),
         fake_response(valid_report_json()),
     ]
@@ -135,11 +133,11 @@ def test_retry_after_pydantic_validation_error():
     )
 
     assert result["narrative_generated"] is True
-    assert client.chat.completions.create.call_count == 2
+    assert client.models.generate_content.call_count == 2
 
-    retry_request = client.chat.completions.create.call_args_list[1].kwargs
+    retry_request = client.models.generate_content.call_args_list[1].kwargs
 
-    assert "notable_changes" in (retry_request["messages"][-1]["content"])
+    assert "notable_changes" in (retry_request["contents"])
 
 
 def test_fallback_after_two_invalid_responses():
@@ -147,7 +145,7 @@ def test_fallback_after_two_invalid_responses():
 
     client = Mock()
 
-    client.chat.completions.create.side_effect = [
+    client.models.generate_content.side_effect = [
         fake_response("Invalid response one"),
         fake_response("Invalid response two"),
     ]
@@ -162,7 +160,7 @@ def test_fallback_after_two_invalid_responses():
         "ai_report": None,
     }
 
-    assert client.chat.completions.create.call_count == 2
+    assert client.models.generate_content.call_count == 2
 
 
 def test_api_failure_fallback():
@@ -170,12 +168,7 @@ def test_api_failure_fallback():
 
     client = Mock()
 
-    client.chat.completions.create.side_effect = APIConnectionError(
-        request=httpx.Request(
-            "POST",
-            "https://api.groq.com/openai/v1/chat/completions",
-        )
-    )
+    client.models.generate_content.side_effect = ConnectionError("Gemini unavailable")
 
     result = generate_business_report(
         sample_analysis(),
@@ -188,7 +181,7 @@ def test_api_failure_fallback():
     }
 
     # API errors are handled without a validation retry
-    assert client.chat.completions.create.call_count == 1
+    assert client.models.generate_content.call_count == 1
 
 
 def test_unexpected_fields_are_rejected():
@@ -199,7 +192,7 @@ def test_unexpected_fields_are_rejected():
     invalid_report = json.loads(valid_report_json())
     invalid_report["invented_field"] = "Some extra information"
 
-    client.chat.completions.create.side_effect = [
+    client.models.generate_content.side_effect = [
         fake_response(json.dumps(invalid_report)),
         fake_response(json.dumps(invalid_report)),
     ]
@@ -211,7 +204,7 @@ def test_unexpected_fields_are_rejected():
 
     assert result["narrative_generated"] is False
     assert result["ai_report"] is None
-    assert client.chat.completions.create.call_count == 2
+    assert client.models.generate_content.call_count == 2
 
 
 def test_legacy_recommendations_field_is_rejected():
@@ -219,11 +212,11 @@ def test_legacy_recommendations_field_is_rejected():
     client = Mock()
     old_report = json.loads(valid_report_json())
     old_report["recommendations"] = ["Change pricing immediately."]
-    client.chat.completions.create.return_value = fake_response(
+    client.models.generate_content.return_value = fake_response(
         json.dumps(old_report)
     )
 
     result = generate_business_report(sample_analysis(), client=client)
 
     assert result == {"narrative_generated": False, "ai_report": None}
-    assert client.chat.completions.create.call_count == 2
+    assert client.models.generate_content.call_count == 2

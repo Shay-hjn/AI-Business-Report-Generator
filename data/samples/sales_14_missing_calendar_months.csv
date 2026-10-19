@@ -1,0 +1,309 @@
+order_id,date,customer_id,product,category,region,quantity,unit_price,discount_pct,total_sales
+S14-202510-0001,2025-10-12,C2200,Ergonomic Office Chair,Furniture,South,1,320.00,10,288.00
+S14-202510-0002,2025-10-19,C2201,Standing Desk Pro,Furniture,West,1,480.00,20,384.00
+S14-202510-0003,2025-10-26,C2202,Meeting Room Table,Furniture,West,1,800.00,0,800.00
+S14-202510-0004,2025-10-02,C2203,Meeting Room Table,Furniture,South,2,800.00,10,1440.00
+S14-202510-0005,2025-10-09,C2204,Ergonomic Office Chair,Furniture,North,2,320.00,0,640.00
+S14-202510-0006,2025-10-16,C2205,QHD Monitor 27-inch,Electronics,North,1,260.00,0,260.00
+S14-202510-0007,2025-10-23,C2206,QHD Monitor 27-inch,Electronics,West,1,260.00,0,260.00
+S14-202510-0008,2025-10-30,C2207,Meeting Room Table,Furniture,North,1,800.00,10,720.00
+S14-202510-0009,2025-10-06,C2208,Meeting Room Table,Furniture,South,2,800.00,0,1600.00
+S14-202510-0010,2025-10-13,C2209,QHD Monitor 27-inch,Electronics,North,1,260.00,10,234.00
+S14-202510-0011,2025-10-20,C2210,Standing Desk Pro,Furniture,West,1,480.00,0,480.00
+S14-202510-0012,2025-10-27,C2211,Ergonomic Office Chair,Furniture,North,1,320.00,10,288.00
+S14-202510-0013,2025-10-03,C2212,QHD Monitor 27-inch,Electronics,West,1,260.00,10,234.00
+S14-202510-0014,2025-10-10,C2213,QHD Monitor 27-inch,Electronics,East,2,260.00,0,520.00
+S14-202510-0015,2025-10-17,C2214,QHD Monitor 27-inch,Electronics,North,1,260.00,10,234.00
+S14-202510-0016,2025-10-24,C2215,Standing Desk Pro,Furniture,East,1,480.00,0,480.00
+S14-202510-0017,2025-10-31,C2216,Standing Desk Pro,Furniture,East,1,480.00,20,384.00
+S14-202510-0018,2025-10-07,C2217,Meeting Room Table,Furniture,South,1,800.00,10,720.00
+S14-202510-0019,2025-10-14,C2218,Ergonomic Office Chair,Furniture,North,2,320.00,10,576.00
+S14-202510-0020,2025-10-21,C2219,QHD Monitor 27-inch,Electronics,North,2,260.00,20,416.00
+S14-202510-0021,2025-10-28,C2220,QHD Monitor 27-inch,Electronics,East,1,260.00,20,208.00
+S14-202510-0022,2025-10-04,C2221,Ergonomic Office Chair,Furniture,West,1,320.00,10,288.00
+S14-202510-0023,2025-10-11,C2222,QHD Monitor 27-inch,Electronics,South,2,260.00,0,520.00
+S14-202510-0024,2025-10-18,C2223,Meeting Room Table,Furniture,West,1,800.00,0,800.00
+S14-202510-0025,2025-10-25,C2224,QHD Monitor 27-inch,Electronics,North,2,260.00,20,416.00
+S14-202510-0026,2025-10-01,C2225,Standing Desk Pro,Furniture,East,1,480.00,10,432.00
+S14-202510-0027,2025-10-08,C2226,Standing Desk Pro,Furniture,East,2,480.00,0,960.00
+S14-202510-0028,2025-10-15,C2227,Ergonomic Office Chair,Furniture,South,1,320.00,0,320.00
+S14-202510-0029,2025-10-22,C2228,Standing Desk Pro,Furniture,North,2,480.00,10,864.00
+S14-202510-0030,2025-10-29,C2229,Ergonomic Office Chair,Furniture,South,1,320.00,10,288.00
+S14-202510-0031,2025-10-05,C2230,Ergonomic Office Chair,Furniture,West,2,320.00,0,640.00
+S14-202510-0032,2025-10-12,C2231,Standing Desk Pro,Furniture,East,1,480.00,10,432.00
+S14-202510-0033,2025-10-19,C2232,QHD Monitor 27-inch,Electronics,East,2,260.00,0,520.00
+S14-202510-0034,2025-10-26,C2233,Meeting Room Table,Furniture,East,2,800.00,10,1440.00
+S14-202510-0035,2025-10-02,C2234,Ergonomic Office Chair,Furniture,East,2,320.00,10,576.00
+S14-202510-0036,2025-10-09,C2235,Standing Desk Pro,Furniture,South,1,480.00,20,384.00
+S14-202510-0037,2025-10-16,C2236,QHD Monitor 27-inch,Electronics,West,1,260.00,10,234.00
+S14-202510-0038,2025-10-23,C2237,Meeting Room Table,Furniture,West,2,800.00,0,1600.00
+S14-202510-0039,2025-10-30,C2238,QHD Monitor 27-inch,Electronics,West,1,260.00,0,260.00
+S14-202510-0040,2025-10-06,C2239,Ergonomic Office Chair,Furniture,South,1,320.00,0,320.00
+S14-202510-0041,2025-10-13,C2240,Standing Desk Pro,Furniture,West,1,480.00,10,432.00
+S14-202510-0042,2025-10-20,C2241,Meeting Room Table,Furniture,West,1,800.00,0,800.00
+S14-202510-0043,2025-10-27,C2242,QHD Monitor 27-inch,Electronics,East,1,260.00,0,260.00
+S14-202510-0044,2025-10-03,C2243,QHD Monitor 27-inch,Electronics,North,2,260.00,0,520.00
+S14-202510-0045,2025-10-10,C2244,Ergonomic Office Chair,Furniture,South,1,320.00,0,320.00
+S14-202510-0046,2025-10-17,C2245,Standing Desk Pro,Furniture,South,1,480.00,20,384.00
+S14-202510-0047,2025-10-24,C2246,Meeting Room Table,Furniture,East,1,800.00,0,800.00
+S14-202510-0048,2025-10-31,C2247,Ergonomic Office Chair,Furniture,East,2,320.00,20,512.00
+S14-202510-0049,2025-10-07,C2248,Ergonomic Office Chair,Furniture,North,2,320.00,0,640.00
+S14-202510-0050,2025-10-14,C2249,QHD Monitor 27-inch,Electronics,West,1,260.00,10,234.00
+S14-202510-0051,2025-10-21,C2250,Standing Desk Pro,Furniture,South,2,480.00,0,960.00
+S14-202510-0052,2025-10-28,C2251,Ergonomic Office Chair,Furniture,North,2,320.00,10,576.00
+S14-202510-0053,2025-10-04,C2252,QHD Monitor 27-inch,Electronics,West,1,260.00,10,234.00
+S14-202510-0054,2025-10-11,C2253,QHD Monitor 27-inch,Electronics,North,1,260.00,0,260.00
+S14-202510-0055,2025-10-18,C2254,Meeting Room Table,Furniture,South,1,800.00,0,800.00
+S14-202510-0056,2025-10-25,C2255,Ergonomic Office Chair,Furniture,South,2,320.00,10,576.00
+S14-202510-0057,2025-10-01,C2256,Ergonomic Office Chair,Furniture,North,2,320.00,0,640.00
+S14-202510-0058,2025-10-08,C2257,Meeting Room Table,Furniture,East,2,800.00,20,1280.00
+S14-202510-0059,2025-10-15,C2258,QHD Monitor 27-inch,Electronics,East,2,260.00,0,520.00
+S14-202510-0060,2025-10-22,C2259,Standing Desk Pro,Furniture,South,1,480.00,20,384.00
+S14-202510-0061,2025-10-29,C2260,Meeting Room Table,Furniture,West,1,800.00,0,800.00
+S14-202510-0062,2025-10-05,C2261,QHD Monitor 27-inch,Electronics,East,2,260.00,20,416.00
+S14-202510-0063,2025-10-12,C2262,Ergonomic Office Chair,Furniture,South,2,320.00,0,640.00
+S14-202510-0064,2025-10-19,C2263,QHD Monitor 27-inch,Electronics,West,2,260.00,0,520.00
+S14-202510-0065,2025-10-26,C2264,QHD Monitor 27-inch,Electronics,North,1,260.00,0,260.00
+S14-202510-0066,2025-10-02,C2265,Meeting Room Table,Furniture,South,1,800.00,0,800.00
+S14-202510-0067,2025-10-09,C2266,Standing Desk Pro,Furniture,East,1,480.00,10,432.00
+S14-202510-0068,2025-10-16,C2267,Ergonomic Office Chair,Furniture,East,1,320.00,0,320.00
+S14-202510-0069,2025-10-23,C2268,Ergonomic Office Chair,Furniture,North,1,320.00,20,256.00
+S14-202510-0070,2025-10-30,C2269,Ergonomic Office Chair,Furniture,West,2,320.00,0,640.00
+S14-202512-0001,2025-12-12,C2200,Mini PC Workstation,Electronics,West,1,600.00,20,480.00
+S14-202512-0002,2025-12-19,C2201,AI Smart Webcam 4K,Electronics,North,1,180.00,0,180.00
+S14-202512-0003,2025-12-26,C2202,Mini PC Workstation,Electronics,West,1,600.00,0,600.00
+S14-202512-0004,2025-12-02,C2203,Mini PC Workstation,Electronics,East,1,600.00,0,600.00
+S14-202512-0005,2025-12-09,C2204,Mini PC Workstation,Electronics,South,1,600.00,0,600.00
+S14-202512-0006,2025-12-16,C2205,Business Laptop 14-inch,Electronics,West,2,920.00,0,1840.00
+S14-202512-0007,2025-12-23,C2206,Mini PC Workstation,Electronics,West,1,600.00,0,600.00
+S14-202512-0008,2025-12-30,C2207,Business Laptop 14-inch,Electronics,East,2,920.00,0,1840.00
+S14-202512-0009,2025-12-06,C2208,Mini PC Workstation,Electronics,South,1,600.00,0,600.00
+S14-202512-0010,2025-12-13,C2209,Mini PC Workstation,Electronics,West,2,600.00,0,1200.00
+S14-202512-0011,2025-12-20,C2210,AI Smart Webcam 4K,Electronics,South,1,180.00,20,144.00
+S14-202512-0012,2025-12-27,C2211,Mini PC Workstation,Electronics,East,1,600.00,0,600.00
+S14-202512-0013,2025-12-03,C2212,AI Smart Webcam 4K,Electronics,West,2,180.00,10,324.00
+S14-202512-0014,2025-12-10,C2213,AI Smart Webcam 4K,Electronics,North,1,180.00,0,180.00
+S14-202512-0015,2025-12-17,C2214,Business Tablet,Electronics,East,1,420.00,20,336.00
+S14-202512-0016,2025-12-24,C2215,Business Laptop 14-inch,Electronics,East,1,920.00,20,736.00
+S14-202512-0017,2025-12-31,C2216,Mini PC Workstation,Electronics,East,2,600.00,0,1200.00
+S14-202512-0018,2025-12-07,C2217,AI Smart Webcam 4K,Electronics,West,1,180.00,0,180.00
+S14-202512-0019,2025-12-14,C2218,Mini PC Workstation,Electronics,South,2,600.00,0,1200.00
+S14-202512-0020,2025-12-21,C2219,Mini PC Workstation,Electronics,South,1,600.00,20,480.00
+S14-202512-0021,2025-12-28,C2220,Mini PC Workstation,Electronics,North,1,600.00,0,600.00
+S14-202512-0022,2025-12-04,C2221,AI Smart Webcam 4K,Electronics,North,1,180.00,0,180.00
+S14-202512-0023,2025-12-11,C2222,AI Smart Webcam 4K,Electronics,West,1,180.00,10,162.00
+S14-202512-0024,2025-12-18,C2223,Mini PC Workstation,Electronics,South,1,600.00,0,600.00
+S14-202512-0025,2025-12-25,C2224,Business Laptop 14-inch,Electronics,West,2,920.00,0,1840.00
+S14-202512-0026,2025-12-01,C2225,AI Smart Webcam 4K,Electronics,East,2,180.00,10,324.00
+S14-202512-0027,2025-12-08,C2226,Business Tablet,Electronics,West,1,420.00,0,420.00
+S14-202512-0028,2025-12-15,C2227,Mini PC Workstation,Electronics,East,2,600.00,0,1200.00
+S14-202512-0029,2025-12-22,C2228,Mini PC Workstation,Electronics,East,2,600.00,10,1080.00
+S14-202512-0030,2025-12-29,C2229,Business Laptop 14-inch,Electronics,North,1,920.00,0,920.00
+S14-202512-0031,2025-12-05,C2230,Business Laptop 14-inch,Electronics,West,2,920.00,0,1840.00
+S14-202512-0032,2025-12-12,C2231,AI Smart Webcam 4K,Electronics,West,2,180.00,20,288.00
+S14-202512-0033,2025-12-19,C2232,Mini PC Workstation,Electronics,East,2,600.00,0,1200.00
+S14-202512-0034,2025-12-26,C2233,AI Smart Webcam 4K,Electronics,North,1,180.00,0,180.00
+S14-202512-0035,2025-12-02,C2234,Business Tablet,Electronics,South,1,420.00,10,378.00
+S14-202512-0036,2025-12-09,C2235,Mini PC Workstation,Electronics,East,1,600.00,0,600.00
+S14-202512-0037,2025-12-16,C2236,Mini PC Workstation,Electronics,East,2,600.00,0,1200.00
+S14-202512-0038,2025-12-23,C2237,Business Laptop 14-inch,Electronics,North,1,920.00,10,828.00
+S14-202512-0039,2025-12-30,C2238,Business Tablet,Electronics,East,1,420.00,10,378.00
+S14-202512-0040,2025-12-06,C2239,Mini PC Workstation,Electronics,East,2,600.00,0,1200.00
+S14-202512-0041,2025-12-13,C2240,AI Smart Webcam 4K,Electronics,East,1,180.00,0,180.00
+S14-202512-0042,2025-12-20,C2241,Business Laptop 14-inch,Electronics,East,1,920.00,0,920.00
+S14-202512-0043,2025-12-27,C2242,Business Laptop 14-inch,Electronics,East,1,920.00,0,920.00
+S14-202512-0044,2025-12-03,C2243,AI Smart Webcam 4K,Electronics,North,1,180.00,10,162.00
+S14-202512-0045,2025-12-10,C2244,Mini PC Workstation,Electronics,North,1,600.00,0,600.00
+S14-202512-0046,2025-12-17,C2245,Mini PC Workstation,Electronics,West,1,600.00,0,600.00
+S14-202512-0047,2025-12-24,C2246,AI Smart Webcam 4K,Electronics,North,1,180.00,0,180.00
+S14-202512-0048,2025-12-31,C2247,Business Tablet,Electronics,South,1,420.00,20,336.00
+S14-202512-0049,2025-12-07,C2248,Business Laptop 14-inch,Electronics,East,1,920.00,0,920.00
+S14-202512-0050,2025-12-14,C2249,Business Laptop 14-inch,Electronics,West,2,920.00,0,1840.00
+S14-202512-0051,2025-12-21,C2250,Business Tablet,Electronics,South,1,420.00,0,420.00
+S14-202512-0052,2025-12-28,C2251,Business Laptop 14-inch,Electronics,North,2,920.00,0,1840.00
+S14-202512-0053,2025-12-04,C2252,Business Laptop 14-inch,Electronics,East,2,920.00,0,1840.00
+S14-202512-0054,2025-12-11,C2253,AI Smart Webcam 4K,Electronics,West,1,180.00,10,162.00
+S14-202512-0055,2025-12-18,C2254,Business Tablet,Electronics,West,1,420.00,0,420.00
+S14-202512-0056,2025-12-25,C2255,AI Smart Webcam 4K,Electronics,West,1,180.00,0,180.00
+S14-202512-0057,2025-12-01,C2256,Mini PC Workstation,Electronics,North,1,600.00,0,600.00
+S14-202512-0058,2025-12-08,C2257,AI Smart Webcam 4K,Electronics,South,2,180.00,0,360.00
+S14-202512-0059,2025-12-15,C2258,Business Tablet,Electronics,North,1,420.00,0,420.00
+S14-202512-0060,2025-12-22,C2259,Business Laptop 14-inch,Electronics,South,1,920.00,0,920.00
+S14-202512-0061,2025-12-29,C2260,AI Smart Webcam 4K,Electronics,South,1,180.00,0,180.00
+S14-202512-0062,2025-12-05,C2261,Mini PC Workstation,Electronics,South,2,600.00,0,1200.00
+S14-202512-0063,2025-12-12,C2262,AI Smart Webcam 4K,Electronics,South,2,180.00,10,324.00
+S14-202512-0064,2025-12-19,C2263,Mini PC Workstation,Electronics,East,1,600.00,0,600.00
+S14-202512-0065,2025-12-26,C2264,AI Smart Webcam 4K,Electronics,South,2,180.00,20,288.00
+S14-202512-0066,2025-12-02,C2265,Business Laptop 14-inch,Electronics,North,1,920.00,0,920.00
+S14-202512-0067,2025-12-09,C2266,Mini PC Workstation,Electronics,North,2,600.00,0,1200.00
+S14-202512-0068,2025-12-16,C2267,Business Laptop 14-inch,Electronics,East,2,920.00,0,1840.00
+S14-202512-0069,2025-12-23,C2268,Business Tablet,Electronics,North,1,420.00,0,420.00
+S14-202512-0070,2025-12-30,C2269,Business Laptop 14-inch,Electronics,West,2,920.00,0,1840.00
+S14-202512-0071,2025-12-06,C2270,Business Tablet,Electronics,South,2,420.00,0,840.00
+S14-202512-0072,2025-12-13,C2271,Business Tablet,Electronics,West,1,420.00,0,420.00
+S14-202512-0073,2025-12-20,C2272,Business Tablet,Electronics,North,1,420.00,20,336.00
+S14-202512-0074,2025-12-27,C2273,Business Laptop 14-inch,Electronics,East,1,920.00,0,920.00
+S14-202512-0075,2025-12-03,C2274,Business Tablet,Electronics,East,2,420.00,0,840.00
+S14-202512-0076,2025-12-10,C2275,AI Smart Webcam 4K,Electronics,North,2,180.00,0,360.00
+S14-202512-0077,2025-12-17,C2276,Business Laptop 14-inch,Electronics,South,1,920.00,10,828.00
+S14-202512-0078,2025-12-24,C2277,Business Tablet,Electronics,West,1,420.00,0,420.00
+S14-202512-0079,2025-12-31,C2278,Mini PC Workstation,Electronics,East,2,600.00,10,1080.00
+S14-202512-0080,2025-12-07,C2279,Business Laptop 14-inch,Electronics,East,1,920.00,10,828.00
+S14-202512-0081,2025-12-14,C2200,Mini PC Workstation,Electronics,South,1,600.00,20,480.00
+S14-202512-0082,2025-12-21,C2201,Business Tablet,Electronics,North,2,420.00,0,840.00
+S14-202603-0001,2026-03-12,C2200,QHD Monitor 27-inch,Electronics,West,1,260.00,0,260.00
+S14-202603-0002,2026-03-19,C2201,USB-C Docking Station,Accessories,North,2,160.00,20,256.00
+S14-202603-0003,2026-03-26,C2202,USB-C Docking Station,Accessories,West,1,160.00,0,160.00
+S14-202603-0004,2026-03-02,C2203,Noise-Cancelling Headset,Accessories,West,2,120.00,0,240.00
+S14-202603-0005,2026-03-09,C2204,Noise-Cancelling Headset,Accessories,West,2,120.00,0,240.00
+S14-202603-0006,2026-03-16,C2205,Noise-Cancelling Headset,Accessories,South,1,120.00,0,120.00
+S14-202603-0007,2026-03-23,C2206,Noise-Cancelling Headset,Accessories,West,2,120.00,10,216.00
+S14-202603-0008,2026-03-30,C2207,Wireless Mouse,Accessories,East,1,40.00,0,40.00
+S14-202603-0009,2026-03-06,C2208,Wireless Mouse,Accessories,West,1,40.00,0,40.00
+S14-202603-0010,2026-03-13,C2209,USB-C Docking Station,Accessories,South,2,160.00,0,320.00
+S14-202603-0011,2026-03-20,C2210,Noise-Cancelling Headset,Accessories,East,2,120.00,0,240.00
+S14-202603-0012,2026-03-27,C2211,Wireless Mouse,Accessories,North,1,40.00,0,40.00
+S14-202603-0013,2026-03-03,C2212,QHD Monitor 27-inch,Electronics,South,1,260.00,0,260.00
+S14-202603-0014,2026-03-10,C2213,USB-C Docking Station,Accessories,North,2,160.00,0,320.00
+S14-202603-0015,2026-03-17,C2214,Noise-Cancelling Headset,Accessories,South,2,120.00,0,240.00
+S14-202603-0016,2026-03-24,C2215,Wireless Mouse,Accessories,West,1,40.00,0,40.00
+S14-202603-0017,2026-03-31,C2216,Noise-Cancelling Headset,Accessories,West,1,120.00,10,108.00
+S14-202603-0018,2026-03-07,C2217,QHD Monitor 27-inch,Electronics,North,1,260.00,20,208.00
+S14-202603-0019,2026-03-14,C2218,Wireless Mouse,Accessories,South,1,40.00,10,36.00
+S14-202603-0020,2026-03-21,C2219,QHD Monitor 27-inch,Electronics,West,1,260.00,0,260.00
+S14-202603-0021,2026-03-28,C2220,Wireless Mouse,Accessories,North,2,40.00,0,80.00
+S14-202603-0022,2026-03-04,C2221,Noise-Cancelling Headset,Accessories,East,1,120.00,10,108.00
+S14-202603-0023,2026-03-11,C2222,Wireless Mouse,Accessories,West,1,40.00,0,40.00
+S14-202603-0024,2026-03-18,C2223,USB-C Docking Station,Accessories,West,1,160.00,0,160.00
+S14-202603-0025,2026-03-25,C2224,QHD Monitor 27-inch,Electronics,South,1,260.00,0,260.00
+S14-202603-0026,2026-03-01,C2225,Noise-Cancelling Headset,Accessories,West,2,120.00,0,240.00
+S14-202603-0027,2026-03-08,C2226,Wireless Mouse,Accessories,South,2,40.00,0,80.00
+S14-202603-0028,2026-03-15,C2227,Noise-Cancelling Headset,Accessories,West,1,120.00,0,120.00
+S14-202603-0029,2026-03-22,C2228,Wireless Mouse,Accessories,East,1,40.00,0,40.00
+S14-202603-0030,2026-03-29,C2229,QHD Monitor 27-inch,Electronics,South,2,260.00,0,520.00
+S14-202603-0031,2026-03-05,C2230,Noise-Cancelling Headset,Accessories,South,1,120.00,20,96.00
+S14-202603-0032,2026-03-12,C2231,Wireless Mouse,Accessories,East,1,40.00,0,40.00
+S14-202603-0033,2026-03-19,C2232,USB-C Docking Station,Accessories,South,1,160.00,0,160.00
+S14-202603-0034,2026-03-26,C2233,Wireless Mouse,Accessories,East,2,40.00,20,64.00
+S14-202603-0035,2026-03-02,C2234,Wireless Mouse,Accessories,West,1,40.00,20,32.00
+S14-202603-0036,2026-03-09,C2235,QHD Monitor 27-inch,Electronics,North,1,260.00,0,260.00
+S14-202603-0037,2026-03-16,C2236,QHD Monitor 27-inch,Electronics,West,2,260.00,0,520.00
+S14-202603-0038,2026-03-23,C2237,USB-C Docking Station,Accessories,South,2,160.00,20,256.00
+S14-202603-0039,2026-03-30,C2238,Wireless Mouse,Accessories,South,2,40.00,0,80.00
+S14-202603-0040,2026-03-06,C2239,QHD Monitor 27-inch,Electronics,West,1,260.00,20,208.00
+S14-202603-0041,2026-03-13,C2240,Noise-Cancelling Headset,Accessories,South,2,120.00,0,240.00
+S14-202603-0042,2026-03-20,C2241,Wireless Mouse,Accessories,West,1,40.00,10,36.00
+S14-202603-0043,2026-03-27,C2242,Wireless Mouse,Accessories,West,2,40.00,10,72.00
+S14-202603-0044,2026-03-03,C2243,Wireless Mouse,Accessories,West,2,40.00,0,80.00
+S14-202603-0045,2026-03-10,C2244,Wireless Mouse,Accessories,North,1,40.00,10,36.00
+S14-202603-0046,2026-03-17,C2245,QHD Monitor 27-inch,Electronics,West,1,260.00,0,260.00
+S14-202603-0047,2026-03-24,C2246,USB-C Docking Station,Accessories,South,2,160.00,10,288.00
+S14-202603-0048,2026-03-31,C2247,Wireless Mouse,Accessories,North,1,40.00,0,40.00
+S14-202603-0049,2026-03-07,C2248,Noise-Cancelling Headset,Accessories,North,2,120.00,0,240.00
+S14-202603-0050,2026-03-14,C2249,QHD Monitor 27-inch,Electronics,South,1,260.00,20,208.00
+S14-202603-0051,2026-03-21,C2250,Noise-Cancelling Headset,Accessories,West,1,120.00,20,96.00
+S14-202603-0052,2026-03-28,C2251,USB-C Docking Station,Accessories,West,1,160.00,0,160.00
+S14-202603-0053,2026-03-04,C2252,Noise-Cancelling Headset,Accessories,South,1,120.00,0,120.00
+S14-202603-0054,2026-03-11,C2253,Wireless Mouse,Accessories,West,1,40.00,0,40.00
+S14-202603-0055,2026-03-18,C2254,USB-C Docking Station,Accessories,West,1,160.00,20,128.00
+S14-202603-0056,2026-03-25,C2255,QHD Monitor 27-inch,Electronics,West,1,260.00,20,208.00
+S14-202603-0057,2026-03-01,C2256,QHD Monitor 27-inch,Electronics,West,2,260.00,0,520.00
+S14-202603-0058,2026-03-08,C2257,USB-C Docking Station,Accessories,East,1,160.00,10,144.00
+S14-202603-0059,2026-03-15,C2258,Noise-Cancelling Headset,Accessories,North,1,120.00,20,96.00
+S14-202603-0060,2026-03-22,C2259,QHD Monitor 27-inch,Electronics,West,1,260.00,20,208.00
+S14-202603-0061,2026-03-29,C2260,Wireless Mouse,Accessories,West,1,40.00,0,40.00
+S14-202603-0062,2026-03-05,C2261,QHD Monitor 27-inch,Electronics,North,2,260.00,10,468.00
+S14-202603-0063,2026-03-12,C2262,USB-C Docking Station,Accessories,East,1,160.00,0,160.00
+S14-202603-0064,2026-03-19,C2263,Noise-Cancelling Headset,Accessories,East,1,120.00,0,120.00
+S14-202607-0001,2026-07-12,C2200,QHD Monitor 27-inch,Electronics,East,1,260.00,20,208.00
+S14-202607-0002,2026-07-19,C2201,USB-C Docking Station,Accessories,West,2,160.00,0,320.00
+S14-202607-0003,2026-07-26,C2202,USB-C Docking Station,Accessories,South,1,160.00,0,160.00
+S14-202607-0004,2026-07-02,C2203,USB-C Docking Station,Accessories,East,1,160.00,10,144.00
+S14-202607-0005,2026-07-09,C2204,USB-C Docking Station,Accessories,South,1,160.00,0,160.00
+S14-202607-0006,2026-07-16,C2205,USB-C Docking Station,Accessories,West,1,160.00,0,160.00
+S14-202607-0007,2026-07-23,C2206,Business Laptop 14-inch,Electronics,North,1,920.00,0,920.00
+S14-202607-0008,2026-07-30,C2207,Noise-Cancelling Headset,Accessories,West,2,120.00,0,240.00
+S14-202607-0009,2026-07-06,C2208,Noise-Cancelling Headset,Accessories,West,1,120.00,0,120.00
+S14-202607-0010,2026-07-13,C2209,Standing Desk Pro,Furniture,East,1,480.00,10,432.00
+S14-202607-0011,2026-07-20,C2210,QHD Monitor 27-inch,Electronics,West,2,260.00,0,520.00
+S14-202607-0012,2026-07-27,C2211,Business Laptop 14-inch,Electronics,South,2,920.00,10,1656.00
+S14-202607-0013,2026-07-03,C2212,Business Laptop 14-inch,Electronics,North,2,920.00,0,1840.00
+S14-202607-0014,2026-07-10,C2213,Standing Desk Pro,Furniture,South,1,480.00,10,432.00
+S14-202607-0015,2026-07-17,C2214,Business Laptop 14-inch,Electronics,West,2,920.00,0,1840.00
+S14-202607-0016,2026-07-24,C2215,QHD Monitor 27-inch,Electronics,East,1,260.00,0,260.00
+S14-202607-0017,2026-07-31,C2216,Business Laptop 14-inch,Electronics,West,2,920.00,0,1840.00
+S14-202607-0018,2026-07-07,C2217,USB-C Docking Station,Accessories,West,1,160.00,0,160.00
+S14-202607-0019,2026-07-14,C2218,Business Laptop 14-inch,Electronics,West,1,920.00,0,920.00
+S14-202607-0020,2026-07-21,C2219,USB-C Docking Station,Accessories,West,2,160.00,0,320.00
+S14-202607-0021,2026-07-28,C2220,Business Laptop 14-inch,Electronics,West,1,920.00,10,828.00
+S14-202607-0022,2026-07-04,C2221,Noise-Cancelling Headset,Accessories,North,1,120.00,0,120.00
+S14-202607-0023,2026-07-11,C2222,USB-C Docking Station,Accessories,East,1,160.00,0,160.00
+S14-202607-0024,2026-07-18,C2223,Business Laptop 14-inch,Electronics,East,1,920.00,0,920.00
+S14-202607-0025,2026-07-25,C2224,Noise-Cancelling Headset,Accessories,North,1,120.00,0,120.00
+S14-202607-0026,2026-07-01,C2225,Business Laptop 14-inch,Electronics,South,1,920.00,0,920.00
+S14-202607-0027,2026-07-08,C2226,Business Laptop 14-inch,Electronics,East,1,920.00,10,828.00
+S14-202607-0028,2026-07-15,C2227,Standing Desk Pro,Furniture,South,1,480.00,0,480.00
+S14-202607-0029,2026-07-22,C2228,USB-C Docking Station,Accessories,North,2,160.00,20,256.00
+S14-202607-0030,2026-07-29,C2229,QHD Monitor 27-inch,Electronics,North,1,260.00,0,260.00
+S14-202607-0031,2026-07-05,C2230,Business Laptop 14-inch,Electronics,West,1,920.00,0,920.00
+S14-202607-0032,2026-07-12,C2231,Noise-Cancelling Headset,Accessories,East,2,120.00,0,240.00
+S14-202607-0033,2026-07-19,C2232,QHD Monitor 27-inch,Electronics,East,1,260.00,0,260.00
+S14-202607-0034,2026-07-26,C2233,Noise-Cancelling Headset,Accessories,North,2,120.00,0,240.00
+S14-202607-0035,2026-07-02,C2234,QHD Monitor 27-inch,Electronics,East,1,260.00,20,208.00
+S14-202607-0036,2026-07-09,C2235,QHD Monitor 27-inch,Electronics,East,1,260.00,0,260.00
+S14-202607-0037,2026-07-16,C2236,Standing Desk Pro,Furniture,West,1,480.00,0,480.00
+S14-202607-0038,2026-07-23,C2237,Noise-Cancelling Headset,Accessories,North,1,120.00,0,120.00
+S14-202607-0039,2026-07-30,C2238,QHD Monitor 27-inch,Electronics,West,1,260.00,0,260.00
+S14-202607-0040,2026-07-06,C2239,USB-C Docking Station,Accessories,North,1,160.00,20,128.00
+S14-202607-0041,2026-07-13,C2240,USB-C Docking Station,Accessories,South,1,160.00,0,160.00
+S14-202607-0042,2026-07-20,C2241,USB-C Docking Station,Accessories,North,1,160.00,0,160.00
+S14-202607-0043,2026-07-27,C2242,USB-C Docking Station,Accessories,South,1,160.00,0,160.00
+S14-202607-0044,2026-07-03,C2243,Business Laptop 14-inch,Electronics,South,1,920.00,0,920.00
+S14-202607-0045,2026-07-10,C2244,Noise-Cancelling Headset,Accessories,West,2,120.00,0,240.00
+S14-202607-0046,2026-07-17,C2245,QHD Monitor 27-inch,Electronics,West,2,260.00,0,520.00
+S14-202607-0047,2026-07-24,C2246,USB-C Docking Station,Accessories,East,1,160.00,0,160.00
+S14-202607-0048,2026-07-31,C2247,Noise-Cancelling Headset,Accessories,South,1,120.00,0,120.00
+S14-202607-0049,2026-07-07,C2248,Business Laptop 14-inch,Electronics,East,2,920.00,20,1472.00
+S14-202607-0050,2026-07-14,C2249,Noise-Cancelling Headset,Accessories,East,1,120.00,0,120.00
+S14-202607-0051,2026-07-21,C2250,Business Laptop 14-inch,Electronics,South,1,920.00,0,920.00
+S14-202607-0052,2026-07-28,C2251,Business Laptop 14-inch,Electronics,East,1,920.00,10,828.00
+S14-202607-0053,2026-07-04,C2252,Standing Desk Pro,Furniture,North,1,480.00,0,480.00
+S14-202607-0054,2026-07-11,C2253,Business Laptop 14-inch,Electronics,North,1,920.00,20,736.00
+S14-202607-0055,2026-07-18,C2254,USB-C Docking Station,Accessories,South,1,160.00,0,160.00
+S14-202607-0056,2026-07-25,C2255,Noise-Cancelling Headset,Accessories,West,2,120.00,10,216.00
+S14-202607-0057,2026-07-01,C2256,Standing Desk Pro,Furniture,West,2,480.00,20,768.00
+S14-202607-0058,2026-07-08,C2257,USB-C Docking Station,Accessories,East,1,160.00,20,128.00
+S14-202607-0059,2026-07-15,C2258,Noise-Cancelling Headset,Accessories,East,1,120.00,0,120.00
+S14-202607-0060,2026-07-22,C2259,USB-C Docking Station,Accessories,East,1,160.00,0,160.00
+S14-202607-0061,2026-07-29,C2260,Noise-Cancelling Headset,Accessories,East,1,120.00,20,96.00
+S14-202607-0062,2026-07-05,C2261,Noise-Cancelling Headset,Accessories,South,2,120.00,10,216.00
+S14-202607-0063,2026-07-12,C2262,Business Laptop 14-inch,Electronics,East,1,920.00,20,736.00
+S14-202607-0064,2026-07-19,C2263,QHD Monitor 27-inch,Electronics,South,1,260.00,0,260.00
+S14-202607-0065,2026-07-26,C2264,QHD Monitor 27-inch,Electronics,East,1,260.00,0,260.00
+S14-202607-0066,2026-07-02,C2265,QHD Monitor 27-inch,Electronics,West,2,260.00,20,416.00
+S14-202607-0067,2026-07-09,C2266,Business Laptop 14-inch,Electronics,North,2,920.00,20,1472.00
+S14-202607-0068,2026-07-16,C2267,Standing Desk Pro,Furniture,North,1,480.00,0,480.00
+S14-202607-0069,2026-07-23,C2268,Business Laptop 14-inch,Electronics,South,1,920.00,10,828.00
+S14-202607-0070,2026-07-30,C2269,QHD Monitor 27-inch,Electronics,West,1,260.00,0,260.00
+S14-202607-0071,2026-07-06,C2270,Business Laptop 14-inch,Electronics,South,1,920.00,0,920.00
+S14-202607-0072,2026-07-13,C2271,USB-C Docking Station,Accessories,West,2,160.00,10,288.00
+S14-202607-0073,2026-07-20,C2272,Noise-Cancelling Headset,Accessories,West,1,120.00,10,108.00
+S14-202607-0074,2026-07-27,C2273,USB-C Docking Station,Accessories,West,2,160.00,10,288.00
+S14-202607-0075,2026-07-03,C2274,QHD Monitor 27-inch,Electronics,West,2,260.00,0,520.00
+S14-202607-0076,2026-07-10,C2275,Noise-Cancelling Headset,Accessories,South,1,120.00,0,120.00
+S14-202607-0077,2026-07-17,C2276,USB-C Docking Station,Accessories,North,1,160.00,10,144.00
+S14-202607-0078,2026-07-24,C2277,Standing Desk Pro,Furniture,North,1,480.00,10,432.00
+S14-202607-0079,2026-07-31,C2278,USB-C Docking Station,Accessories,South,1,160.00,10,144.00
+S14-202607-0080,2026-07-07,C2279,Standing Desk Pro,Furniture,North,1,480.00,0,480.00
+S14-202607-0081,2026-07-14,C2200,Noise-Cancelling Headset,Accessories,North,1,120.00,0,120.00
+S14-202607-0082,2026-07-21,C2201,Standing Desk Pro,Furniture,West,2,480.00,0,960.00
+S14-202607-0083,2026-07-28,C2202,Standing Desk Pro,Furniture,West,1,480.00,20,384.00
+S14-202607-0084,2026-07-04,C2203,Standing Desk Pro,Furniture,West,2,480.00,0,960.00
+S14-202607-0085,2026-07-11,C2204,Business Laptop 14-inch,Electronics,South,1,920.00,0,920.00
+S14-202607-0086,2026-07-18,C2205,Standing Desk Pro,Furniture,West,1,480.00,0,480.00
+S14-202607-0087,2026-07-25,C2206,Business Laptop 14-inch,Electronics,East,1,920.00,0,920.00
+S14-202607-0088,2026-07-01,C2207,Standing Desk Pro,Furniture,East,2,480.00,20,768.00
+S14-202607-0089,2026-07-08,C2208,Standing Desk Pro,Furniture,South,2,480.00,10,864.00
+S14-202607-0090,2026-07-15,C2209,Standing Desk Pro,Furniture,East,2,480.00,0,960.00
+S14-202607-0091,2026-07-22,C2210,Noise-Cancelling Headset,Accessories,North,1,120.00,10,108.00
+S14-202607-0092,2026-07-29,C2211,QHD Monitor 27-inch,Electronics,East,1,260.00,0,260.00

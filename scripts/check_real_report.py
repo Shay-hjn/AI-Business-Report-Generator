@@ -28,7 +28,7 @@ def main():
     parser.add_argument(
         "--analysis-only",
         action="store_true",
-        help="Show Python results without calling Groq.",
+        help="Show Python results without calling Gemini.",
     )
 
     args = parser.parse_args()

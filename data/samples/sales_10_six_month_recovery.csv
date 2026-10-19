@@ -1,0 +1,976 @@
+order_id,date,customer_id,product,category,region,quantity,unit_price,discount_pct,total_sales
+S10-202608-0136,2026-08-21,C1616,Noise Cancelling Headset,Accessories,West,2,139.00,5,264.10
+S10-202605-0038,2026-05-21,C1017,AI Smart Webcam 4K,Electronics,North,1,249.00,15,211.65
+S10-202604-0107,2026-04-08,C1141,Ergonomic Office Chair,Furniture,East,1,319.00,0,319.00
+S10-202606-0037,2026-06-01,C1426,Noise Cancelling Headset,Accessories,West,1,139.00,0,139.00
+S10-202607-0024,2026-07-10,C1239,USB-C Hub,Accessories,South,2,49.00,5,93.10
+S10-202604-0017,2026-04-08,C1533,Mini PC Workstation,Electronics,North,2,799.00,0,1598.00
+S10-202604-0005,2026-04-23,C1930,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+S10-202604-0114,2026-04-26,C1940,Business Tablet,Electronics,West,1,529.00,0,529.00
+S10-202607-0132,2026-07-28,C1785,Standing Desk Pro,Furniture,North,1,599.00,5,569.05
+S10-202604-0046,2026-04-07,C1585,Wireless Keyboard,Accessories,West,2,79.00,10,142.20
+S10-202608-0110,2026-08-11,C1720,Meeting Room Table,Furniture,East,1,1199.00,5,1139.05
+S10-202608-0139,2026-08-05,C1536,Ergonomic Office Chair,Furniture,East,1,319.00,0,319.00
+S10-202605-0053,2026-05-03,C1357,AI Smart Webcam 4K,Electronics,South,2,249.00,5,473.10
+S10-202606-0014,2026-06-09,C1305,Standing Desk Pro,Furniture,South,1,599.00,5,569.05
+S10-202603-0024,2026-03-12,C1727,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+S10-202608-0207,2026-08-18,C1974,Ergonomic Office Chair,Furniture,East,2,319.00,0,638.00
+S10-202606-0089,2026-06-27,C1292,Wireless Keyboard,Accessories,West,1,79.00,0,79.00
+S10-202606-0078,2026-06-10,C1767,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202604-0075,2026-04-05,C1675,Ergonomic Office Chair,Furniture,North,1,319.00,5,303.05
+S10-202605-0133,2026-05-13,C1232,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+S10-202605-0030,2026-05-03,C1574,Wireless Keyboard,Accessories,South,1,79.00,0,79.00
+S10-202607-0034,2026-07-17,C1344,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+S10-202604-0079,2026-04-24,C1843,Standing Desk Pro,Furniture,North,1,599.00,0,599.00
+S10-202608-0198,2026-08-07,C1874,Ergonomic Office Chair,Furniture,South,1,319.00,0,319.00
+S10-202607-0010,2026-07-11,C1452,Standing Desk Pro,Furniture,West,1,599.00,0,599.00
+S10-202606-0012,2026-06-06,C1035,Noise Cancelling Headset,Accessories,East,2,139.00,20,222.40
+S10-202603-0076,2026-03-19,C1645,Ergonomic Office Chair,Furniture,South,3,319.00,0,957.00
+S10-202608-0046,2026-08-29,C1056,AI Smart Webcam 4K,Electronics,East,2,249.00,10,448.20
+S10-202605-0015,2026-05-09,C1695,Ergonomic Office Chair,Furniture,West,1,319.00,5,303.05
+S10-202605-0020,2026-05-23,C1078,Wireless Keyboard,Accessories,East,1,79.00,0,79.00
+S10-202604-0112,2026-04-25,C1906,Business Laptop 14-inch,Electronics,West,1,1099.00,15,934.15
+S10-202604-0004,2026-04-20,C1784,AI Smart Webcam 4K,Electronics,North,3,249.00,0,747.00
+S10-202604-0036,2026-04-14,C1969,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+S10-202607-0119,2026-07-19,C1147,Wireless Keyboard,Accessories,North,1,79.00,0,79.00
+S10-202608-0120,2026-08-18,C1010,Business Tablet,Electronics,East,1,529.00,0,529.00
+S10-202605-0196,2026-05-23,C1094,AI Smart Webcam 4K,Electronics,East,1,249.00,20,199.20
+S10-202605-0168,2026-05-08,C1339,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+S10-202608-0188,2026-08-28,C1129,Business Tablet,Electronics,West,1,529.00,5,502.55
+S10-202606-0003,2026-06-24,C1997,Ergonomic Office Chair,Furniture,South,1,319.00,10,287.10
+S10-202606-0004,2026-06-16,C1177,USB-C Hub,Accessories,West,2,49.00,0,98.00
+S10-202605-0035,2026-05-23,C1766,Standing Desk Pro,Furniture,North,4,599.00,0,2396.00
+S10-202607-0124,2026-07-28,C1572,Standing Desk Pro,Furniture,North,2,599.00,10,1078.20
+S10-202607-0118,2026-07-16,C1237,Mini PC Workstation,Electronics,East,1,799.00,15,679.15
+S10-202604-0055,2026-04-19,C1580,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+S10-202605-0034,2026-05-22,C1080,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202608-0185,2026-08-15,C1105,Wireless Keyboard,Accessories,West,1,79.00,5,75.05
+S10-202608-0006,2026-08-24,C1748,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+S10-202608-0124,2026-08-21,C1772,Business Tablet,Electronics,West,1,529.00,5,502.55
+S10-202605-0209,2026-05-14,C1376,Noise Cancelling Headset,Accessories,South,1,139.00,0,139.00
+S10-202608-0106,2026-08-19,C1588,Ergonomic Office Chair,Furniture,West,1,319.00,5,303.05
+S10-202605-0160,2026-05-04,C1099,Business Laptop 14-inch,Electronics,South,1,1099.00,10,989.10
+S10-202608-0069,2026-08-31,C1047,AI Smart Webcam 4K,Electronics,East,1,249.00,5,236.55
+S10-202603-0036,2026-03-04,C1034,AI Smart Webcam 4K,Electronics,North,1,249.00,5,236.55
+S10-202605-0068,2026-05-13,C1624,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202608-0193,2026-08-09,C1036,Business Tablet,Electronics,South,1,529.00,0,529.00
+S10-202608-0155,2026-08-10,C1991,Business Tablet,Electronics,South,1,529.00,0,529.00
+S10-202604-0034,2026-04-08,C1927,AI Smart Webcam 4K,Electronics,West,4,249.00,0,996.00
+S10-202606-0102,2026-06-25,C1716,Wireless Keyboard,Accessories,East,1,79.00,0,79.00
+S10-202608-0129,2026-08-30,C1164,Ergonomic Office Chair,Furniture,West,1,319.00,0,319.00
+S10-202608-0093,2026-08-24,C1167,Business Tablet,Electronics,North,1,529.00,5,502.55
+S10-202607-0007,2026-07-07,C1033,USB-C Hub,Accessories,South,1,49.00,0,49.00
+S10-202606-0011,2026-06-13,C1827,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+S10-202607-0005,2026-07-18,C1041,Mini PC Workstation,Electronics,East,3,799.00,5,2277.15
+S10-202604-0133,2026-04-08,C1060,Mini PC Workstation,Electronics,West,2,799.00,0,1598.00
+S10-202607-0050,2026-07-26,C1178,Business Laptop 14-inch,Electronics,West,2,1099.00,5,2088.10
+S10-202603-0130,2026-03-12,C1076,Standing Desk Pro,Furniture,North,1,599.00,0,599.00
+S10-202604-0147,2026-04-22,C1255,Ergonomic Office Chair,Furniture,West,1,319.00,15,271.15
+S10-202608-0019,2026-08-26,C1420,Business Tablet,Electronics,East,1,529.00,0,529.00
+S10-202604-0002,2026-04-30,C1370,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+S10-202607-0016,2026-07-04,C1830,Mini PC Workstation,Electronics,South,1,799.00,15,679.15
+S10-202603-0061,2026-03-18,C1901,Standing Desk Pro,Furniture,East,1,599.00,0,599.00
+S10-202605-0022,2026-05-25,C1501,Business Laptop 14-inch,Electronics,North,2,1099.00,10,1978.20
+S10-202604-0012,2026-04-16,C1549,Business Laptop 14-inch,Electronics,North,2,1099.00,15,1868.30
+S10-202608-0096,2026-08-19,C1992,AI Smart Webcam 4K,Electronics,North,1,249.00,10,224.10
+S10-202605-0174,2026-05-03,C1318,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202603-0033,2026-03-07,C1418,Standing Desk Pro,Furniture,North,4,599.00,5,2276.20
+S10-202605-0036,2026-05-30,C1621,Business Tablet,Electronics,East,1,529.00,0,529.00
+S10-202608-0080,2026-08-10,C1716,Meeting Room Table,Furniture,West,3,1199.00,10,3237.30
+S10-202603-0123,2026-03-25,C1769,Business Laptop 14-inch,Electronics,South,2,1099.00,10,1978.20
+S10-202607-0027,2026-07-28,C1462,Wireless Keyboard,Accessories,West,2,79.00,10,142.20
+S10-202603-0068,2026-03-16,C1467,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+S10-202605-0189,2026-05-14,C1301,Wireless Keyboard,Accessories,North,1,79.00,5,75.05
+S10-202606-0061,2026-06-28,C1417,USB-C Hub,Accessories,East,2,49.00,5,93.10
+S10-202604-0145,2026-04-16,C1490,Business Tablet,Electronics,North,1,529.00,0,529.00
+S10-202605-0058,2026-05-19,C1390,Ergonomic Office Chair,Furniture,North,1,319.00,0,319.00
+S10-202604-0040,2026-04-13,C1496,Standing Desk Pro,Furniture,East,1,599.00,10,539.10
+S10-202608-0163,2026-08-30,C1695,Business Tablet,Electronics,South,2,529.00,5,1005.10
+S10-202605-0011,2026-05-03,C1112,AI Smart Webcam 4K,Electronics,North,1,249.00,10,224.10
+S10-202607-0046,2026-07-21,C1938,Business Laptop 14-inch,Electronics,North,3,1099.00,0,3297.00
+S10-202607-0147,2026-07-04,C1402,Business Tablet,Electronics,West,1,529.00,0,529.00
+S10-202605-0052,2026-05-16,C1751,Ergonomic Office Chair,Furniture,North,2,319.00,15,542.30
+S10-202605-0178,2026-05-10,C1458,Standing Desk Pro,Furniture,West,1,599.00,0,599.00
+S10-202607-0101,2026-07-22,C1028,USB-C Hub,Accessories,North,1,49.00,5,46.55
+S10-202606-0060,2026-06-05,C1538,Noise Cancelling Headset,Accessories,East,1,139.00,5,132.05
+S10-202607-0028,2026-07-26,C1451,Mini PC Workstation,Electronics,West,2,799.00,0,1598.00
+S10-202607-0139,2026-07-01,C1556,Ergonomic Office Chair,Furniture,East,1,319.00,10,287.10
+S10-202605-0167,2026-05-28,C1537,Business Tablet,Electronics,South,1,529.00,0,529.00
+S10-202608-0060,2026-08-14,C1196,Standing Desk Pro,Furniture,West,1,599.00,15,509.15
+S10-202605-0204,2026-05-06,C1075,Standing Desk Pro,Furniture,South,1,599.00,0,599.00
+S10-202608-0062,2026-08-25,C1469,Business Tablet,Electronics,North,2,529.00,0,1058.00
+S10-202607-0058,2026-07-26,C1971,Business Laptop 14-inch,Electronics,West,3,1099.00,10,2967.30
+S10-202605-0200,2026-05-01,C1061,Ergonomic Office Chair,Furniture,West,1,319.00,0,319.00
+S10-202606-0107,2026-06-23,C1899,Noise Cancelling Headset,Accessories,South,3,139.00,5,396.15
+S10-202604-0030,2026-04-28,C1480,Ergonomic Office Chair,Furniture,South,3,319.00,10,861.30
+S10-202607-0141,2026-07-17,C1263,Wireless Keyboard,Accessories,East,3,79.00,15,201.45
+S10-202604-0052,2026-04-08,C1355,AI Smart Webcam 4K,Electronics,South,2,249.00,0,498.00
+S10-202608-0050,2026-08-10,C1639,AI Smart Webcam 4K,Electronics,North,1,249.00,20,199.20
+S10-202606-0009,2026-06-28,C1623,Business Tablet,Electronics,West,2,529.00,15,899.30
+S10-202604-0123,2026-04-03,C1130,Meeting Room Table,Furniture,South,2,1199.00,10,2158.20
+S10-202607-0032,2026-07-31,C1378,Business Laptop 14-inch,Electronics,East,2,1099.00,5,2088.10
+S10-202607-0043,2026-07-30,C1869,USB-C Hub,Accessories,South,1,49.00,0,49.00
+S10-202606-0039,2026-06-15,C1656,Standing Desk Pro,Furniture,East,3,599.00,10,1617.30
+S10-202603-0079,2026-03-25,C1059,Business Tablet,Electronics,West,2,529.00,10,952.20
+S10-202605-0066,2026-05-20,C1632,Ergonomic Office Chair,Furniture,East,1,319.00,0,319.00
+S10-202603-0102,2026-03-18,C1594,Business Tablet,Electronics,West,1,529.00,0,529.00
+S10-202608-0121,2026-08-23,C1075,Noise Cancelling Headset,Accessories,North,1,139.00,15,118.15
+S10-202605-0081,2026-05-21,C1105,Standing Desk Pro,Furniture,North,2,599.00,10,1078.20
+S10-202607-0074,2026-07-29,C1079,Ergonomic Office Chair,Furniture,East,1,319.00,10,287.10
+S10-202603-0062,2026-03-31,C1442,AI Smart Webcam 4K,Electronics,North,2,249.00,10,448.20
+S10-202608-0117,2026-08-08,C1802,Standing Desk Pro,Furniture,North,2,599.00,0,1198.00
+S10-202608-0167,2026-08-05,C1106,AI Smart Webcam 4K,Electronics,West,1,249.00,5,236.55
+S10-202604-0043,2026-04-30,C1572,AI Smart Webcam 4K,Electronics,East,2,249.00,0,498.00
+S10-202604-0019,2026-04-11,C1918,Business Tablet,Electronics,North,1,529.00,5,502.55
+S10-202608-0186,2026-08-06,C1865,Standing Desk Pro,Furniture,North,1,599.00,10,539.10
+S10-202608-0059,2026-08-04,C1295,Ergonomic Office Chair,Furniture,West,1,319.00,10,287.10
+S10-202603-0084,2026-03-22,C1062,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+S10-202605-0144,2026-05-25,C1588,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+S10-202603-0071,2026-03-22,C1568,Ergonomic Office Chair,Furniture,West,1,319.00,10,287.10
+S10-202608-0143,2026-08-13,C1677,AI Smart Webcam 4K,Electronics,West,4,249.00,5,946.20
+S10-202607-0127,2026-07-18,C1652,Meeting Room Table,Furniture,North,2,1199.00,15,2038.30
+S10-202603-0119,2026-03-24,C1705,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+S10-202606-0092,2026-06-18,C1866,Noise Cancelling Headset,Accessories,West,2,139.00,10,250.20
+S10-202608-0205,2026-08-16,C1830,AI Smart Webcam 4K,Electronics,West,1,249.00,15,211.65
+S10-202605-0108,2026-05-14,C1386,Business Laptop 14-inch,Electronics,East,1,1099.00,5,1044.05
+S10-202608-0035,2026-08-11,C1521,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+S10-202605-0026,2026-05-08,C1280,Business Tablet,Electronics,East,1,529.00,0,529.00
+S10-202606-0104,2026-06-19,C1873,Standing Desk Pro,Furniture,West,2,599.00,10,1078.20
+S10-202605-0054,2026-05-26,C1517,Business Tablet,Electronics,South,2,529.00,0,1058.00
+S10-202608-0160,2026-08-04,C1036,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+S10-202608-0159,2026-08-03,C1969,AI Smart Webcam 4K,Electronics,East,1,249.00,10,224.10
+S10-202604-0056,2026-04-12,C1765,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+S10-202607-0091,2026-07-29,C1342,AI Smart Webcam 4K,Electronics,East,3,249.00,0,747.00
+S10-202605-0164,2026-05-25,C1921,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+S10-202606-0079,2026-06-01,C1799,Meeting Room Table,Furniture,East,2,1199.00,0,2398.00
+S10-202606-0076,2026-06-29,C1334,Noise Cancelling Headset,Accessories,South,1,139.00,10,125.10
+S10-202606-0026,2026-06-04,C1666,USB-C Hub,Accessories,West,1,49.00,10,44.10
+S10-202604-0023,2026-04-16,C1196,USB-C Hub,Accessories,East,3,49.00,0,147.00
+S10-202605-0154,2026-05-09,C1603,Business Tablet,Electronics,South,1,529.00,0,529.00
+S10-202603-0098,2026-03-24,C1767,Wireless Keyboard,Accessories,West,1,79.00,20,63.20
+S10-202603-0112,2026-03-18,C1020,Business Laptop 14-inch,Electronics,East,3,1099.00,5,3132.15
+S10-202604-0057,2026-04-30,C1239,Mini PC Workstation,Electronics,West,2,799.00,15,1358.30
+S10-202605-0146,2026-05-20,C1755,Business Laptop 14-inch,Electronics,South,1,1099.00,10,989.10
+S10-202604-0059,2026-04-17,C1558,AI Smart Webcam 4K,Electronics,South,4,249.00,0,996.00
+S10-202608-0142,2026-08-18,C1136,Ergonomic Office Chair,Furniture,West,2,319.00,0,638.00
+S10-202606-0093,2026-06-03,C1871,Ergonomic Office Chair,Furniture,East,1,319.00,10,287.10
+S10-202607-0085,2026-07-07,C1197,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202607-0066,2026-07-27,C1828,Ergonomic Office Chair,Furniture,East,1,319.00,10,287.10
+S10-202603-0018,2026-03-12,C1928,AI Smart Webcam 4K,Electronics,North,1,249.00,15,211.65
+S10-202605-0175,2026-05-29,C1237,Ergonomic Office Chair,Furniture,East,1,319.00,5,303.05
+S10-202604-0041,2026-04-16,C1284,Wireless Keyboard,Accessories,North,1,79.00,0,79.00
+S10-202605-0138,2026-05-20,C1921,Wireless Keyboard,Accessories,North,1,79.00,5,75.05
+S10-202605-0117,2026-05-10,C1801,Meeting Room Table,Furniture,North,1,1199.00,10,1079.10
+S10-202604-0013,2026-04-02,C1031,Standing Desk Pro,Furniture,East,1,599.00,0,599.00
+S10-202607-0075,2026-07-05,C1761,Business Tablet,Electronics,East,1,529.00,0,529.00
+S10-202607-0054,2026-07-11,C1607,Ergonomic Office Chair,Furniture,East,1,319.00,5,303.05
+S10-202606-0083,2026-06-01,C1963,Noise Cancelling Headset,Accessories,West,1,139.00,5,132.05
+S10-202608-0098,2026-08-28,C1169,Standing Desk Pro,Furniture,North,1,599.00,0,599.00
+S10-202607-0109,2026-07-12,C1816,Wireless Keyboard,Accessories,North,1,79.00,0,79.00
+S10-202606-0006,2026-06-16,C1868,Ergonomic Office Chair,Furniture,West,1,319.00,0,319.00
+S10-202605-0157,2026-05-06,C1444,Wireless Keyboard,Accessories,West,1,79.00,15,67.15
+S10-202605-0004,2026-05-17,C1545,Business Tablet,Electronics,East,1,529.00,5,502.55
+S10-202605-0165,2026-05-30,C1048,Meeting Room Table,Furniture,South,1,1199.00,15,1019.15
+S10-202608-0040,2026-08-05,C1176,Noise Cancelling Headset,Accessories,West,2,139.00,5,264.10
+S10-202604-0060,2026-04-29,C1360,Standing Desk Pro,Furniture,East,2,599.00,0,1198.00
+S10-202608-0191,2026-08-06,C1142,Ergonomic Office Chair,Furniture,South,1,319.00,5,303.05
+S10-202607-0125,2026-07-10,C1159,Meeting Room Table,Furniture,South,2,1199.00,0,2398.00
+S10-202608-0113,2026-08-11,C1907,Meeting Room Table,Furniture,West,1,1199.00,5,1139.05
+S10-202603-0001,2026-03-13,C1577,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+S10-202608-0077,2026-08-27,C1370,Standing Desk Pro,Furniture,West,1,599.00,15,509.15
+S10-202608-0049,2026-08-15,C1392,Ergonomic Office Chair,Furniture,North,1,319.00,5,303.05
+S10-202603-0042,2026-03-14,C1232,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202604-0033,2026-04-17,C1658,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+S10-202605-0098,2026-05-25,C1416,AI Smart Webcam 4K,Electronics,East,2,249.00,5,473.10
+S10-202608-0094,2026-08-03,C1114,Ergonomic Office Chair,Furniture,East,2,319.00,0,638.00
+S10-202607-0068,2026-07-04,C1328,Business Laptop 14-inch,Electronics,East,2,1099.00,5,2088.10
+S10-202603-0083,2026-03-28,C1752,AI Smart Webcam 4K,Electronics,West,1,249.00,5,236.55
+S10-202605-0166,2026-05-26,C1519,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+S10-202606-0111,2026-06-05,C1453,Noise Cancelling Headset,Accessories,West,3,139.00,10,375.30
+S10-202604-0108,2026-04-01,C1319,Standing Desk Pro,Furniture,North,1,599.00,0,599.00
+S10-202604-0149,2026-04-29,C1880,Standing Desk Pro,Furniture,South,1,599.00,5,569.05
+S10-202606-0051,2026-06-02,C1444,USB-C Hub,Accessories,South,1,49.00,0,49.00
+S10-202603-0023,2026-03-13,C1717,Ergonomic Office Chair,Furniture,North,1,319.00,0,319.00
+S10-202608-0041,2026-08-31,C1099,Business Laptop 14-inch,Electronics,West,2,1099.00,20,1758.40
+S10-202608-0175,2026-08-10,C1624,Ergonomic Office Chair,Furniture,East,1,319.00,0,319.00
+S10-202605-0212,2026-05-12,C1130,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+S10-202608-0002,2026-08-13,C1074,Meeting Room Table,Furniture,East,3,1199.00,10,3237.30
+S10-202607-0065,2026-07-31,C1914,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+S10-202606-0042,2026-06-05,C1864,USB-C Hub,Accessories,South,2,49.00,0,98.00
+S10-202608-0147,2026-08-04,C1056,Ergonomic Office Chair,Furniture,East,3,319.00,0,957.00
+S10-202606-0056,2026-06-25,C1694,AI Smart Webcam 4K,Electronics,North,1,249.00,20,199.20
+S10-202607-0121,2026-07-07,C1569,Noise Cancelling Headset,Accessories,East,1,139.00,0,139.00
+S10-202608-0151,2026-08-31,C1873,Meeting Room Table,Furniture,South,2,1199.00,10,2158.20
+S10-202604-0132,2026-04-14,C1579,AI Smart Webcam 4K,Electronics,East,2,249.00,15,423.30
+S10-202608-0042,2026-08-08,C1835,Business Laptop 14-inch,Electronics,East,1,1099.00,15,934.15
+S10-202604-0066,2026-04-16,C1223,Meeting Room Table,Furniture,North,2,1199.00,15,2038.30
+S10-202605-0086,2026-05-10,C1577,Wireless Keyboard,Accessories,West,2,79.00,0,158.00
+S10-202605-0140,2026-05-31,C1158,Mini PC Workstation,Electronics,South,2,799.00,0,1598.00
+S10-202605-0205,2026-05-17,C1207,Business Tablet,Electronics,South,3,529.00,15,1348.95
+S10-202608-0067,2026-08-16,C1133,Noise Cancelling Headset,Accessories,West,1,139.00,0,139.00
+S10-202607-0047,2026-07-29,C1597,Business Tablet,Electronics,North,2,529.00,5,1005.10
+S10-202604-0150,2026-04-05,C1045,Standing Desk Pro,Furniture,North,1,599.00,10,539.10
+S10-202607-0073,2026-07-26,C1145,Wireless Keyboard,Accessories,West,1,79.00,15,67.15
+S10-202605-0192,2026-05-02,C1841,Ergonomic Office Chair,Furniture,South,1,319.00,10,287.10
+S10-202603-0019,2026-03-14,C1002,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+S10-202606-0080,2026-06-08,C1999,USB-C Hub,Accessories,North,1,49.00,15,41.65
+S10-202607-0105,2026-07-04,C1254,Mini PC Workstation,Electronics,North,3,799.00,10,2157.30
+S10-202607-0087,2026-07-26,C1221,Standing Desk Pro,Furniture,North,1,599.00,20,479.20
+S10-202605-0127,2026-05-13,C1099,Business Laptop 14-inch,Electronics,North,3,1099.00,10,2967.30
+S10-202608-0128,2026-08-15,C1710,Ergonomic Office Chair,Furniture,West,4,319.00,0,1276.00
+S10-202603-0125,2026-03-14,C1658,Business Tablet,Electronics,West,1,529.00,5,502.55
+S10-202607-0107,2026-07-18,C1664,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+S10-202607-0004,2026-07-26,C1695,Standing Desk Pro,Furniture,West,1,599.00,0,599.00
+S10-202608-0061,2026-08-28,C1433,AI Smart Webcam 4K,Electronics,North,2,249.00,5,473.10
+S10-202603-0031,2026-03-27,C1784,Wireless Keyboard,Accessories,North,1,79.00,0,79.00
+S10-202608-0031,2026-08-02,C1745,Standing Desk Pro,Furniture,East,1,599.00,0,599.00
+S10-202604-0128,2026-04-29,C1283,Business Tablet,Electronics,East,1,529.00,0,529.00
+S10-202603-0039,2026-03-29,C1719,Business Laptop 14-inch,Electronics,North,1,1099.00,10,989.10
+S10-202607-0110,2026-07-01,C1917,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+S10-202605-0073,2026-05-23,C1216,Business Laptop 14-inch,Electronics,East,1,1099.00,15,934.15
+S10-202607-0051,2026-07-08,C1050,Standing Desk Pro,Furniture,West,4,599.00,0,2396.00
+S10-202604-0140,2026-04-12,C1481,Meeting Room Table,Furniture,East,4,1199.00,0,4796.00
+S10-202607-0042,2026-07-20,C1518,Ergonomic Office Chair,Furniture,West,1,319.00,5,303.05
+S10-202606-0074,2026-06-03,C1206,Standing Desk Pro,Furniture,South,2,599.00,0,1198.00
+S10-202604-0142,2026-04-30,C1966,AI Smart Webcam 4K,Electronics,West,1,249.00,15,211.65
+S10-202608-0119,2026-08-26,C1620,Business Tablet,Electronics,North,1,529.00,0,529.00
+S10-202606-0035,2026-06-04,C1225,USB-C Hub,Accessories,South,2,49.00,0,98.00
+S10-202608-0039,2026-08-12,C1808,Standing Desk Pro,Furniture,East,1,599.00,0,599.00
+S10-202607-0064,2026-07-16,C1481,Noise Cancelling Headset,Accessories,North,1,139.00,5,132.05
+S10-202606-0059,2026-06-16,C1493,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202603-0060,2026-03-03,C1062,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+S10-202607-0069,2026-07-27,C1408,Business Laptop 14-inch,Electronics,South,1,1099.00,5,1044.05
+S10-202603-0080,2026-03-09,C1688,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+S10-202608-0016,2026-08-07,C1895,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202605-0106,2026-05-30,C1042,AI Smart Webcam 4K,Electronics,South,1,249.00,5,236.55
+S10-202608-0010,2026-08-26,C1956,Business Laptop 14-inch,Electronics,West,3,1099.00,0,3297.00
+S10-202604-0115,2026-04-23,C1495,Standing Desk Pro,Furniture,South,4,599.00,0,2396.00
+S10-202604-0135,2026-04-10,C1448,Wireless Keyboard,Accessories,South,1,79.00,0,79.00
+S10-202603-0094,2026-03-16,C1503,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+S10-202608-0154,2026-08-27,C1733,AI Smart Webcam 4K,Electronics,West,1,249.00,5,236.55
+S10-202604-0027,2026-04-17,C1057,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+S10-202608-0169,2026-08-03,C1937,Ergonomic Office Chair,Furniture,North,1,319.00,10,287.10
+S10-202607-0003,2026-07-11,C1347,Ergonomic Office Chair,Furniture,West,2,319.00,0,638.00
+S10-202607-0002,2026-07-14,C1989,Mini PC Workstation,Electronics,West,1,799.00,15,679.15
+S10-202603-0089,2026-03-04,C1960,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+S10-202604-0031,2026-04-29,C1381,USB-C Hub,Accessories,North,1,49.00,10,44.10
+S10-202603-0043,2026-03-13,C1311,Business Laptop 14-inch,Electronics,South,1,1099.00,5,1044.05
+S10-202607-0039,2026-07-06,C1170,Ergonomic Office Chair,Furniture,West,1,319.00,10,287.10
+S10-202606-0112,2026-06-20,C1004,Mini PC Workstation,Electronics,East,1,799.00,10,719.10
+S10-202605-0025,2026-05-24,C1165,Ergonomic Office Chair,Furniture,East,1,319.00,20,255.20
+S10-202608-0023,2026-08-16,C1695,Standing Desk Pro,Furniture,North,1,599.00,0,599.00
+S10-202603-0104,2026-03-23,C1424,Standing Desk Pro,Furniture,South,1,599.00,10,539.10
+S10-202606-0047,2026-06-29,C1541,USB-C Hub,Accessories,West,1,49.00,5,46.55
+S10-202608-0009,2026-08-16,C1605,AI Smart Webcam 4K,Electronics,West,1,249.00,15,211.65
+S10-202603-0128,2026-03-24,C1028,Standing Desk Pro,Furniture,West,1,599.00,5,569.05
+S10-202603-0113,2026-03-15,C1762,Mini PC Workstation,Electronics,West,3,799.00,5,2277.15
+S10-202607-0030,2026-07-31,C1020,Standing Desk Pro,Furniture,South,1,599.00,10,539.10
+S10-202606-0084,2026-06-27,C1504,Mini PC Workstation,Electronics,East,3,799.00,0,2397.00
+S10-202603-0049,2026-03-02,C1622,Standing Desk Pro,Furniture,South,1,599.00,0,599.00
+S10-202603-0040,2026-03-28,C1095,Business Tablet,Electronics,North,3,529.00,10,1428.30
+S10-202607-0017,2026-07-25,C1101,Ergonomic Office Chair,Furniture,East,1,319.00,0,319.00
+S10-202608-0122,2026-08-14,C1072,Ergonomic Office Chair,Furniture,West,2,319.00,0,638.00
+S10-202606-0002,2026-06-20,C1867,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+S10-202604-0111,2026-04-23,C1786,USB-C Hub,Accessories,East,2,49.00,5,93.10
+S10-202604-0020,2026-04-04,C1490,Standing Desk Pro,Furniture,North,1,599.00,5,569.05
+S10-202605-0051,2026-05-08,C1426,AI Smart Webcam 4K,Electronics,South,1,249.00,5,236.55
+S10-202603-0025,2026-03-10,C1080,Mini PC Workstation,Electronics,West,2,799.00,5,1518.10
+S10-202604-0067,2026-04-07,C1046,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+S10-202603-0005,2026-03-17,C1410,Wireless Keyboard,Accessories,East,1,79.00,0,79.00
+S10-202607-0129,2026-07-14,C1925,Meeting Room Table,Furniture,North,2,1199.00,0,2398.00
+S10-202605-0059,2026-05-21,C1863,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+S10-202605-0009,2026-05-04,C1528,Business Tablet,Electronics,South,2,529.00,10,952.20
+S10-202607-0089,2026-07-31,C1140,Standing Desk Pro,Furniture,East,1,599.00,15,509.15
+S10-202605-0077,2026-05-26,C1176,Mini PC Workstation,Electronics,West,1,799.00,10,719.10
+S10-202605-0042,2026-05-07,C1193,Ergonomic Office Chair,Furniture,West,1,319.00,5,303.05
+S10-202606-0001,2026-06-16,C1067,Noise Cancelling Headset,Accessories,North,3,139.00,5,396.15
+S10-202603-0052,2026-03-11,C1657,Business Tablet,Electronics,South,1,529.00,10,476.10
+S10-202608-0088,2026-08-18,C1285,Mini PC Workstation,Electronics,West,4,799.00,20,2556.80
+S10-202608-0197,2026-08-24,C1088,Ergonomic Office Chair,Furniture,South,1,319.00,5,303.05
+S10-202604-0070,2026-04-19,C1197,Ergonomic Office Chair,Furniture,South,1,319.00,0,319.00
+S10-202604-0044,2026-04-04,C1244,Standing Desk Pro,Furniture,South,2,599.00,0,1198.00
+S10-202604-0039,2026-04-20,C1900,Wireless Keyboard,Accessories,East,1,79.00,0,79.00
+S10-202607-0150,2026-07-08,C1916,Noise Cancelling Headset,Accessories,South,2,139.00,15,236.30
+S10-202604-0061,2026-04-23,C1012,Wireless Keyboard,Accessories,East,1,79.00,15,67.15
+S10-202606-0108,2026-06-30,C1871,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+S10-202605-0169,2026-05-19,C1502,Standing Desk Pro,Furniture,South,1,599.00,10,539.10
+S10-202607-0072,2026-07-18,C1695,Wireless Keyboard,Accessories,North,1,79.00,10,71.10
+S10-202605-0124,2026-05-19,C1735,Business Tablet,Electronics,West,2,529.00,0,1058.00
+S10-202605-0043,2026-05-02,C1864,Standing Desk Pro,Furniture,North,1,599.00,15,509.15
+S10-202604-0064,2026-04-04,C1791,USB-C Hub,Accessories,East,1,49.00,0,49.00
+S10-202607-0041,2026-07-13,C1663,USB-C Hub,Accessories,North,1,49.00,5,46.55
+S10-202605-0013,2026-05-14,C1672,Mini PC Workstation,Electronics,West,2,799.00,10,1438.20
+S10-202606-0048,2026-06-27,C1811,Ergonomic Office Chair,Furniture,North,1,319.00,0,319.00
+S10-202603-0027,2026-03-13,C1258,AI Smart Webcam 4K,Electronics,West,2,249.00,10,448.20
+S10-202603-0054,2026-03-30,C1573,AI Smart Webcam 4K,Electronics,South,2,249.00,0,498.00
+S10-202605-0126,2026-05-30,C1527,Ergonomic Office Chair,Furniture,West,1,319.00,0,319.00
+S10-202608-0024,2026-08-01,C1257,Ergonomic Office Chair,Furniture,East,2,319.00,5,606.10
+S10-202607-0116,2026-07-20,C1677,Noise Cancelling Headset,Accessories,West,1,139.00,5,132.05
+S10-202605-0184,2026-05-13,C1903,Noise Cancelling Headset,Accessories,North,2,139.00,10,250.20
+S10-202604-0047,2026-04-01,C1186,AI Smart Webcam 4K,Electronics,North,4,249.00,5,946.20
+S10-202603-0030,2026-03-20,C1940,Wireless Keyboard,Accessories,West,1,79.00,5,75.05
+S10-202605-0171,2026-05-03,C1698,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+S10-202603-0059,2026-03-09,C1742,Business Tablet,Electronics,East,1,529.00,5,502.55
+S10-202607-0083,2026-07-07,C1582,Noise Cancelling Headset,Accessories,South,1,139.00,10,125.10
+S10-202608-0055,2026-08-16,C1761,Ergonomic Office Chair,Furniture,East,2,319.00,0,638.00
+S10-202606-0054,2026-06-18,C1612,Ergonomic Office Chair,Furniture,East,1,319.00,10,287.10
+S10-202603-0116,2026-03-29,C1740,Standing Desk Pro,Furniture,South,3,599.00,0,1797.00
+S10-202605-0064,2026-05-16,C1015,USB-C Hub,Accessories,North,1,49.00,5,46.55
+S10-202606-0071,2026-06-16,C1758,Mini PC Workstation,Electronics,East,2,799.00,10,1438.20
+S10-202607-0055,2026-07-04,C1897,Ergonomic Office Chair,Furniture,South,1,319.00,20,255.20
+S10-202606-0064,2026-06-30,C1145,Standing Desk Pro,Furniture,North,1,599.00,20,479.20
+S10-202603-0047,2026-03-08,C1557,Ergonomic Office Chair,Furniture,West,2,319.00,15,542.30
+S10-202603-0107,2026-03-25,C1480,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+S10-202605-0187,2026-05-03,C1600,Mini PC Workstation,Electronics,West,2,799.00,5,1518.10
+S10-202605-0041,2026-05-13,C1833,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202608-0192,2026-08-03,C1559,USB-C Hub,Accessories,South,3,49.00,0,147.00
+S10-202604-0063,2026-04-03,C1184,Business Tablet,Electronics,East,1,529.00,0,529.00
+S10-202608-0200,2026-08-17,C1486,Business Laptop 14-inch,Electronics,South,1,1099.00,5,1044.05
+S10-202607-0048,2026-07-07,C1151,Standing Desk Pro,Furniture,West,1,599.00,15,509.15
+S10-202605-0072,2026-05-06,C1361,Mini PC Workstation,Electronics,East,1,799.00,15,679.15
+S10-202605-0150,2026-05-09,C1090,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+S10-202606-0010,2026-06-23,C1038,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+S10-202603-0035,2026-03-09,C1237,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+S10-202605-0210,2026-05-29,C1957,Business Tablet,Electronics,East,1,529.00,0,529.00
+S10-202607-0103,2026-07-01,C1235,Ergonomic Office Chair,Furniture,North,2,319.00,0,638.00
+S10-202603-0041,2026-03-04,C1002,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+S10-202608-0101,2026-08-03,C1613,Meeting Room Table,Furniture,North,3,1199.00,0,3597.00
+S10-202608-0089,2026-08-25,C1583,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+S10-202608-0109,2026-08-04,C1454,Ergonomic Office Chair,Furniture,South,1,319.00,5,303.05
+S10-202605-0172,2026-05-15,C1897,Standing Desk Pro,Furniture,West,1,599.00,15,509.15
+S10-202603-0129,2026-03-15,C1669,Business Tablet,Electronics,South,3,529.00,5,1507.65
+S10-202606-0077,2026-06-22,C1513,Ergonomic Office Chair,Furniture,East,1,319.00,15,271.15
+S10-202608-0037,2026-08-01,C1345,Business Tablet,Electronics,West,1,529.00,0,529.00
+S10-202605-0151,2026-05-18,C1708,Mini PC Workstation,Electronics,South,2,799.00,15,1358.30
+S10-202607-0061,2026-07-06,C1812,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+S10-202607-0128,2026-07-24,C1280,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+S10-202605-0094,2026-05-05,C1675,Ergonomic Office Chair,Furniture,West,1,319.00,0,319.00
+S10-202603-0028,2026-03-23,C1414,AI Smart Webcam 4K,Electronics,West,1,249.00,5,236.55
+S10-202605-0173,2026-05-27,C1238,Business Tablet,Electronics,North,1,529.00,20,423.20
+S10-202605-0207,2026-05-30,C1480,Noise Cancelling Headset,Accessories,North,1,139.00,0,139.00
+S10-202604-0086,2026-04-10,C1298,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+S10-202604-0071,2026-04-13,C1708,Noise Cancelling Headset,Accessories,East,1,139.00,0,139.00
+S10-202604-0120,2026-04-16,C1975,AI Smart Webcam 4K,Electronics,East,1,249.00,15,211.65
+S10-202605-0201,2026-05-01,C1710,USB-C Hub,Accessories,North,1,49.00,0,49.00
+S10-202603-0088,2026-03-23,C1840,USB-C Hub,Accessories,South,2,49.00,0,98.00
+S10-202606-0094,2026-06-28,C1927,Wireless Keyboard,Accessories,South,1,79.00,0,79.00
+S10-202605-0044,2026-05-08,C1122,AI Smart Webcam 4K,Electronics,East,2,249.00,0,498.00
+S10-202603-0106,2026-03-16,C1940,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+S10-202608-0174,2026-08-16,C1982,Standing Desk Pro,Furniture,South,1,599.00,0,599.00
+S10-202608-0148,2026-08-11,C1373,AI Smart Webcam 4K,Electronics,South,3,249.00,10,672.30
+S10-202603-0081,2026-03-20,C1969,Standing Desk Pro,Furniture,South,1,599.00,0,599.00
+S10-202607-0063,2026-07-23,C1897,Noise Cancelling Headset,Accessories,East,1,139.00,0,139.00
+S10-202603-0017,2026-03-30,C1145,USB-C Hub,Accessories,South,1,49.00,0,49.00
+S10-202608-0202,2026-08-07,C1421,Standing Desk Pro,Furniture,North,1,599.00,0,599.00
+S10-202606-0041,2026-06-26,C1550,Noise Cancelling Headset,Accessories,West,1,139.00,5,132.05
+S10-202608-0075,2026-08-22,C1652,USB-C Hub,Accessories,West,1,49.00,10,44.10
+S10-202605-0029,2026-05-25,C1033,Standing Desk Pro,Furniture,North,2,599.00,0,1198.00
+S10-202607-0084,2026-07-12,C1285,Mini PC Workstation,Electronics,North,1,799.00,15,679.15
+S10-202605-0163,2026-05-31,C1487,AI Smart Webcam 4K,Electronics,North,1,249.00,5,236.55
+S10-202603-0086,2026-03-04,C1739,Wireless Keyboard,Accessories,South,1,79.00,0,79.00
+S10-202608-0029,2026-08-16,C1670,USB-C Hub,Accessories,South,2,49.00,0,98.00
+S10-202607-0015,2026-07-08,C1252,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+S10-202608-0072,2026-08-02,C1107,Business Tablet,Electronics,South,1,529.00,0,529.00
+S10-202606-0100,2026-06-02,C1196,Noise Cancelling Headset,Accessories,North,1,139.00,0,139.00
+S10-202608-0116,2026-08-30,C1645,Meeting Room Table,Furniture,East,2,1199.00,10,2158.20
+S10-202603-0099,2026-03-14,C1555,Noise Cancelling Headset,Accessories,West,1,139.00,10,125.10
+S10-202608-0133,2026-08-25,C1154,Ergonomic Office Chair,Furniture,North,1,319.00,0,319.00
+S10-202605-0080,2026-05-16,C1669,Business Laptop 14-inch,Electronics,North,1,1099.00,15,934.15
+S10-202605-0158,2026-05-08,C1563,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+S10-202605-0176,2026-05-01,C1494,Business Tablet,Electronics,South,4,529.00,0,2116.00
+S10-202604-0130,2026-04-26,C1690,USB-C Hub,Accessories,South,1,49.00,10,44.10
+S10-202604-0097,2026-04-19,C1820,Standing Desk Pro,Furniture,North,2,599.00,0,1198.00
+S10-202604-0106,2026-04-02,C1235,Wireless Keyboard,Accessories,North,3,79.00,0,237.00
+S10-202603-0058,2026-03-14,C1354,Standing Desk Pro,Furniture,East,1,599.00,20,479.20
+S10-202608-0053,2026-08-04,C1985,Noise Cancelling Headset,Accessories,West,1,139.00,5,132.05
+S10-202605-0149,2026-05-14,C1003,AI Smart Webcam 4K,Electronics,East,2,249.00,5,473.10
+S10-202608-0153,2026-08-03,C1021,Meeting Room Table,Furniture,North,2,1199.00,0,2398.00
+S10-202608-0182,2026-08-23,C1554,Ergonomic Office Chair,Furniture,West,1,319.00,0,319.00
+S10-202605-0115,2026-05-13,C1794,Business Tablet,Electronics,North,1,529.00,0,529.00
+S10-202603-0004,2026-03-10,C1733,Meeting Room Table,Furniture,North,2,1199.00,0,2398.00
+S10-202608-0158,2026-08-23,C1921,Meeting Room Table,Furniture,East,2,1199.00,0,2398.00
+S10-202607-0056,2026-07-28,C1443,Wireless Keyboard,Accessories,West,2,79.00,0,158.00
+S10-202606-0099,2026-06-15,C1001,Mini PC Workstation,Electronics,South,1,799.00,10,719.10
+S10-202606-0069,2026-06-04,C1503,Wireless Keyboard,Accessories,West,1,79.00,15,67.15
+S10-202605-0206,2026-05-20,C1347,Mini PC Workstation,Electronics,West,2,799.00,15,1358.30
+S10-202603-0010,2026-03-22,C1269,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+S10-202608-0032,2026-08-15,C1607,Mini PC Workstation,Electronics,East,2,799.00,10,1438.20
+S10-202608-0114,2026-08-26,C1866,Business Tablet,Electronics,East,3,529.00,10,1428.30
+S10-202608-0047,2026-08-17,C1598,Standing Desk Pro,Furniture,East,1,599.00,5,569.05
+S10-202603-0103,2026-03-18,C1239,AI Smart Webcam 4K,Electronics,South,1,249.00,10,224.10
+S10-202604-0037,2026-04-15,C1848,Business Tablet,Electronics,South,1,529.00,0,529.00
+S10-202605-0007,2026-05-31,C1656,Standing Desk Pro,Furniture,South,1,599.00,10,539.10
+S10-202604-0137,2026-04-06,C1701,AI Smart Webcam 4K,Electronics,North,1,249.00,5,236.55
+S10-202604-0109,2026-04-27,C1690,Standing Desk Pro,Furniture,East,1,599.00,20,479.20
+S10-202607-0114,2026-07-07,C1416,Noise Cancelling Headset,Accessories,South,1,139.00,15,118.15
+S10-202604-0062,2026-04-14,C1386,AI Smart Webcam 4K,Electronics,East,1,249.00,10,224.10
+S10-202607-0060,2026-07-31,C1648,Wireless Keyboard,Accessories,West,1,79.00,0,79.00
+S10-202608-0091,2026-08-06,C1300,Standing Desk Pro,Furniture,North,2,599.00,10,1078.20
+S10-202606-0086,2026-06-09,C1742,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+S10-202605-0091,2026-05-06,C1051,Standing Desk Pro,Furniture,East,1,599.00,0,599.00
+S10-202603-0087,2026-03-17,C1555,Standing Desk Pro,Furniture,South,1,599.00,0,599.00
+S10-202604-0006,2026-04-23,C1967,Business Laptop 14-inch,Electronics,South,3,1099.00,0,3297.00
+S10-202603-0057,2026-03-02,C1517,USB-C Hub,Accessories,East,1,49.00,5,46.55
+S10-202605-0116,2026-05-11,C1004,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+S10-202603-0020,2026-03-14,C1278,AI Smart Webcam 4K,Electronics,East,1,249.00,5,236.55
+S10-202607-0022,2026-07-26,C1680,USB-C Hub,Accessories,East,2,49.00,5,93.10
+S10-202608-0105,2026-08-14,C1416,Business Tablet,Electronics,South,1,529.00,0,529.00
+S10-202603-0067,2026-03-16,C1982,Business Laptop 14-inch,Electronics,East,1,1099.00,15,934.15
+S10-202604-0022,2026-04-30,C1847,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+S10-202607-0136,2026-07-05,C1425,Wireless Keyboard,Accessories,West,2,79.00,5,150.10
+S10-202605-0006,2026-05-16,C1401,Ergonomic Office Chair,Furniture,East,2,319.00,0,638.00
+S10-202608-0051,2026-08-01,C1887,Business Tablet,Electronics,North,1,529.00,15,449.65
+S10-202604-0058,2026-04-23,C1798,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+S10-202605-0062,2026-05-09,C1077,Ergonomic Office Chair,Furniture,North,4,319.00,0,1276.00
+S10-202604-0134,2026-04-28,C1749,Ergonomic Office Chair,Furniture,West,1,319.00,15,271.15
+S10-202606-0050,2026-06-10,C1853,Wireless Keyboard,Accessories,West,1,79.00,10,71.10
+S10-202604-0010,2026-04-28,C1987,AI Smart Webcam 4K,Electronics,East,1,249.00,5,236.55
+S10-202606-0052,2026-06-13,C1916,Wireless Keyboard,Accessories,West,2,79.00,15,134.30
+S10-202608-0138,2026-08-10,C1891,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+S10-202608-0172,2026-08-20,C1915,Business Tablet,Electronics,North,1,529.00,0,529.00
+S10-202605-0143,2026-05-07,C1441,AI Smart Webcam 4K,Electronics,West,2,249.00,5,473.10
+S10-202606-0087,2026-06-04,C1413,Noise Cancelling Headset,Accessories,East,1,139.00,0,139.00
+S10-202607-0126,2026-07-14,C1565,Noise Cancelling Headset,Accessories,South,1,139.00,5,132.05
+S10-202608-0079,2026-08-21,C1592,AI Smart Webcam 4K,Electronics,East,1,249.00,10,224.10
+S10-202608-0112,2026-08-28,C1500,Ergonomic Office Chair,Furniture,North,1,319.00,10,287.10
+S10-202604-0152,2026-04-25,C1149,Meeting Room Table,Furniture,South,1,1199.00,10,1079.10
+S10-202606-0017,2026-06-24,C1377,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+S10-202608-0005,2026-08-07,C1408,Standing Desk Pro,Furniture,South,1,599.00,5,569.05
+S10-202604-0011,2026-04-04,C1968,Business Tablet,Electronics,South,2,529.00,0,1058.00
+S10-202607-0122,2026-07-16,C1825,Business Tablet,Electronics,West,1,529.00,0,529.00
+S10-202606-0095,2026-06-29,C1575,Ergonomic Office Chair,Furniture,East,1,319.00,15,271.15
+S10-202605-0145,2026-05-02,C1929,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+S10-202604-0090,2026-04-27,C1336,Business Tablet,Electronics,West,1,529.00,20,423.20
+S10-202608-0068,2026-08-11,C1248,Standing Desk Pro,Furniture,East,1,599.00,0,599.00
+S10-202605-0099,2026-05-26,C1474,Ergonomic Office Chair,Furniture,North,1,319.00,15,271.15
+S10-202605-0123,2026-05-08,C1153,Business Tablet,Electronics,North,1,529.00,0,529.00
+S10-202604-0016,2026-04-13,C1034,Ergonomic Office Chair,Furniture,South,1,319.00,0,319.00
+S10-202605-0092,2026-05-20,C1222,Mini PC Workstation,Electronics,North,2,799.00,5,1518.10
+S10-202607-0104,2026-07-24,C1881,AI Smart Webcam 4K,Electronics,North,1,249.00,5,236.55
+S10-202608-0048,2026-08-26,C1416,Standing Desk Pro,Furniture,West,2,599.00,0,1198.00
+S10-202606-0091,2026-06-26,C1420,USB-C Hub,Accessories,South,1,49.00,0,49.00
+S10-202606-0015,2026-06-20,C1144,Wireless Keyboard,Accessories,North,1,79.00,0,79.00
+S10-202608-0170,2026-08-22,C1590,Business Laptop 14-inch,Electronics,West,1,1099.00,10,989.10
+S10-202607-0093,2026-07-27,C1017,Standing Desk Pro,Furniture,East,1,599.00,0,599.00
+S10-202605-0202,2026-05-02,C1655,AI Smart Webcam 4K,Electronics,South,1,249.00,15,211.65
+S10-202607-0025,2026-07-22,C1968,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202604-0100,2026-04-18,C1942,Business Laptop 14-inch,Electronics,South,1,1099.00,10,989.10
+S10-202604-0042,2026-04-14,C1659,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+S10-202608-0203,2026-08-20,C1290,USB-C Hub,Accessories,West,3,49.00,5,139.65
+S10-202605-0194,2026-05-08,C1349,Ergonomic Office Chair,Furniture,East,1,319.00,0,319.00
+S10-202606-0029,2026-06-11,C1157,Noise Cancelling Headset,Accessories,South,2,139.00,0,278.00
+S10-202605-0010,2026-05-14,C1912,AI Smart Webcam 4K,Electronics,West,1,249.00,15,211.65
+S10-202605-0032,2026-05-07,C1468,Meeting Room Table,Furniture,West,1,1199.00,10,1079.10
+S10-202608-0199,2026-08-06,C1278,Business Tablet,Electronics,South,2,529.00,0,1058.00
+S10-202608-0022,2026-08-21,C1258,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+S10-202603-0064,2026-03-08,C1352,Wireless Keyboard,Accessories,South,2,79.00,0,158.00
+S10-202604-0117,2026-04-18,C1040,Wireless Keyboard,Accessories,West,2,79.00,0,158.00
+S10-202605-0122,2026-05-05,C1049,Wireless Keyboard,Accessories,South,1,79.00,0,79.00
+S10-202607-0080,2026-07-24,C1187,Ergonomic Office Chair,Furniture,East,3,319.00,0,957.00
+S10-202607-0120,2026-07-12,C1484,Noise Cancelling Headset,Accessories,East,3,139.00,0,417.00
+S10-202607-0078,2026-07-27,C1773,Business Tablet,Electronics,North,3,529.00,20,1269.60
+S10-202607-0033,2026-07-03,C1448,Standing Desk Pro,Furniture,South,1,599.00,15,509.15
+S10-202605-0084,2026-05-19,C1821,Wireless Keyboard,Accessories,South,1,79.00,5,75.05
+S10-202606-0023,2026-06-06,C1632,AI Smart Webcam 4K,Electronics,West,1,249.00,10,224.10
+S10-202604-0014,2026-04-18,C1016,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+S10-202608-0162,2026-08-04,C1640,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+S10-202605-0014,2026-05-04,C1937,Wireless Keyboard,Accessories,North,3,79.00,5,225.15
+S10-202605-0147,2026-05-20,C1742,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+S10-202607-0086,2026-07-28,C1028,Standing Desk Pro,Furniture,West,1,599.00,10,539.10
+S10-202604-0088,2026-04-17,C1868,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+S10-202604-0143,2026-04-02,C1142,Standing Desk Pro,Furniture,South,1,599.00,0,599.00
+S10-202604-0094,2026-04-13,C1202,Ergonomic Office Chair,Furniture,West,1,319.00,5,303.05
+S10-202605-0141,2026-05-22,C1386,AI Smart Webcam 4K,Electronics,East,2,249.00,5,473.10
+S10-202606-0097,2026-06-18,C1267,Standing Desk Pro,Furniture,East,2,599.00,5,1138.10
+S10-202605-0130,2026-05-23,C1821,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+S10-202606-0043,2026-06-28,C1616,USB-C Hub,Accessories,West,2,49.00,0,98.00
+S10-202604-0099,2026-04-05,C1961,Meeting Room Table,Furniture,South,1,1199.00,5,1139.05
+S10-202604-0122,2026-04-13,C1683,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+S10-202604-0126,2026-04-24,C1127,Business Laptop 14-inch,Electronics,East,2,1099.00,0,2198.00
+S10-202603-0109,2026-03-09,C1131,AI Smart Webcam 4K,Electronics,North,1,249.00,10,224.10
+S10-202603-0105,2026-03-02,C1671,Business Tablet,Electronics,West,1,529.00,5,502.55
+S10-202606-0049,2026-06-12,C1335,Wireless Keyboard,Accessories,West,1,79.00,5,75.05
+S10-202607-0011,2026-07-02,C1465,Standing Desk Pro,Furniture,West,2,599.00,5,1138.10
+S10-202605-0129,2026-05-20,C1005,Business Tablet,Electronics,South,1,529.00,5,502.55
+S10-202605-0097,2026-05-28,C1522,Business Tablet,Electronics,West,1,529.00,15,449.65
+S10-202606-0007,2026-06-05,C1587,USB-C Hub,Accessories,North,1,49.00,5,46.55
+S10-202608-0123,2026-08-06,C1266,Business Laptop 14-inch,Electronics,South,2,1099.00,10,1978.20
+S10-202604-0029,2026-04-05,C1556,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+S10-202607-0099,2026-07-21,C1942,Standing Desk Pro,Furniture,South,1,599.00,15,509.15
+S10-202604-0038,2026-04-22,C1235,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+S10-202604-0021,2026-04-18,C1413,Ergonomic Office Chair,Furniture,South,1,319.00,10,287.10
+S10-202606-0005,2026-06-13,C1767,Noise Cancelling Headset,Accessories,West,1,139.00,10,125.10
+S10-202603-0092,2026-03-30,C1247,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+S10-202606-0055,2026-06-18,C1703,USB-C Hub,Accessories,West,2,49.00,10,88.20
+S10-202603-0048,2026-03-05,C1957,AI Smart Webcam 4K,Electronics,East,1,249.00,5,236.55
+S10-202608-0127,2026-08-07,C1089,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+S10-202604-0051,2026-04-30,C1435,Mini PC Workstation,Electronics,North,1,799.00,15,679.15
+S10-202605-0093,2026-05-10,C1069,Standing Desk Pro,Furniture,East,1,599.00,20,479.20
+S10-202605-0005,2026-05-29,C1095,AI Smart Webcam 4K,Electronics,East,1,249.00,10,224.10
+S10-202603-0097,2026-03-04,C1835,AI Smart Webcam 4K,Electronics,East,1,249.00,0,249.00
+S10-202605-0105,2026-05-28,C1079,AI Smart Webcam 4K,Electronics,South,2,249.00,10,448.20
+S10-202605-0125,2026-05-06,C1807,AI Smart Webcam 4K,Electronics,West,1,249.00,10,224.10
+S10-202607-0040,2026-07-04,C1982,Wireless Keyboard,Accessories,West,2,79.00,0,158.00
+S10-202606-0045,2026-06-24,C1661,Noise Cancelling Headset,Accessories,South,1,139.00,0,139.00
+S10-202605-0061,2026-05-21,C1829,Business Tablet,Electronics,East,1,529.00,5,502.55
+S10-202604-0156,2026-04-09,C1016,AI Smart Webcam 4K,Electronics,East,2,249.00,5,473.10
+S10-202603-0121,2026-03-29,C1268,Mini PC Workstation,Electronics,North,1,799.00,10,719.10
+S10-202605-0177,2026-05-02,C1128,Business Tablet,Electronics,North,1,529.00,0,529.00
+S10-202606-0058,2026-06-17,C1614,Noise Cancelling Headset,Accessories,North,3,139.00,0,417.00
+S10-202607-0102,2026-07-27,C1050,USB-C Hub,Accessories,West,3,49.00,15,124.95
+S10-202606-0082,2026-06-06,C1778,Noise Cancelling Headset,Accessories,East,1,139.00,0,139.00
+S10-202607-0146,2026-07-20,C1141,USB-C Hub,Accessories,East,1,49.00,10,44.10
+S10-202606-0096,2026-06-17,C1100,AI Smart Webcam 4K,Electronics,South,2,249.00,15,423.30
+S10-202608-0149,2026-08-17,C1791,Standing Desk Pro,Furniture,East,3,599.00,0,1797.00
+S10-202607-0092,2026-07-22,C1527,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+S10-202603-0026,2026-03-08,C1045,Mini PC Workstation,Electronics,North,2,799.00,0,1598.00
+S10-202605-0195,2026-05-27,C1942,Noise Cancelling Headset,Accessories,North,1,139.00,10,125.10
+S10-202603-0069,2026-03-30,C1357,AI Smart Webcam 4K,Electronics,North,1,249.00,10,224.10
+S10-202604-0025,2026-04-27,C1973,Business Laptop 14-inch,Electronics,South,1,1099.00,10,989.10
+S10-202603-0075,2026-03-28,C1256,USB-C Hub,Accessories,West,2,49.00,15,83.30
+S10-202608-0065,2026-08-09,C1542,USB-C Hub,Accessories,West,1,49.00,5,46.55
+S10-202605-0198,2026-05-03,C1653,Ergonomic Office Chair,Furniture,East,2,319.00,0,638.00
+S10-202604-0074,2026-04-17,C1861,Standing Desk Pro,Furniture,South,1,599.00,5,569.05
+S10-202606-0025,2026-06-01,C1786,AI Smart Webcam 4K,Electronics,East,1,249.00,10,224.10
+S10-202608-0180,2026-08-05,C1595,Ergonomic Office Chair,Furniture,South,1,319.00,5,303.05
+S10-202607-0149,2026-07-05,C1242,Ergonomic Office Chair,Furniture,East,1,319.00,5,303.05
+S10-202608-0030,2026-08-26,C1794,Standing Desk Pro,Furniture,North,3,599.00,20,1437.60
+S10-202605-0185,2026-05-21,C1974,AI Smart Webcam 4K,Electronics,North,2,249.00,0,498.00
+S10-202603-0038,2026-03-19,C1667,AI Smart Webcam 4K,Electronics,South,1,249.00,10,224.10
+S10-202608-0084,2026-08-31,C1812,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+S10-202605-0128,2026-05-14,C1558,Noise Cancelling Headset,Accessories,North,1,139.00,0,139.00
+S10-202603-0093,2026-03-26,C1934,Business Laptop 14-inch,Electronics,West,1,1099.00,15,934.15
+S10-202605-0076,2026-05-04,C1259,Standing Desk Pro,Furniture,North,2,599.00,0,1198.00
+S10-202605-0148,2026-05-18,C1395,Mini PC Workstation,Electronics,East,2,799.00,5,1518.10
+S10-202604-0103,2026-04-10,C1947,Ergonomic Office Chair,Furniture,North,1,319.00,5,303.05
+S10-202603-0021,2026-03-10,C1332,Business Tablet,Electronics,East,1,529.00,10,476.10
+S10-202606-0021,2026-06-15,C1249,Ergonomic Office Chair,Furniture,South,1,319.00,5,303.05
+S10-202607-0148,2026-07-04,C1220,Standing Desk Pro,Furniture,East,1,599.00,5,569.05
+S10-202603-0115,2026-03-25,C1273,Meeting Room Table,Furniture,South,1,1199.00,5,1139.05
+S10-202603-0034,2026-03-26,C1197,USB-C Hub,Accessories,West,2,49.00,5,93.10
+S10-202607-0053,2026-07-01,C1365,USB-C Hub,Accessories,East,3,49.00,0,147.00
+S10-202608-0027,2026-08-17,C1815,AI Smart Webcam 4K,Electronics,North,3,249.00,0,747.00
+S10-202603-0014,2026-03-31,C1546,Ergonomic Office Chair,Furniture,South,1,319.00,0,319.00
+S10-202605-0190,2026-05-17,C1930,Ergonomic Office Chair,Furniture,West,1,319.00,0,319.00
+S10-202605-0132,2026-05-05,C1104,Noise Cancelling Headset,Accessories,East,2,139.00,5,264.10
+S10-202606-0098,2026-06-16,C1246,Noise Cancelling Headset,Accessories,West,2,139.00,5,264.10
+S10-202604-0119,2026-04-27,C1652,USB-C Hub,Accessories,South,1,49.00,0,49.00
+S10-202608-0058,2026-08-12,C1586,Business Tablet,Electronics,North,1,529.00,0,529.00
+S10-202605-0012,2026-05-27,C1542,Standing Desk Pro,Furniture,North,1,599.00,10,539.10
+S10-202605-0203,2026-05-27,C1189,Ergonomic Office Chair,Furniture,North,2,319.00,15,542.30
+S10-202604-0095,2026-04-06,C1207,Business Tablet,Electronics,North,1,529.00,20,423.20
+S10-202606-0103,2026-06-23,C1533,Standing Desk Pro,Furniture,East,1,599.00,5,569.05
+S10-202604-0104,2026-04-10,C1041,Ergonomic Office Chair,Furniture,East,2,319.00,5,606.10
+S10-202603-0131,2026-03-09,C1045,Meeting Room Table,Furniture,West,1,1199.00,15,1019.15
+S10-202604-0144,2026-04-16,C1835,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+S10-202607-0062,2026-07-25,C1336,Ergonomic Office Chair,Furniture,North,1,319.00,20,255.20
+S10-202603-0022,2026-03-22,C1877,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202606-0070,2026-06-26,C1919,USB-C Hub,Accessories,East,2,49.00,0,98.00
+S10-202603-0053,2026-03-11,C1208,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+S10-202603-0091,2026-03-12,C1401,Business Laptop 14-inch,Electronics,South,1,1099.00,20,879.20
+S10-202607-0137,2026-07-24,C1612,Ergonomic Office Chair,Furniture,East,1,319.00,5,303.05
+S10-202606-0032,2026-06-04,C1030,USB-C Hub,Accessories,North,2,49.00,5,93.10
+S10-202608-0076,2026-08-13,C1156,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+S10-202605-0079,2026-05-08,C1989,AI Smart Webcam 4K,Electronics,West,2,249.00,0,498.00
+S10-202605-0104,2026-05-26,C1175,Noise Cancelling Headset,Accessories,North,1,139.00,0,139.00
+S10-202604-0146,2026-04-23,C1230,Meeting Room Table,Furniture,North,2,1199.00,10,2158.20
+S10-202608-0150,2026-08-21,C1391,Business Tablet,Electronics,South,1,529.00,0,529.00
+S10-202607-0143,2026-07-17,C1062,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+S10-202608-0082,2026-08-05,C1275,Standing Desk Pro,Furniture,South,1,599.00,15,509.15
+S10-202605-0121,2026-05-29,C1766,AI Smart Webcam 4K,Electronics,West,4,249.00,5,946.20
+S10-202608-0020,2026-08-02,C1789,Business Tablet,Electronics,West,1,529.00,0,529.00
+S10-202607-0140,2026-07-05,C1606,Wireless Keyboard,Accessories,West,1,79.00,10,71.10
+S10-202607-0059,2026-07-29,C1322,Noise Cancelling Headset,Accessories,West,1,139.00,5,132.05
+S10-202604-0068,2026-04-06,C1674,AI Smart Webcam 4K,Electronics,South,2,249.00,5,473.10
+S10-202606-0106,2026-06-12,C1955,Noise Cancelling Headset,Accessories,East,1,139.00,15,118.15
+S10-202603-0100,2026-03-26,C1937,Ergonomic Office Chair,Furniture,South,1,319.00,15,271.15
+S10-202608-0111,2026-08-18,C1535,Ergonomic Office Chair,Furniture,North,1,319.00,5,303.05
+S10-202606-0053,2026-06-29,C1453,USB-C Hub,Accessories,North,2,49.00,0,98.00
+S10-202604-0015,2026-04-07,C1469,Ergonomic Office Chair,Furniture,East,1,319.00,5,303.05
+S10-202608-0164,2026-08-25,C1943,Business Tablet,Electronics,West,1,529.00,0,529.00
+S10-202605-0119,2026-05-02,C1548,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202608-0013,2026-08-08,C1755,Ergonomic Office Chair,Furniture,South,2,319.00,10,574.20
+S10-202603-0003,2026-03-14,C1948,AI Smart Webcam 4K,Electronics,North,2,249.00,10,448.20
+S10-202603-0090,2026-03-11,C1378,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+S10-202603-0013,2026-03-27,C1292,Wireless Keyboard,Accessories,East,1,79.00,10,71.10
+S10-202605-0089,2026-05-19,C1524,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+S10-202607-0130,2026-07-08,C1513,Noise Cancelling Headset,Accessories,North,1,139.00,5,132.05
+S10-202603-0008,2026-03-18,C1415,Ergonomic Office Chair,Furniture,East,1,319.00,15,271.15
+S10-202608-0177,2026-08-23,C1071,Ergonomic Office Chair,Furniture,South,1,319.00,10,287.10
+S10-202606-0066,2026-06-29,C1008,Noise Cancelling Headset,Accessories,East,1,139.00,0,139.00
+S10-202605-0021,2026-05-14,C1412,AI Smart Webcam 4K,Electronics,South,1,249.00,5,236.55
+S10-202604-0091,2026-04-30,C1737,Ergonomic Office Chair,Furniture,North,3,319.00,5,909.15
+S10-202604-0124,2026-04-13,C1199,Business Tablet,Electronics,West,1,529.00,15,449.65
+S10-202608-0144,2026-08-04,C1336,Standing Desk Pro,Furniture,East,1,599.00,0,599.00
+S10-202603-0118,2026-03-23,C1236,AI Smart Webcam 4K,Electronics,East,1,249.00,20,199.20
+S10-202607-0131,2026-07-05,C1091,Business Tablet,Electronics,North,1,529.00,0,529.00
+S10-202607-0097,2026-07-25,C1018,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202608-0166,2026-08-29,C1559,AI Smart Webcam 4K,Electronics,West,1,249.00,15,211.65
+S10-202608-0173,2026-08-27,C1790,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+S10-202605-0088,2026-05-25,C1823,Business Tablet,Electronics,South,1,529.00,5,502.55
+S10-202607-0088,2026-07-10,C1060,Standing Desk Pro,Furniture,North,1,599.00,0,599.00
+S10-202605-0028,2026-05-11,C1382,Ergonomic Office Chair,Furniture,South,1,319.00,5,303.05
+S10-202607-0067,2026-07-10,C1395,Noise Cancelling Headset,Accessories,South,1,139.00,15,118.15
+S10-202608-0095,2026-08-26,C1590,AI Smart Webcam 4K,Electronics,West,1,249.00,5,236.55
+S10-202605-0046,2026-05-21,C1730,Business Tablet,Electronics,North,1,529.00,10,476.10
+S10-202608-0103,2026-08-02,C1025,Standing Desk Pro,Furniture,South,1,599.00,15,509.15
+S10-202606-0013,2026-06-12,C1329,Ergonomic Office Chair,Furniture,South,2,319.00,0,638.00
+S10-202604-0116,2026-04-16,C1594,Ergonomic Office Chair,Furniture,West,1,319.00,0,319.00
+S10-202608-0118,2026-08-09,C1729,AI Smart Webcam 4K,Electronics,West,2,249.00,10,448.20
+S10-202606-0105,2026-06-19,C1001,Noise Cancelling Headset,Accessories,South,3,139.00,5,396.15
+S10-202605-0139,2026-05-04,C1260,Ergonomic Office Chair,Furniture,North,1,319.00,5,303.05
+S10-202604-0003,2026-04-15,C1956,Business Tablet,Electronics,South,1,529.00,0,529.00
+S10-202604-0032,2026-04-25,C1734,AI Smart Webcam 4K,Electronics,North,1,249.00,15,211.65
+S10-202608-0036,2026-08-22,C1553,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+S10-202606-0062,2026-06-23,C1995,Standing Desk Pro,Furniture,North,1,599.00,5,569.05
+S10-202608-0201,2026-08-21,C1863,Ergonomic Office Chair,Furniture,West,2,319.00,0,638.00
+S10-202605-0095,2026-05-31,C1909,Standing Desk Pro,Furniture,East,1,599.00,0,599.00
+S10-202606-0065,2026-06-17,C1669,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+S10-202605-0087,2026-05-20,C1340,Ergonomic Office Chair,Furniture,North,2,319.00,0,638.00
+S10-202608-0007,2026-08-08,C1080,Meeting Room Table,Furniture,East,1,1199.00,5,1139.05
+S10-202605-0110,2026-05-30,C1977,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202604-0053,2026-04-21,C1348,Ergonomic Office Chair,Furniture,East,1,319.00,0,319.00
+S10-202605-0074,2026-05-16,C1355,USB-C Hub,Accessories,East,1,49.00,15,41.65
+S10-202606-0008,2026-06-10,C1737,Standing Desk Pro,Furniture,East,1,599.00,10,539.10
+S10-202608-0100,2026-08-29,C1841,Ergonomic Office Chair,Furniture,North,1,319.00,0,319.00
+S10-202604-0018,2026-04-02,C1518,AI Smart Webcam 4K,Electronics,North,2,249.00,10,448.20
+S10-202608-0063,2026-08-13,C1893,Ergonomic Office Chair,Furniture,West,1,319.00,0,319.00
+S10-202603-0074,2026-03-05,C1786,Ergonomic Office Chair,Furniture,North,1,319.00,0,319.00
+S10-202605-0100,2026-05-16,C1230,Standing Desk Pro,Furniture,West,1,599.00,0,599.00
+S10-202604-0092,2026-04-28,C1484,Wireless Keyboard,Accessories,North,2,79.00,0,158.00
+S10-202608-0071,2026-08-26,C1709,USB-C Hub,Accessories,North,3,49.00,5,139.65
+S10-202603-0108,2026-03-22,C1143,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202604-0102,2026-04-13,C1025,AI Smart Webcam 4K,Electronics,South,2,249.00,0,498.00
+S10-202605-0208,2026-05-27,C1696,AI Smart Webcam 4K,Electronics,South,1,249.00,10,224.10
+S10-202605-0050,2026-05-12,C1056,Meeting Room Table,Furniture,East,2,1199.00,5,2278.10
+S10-202608-0107,2026-08-21,C1577,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+S10-202604-0084,2026-04-08,C1292,Wireless Keyboard,Accessories,West,1,79.00,5,75.05
+S10-202607-0138,2026-07-01,C1997,Mini PC Workstation,Electronics,South,4,799.00,0,3196.00
+S10-202605-0027,2026-05-19,C1902,Business Tablet,Electronics,South,2,529.00,5,1005.10
+S10-202603-0110,2026-03-24,C1513,Meeting Room Table,Furniture,West,1,1199.00,20,959.20
+S10-202604-0050,2026-04-22,C1021,Ergonomic Office Chair,Furniture,West,2,319.00,15,542.30
+S10-202603-0046,2026-03-20,C1018,Standing Desk Pro,Furniture,West,2,599.00,10,1078.20
+S10-202606-0068,2026-06-04,C1023,USB-C Hub,Accessories,North,1,49.00,15,41.65
+S10-202606-0046,2026-06-16,C1180,Ergonomic Office Chair,Furniture,West,1,319.00,0,319.00
+S10-202607-0045,2026-07-12,C1373,USB-C Hub,Accessories,East,1,49.00,10,44.10
+S10-202608-0018,2026-08-10,C1432,AI Smart Webcam 4K,Electronics,West,1,249.00,10,224.10
+S10-202604-0007,2026-04-03,C1656,Standing Desk Pro,Furniture,North,1,599.00,0,599.00
+S10-202607-0013,2026-07-24,C1416,USB-C Hub,Accessories,West,1,49.00,0,49.00
+S10-202605-0090,2026-05-23,C1161,AI Smart Webcam 4K,Electronics,North,1,249.00,15,211.65
+S10-202608-0087,2026-08-07,C1353,AI Smart Webcam 4K,Electronics,East,1,249.00,15,211.65
+S10-202604-0001,2026-04-18,C1657,AI Smart Webcam 4K,Electronics,South,2,249.00,0,498.00
+S10-202605-0045,2026-05-27,C1299,Business Tablet,Electronics,North,2,529.00,0,1058.00
+S10-202608-0187,2026-08-30,C1492,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202608-0204,2026-08-09,C1735,Wireless Keyboard,Accessories,South,1,79.00,0,79.00
+S10-202608-0054,2026-08-05,C1658,Meeting Room Table,Furniture,West,1,1199.00,5,1139.05
+S10-202607-0123,2026-07-26,C1506,Ergonomic Office Chair,Furniture,North,2,319.00,15,542.30
+S10-202605-0055,2026-05-11,C1758,Business Laptop 14-inch,Electronics,North,1,1099.00,5,1044.05
+S10-202604-0065,2026-04-21,C1001,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202604-0028,2026-04-13,C1392,Mini PC Workstation,Electronics,East,4,799.00,5,3036.20
+S10-202603-0066,2026-03-23,C1115,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+S10-202606-0072,2026-06-08,C1883,Business Tablet,Electronics,East,1,529.00,0,529.00
+S10-202604-0082,2026-04-12,C1069,Wireless Keyboard,Accessories,East,2,79.00,10,142.20
+S10-202608-0183,2026-08-10,C1511,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+S10-202608-0152,2026-08-19,C1120,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+S10-202607-0113,2026-07-13,C1259,Noise Cancelling Headset,Accessories,West,1,139.00,5,132.05
+S10-202604-0151,2026-04-18,C1282,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+S10-202608-0176,2026-08-11,C1591,Ergonomic Office Chair,Furniture,East,2,319.00,0,638.00
+S10-202608-0085,2026-08-09,C1213,USB-C Hub,Accessories,West,1,49.00,10,44.10
+S10-202606-0019,2026-06-25,C1629,Noise Cancelling Headset,Accessories,West,1,139.00,0,139.00
+S10-202605-0057,2026-05-20,C1168,Mini PC Workstation,Electronics,North,2,799.00,0,1598.00
+S10-202608-0206,2026-08-30,C1821,Standing Desk Pro,Furniture,West,1,599.00,10,539.10
+S10-202607-0090,2026-07-08,C1381,Business Tablet,Electronics,North,4,529.00,5,2010.20
+S10-202604-0078,2026-04-01,C1734,Ergonomic Office Chair,Furniture,East,2,319.00,0,638.00
+S10-202606-0067,2026-06-01,C1781,Noise Cancelling Headset,Accessories,West,1,139.00,10,125.10
+S10-202608-0156,2026-08-12,C1899,Wireless Keyboard,Accessories,South,1,79.00,0,79.00
+S10-202605-0078,2026-05-26,C1168,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+S10-202607-0021,2026-07-18,C1564,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+S10-202607-0038,2026-07-17,C1615,Standing Desk Pro,Furniture,North,1,599.00,0,599.00
+S10-202607-0008,2026-07-06,C1391,Meeting Room Table,Furniture,North,2,1199.00,15,2038.30
+S10-202606-0040,2026-06-07,C1929,Mini PC Workstation,Electronics,South,1,799.00,10,719.10
+S10-202605-0199,2026-05-30,C1901,Standing Desk Pro,Furniture,South,1,599.00,15,509.15
+S10-202608-0184,2026-08-25,C1976,AI Smart Webcam 4K,Electronics,South,1,249.00,10,224.10
+S10-202608-0025,2026-08-16,C1512,Ergonomic Office Chair,Furniture,North,2,319.00,0,638.00
+S10-202608-0195,2026-08-12,C1784,Meeting Room Table,Furniture,West,1,1199.00,10,1079.10
+S10-202608-0146,2026-08-09,C1062,Ergonomic Office Chair,Furniture,North,1,319.00,0,319.00
+S10-202605-0211,2026-05-31,C1889,Mini PC Workstation,Electronics,South,2,799.00,5,1518.10
+S10-202604-0155,2026-04-25,C1462,Wireless Keyboard,Accessories,East,1,79.00,0,79.00
+S10-202605-0048,2026-05-18,C1526,AI Smart Webcam 4K,Electronics,East,1,249.00,5,236.55
+S10-202607-0144,2026-07-11,C1414,USB-C Hub,Accessories,West,1,49.00,0,49.00
+S10-202608-0078,2026-08-15,C1365,Wireless Keyboard,Accessories,South,1,79.00,10,71.10
+S10-202604-0073,2026-04-07,C1110,Ergonomic Office Chair,Furniture,South,1,319.00,0,319.00
+S10-202603-0133,2026-03-29,C1202,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+S10-202608-0181,2026-08-02,C1084,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202603-0032,2026-03-25,C1971,AI Smart Webcam 4K,Electronics,North,1,249.00,5,236.55
+S10-202605-0107,2026-05-09,C1020,Wireless Keyboard,Accessories,East,1,79.00,0,79.00
+S10-202608-0008,2026-08-31,C1743,Ergonomic Office Chair,Furniture,South,2,319.00,10,574.20
+S10-202605-0186,2026-05-01,C1318,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+S10-202608-0001,2026-08-14,C1572,Meeting Room Table,Furniture,West,3,1199.00,5,3417.15
+S10-202604-0159,2026-04-09,C1571,AI Smart Webcam 4K,Electronics,North,2,249.00,5,473.10
+S10-202605-0155,2026-05-11,C1249,Ergonomic Office Chair,Furniture,East,3,319.00,5,909.15
+S10-202604-0024,2026-04-09,C1710,Ergonomic Office Chair,Furniture,East,1,319.00,10,287.10
+S10-202603-0072,2026-03-11,C1671,Business Tablet,Electronics,West,1,529.00,0,529.00
+S10-202607-0006,2026-07-31,C1628,Noise Cancelling Headset,Accessories,West,2,139.00,0,278.00
+S10-202604-0101,2026-04-05,C1702,Wireless Keyboard,Accessories,South,2,79.00,0,158.00
+S10-202605-0188,2026-05-13,C1398,AI Smart Webcam 4K,Electronics,North,1,249.00,15,211.65
+S10-202607-0134,2026-07-15,C1608,Ergonomic Office Chair,Furniture,North,1,319.00,5,303.05
+S10-202606-0075,2026-06-24,C1992,Noise Cancelling Headset,Accessories,East,1,139.00,15,118.15
+S10-202608-0014,2026-08-03,C1077,Business Laptop 14-inch,Electronics,North,2,1099.00,15,1868.30
+S10-202608-0052,2026-08-16,C1180,Business Tablet,Electronics,East,1,529.00,5,502.55
+S10-202603-0002,2026-03-19,C1935,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+S10-202607-0009,2026-07-22,C1709,Wireless Keyboard,Accessories,South,1,79.00,0,79.00
+S10-202608-0134,2026-08-19,C1896,Business Tablet,Electronics,North,1,529.00,20,423.20
+S10-202607-0012,2026-07-26,C1490,USB-C Hub,Accessories,West,1,49.00,15,41.65
+S10-202604-0154,2026-04-23,C1091,Ergonomic Office Chair,Furniture,West,1,319.00,10,287.10
+S10-202608-0189,2026-08-29,C1423,Mini PC Workstation,Electronics,East,1,799.00,5,759.05
+S10-202605-0040,2026-05-31,C1880,AI Smart Webcam 4K,Electronics,West,3,249.00,0,747.00
+S10-202606-0016,2026-06-23,C1956,Wireless Keyboard,Accessories,East,2,79.00,0,158.00
+S10-202608-0168,2026-08-16,C1146,Ergonomic Office Chair,Furniture,West,2,319.00,5,606.10
+S10-202605-0039,2026-05-25,C1227,Ergonomic Office Chair,Furniture,South,1,319.00,0,319.00
+S10-202606-0022,2026-06-04,C1611,USB-C Hub,Accessories,East,1,49.00,5,46.55
+S10-202605-0019,2026-05-15,C1452,Business Tablet,Electronics,North,1,529.00,5,502.55
+S10-202605-0071,2026-05-05,C1483,Mini PC Workstation,Electronics,South,1,799.00,10,719.10
+S10-202608-0097,2026-08-08,C1652,Noise Cancelling Headset,Accessories,East,1,139.00,0,139.00
+S10-202604-0129,2026-04-07,C1228,Standing Desk Pro,Furniture,East,1,599.00,0,599.00
+S10-202608-0104,2026-08-01,C1992,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202603-0096,2026-03-07,C1726,Ergonomic Office Chair,Furniture,North,1,319.00,0,319.00
+S10-202605-0085,2026-05-18,C1870,Wireless Keyboard,Accessories,West,1,79.00,0,79.00
+S10-202603-0127,2026-03-21,C1994,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+S10-202605-0031,2026-05-13,C1434,Standing Desk Pro,Furniture,South,1,599.00,0,599.00
+S10-202607-0044,2026-07-06,C1377,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+S10-202604-0054,2026-04-02,C1172,Standing Desk Pro,Furniture,North,2,599.00,10,1078.20
+S10-202605-0112,2026-05-15,C1285,AI Smart Webcam 4K,Electronics,South,1,249.00,15,211.65
+S10-202605-0096,2026-05-10,C1474,AI Smart Webcam 4K,Electronics,West,1,249.00,5,236.55
+S10-202607-0095,2026-07-17,C1093,Standing Desk Pro,Furniture,West,1,599.00,5,569.05
+S10-202608-0165,2026-08-26,C1367,Ergonomic Office Chair,Furniture,South,1,319.00,5,303.05
+S10-202607-0115,2026-07-24,C1767,Ergonomic Office Chair,Furniture,North,3,319.00,10,861.30
+S10-202605-0183,2026-05-29,C1791,AI Smart Webcam 4K,Electronics,East,1,249.00,5,236.55
+S10-202605-0156,2026-05-30,C1059,Wireless Keyboard,Accessories,East,1,79.00,0,79.00
+S10-202607-0077,2026-07-07,C1622,USB-C Hub,Accessories,East,2,49.00,15,83.30
+S10-202606-0033,2026-06-08,C1540,Noise Cancelling Headset,Accessories,North,1,139.00,20,111.20
+S10-202604-0026,2026-04-27,C1852,AI Smart Webcam 4K,Electronics,East,1,249.00,5,236.55
+S10-202605-0120,2026-05-01,C1828,USB-C Hub,Accessories,South,1,49.00,0,49.00
+S10-202605-0083,2026-05-12,C1930,Standing Desk Pro,Furniture,East,1,599.00,0,599.00
+S10-202607-0026,2026-07-28,C1536,Ergonomic Office Chair,Furniture,South,1,319.00,0,319.00
+S10-202604-0081,2026-04-13,C1084,Wireless Keyboard,Accessories,West,4,79.00,5,300.20
+S10-202605-0131,2026-05-16,C1584,AI Smart Webcam 4K,Electronics,East,2,249.00,10,448.20
+S10-202605-0001,2026-05-11,C1623,AI Smart Webcam 4K,Electronics,North,1,249.00,10,224.10
+S10-202607-0094,2026-07-04,C1906,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+S10-202607-0111,2026-07-31,C1835,Wireless Keyboard,Accessories,South,1,79.00,0,79.00
+S10-202604-0008,2026-04-08,C1315,AI Smart Webcam 4K,Electronics,East,1,249.00,10,224.10
+S10-202605-0153,2026-05-30,C1280,Business Tablet,Electronics,East,1,529.00,0,529.00
+S10-202607-0079,2026-07-26,C1268,Noise Cancelling Headset,Accessories,East,1,139.00,5,132.05
+S10-202604-0045,2026-04-18,C1750,Mini PC Workstation,Electronics,South,2,799.00,5,1518.10
+S10-202605-0109,2026-05-14,C1648,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202605-0213,2026-05-24,C1694,Business Laptop 14-inch,Electronics,West,2,1099.00,0,2198.00
+S10-202604-0083,2026-04-28,C1158,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+S10-202605-0024,2026-05-27,C1189,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+S10-202604-0089,2026-04-26,C1631,Standing Desk Pro,Furniture,East,1,599.00,5,569.05
+S10-202603-0095,2026-03-01,C1273,Ergonomic Office Chair,Furniture,West,1,319.00,0,319.00
+S10-202603-0065,2026-03-28,C1339,Standing Desk Pro,Furniture,South,1,599.00,0,599.00
+S10-202608-0092,2026-08-28,C1229,Business Laptop 14-inch,Electronics,East,2,1099.00,0,2198.00
+S10-202608-0064,2026-08-22,C1386,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+S10-202608-0090,2026-08-01,C1955,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+S10-202608-0012,2026-08-15,C1117,Mini PC Workstation,Electronics,East,2,799.00,15,1358.30
+S10-202607-0052,2026-07-04,C1832,Noise Cancelling Headset,Accessories,West,2,139.00,0,278.00
+S10-202603-0078,2026-03-25,C1130,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202607-0098,2026-07-17,C1909,Ergonomic Office Chair,Furniture,East,1,319.00,10,287.10
+S10-202603-0063,2026-03-24,C1842,Ergonomic Office Chair,Furniture,East,2,319.00,0,638.00
+S10-202606-0110,2026-06-16,C1991,USB-C Hub,Accessories,South,2,49.00,15,83.30
+S10-202603-0045,2026-03-11,C1207,Business Laptop 14-inch,Electronics,East,3,1099.00,0,3297.00
+S10-202603-0006,2026-03-27,C1970,Business Tablet,Electronics,North,3,529.00,5,1507.65
+S10-202606-0057,2026-06-02,C1805,Ergonomic Office Chair,Furniture,East,1,319.00,5,303.05
+S10-202606-0073,2026-06-10,C1170,USB-C Hub,Accessories,North,1,49.00,5,46.55
+S10-202604-0141,2026-04-13,C1720,Ergonomic Office Chair,Furniture,North,1,319.00,5,303.05
+S10-202608-0099,2026-08-21,C1361,AI Smart Webcam 4K,Electronics,East,2,249.00,0,498.00
+S10-202608-0196,2026-08-04,C1896,Mini PC Workstation,Electronics,South,4,799.00,5,3036.20
+S10-202606-0090,2026-06-05,C1372,Noise Cancelling Headset,Accessories,East,1,139.00,10,125.10
+S10-202608-0021,2026-08-06,C1479,Wireless Keyboard,Accessories,North,1,79.00,0,79.00
+S10-202606-0031,2026-06-28,C1274,Noise Cancelling Headset,Accessories,East,1,139.00,0,139.00
+S10-202605-0170,2026-05-19,C1713,Standing Desk Pro,Furniture,North,1,599.00,0,599.00
+S10-202604-0121,2026-04-11,C1946,AI Smart Webcam 4K,Electronics,South,1,249.00,15,211.65
+S10-202605-0179,2026-05-04,C1581,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+S10-202608-0083,2026-08-31,C1241,Mini PC Workstation,Electronics,South,2,799.00,5,1518.10
+S10-202607-0035,2026-07-13,C1183,USB-C Hub,Accessories,West,3,49.00,15,124.95
+S10-202604-0113,2026-04-05,C1046,Mini PC Workstation,Electronics,North,2,799.00,0,1598.00
+S10-202604-0118,2026-04-24,C1119,Business Tablet,Electronics,East,1,529.00,10,476.10
+S10-202607-0031,2026-07-25,C1044,USB-C Hub,Accessories,West,1,49.00,0,49.00
+S10-202605-0181,2026-05-11,C1411,AI Smart Webcam 4K,Electronics,East,1,249.00,5,236.55
+S10-202608-0190,2026-08-21,C1793,Business Laptop 14-inch,Electronics,North,2,1099.00,0,2198.00
+S10-202604-0080,2026-04-18,C1670,Meeting Room Table,Furniture,West,2,1199.00,10,2158.20
+S10-202607-0135,2026-07-28,C1611,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+S10-202608-0135,2026-08-11,C1464,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+S10-202607-0142,2026-07-23,C1399,Business Tablet,Electronics,South,1,529.00,0,529.00
+S10-202608-0171,2026-08-08,C1053,Standing Desk Pro,Furniture,East,1,599.00,15,509.15
+S10-202605-0018,2026-05-16,C1162,Business Tablet,Electronics,West,1,529.00,5,502.55
+S10-202607-0036,2026-07-09,C1391,Ergonomic Office Chair,Furniture,East,1,319.00,0,319.00
+S10-202604-0105,2026-04-08,C1940,Business Laptop 14-inch,Electronics,North,1,1099.00,10,989.10
+S10-202605-0075,2026-05-01,C1151,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+S10-202603-0050,2026-03-27,C1633,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202606-0088,2026-06-29,C1005,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+S10-202607-0023,2026-07-03,C1773,USB-C Hub,Accessories,West,1,49.00,15,41.65
+S10-202608-0125,2026-08-29,C1894,AI Smart Webcam 4K,Electronics,West,2,249.00,0,498.00
+S10-202606-0024,2026-06-06,C1741,Wireless Keyboard,Accessories,West,3,79.00,15,201.45
+S10-202603-0044,2026-03-19,C1989,Ergonomic Office Chair,Furniture,East,1,319.00,15,271.15
+S10-202607-0071,2026-07-23,C1662,Ergonomic Office Chair,Furniture,North,1,319.00,0,319.00
+S10-202608-0115,2026-08-27,C1127,Standing Desk Pro,Furniture,North,1,599.00,10,539.10
+S10-202608-0130,2026-08-10,C1458,AI Smart Webcam 4K,Electronics,West,1,249.00,10,224.10
+S10-202603-0037,2026-03-16,C1543,Business Tablet,Electronics,East,2,529.00,10,952.20
+S10-202608-0081,2026-08-04,C1601,Ergonomic Office Chair,Furniture,West,2,319.00,5,606.10
+S10-202604-0085,2026-04-08,C1828,Ergonomic Office Chair,Furniture,East,4,319.00,5,1212.20
+S10-202606-0036,2026-06-30,C1115,USB-C Hub,Accessories,East,1,49.00,0,49.00
+S10-202607-0112,2026-07-28,C1633,AI Smart Webcam 4K,Electronics,East,1,249.00,5,236.55
+S10-202606-0101,2026-06-08,C1422,Noise Cancelling Headset,Accessories,East,1,139.00,20,111.20
+S10-202604-0096,2026-04-02,C1318,Meeting Room Table,Furniture,East,1,1199.00,5,1139.05
+S10-202605-0016,2026-05-19,C1541,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+S10-202607-0100,2026-07-07,C1838,Wireless Keyboard,Accessories,North,3,79.00,0,237.00
+S10-202608-0026,2026-08-05,C1631,Meeting Room Table,Furniture,West,4,1199.00,0,4796.00
+S10-202605-0102,2026-05-10,C1551,Standing Desk Pro,Furniture,East,1,599.00,5,569.05
+S10-202607-0108,2026-07-21,C1177,Noise Cancelling Headset,Accessories,South,1,139.00,0,139.00
+S10-202605-0113,2026-05-18,C1178,Ergonomic Office Chair,Furniture,North,2,319.00,5,606.10
+S10-202605-0060,2026-05-21,C1994,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202606-0020,2026-06-19,C1516,Noise Cancelling Headset,Accessories,West,2,139.00,0,278.00
+S10-202608-0056,2026-08-12,C1835,AI Smart Webcam 4K,Electronics,North,1,249.00,5,236.55
+S10-202604-0160,2026-04-01,C1824,Business Tablet,Electronics,East,1,529.00,5,502.55
+S10-202608-0038,2026-08-06,C1714,Ergonomic Office Chair,Furniture,East,2,319.00,0,638.00
+S10-202607-0001,2026-07-18,C1815,Business Laptop 14-inch,Electronics,North,3,1099.00,15,2802.45
+S10-202606-0034,2026-06-19,C1503,Noise Cancelling Headset,Accessories,West,2,139.00,5,264.10
+S10-202608-0011,2026-08-09,C1565,Business Laptop 14-inch,Electronics,East,1,1099.00,5,1044.05
+S10-202608-0086,2026-08-26,C1992,Business Tablet,Electronics,South,2,529.00,0,1058.00
+S10-202606-0081,2026-06-02,C1259,Ergonomic Office Chair,Furniture,West,2,319.00,0,638.00
+S10-202605-0047,2026-05-10,C1885,Business Tablet,Electronics,South,1,529.00,10,476.10
+S10-202604-0125,2026-04-16,C1560,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202603-0007,2026-03-29,C1095,Business Tablet,Electronics,South,2,529.00,5,1005.10
+S10-202607-0145,2026-07-27,C1474,Wireless Keyboard,Accessories,West,3,79.00,5,225.15
+S10-202605-0008,2026-05-16,C1853,Business Tablet,Electronics,East,1,529.00,5,502.55
+S10-202608-0066,2026-08-13,C1068,Business Tablet,Electronics,South,2,529.00,0,1058.00
+S10-202608-0028,2026-08-19,C1309,AI Smart Webcam 4K,Electronics,West,1,249.00,5,236.55
+S10-202605-0152,2026-05-15,C1696,Meeting Room Table,Furniture,South,1,1199.00,5,1139.05
+S10-202605-0049,2026-05-11,C1784,Ergonomic Office Chair,Furniture,South,1,319.00,10,287.10
+S10-202605-0161,2026-05-11,C1281,Standing Desk Pro,Furniture,South,1,599.00,0,599.00
+S10-202607-0117,2026-07-13,C1855,Standing Desk Pro,Furniture,East,2,599.00,5,1138.10
+S10-202608-0057,2026-08-14,C1255,Standing Desk Pro,Furniture,North,1,599.00,10,539.10
+S10-202603-0009,2026-03-08,C1535,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202606-0085,2026-06-30,C1734,Business Laptop 14-inch,Electronics,West,1,1099.00,10,989.10
+S10-202603-0073,2026-03-30,C1403,Business Tablet,Electronics,North,2,529.00,0,1058.00
+S10-202603-0011,2026-03-12,C1048,Standing Desk Pro,Furniture,East,1,599.00,5,569.05
+S10-202603-0126,2026-03-27,C1776,Standing Desk Pro,Furniture,North,2,599.00,15,1018.30
+S10-202605-0180,2026-05-20,C1657,Ergonomic Office Chair,Furniture,North,2,319.00,10,574.20
+S10-202604-0148,2026-04-21,C1893,Wireless Keyboard,Accessories,South,1,79.00,0,79.00
+S10-202604-0087,2026-04-24,C1644,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+S10-202603-0051,2026-03-23,C1433,Business Laptop 14-inch,Electronics,West,2,1099.00,5,2088.10
+S10-202604-0098,2026-04-04,C1842,Ergonomic Office Chair,Furniture,South,1,319.00,10,287.10
+S10-202605-0082,2026-05-19,C1585,Ergonomic Office Chair,Furniture,East,2,319.00,0,638.00
+S10-202608-0161,2026-08-13,C1062,USB-C Hub,Accessories,West,1,49.00,0,49.00
+S10-202603-0101,2026-03-20,C1437,AI Smart Webcam 4K,Electronics,South,1,249.00,5,236.55
+S10-202605-0182,2026-05-06,C1038,Business Tablet,Electronics,North,2,529.00,0,1058.00
+S10-202608-0157,2026-08-23,C1857,Standing Desk Pro,Furniture,West,1,599.00,5,569.05
+S10-202607-0029,2026-07-19,C1463,Ergonomic Office Chair,Furniture,North,1,319.00,10,287.10
+S10-202605-0191,2026-05-16,C1724,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+S10-202605-0067,2026-05-28,C1584,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202604-0127,2026-04-14,C1661,Business Tablet,Electronics,North,1,529.00,5,502.55
+S10-202608-0179,2026-08-20,C1868,USB-C Hub,Accessories,South,2,49.00,5,93.10
+S10-202608-0015,2026-08-28,C1445,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+S10-202604-0009,2026-04-19,C1338,AI Smart Webcam 4K,Electronics,East,1,249.00,10,224.10
+S10-202603-0082,2026-03-01,C1528,Ergonomic Office Chair,Furniture,North,2,319.00,0,638.00
+S10-202604-0158,2026-04-27,C1300,AI Smart Webcam 4K,Electronics,South,1,249.00,5,236.55
+S10-202603-0085,2026-03-08,C1448,Standing Desk Pro,Furniture,South,1,599.00,10,539.10
+S10-202605-0162,2026-05-14,C1458,USB-C Hub,Accessories,South,1,49.00,10,44.10
+S10-202608-0194,2026-08-14,C1543,USB-C Hub,Accessories,South,2,49.00,5,93.10
+S10-202605-0002,2026-05-06,C1013,Standing Desk Pro,Furniture,West,1,599.00,0,599.00
+S10-202605-0159,2026-05-30,C1943,AI Smart Webcam 4K,Electronics,South,4,249.00,0,996.00
+S10-202604-0138,2026-04-13,C1486,Standing Desk Pro,Furniture,West,1,599.00,0,599.00
+S10-202607-0133,2026-07-13,C1732,Wireless Keyboard,Accessories,West,1,79.00,20,63.20
+S10-202606-0038,2026-06-23,C1411,Ergonomic Office Chair,Furniture,East,1,319.00,0,319.00
+S10-202607-0019,2026-07-26,C1263,Business Tablet,Electronics,East,2,529.00,0,1058.00
+S10-202603-0029,2026-03-24,C1181,Standing Desk Pro,Furniture,East,2,599.00,20,958.40
+S10-202608-0141,2026-08-11,C1789,Meeting Room Table,Furniture,East,2,1199.00,5,2278.10
+S10-202608-0044,2026-08-29,C1299,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+S10-202607-0049,2026-07-05,C1280,Standing Desk Pro,Furniture,East,1,599.00,5,569.05
+S10-202604-0131,2026-04-24,C1557,Business Tablet,Electronics,West,1,529.00,10,476.10
+S10-202605-0056,2026-05-02,C1111,Standing Desk Pro,Furniture,North,1,599.00,0,599.00
+S10-202605-0197,2026-05-14,C1681,Ergonomic Office Chair,Furniture,South,1,319.00,0,319.00
+S10-202606-0018,2026-06-15,C1444,Meeting Room Table,Furniture,East,2,1199.00,5,2278.10
+S10-202605-0069,2026-05-10,C1320,Ergonomic Office Chair,Furniture,South,1,319.00,0,319.00
+S10-202607-0037,2026-07-06,C1177,Mini PC Workstation,Electronics,East,1,799.00,15,679.15
+S10-202608-0017,2026-08-16,C1335,AI Smart Webcam 4K,Electronics,East,1,249.00,5,236.55
+S10-202608-0034,2026-08-09,C1162,Ergonomic Office Chair,Furniture,East,1,319.00,5,303.05
+S10-202608-0045,2026-08-28,C1670,Ergonomic Office Chair,Furniture,East,3,319.00,5,909.15
+S10-202605-0135,2026-05-01,C1829,AI Smart Webcam 4K,Electronics,South,2,249.00,0,498.00
+S10-202605-0118,2026-05-27,C1560,Noise Cancelling Headset,Accessories,West,1,139.00,10,125.10
+S10-202607-0057,2026-07-09,C1758,Meeting Room Table,Furniture,East,2,1199.00,20,1918.40
+S10-202608-0004,2026-08-20,C1874,Ergonomic Office Chair,Furniture,North,1,319.00,0,319.00
+S10-202608-0126,2026-08-04,C1727,USB-C Hub,Accessories,North,1,49.00,10,44.10
+S10-202604-0076,2026-04-05,C1569,Business Tablet,Electronics,South,1,529.00,10,476.10
+S10-202605-0023,2026-05-30,C1126,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202603-0015,2026-03-08,C1585,Noise Cancelling Headset,Accessories,East,1,139.00,10,125.10
+S10-202603-0056,2026-03-03,C1796,AI Smart Webcam 4K,Electronics,North,1,249.00,0,249.00
+S10-202605-0114,2026-05-23,C1123,Noise Cancelling Headset,Accessories,North,2,139.00,10,250.20
+S10-202604-0072,2026-04-01,C1608,Mini PC Workstation,Electronics,North,2,799.00,5,1518.10
+S10-202604-0110,2026-04-07,C1981,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+S10-202608-0043,2026-08-24,C1079,Ergonomic Office Chair,Furniture,East,2,319.00,0,638.00
+S10-202604-0157,2026-04-03,C1920,Business Laptop 14-inch,Electronics,East,2,1099.00,0,2198.00
+S10-202604-0069,2026-04-20,C1601,AI Smart Webcam 4K,Electronics,West,1,249.00,10,224.10
+S10-202606-0044,2026-06-10,C1008,Standing Desk Pro,Furniture,North,1,599.00,20,479.20
+S10-202603-0122,2026-03-02,C1733,Meeting Room Table,Furniture,North,2,1199.00,10,2158.20
+S10-202605-0111,2026-05-27,C1659,Business Laptop 14-inch,Electronics,North,1,1099.00,5,1044.05
+S10-202605-0070,2026-05-26,C1143,AI Smart Webcam 4K,Electronics,West,1,249.00,0,249.00
+S10-202604-0139,2026-04-18,C1071,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+S10-202603-0132,2026-03-02,C1869,Noise Cancelling Headset,Accessories,West,1,139.00,0,139.00
+S10-202603-0070,2026-03-21,C1102,Noise Cancelling Headset,Accessories,East,1,139.00,10,125.10
+S10-202605-0136,2026-05-29,C1946,AI Smart Webcam 4K,Electronics,West,1,249.00,10,224.10
+S10-202603-0077,2026-03-22,C1723,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+S10-202607-0018,2026-07-26,C1173,AI Smart Webcam 4K,Electronics,North,2,249.00,0,498.00
+S10-202604-0136,2026-04-01,C1925,AI Smart Webcam 4K,Electronics,South,1,249.00,5,236.55
+S10-202605-0017,2026-05-14,C1695,USB-C Hub,Accessories,East,2,49.00,0,98.00
+S10-202603-0012,2026-03-15,C1705,Standing Desk Pro,Furniture,North,1,599.00,10,539.10
+S10-202607-0014,2026-07-09,C1852,USB-C Hub,Accessories,South,1,49.00,10,44.10
+S10-202607-0096,2026-07-05,C1333,Noise Cancelling Headset,Accessories,South,2,139.00,10,250.20
+S10-202605-0134,2026-05-01,C1232,AI Smart Webcam 4K,Electronics,East,1,249.00,5,236.55
+S10-202606-0027,2026-06-29,C1166,Wireless Keyboard,Accessories,East,2,79.00,5,150.10
+S10-202603-0111,2026-03-02,C1156,AI Smart Webcam 4K,Electronics,South,1,249.00,0,249.00
+S10-202608-0074,2026-08-13,C1297,Noise Cancelling Headset,Accessories,South,3,139.00,0,417.00
+S10-202608-0132,2026-08-01,C1390,Standing Desk Pro,Furniture,West,1,599.00,0,599.00
+S10-202603-0114,2026-03-05,C1411,Ergonomic Office Chair,Furniture,North,2,319.00,0,638.00
+S10-202608-0108,2026-08-08,C1249,Business Tablet,Electronics,South,2,529.00,5,1005.10
+S10-202605-0137,2026-05-07,C1301,AI Smart Webcam 4K,Electronics,East,2,249.00,5,473.10
+S10-202608-0070,2026-08-23,C1676,Mini PC Workstation,Electronics,North,3,799.00,5,2277.15
+S10-202607-0020,2026-07-12,C1096,Standing Desk Pro,Furniture,East,1,599.00,0,599.00
+S10-202604-0048,2026-04-24,C1117,Standing Desk Pro,Furniture,North,1,599.00,10,539.10
+S10-202604-0093,2026-04-22,C1598,Business Laptop 14-inch,Electronics,West,4,1099.00,0,4396.00
+S10-202605-0101,2026-05-13,C1682,Business Tablet,Electronics,North,1,529.00,0,529.00
+S10-202606-0109,2026-06-22,C1133,Wireless Keyboard,Accessories,North,2,79.00,10,142.20
+S10-202603-0117,2026-03-17,C1628,Ergonomic Office Chair,Furniture,East,1,319.00,10,287.10
+S10-202604-0035,2026-04-21,C1121,Ergonomic Office Chair,Furniture,East,1,319.00,0,319.00
+S10-202603-0055,2026-03-22,C1939,AI Smart Webcam 4K,Electronics,South,2,249.00,10,448.20
+S10-202608-0102,2026-08-13,C1530,Business Tablet,Electronics,East,1,529.00,10,476.10
+S10-202607-0070,2026-07-10,C1872,Ergonomic Office Chair,Furniture,North,1,319.00,0,319.00
+S10-202603-0016,2026-03-01,C1654,Mini PC Workstation,Electronics,South,1,799.00,10,719.10
+S10-202607-0081,2026-07-28,C1350,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+S10-202607-0082,2026-07-01,C1638,USB-C Hub,Accessories,West,1,49.00,0,49.00
+S10-202608-0137,2026-08-24,C1297,USB-C Hub,Accessories,East,1,49.00,5,46.55
+S10-202604-0077,2026-04-04,C1215,Ergonomic Office Chair,Furniture,East,1,319.00,15,271.15
+S10-202608-0073,2026-08-19,C1108,Business Tablet,Electronics,West,1,529.00,0,529.00
+S10-202603-0120,2026-03-05,C1450,AI Smart Webcam 4K,Electronics,South,2,249.00,10,448.20
+S10-202608-0131,2026-08-10,C1176,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+S10-202607-0106,2026-07-23,C1993,Wireless Keyboard,Accessories,West,4,79.00,0,316.00
+S10-202605-0063,2026-05-21,C1556,Business Tablet,Electronics,South,1,529.00,15,449.65
+S10-202607-0076,2026-07-21,C1525,Noise Cancelling Headset,Accessories,North,2,139.00,0,278.00
+S10-202608-0145,2026-08-01,C1274,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+S10-202608-0140,2026-08-24,C1201,Standing Desk Pro,Furniture,East,1,599.00,0,599.00
+S10-202608-0003,2026-08-19,C1719,Noise Cancelling Headset,Accessories,West,1,139.00,0,139.00
+S10-202604-0153,2026-04-02,C1472,Business Tablet,Electronics,West,1,529.00,10,476.10
+S10-202605-0033,2026-05-22,C1715,Mini PC Workstation,Electronics,South,2,799.00,5,1518.10
+S10-202605-0193,2026-05-07,C1449,Business Laptop 14-inch,Electronics,East,1,1099.00,20,879.20
+S10-202603-0124,2026-03-30,C1168,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+S10-202606-0028,2026-06-26,C1961,Ergonomic Office Chair,Furniture,East,1,319.00,5,303.05
+S10-202605-0065,2026-05-17,C1464,Ergonomic Office Chair,Furniture,North,4,319.00,0,1276.00
+S10-202605-0003,2026-05-21,C1551,Mini PC Workstation,Electronics,West,1,799.00,10,719.10
+S10-202605-0142,2026-05-05,C1062,Standing Desk Pro,Furniture,North,2,599.00,20,958.40
+S10-202608-0178,2026-08-27,C1533,Ergonomic Office Chair,Furniture,South,1,319.00,20,255.20
+S10-202606-0063,2026-06-20,C1738,Noise Cancelling Headset,Accessories,North,2,139.00,15,236.30
+S10-202608-0033,2026-08-15,C1422,Wireless Keyboard,Accessories,West,1,79.00,5,75.05
+S10-202605-0037,2026-05-02,C1524,Ergonomic Office Chair,Furniture,West,1,319.00,0,319.00
+S10-202605-0103,2026-05-14,C1142,Mini PC Workstation,Electronics,North,1,799.00,10,719.10
+S10-202604-0049,2026-04-06,C1776,Mini PC Workstation,Electronics,West,2,799.00,10,1438.20
+S10-202606-0030,2026-06-06,C1352,Noise Cancelling Headset,Accessories,East,3,139.00,10,375.30

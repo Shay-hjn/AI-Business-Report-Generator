@@ -27,3 +27,14 @@ reports/
 
 # macOS system files
 .DS_Store
+
+# Local build, debug and coverage artifacts
+*.log
+*.zip
+*.rar
+*.pdf
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/

@@ -52,7 +52,7 @@ def test_health_endpoint():
 def test_valid_csv_upload(mock_generate_report):
     """Valid CSV should return analytics and the AI report."""
 
-    # Simulate a successful Groq response.
+    # Simulate a successful Gemini response.
     mock_generate_report.return_value = FAKE_AI_RESULT
 
     response = upload_sample("sales_01_steady_growth.csv")
@@ -93,7 +93,7 @@ def test_valid_csv_upload(mock_generate_report):
 
 @patch("backend.app.api.reports.generate_business_report")
 def test_invalid_csv_upload(mock_generate_report):
-    """Invalid CSV should return HTTP 422 without calling Groq."""
+    """Invalid CSV should return HTTP 422 without calling Gemini."""
 
     response = upload_sample("sales_07_corrupted_missing_column.csv")
 
@@ -107,7 +107,7 @@ def test_invalid_csv_upload(mock_generate_report):
 
 @patch("backend.app.api.reports.generate_business_report")
 def test_empty_csv_upload(mock_generate_report):
-    """Empty CSV should return HTTP 422 without calling Groq."""
+    """Empty CSV should return HTTP 422 without calling Gemini."""
 
     response = client.post(
         "/reports",
@@ -149,7 +149,7 @@ def test_non_csv_upload(mock_generate_report):
 
 
 @patch("backend.app.api.reports.generate_business_report")
-def test_groq_failure_preserves_analytics(mock_generate_report):
+def test_gemini_failure_preserves_analytics(mock_generate_report):
     """
     If AI generation is unavailable, valid CSV analytics
     must still be returned with HTTP 200.

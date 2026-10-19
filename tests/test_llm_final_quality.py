@@ -10,10 +10,23 @@ from backend.app.services.llm_service import (
 
 
 def sample_analysis():
+    """Use internally consistent Python-calculated figures for grounding checks."""
     return {
         "monthly_kpis": [
             {"month": "2026-08", "total_revenue": 84380.00},
             {"month": "2026-09", "total_revenue": 57920.70},
+        ],
+        "comparisons": [
+            {
+                "from_month": "2026-08",
+                "to_month": "2026-09",
+                "changes": {
+                    "total_revenue": {
+                        "absolute_change": -26459.30,
+                        "percentage_change": -31.36,
+                    }
+                },
+            }
         ],
         "revenue_breakdowns": {},
         "notable_changes": [],
@@ -21,19 +34,15 @@ def sample_analysis():
 
 
 def fake_response(content):
-    return SimpleNamespace(
-        choices=[SimpleNamespace(message=SimpleNamespace(content=content))]
-    )
+    return SimpleNamespace(text=content)
 
 
 def report_json(insight):
-    return json.dumps(
-        {
-            "executive_summary": "Revenue decreased by €26,459.3.",
-            "key_insights": [insight],
-            "notable_changes": ["Revenue was €84,380.0, then €57,920.7."],
-        }
-    )
+    return json.dumps({
+        "executive_summary": "Revenue decreased by €26,459.3.",
+        "key_insights": [insight],
+        "notable_changes": ["Revenue was €84,380.0, then €57,920.7."],
+    })
 
 
 def test_currency_values_have_two_decimals_and_thousands_separators():
@@ -61,47 +70,43 @@ def test_prompt_explicitly_rules_out_unverified_price_explanations():
 
 def test_unsupported_price_inference_gets_one_retry():
     client = Mock()
-    client.chat.completions.create.side_effect = [
-        fake_response(
-            report_json(
-                "Revenue per unit declined, indicating a shift toward lower-priced items."
-            )
-        ),
-        fake_response(
-            report_json("Revenue per unit declined while units sold increased.")
-        ),
+    client.models.generate_content.side_effect = [
+        fake_response(report_json(
+            "Revenue per unit declined, indicating a shift toward lower-priced items."
+        )),
+        fake_response(report_json(
+            "Revenue per unit declined while units sold increased."
+        )),
     ]
 
     result = generate_business_report(sample_analysis(), client=client)
 
     assert result["narrative_generated"] is True
-    assert client.chat.completions.create.call_count == 2
+    assert client.models.generate_content.call_count == 2
     assert result["ai_report"]["key_insights"] == [
         "Revenue per unit declined while units sold increased."
     ]
-    feedback = client.chat.completions.create.call_args_list[1].kwargs["messages"][-1][
-        "content"
-    ]
+    feedback = client.models.generate_content.call_args_list[1].kwargs["contents"]
     assert "Unsupported price explanation" in feedback
 
 
 def test_price_inference_twice_returns_fallback():
     client = Mock()
-    client.chat.completions.create.return_value = fake_response(
-        report_json("Revenue per unit declined, suggesting lower-priced products.")
-    )
+    client.models.generate_content.return_value = fake_response(report_json(
+        "Revenue per unit declined, suggesting lower-priced products."
+    ))
 
     result = generate_business_report(sample_analysis(), client=client)
 
     assert result == {"narrative_generated": False, "ai_report": None}
-    assert client.chat.completions.create.call_count == 2
+    assert client.models.generate_content.call_count == 2
 
 
 def test_final_report_formats_euro_values_in_all_sections():
     client = Mock()
-    client.chat.completions.create.return_value = fake_response(
-        report_json("The change was €‑26,459.3,and volume increased.")
-    )
+    client.models.generate_content.return_value = fake_response(report_json(
+        "The change was €‑26,459.3,and volume increased."
+    ))
 
     result = generate_business_report(sample_analysis(), client=client)
 
@@ -115,4 +120,4 @@ def test_final_report_formats_euro_values_in_all_sections():
     assert result["ai_report"]["notable_changes"] == [
         "Revenue was €84,380.00, then €57,920.70."
     ]
-    assert client.chat.completions.create.call_count == 1
+    assert client.models.generate_content.call_count == 1

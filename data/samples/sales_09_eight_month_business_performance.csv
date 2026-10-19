@@ -1,0 +1,1832 @@
+order_id,date,customer_id,product,category,region,quantity,unit_price,discount_pct,total_sales
+ORD-30004,2026-01-01,CUST-439,Business Tablet 10-inch,Electronics,East,2,399.00,5,758.10
+ORD-30020,2026-01-01,CUST-367,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-30044,2026-01-01,CUST-451,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-30059,2026-01-01,CUST-186,Ergonomic Office Chair,Furniture,South,1,339.00,5,322.05
+ORD-30073,2026-01-01,CUST-316,Standing Desk,Furniture,East,3,529.00,10,1428.30
+ORD-30074,2026-01-01,CUST-522,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30116,2026-01-01,CUST-416,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30065,2026-01-02,CUST-143,Business Tablet 10-inch,Electronics,West,1,399.00,15,339.15
+ORD-30076,2026-01-02,CUST-329,QHD Monitor 27-inch,Electronics,South,1,289.00,5,274.55
+ORD-30079,2026-01-02,CUST-207,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30090,2026-01-02,CUST-303,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30114,2026-01-02,CUST-327,Business Laptop 14-inch,Electronics,North,1,1099.00,5,1044.05
+ORD-30166,2026-01-02,CUST-463,Ergonomic Office Chair,Furniture,East,1,339.00,15,288.15
+ORD-30078,2026-01-03,CUST-520,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+ORD-30146,2026-01-03,CUST-260,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30148,2026-01-03,CUST-522,Meeting Room Table,Furniture,East,1,1199.00,5,1139.05
+ORD-30176,2026-01-03,CUST-292,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-30019,2026-01-04,CUST-462,Standing Desk,Furniture,West,1,529.00,10,476.10
+ORD-30040,2026-01-04,CUST-224,QHD Monitor 27-inch,Electronics,South,1,289.00,10,260.10
+ORD-30048,2026-01-04,CUST-225,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30054,2026-01-04,CUST-156,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30082,2026-01-04,CUST-299,Business Tablet 10-inch,Electronics,South,1,399.00,10,359.10
+ORD-30124,2026-01-04,CUST-486,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30162,2026-01-04,CUST-476,Business Tablet 10-inch,Electronics,South,1,399.00,5,379.05
+ORD-30163,2026-01-04,CUST-465,QHD Monitor 27-inch,Electronics,East,3,289.00,0,867.00
+ORD-30009,2026-01-05,CUST-483,Mini PC Workstation,Electronics,South,2,799.00,10,1438.20
+ORD-30032,2026-01-05,CUST-324,USB-C Docking Station,Accessories,East,1,159.00,0,159.00
+ORD-30099,2026-01-05,CUST-326,QHD Monitor 27-inch,Electronics,East,1,289.00,10,260.10
+ORD-30115,2026-01-05,CUST-441,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-30018,2026-01-06,CUST-238,Mini PC Workstation,Electronics,West,1,799.00,10,719.10
+ORD-30075,2026-01-06,CUST-387,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30126,2026-01-06,CUST-491,Meeting Room Table,Furniture,West,1,1199.00,5,1139.05
+ORD-30036,2026-01-07,CUST-210,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30053,2026-01-07,CUST-338,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-30061,2026-01-07,CUST-524,Standing Desk,Furniture,West,2,529.00,0,1058.00
+ORD-30123,2026-01-07,CUST-526,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-30142,2026-01-07,CUST-200,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-30088,2026-01-08,CUST-322,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30015,2026-01-09,CUST-151,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+ORD-30035,2026-01-09,CUST-284,Business Tablet 10-inch,Electronics,West,1,399.00,15,339.15
+ORD-30072,2026-01-09,CUST-486,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-30130,2026-01-09,CUST-128,Ergonomic Office Chair,Furniture,East,2,339.00,0,678.00
+ORD-30147,2026-01-09,CUST-204,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-30153,2026-01-09,CUST-211,Wireless Keyboard,Accessories,West,1,69.00,10,62.10
+ORD-30168,2026-01-09,CUST-453,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-30173,2026-01-09,CUST-298,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30001,2026-01-10,CUST-330,Business Laptop 14-inch,Electronics,South,2,1099.00,0,2198.00
+ORD-30026,2026-01-10,CUST-238,QHD Monitor 27-inch,Electronics,West,2,289.00,0,578.00
+ORD-30027,2026-01-10,CUST-178,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-30043,2026-01-10,CUST-522,Portable SSD 1TB,Accessories,West,1,129.00,0,129.00
+ORD-30058,2026-01-10,CUST-474,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30083,2026-01-10,CUST-492,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30093,2026-01-10,CUST-149,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-30097,2026-01-10,CUST-145,Wireless Keyboard,Accessories,North,1,69.00,5,65.55
+ORD-30122,2026-01-10,CUST-235,Ergonomic Office Chair,Furniture,South,1,339.00,5,322.05
+ORD-30033,2026-01-11,CUST-509,USB-C Docking Station,Accessories,East,2,159.00,10,286.20
+ORD-30039,2026-01-11,CUST-213,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-30077,2026-01-11,CUST-291,Noise-Cancelling Headset,Accessories,West,1,189.00,0,189.00
+ORD-30107,2026-01-11,CUST-517,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-30108,2026-01-11,CUST-355,USB-C Docking Station,Accessories,North,3,159.00,0,477.00
+ORD-30134,2026-01-11,CUST-307,Standing Desk,Furniture,North,2,529.00,0,1058.00
+ORD-30023,2026-01-12,CUST-522,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30101,2026-01-12,CUST-530,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30174,2026-01-12,CUST-468,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-30006,2026-01-13,CUST-419,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30041,2026-01-13,CUST-474,Wireless Keyboard,Accessories,South,1,69.00,10,62.10
+ORD-30067,2026-01-13,CUST-456,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30069,2026-01-13,CUST-447,Business Tablet 10-inch,Electronics,East,1,399.00,10,359.10
+ORD-30111,2026-01-13,CUST-259,Standing Desk,Furniture,East,2,529.00,15,899.30
+ORD-30113,2026-01-13,CUST-310,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30128,2026-01-13,CUST-246,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30154,2026-01-13,CUST-290,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-30136,2026-01-14,CUST-347,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30145,2026-01-14,CUST-113,QHD Monitor 27-inch,Electronics,North,3,289.00,5,823.65
+ORD-30022,2026-01-15,CUST-438,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30060,2026-01-15,CUST-288,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-30096,2026-01-15,CUST-497,Noise-Cancelling Headset,Accessories,East,3,189.00,0,567.00
+ORD-30102,2026-01-15,CUST-106,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30118,2026-01-15,CUST-139,Meeting Room Table,Furniture,South,1,1199.00,10,1079.10
+ORD-30169,2026-01-15,CUST-423,QHD Monitor 27-inch,Electronics,East,2,289.00,10,520.20
+ORD-30045,2026-01-16,CUST-293,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30047,2026-01-16,CUST-413,Noise-Cancelling Headset,Accessories,East,2,189.00,0,378.00
+ORD-30091,2026-01-16,CUST-336,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30110,2026-01-16,CUST-198,QHD Monitor 27-inch,Electronics,South,1,289.00,10,260.10
+ORD-30112,2026-01-16,CUST-360,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-30038,2026-01-17,CUST-422,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30135,2026-01-17,CUST-124,Wireless Keyboard,Accessories,East,1,69.00,10,62.10
+ORD-30155,2026-01-17,CUST-448,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30158,2026-01-17,CUST-432,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-30178,2026-01-17,CUST-386,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30008,2026-01-18,CUST-505,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30068,2026-01-18,CUST-402,USB-C Docking Station,Accessories,North,1,159.00,0,159.00
+ORD-30109,2026-01-18,CUST-251,Mini PC Workstation,Electronics,East,3,799.00,5,2277.15
+ORD-30132,2026-01-18,CUST-152,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30133,2026-01-18,CUST-255,QHD Monitor 27-inch,Electronics,West,2,289.00,10,520.20
+ORD-30156,2026-01-18,CUST-266,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30159,2026-01-18,CUST-186,Noise-Cancelling Headset,Accessories,North,2,189.00,10,340.20
+ORD-30164,2026-01-18,CUST-344,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30117,2026-01-19,CUST-460,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-30121,2026-01-19,CUST-314,Standing Desk,Furniture,South,1,529.00,10,476.10
+ORD-30131,2026-01-19,CUST-315,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-30141,2026-01-19,CUST-233,Portable SSD 1TB,Accessories,North,2,129.00,0,258.00
+ORD-30175,2026-01-19,CUST-159,Standing Desk,Furniture,West,2,529.00,0,1058.00
+ORD-30016,2026-01-20,CUST-530,Mini PC Workstation,Electronics,East,1,799.00,5,759.05
+ORD-30030,2026-01-20,CUST-325,Ergonomic Office Chair,Furniture,East,3,339.00,5,966.15
+ORD-30031,2026-01-20,CUST-388,Wireless Keyboard,Accessories,West,2,69.00,0,138.00
+ORD-30084,2026-01-20,CUST-513,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-30092,2026-01-20,CUST-432,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-30160,2026-01-20,CUST-229,Business Laptop 14-inch,Electronics,North,1,1099.00,15,934.15
+ORD-30165,2026-01-20,CUST-262,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+ORD-30010,2026-01-21,CUST-350,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30013,2026-01-21,CUST-326,Meeting Room Table,Furniture,East,1,1199.00,10,1079.10
+ORD-30037,2026-01-21,CUST-526,Business Laptop 14-inch,Electronics,North,1,1099.00,10,989.10
+ORD-30042,2026-01-21,CUST-292,Portable SSD 1TB,Accessories,North,1,129.00,5,122.55
+ORD-30049,2026-01-21,CUST-118,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-30050,2026-01-21,CUST-412,Business Tablet 10-inch,Electronics,West,1,399.00,5,379.05
+ORD-30051,2026-01-21,CUST-438,USB-C Docking Station,Accessories,West,1,159.00,0,159.00
+ORD-30103,2026-01-21,CUST-195,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30104,2026-01-21,CUST-174,Wireless Keyboard,Accessories,North,1,69.00,5,65.55
+ORD-30137,2026-01-21,CUST-232,USB-C Docking Station,Accessories,South,2,159.00,10,286.20
+ORD-30003,2026-01-22,CUST-129,Business Laptop 14-inch,Electronics,East,1,1099.00,5,1044.05
+ORD-30057,2026-01-22,CUST-461,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-30064,2026-01-22,CUST-104,Business Laptop 14-inch,Electronics,East,1,1099.00,5,1044.05
+ORD-30086,2026-01-22,CUST-516,QHD Monitor 27-inch,Electronics,South,1,289.00,15,245.65
+ORD-30025,2026-01-23,CUST-481,Business Laptop 14-inch,Electronics,East,2,1099.00,0,2198.00
+ORD-30055,2026-01-23,CUST-342,Standing Desk,Furniture,North,1,529.00,10,476.10
+ORD-30063,2026-01-23,CUST-142,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30129,2026-01-23,CUST-323,Mini PC Workstation,Electronics,West,2,799.00,5,1518.10
+ORD-30172,2026-01-23,CUST-243,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30179,2026-01-23,CUST-391,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30005,2026-01-24,CUST-231,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+ORD-30012,2026-01-24,CUST-219,Business Laptop 14-inch,Electronics,North,2,1099.00,10,1978.20
+ORD-30014,2026-01-24,CUST-395,USB-C Docking Station,Accessories,West,1,159.00,10,143.10
+ORD-30021,2026-01-24,CUST-116,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+ORD-30046,2026-01-24,CUST-433,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30087,2026-01-24,CUST-338,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-30089,2026-01-24,CUST-170,Mini PC Workstation,Electronics,East,1,799.00,10,719.10
+ORD-30094,2026-01-24,CUST-480,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30125,2026-01-24,CUST-421,Standing Desk,Furniture,West,1,529.00,15,449.65
+ORD-30127,2026-01-24,CUST-366,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30071,2026-01-25,CUST-121,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-30095,2026-01-25,CUST-139,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30119,2026-01-25,CUST-240,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-30140,2026-01-25,CUST-284,Noise-Cancelling Headset,Accessories,West,1,189.00,0,189.00
+ORD-30152,2026-01-25,CUST-213,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30167,2026-01-25,CUST-409,QHD Monitor 27-inch,Electronics,North,2,289.00,5,549.10
+ORD-30177,2026-01-25,CUST-340,Standing Desk,Furniture,South,1,529.00,5,502.55
+ORD-30066,2026-01-26,CUST-231,Meeting Room Table,Furniture,West,2,1199.00,10,2158.20
+ORD-30070,2026-01-26,CUST-427,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30139,2026-01-26,CUST-137,Mini PC Workstation,Electronics,North,2,799.00,0,1598.00
+ORD-30157,2026-01-26,CUST-476,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-30170,2026-01-26,CUST-473,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30024,2026-01-27,CUST-248,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30029,2026-01-27,CUST-215,Standing Desk,Furniture,North,2,529.00,5,1005.10
+ORD-30052,2026-01-27,CUST-214,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30081,2026-01-27,CUST-527,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30106,2026-01-27,CUST-377,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-30143,2026-01-27,CUST-108,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-30144,2026-01-27,CUST-379,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-30150,2026-01-27,CUST-109,Business Tablet 10-inch,Electronics,South,1,399.00,5,379.05
+ORD-30171,2026-01-27,CUST-399,USB-C Docking Station,Accessories,North,1,159.00,0,159.00
+ORD-30017,2026-01-28,CUST-298,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30034,2026-01-28,CUST-297,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30080,2026-01-28,CUST-487,Ergonomic Office Chair,Furniture,North,2,339.00,15,576.30
+ORD-30085,2026-01-28,CUST-101,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-30161,2026-01-28,CUST-413,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-30002,2026-01-29,CUST-214,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30098,2026-01-29,CUST-474,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-30062,2026-01-30,CUST-454,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30105,2026-01-30,CUST-515,QHD Monitor 27-inch,Electronics,East,3,289.00,10,780.30
+ORD-30138,2026-01-30,CUST-174,USB-C Docking Station,Accessories,South,2,159.00,5,302.10
+ORD-30151,2026-01-30,CUST-386,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30180,2026-01-30,CUST-232,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-30007,2026-01-31,CUST-373,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-30011,2026-01-31,CUST-189,Wireless Keyboard,Accessories,West,1,69.00,10,62.10
+ORD-30028,2026-01-31,CUST-174,Portable SSD 1TB,Accessories,North,2,129.00,5,245.10
+ORD-30056,2026-01-31,CUST-430,Standing Desk,Furniture,West,1,529.00,5,502.55
+ORD-30100,2026-01-31,CUST-365,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-30120,2026-01-31,CUST-455,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30149,2026-01-31,CUST-241,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-30225,2026-02-01,CUST-449,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-30230,2026-02-01,CUST-213,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30243,2026-02-01,CUST-381,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30255,2026-02-01,CUST-286,Noise-Cancelling Headset,Accessories,North,2,189.00,5,359.10
+ORD-30268,2026-02-01,CUST-371,Standing Desk,Furniture,South,3,529.00,10,1428.30
+ORD-30280,2026-02-01,CUST-494,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30318,2026-02-01,CUST-452,USB-C Docking Station,Accessories,East,1,159.00,5,151.05
+ORD-30187,2026-02-02,CUST-344,Mini PC Workstation,Electronics,West,1,799.00,15,679.15
+ORD-30214,2026-02-02,CUST-493,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-30228,2026-02-02,CUST-176,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-30238,2026-02-02,CUST-424,QHD Monitor 27-inch,Electronics,East,1,289.00,15,245.65
+ORD-30253,2026-02-02,CUST-212,USB-C Docking Station,Accessories,East,1,159.00,0,159.00
+ORD-30275,2026-02-02,CUST-251,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30283,2026-02-02,CUST-448,Meeting Room Table,Furniture,West,1,1199.00,15,1019.15
+ORD-30293,2026-02-02,CUST-299,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30309,2026-02-02,CUST-288,USB-C Docking Station,Accessories,East,3,159.00,5,453.15
+ORD-30339,2026-02-02,CUST-226,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-30200,2026-02-03,CUST-418,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30226,2026-02-03,CUST-429,Wireless Keyboard,Accessories,East,2,69.00,5,131.10
+ORD-30239,2026-02-03,CUST-484,Standing Desk,Furniture,South,2,529.00,0,1058.00
+ORD-30258,2026-02-03,CUST-418,Business Laptop 14-inch,Electronics,North,1,1099.00,10,989.10
+ORD-30291,2026-02-03,CUST-240,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-30300,2026-02-03,CUST-428,Standing Desk,Furniture,East,2,529.00,0,1058.00
+ORD-30334,2026-02-03,CUST-467,Ergonomic Office Chair,Furniture,South,1,339.00,15,288.15
+ORD-30367,2026-02-03,CUST-198,Ergonomic Office Chair,Furniture,North,2,339.00,0,678.00
+ORD-30201,2026-02-04,CUST-205,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-30232,2026-02-04,CUST-130,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30266,2026-02-04,CUST-121,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-30277,2026-02-04,CUST-149,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-30282,2026-02-04,CUST-360,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-30286,2026-02-04,CUST-391,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-30290,2026-02-04,CUST-211,Portable SSD 1TB,Accessories,North,1,129.00,0,129.00
+ORD-30314,2026-02-04,CUST-272,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+ORD-30371,2026-02-04,CUST-381,Portable SSD 1TB,Accessories,West,1,129.00,0,129.00
+ORD-30182,2026-02-05,CUST-488,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-30185,2026-02-05,CUST-459,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30213,2026-02-05,CUST-521,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-30216,2026-02-05,CUST-194,Business Laptop 14-inch,Electronics,East,1,1099.00,5,1044.05
+ORD-30235,2026-02-05,CUST-421,QHD Monitor 27-inch,Electronics,East,2,289.00,0,578.00
+ORD-30252,2026-02-05,CUST-472,Business Tablet 10-inch,Electronics,East,1,399.00,10,359.10
+ORD-30321,2026-02-05,CUST-386,Ergonomic Office Chair,Furniture,West,1,339.00,5,322.05
+ORD-30365,2026-02-05,CUST-398,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30368,2026-02-05,CUST-287,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30204,2026-02-06,CUST-119,USB-C Docking Station,Accessories,North,1,159.00,0,159.00
+ORD-30265,2026-02-06,CUST-302,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30361,2026-02-06,CUST-468,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30205,2026-02-07,CUST-140,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30221,2026-02-07,CUST-479,Business Tablet 10-inch,Electronics,South,1,399.00,5,379.05
+ORD-30222,2026-02-07,CUST-206,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30259,2026-02-07,CUST-330,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30263,2026-02-07,CUST-337,USB-C Docking Station,Accessories,West,1,159.00,0,159.00
+ORD-30320,2026-02-07,CUST-336,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30193,2026-02-08,CUST-197,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30254,2026-02-08,CUST-221,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-30271,2026-02-08,CUST-107,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-30342,2026-02-08,CUST-511,Business Tablet 10-inch,Electronics,South,1,399.00,5,379.05
+ORD-30344,2026-02-08,CUST-503,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30347,2026-02-08,CUST-414,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-30212,2026-02-09,CUST-444,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30217,2026-02-09,CUST-250,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30274,2026-02-09,CUST-469,Business Tablet 10-inch,Electronics,South,2,399.00,0,798.00
+ORD-30305,2026-02-09,CUST-429,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30312,2026-02-09,CUST-144,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30329,2026-02-09,CUST-111,Meeting Room Table,Furniture,West,1,1199.00,5,1139.05
+ORD-30209,2026-02-10,CUST-516,Ergonomic Office Chair,Furniture,West,1,339.00,5,322.05
+ORD-30236,2026-02-10,CUST-398,QHD Monitor 27-inch,Electronics,South,3,289.00,0,867.00
+ORD-30241,2026-02-10,CUST-178,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30311,2026-02-10,CUST-228,Mini PC Workstation,Electronics,South,2,799.00,0,1598.00
+ORD-30317,2026-02-10,CUST-380,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30326,2026-02-10,CUST-271,Meeting Room Table,Furniture,East,1,1199.00,5,1139.05
+ORD-30338,2026-02-10,CUST-146,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-30357,2026-02-10,CUST-107,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30370,2026-02-10,CUST-154,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-30188,2026-02-11,CUST-247,Standing Desk,Furniture,South,1,529.00,10,476.10
+ORD-30197,2026-02-11,CUST-343,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-30248,2026-02-11,CUST-134,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30335,2026-02-11,CUST-193,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-30358,2026-02-11,CUST-209,Ergonomic Office Chair,Furniture,North,2,339.00,0,678.00
+ORD-30196,2026-02-12,CUST-266,Meeting Room Table,Furniture,East,1,1199.00,10,1079.10
+ORD-30203,2026-02-12,CUST-331,Mini PC Workstation,Electronics,South,2,799.00,0,1598.00
+ORD-30229,2026-02-12,CUST-291,Standing Desk,Furniture,West,1,529.00,10,476.10
+ORD-30262,2026-02-12,CUST-133,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30296,2026-02-12,CUST-291,Wireless Keyboard,Accessories,North,3,69.00,10,186.30
+ORD-30310,2026-02-12,CUST-472,Ergonomic Office Chair,Furniture,West,1,339.00,5,322.05
+ORD-30327,2026-02-12,CUST-246,Wireless Keyboard,Accessories,North,1,69.00,0,69.00
+ORD-30355,2026-02-12,CUST-182,Wireless Keyboard,Accessories,South,1,69.00,10,62.10
+ORD-30190,2026-02-13,CUST-308,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30198,2026-02-13,CUST-519,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30237,2026-02-13,CUST-246,Business Laptop 14-inch,Electronics,North,1,1099.00,10,989.10
+ORD-30245,2026-02-13,CUST-101,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30264,2026-02-13,CUST-391,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-30363,2026-02-13,CUST-213,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30189,2026-02-14,CUST-408,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30202,2026-02-14,CUST-499,Portable SSD 1TB,Accessories,North,1,129.00,0,129.00
+ORD-30272,2026-02-14,CUST-189,Ergonomic Office Chair,Furniture,West,3,339.00,0,1017.00
+ORD-30276,2026-02-14,CUST-235,QHD Monitor 27-inch,Electronics,West,2,289.00,0,578.00
+ORD-30336,2026-02-14,CUST-492,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-30348,2026-02-14,CUST-259,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30186,2026-02-15,CUST-154,Wireless Keyboard,Accessories,South,1,69.00,0,69.00
+ORD-30206,2026-02-15,CUST-361,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30224,2026-02-15,CUST-466,Business Laptop 14-inch,Electronics,East,2,1099.00,10,1978.20
+ORD-30233,2026-02-15,CUST-267,QHD Monitor 27-inch,Electronics,East,2,289.00,5,549.10
+ORD-30251,2026-02-15,CUST-101,Standing Desk,Furniture,East,2,529.00,5,1005.10
+ORD-30284,2026-02-15,CUST-272,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30304,2026-02-15,CUST-111,Noise-Cancelling Headset,Accessories,North,1,189.00,10,170.10
+ORD-30350,2026-02-15,CUST-156,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30356,2026-02-15,CUST-251,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30192,2026-02-16,CUST-131,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-30207,2026-02-16,CUST-218,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30210,2026-02-16,CUST-126,Business Tablet 10-inch,Electronics,West,2,399.00,5,758.10
+ORD-30215,2026-02-16,CUST-226,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30231,2026-02-16,CUST-397,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30250,2026-02-16,CUST-397,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30260,2026-02-16,CUST-112,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-30273,2026-02-16,CUST-493,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30279,2026-02-16,CUST-290,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30289,2026-02-16,CUST-365,Wireless Keyboard,Accessories,West,2,69.00,0,138.00
+ORD-30298,2026-02-16,CUST-508,Meeting Room Table,Furniture,East,1,1199.00,5,1139.05
+ORD-30313,2026-02-16,CUST-218,Wireless Keyboard,Accessories,South,1,69.00,5,65.55
+ORD-30362,2026-02-16,CUST-229,Ergonomic Office Chair,Furniture,West,1,339.00,10,305.10
+ORD-30195,2026-02-17,CUST-442,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-30242,2026-02-17,CUST-404,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30319,2026-02-17,CUST-246,Standing Desk,Furniture,West,1,529.00,15,449.65
+ORD-30333,2026-02-17,CUST-329,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-30352,2026-02-17,CUST-489,QHD Monitor 27-inch,Electronics,West,1,289.00,5,274.55
+ORD-30199,2026-02-18,CUST-227,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-30281,2026-02-18,CUST-333,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30218,2026-02-19,CUST-350,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30223,2026-02-19,CUST-309,Business Laptop 14-inch,Electronics,East,2,1099.00,10,1978.20
+ORD-30267,2026-02-19,CUST-343,Business Tablet 10-inch,Electronics,South,1,399.00,15,339.15
+ORD-30287,2026-02-19,CUST-246,Wireless Keyboard,Accessories,East,1,69.00,10,62.10
+ORD-30325,2026-02-19,CUST-388,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30341,2026-02-19,CUST-454,QHD Monitor 27-inch,Electronics,West,1,289.00,5,274.55
+ORD-30343,2026-02-19,CUST-297,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30351,2026-02-19,CUST-355,Mini PC Workstation,Electronics,East,2,799.00,0,1598.00
+ORD-30359,2026-02-19,CUST-143,Noise-Cancelling Headset,Accessories,North,1,189.00,10,170.10
+ORD-30278,2026-02-20,CUST-468,Mini PC Workstation,Electronics,East,1,799.00,10,719.10
+ORD-30302,2026-02-20,CUST-498,Standing Desk,Furniture,East,1,529.00,5,502.55
+ORD-30307,2026-02-20,CUST-200,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30340,2026-02-20,CUST-471,QHD Monitor 27-inch,Electronics,West,1,289.00,5,274.55
+ORD-30346,2026-02-20,CUST-426,Business Laptop 14-inch,Electronics,West,1,1099.00,10,989.10
+ORD-30354,2026-02-20,CUST-307,USB-C Docking Station,Accessories,South,1,159.00,0,159.00
+ORD-30211,2026-02-21,CUST-337,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-30219,2026-02-21,CUST-205,QHD Monitor 27-inch,Electronics,East,2,289.00,0,578.00
+ORD-30328,2026-02-21,CUST-158,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30360,2026-02-21,CUST-327,Noise-Cancelling Headset,Accessories,West,2,189.00,0,378.00
+ORD-30366,2026-02-21,CUST-433,Business Laptop 14-inch,Electronics,West,2,1099.00,0,2198.00
+ORD-30372,2026-02-21,CUST-264,QHD Monitor 27-inch,Electronics,South,1,289.00,5,274.55
+ORD-30181,2026-02-22,CUST-122,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30183,2026-02-22,CUST-518,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-30247,2026-02-22,CUST-103,Mini PC Workstation,Electronics,East,1,799.00,10,719.10
+ORD-30292,2026-02-22,CUST-427,QHD Monitor 27-inch,Electronics,West,1,289.00,5,274.55
+ORD-30294,2026-02-22,CUST-193,Noise-Cancelling Headset,Accessories,South,1,189.00,10,170.10
+ORD-30364,2026-02-22,CUST-396,Portable SSD 1TB,Accessories,South,1,129.00,10,116.10
+ORD-30234,2026-02-23,CUST-351,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30244,2026-02-23,CUST-419,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30261,2026-02-23,CUST-421,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30345,2026-02-23,CUST-211,Mini PC Workstation,Electronics,South,2,799.00,0,1598.00
+ORD-30373,2026-02-23,CUST-347,QHD Monitor 27-inch,Electronics,South,2,289.00,15,491.30
+ORD-30208,2026-02-24,CUST-275,Mini PC Workstation,Electronics,North,2,799.00,0,1598.00
+ORD-30240,2026-02-24,CUST-171,Noise-Cancelling Headset,Accessories,West,1,189.00,0,189.00
+ORD-30249,2026-02-24,CUST-528,QHD Monitor 27-inch,Electronics,East,1,289.00,10,260.10
+ORD-30257,2026-02-24,CUST-237,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30299,2026-02-24,CUST-344,QHD Monitor 27-inch,Electronics,West,2,289.00,0,578.00
+ORD-30301,2026-02-24,CUST-187,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30303,2026-02-24,CUST-270,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30322,2026-02-24,CUST-115,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30323,2026-02-24,CUST-383,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-30330,2026-02-24,CUST-428,Wireless Keyboard,Accessories,South,1,69.00,0,69.00
+ORD-30337,2026-02-24,CUST-325,Wireless Keyboard,Accessories,North,1,69.00,0,69.00
+ORD-30191,2026-02-25,CUST-514,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30269,2026-02-25,CUST-421,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-30288,2026-02-25,CUST-152,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-30295,2026-02-25,CUST-262,USB-C Docking Station,Accessories,East,1,159.00,0,159.00
+ORD-30308,2026-02-25,CUST-433,Meeting Room Table,Furniture,South,1,1199.00,5,1139.05
+ORD-30353,2026-02-25,CUST-123,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-30184,2026-02-26,CUST-448,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-30194,2026-02-26,CUST-131,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30246,2026-02-26,CUST-506,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-30270,2026-02-26,CUST-252,Mini PC Workstation,Electronics,East,1,799.00,10,719.10
+ORD-30285,2026-02-26,CUST-472,Portable SSD 1TB,Accessories,West,1,129.00,0,129.00
+ORD-30324,2026-02-26,CUST-344,USB-C Docking Station,Accessories,North,1,159.00,0,159.00
+ORD-30331,2026-02-26,CUST-102,USB-C Docking Station,Accessories,East,1,159.00,0,159.00
+ORD-30332,2026-02-26,CUST-436,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-30349,2026-02-26,CUST-490,Business Laptop 14-inch,Electronics,North,2,1099.00,0,2198.00
+ORD-30220,2026-02-27,CUST-519,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30227,2026-02-27,CUST-451,Noise-Cancelling Headset,Accessories,West,1,189.00,0,189.00
+ORD-30256,2026-02-27,CUST-211,Noise-Cancelling Headset,Accessories,East,1,189.00,5,179.55
+ORD-30315,2026-02-27,CUST-204,Ergonomic Office Chair,Furniture,North,2,339.00,10,610.20
+ORD-30297,2026-02-28,CUST-495,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-30306,2026-02-28,CUST-188,QHD Monitor 27-inch,Electronics,East,1,289.00,10,260.10
+ORD-30316,2026-02-28,CUST-444,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-30369,2026-02-28,CUST-500,Mini PC Workstation,Electronics,East,2,799.00,5,1518.10
+ORD-30466,2026-03-01,CUST-241,Business Laptop 14-inch,Electronics,East,1,1099.00,10,989.10
+ORD-30485,2026-03-01,CUST-253,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-30581,2026-03-01,CUST-401,Noise-Cancelling Headset,Accessories,West,1,189.00,5,179.55
+ORD-30594,2026-03-01,CUST-449,Business Laptop 14-inch,Electronics,South,1,1099.00,10,989.10
+ORD-30429,2026-03-02,CUST-399,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30455,2026-03-02,CUST-262,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30513,2026-03-02,CUST-131,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30540,2026-03-02,CUST-414,Business Tablet 10-inch,Electronics,West,3,399.00,5,1137.15
+ORD-30407,2026-03-03,CUST-182,QHD Monitor 27-inch,Electronics,East,2,289.00,0,578.00
+ORD-30457,2026-03-03,CUST-382,Business Laptop 14-inch,Electronics,South,2,1099.00,5,2088.10
+ORD-30460,2026-03-03,CUST-370,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-30488,2026-03-03,CUST-460,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-30490,2026-03-03,CUST-410,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-30512,2026-03-03,CUST-232,Business Tablet 10-inch,Electronics,South,1,399.00,10,359.10
+ORD-30543,2026-03-03,CUST-264,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30563,2026-03-03,CUST-152,Wireless Keyboard,Accessories,West,2,69.00,0,138.00
+ORD-30570,2026-03-03,CUST-153,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30578,2026-03-03,CUST-330,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30411,2026-03-04,CUST-324,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30431,2026-03-04,CUST-333,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30468,2026-03-04,CUST-296,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30474,2026-03-04,CUST-374,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30498,2026-03-04,CUST-435,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30590,2026-03-04,CUST-431,Business Laptop 14-inch,Electronics,South,2,1099.00,0,2198.00
+ORD-30400,2026-03-05,CUST-327,Meeting Room Table,Furniture,West,1,1199.00,5,1139.05
+ORD-30403,2026-03-05,CUST-240,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-30404,2026-03-05,CUST-392,Business Laptop 14-inch,Electronics,North,1,1099.00,5,1044.05
+ORD-30475,2026-03-05,CUST-336,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-30480,2026-03-05,CUST-277,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-30492,2026-03-05,CUST-289,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30508,2026-03-05,CUST-145,Business Laptop 14-inch,Electronics,East,1,1099.00,5,1044.05
+ORD-30518,2026-03-05,CUST-353,Business Tablet 10-inch,Electronics,West,1,399.00,10,359.10
+ORD-30534,2026-03-05,CUST-204,Ergonomic Office Chair,Furniture,East,1,339.00,5,322.05
+ORD-30539,2026-03-05,CUST-341,Noise-Cancelling Headset,Accessories,West,1,189.00,0,189.00
+ORD-30558,2026-03-05,CUST-409,Wireless Keyboard,Accessories,East,2,69.00,0,138.00
+ORD-30376,2026-03-06,CUST-250,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-30395,2026-03-06,CUST-486,Standing Desk,Furniture,West,1,529.00,5,502.55
+ORD-30398,2026-03-06,CUST-332,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30420,2026-03-06,CUST-382,Noise-Cancelling Headset,Accessories,South,1,189.00,15,160.65
+ORD-30464,2026-03-06,CUST-372,Portable SSD 1TB,Accessories,North,1,129.00,0,129.00
+ORD-30493,2026-03-06,CUST-218,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-30502,2026-03-06,CUST-124,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+ORD-30520,2026-03-06,CUST-266,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-30562,2026-03-06,CUST-389,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-30577,2026-03-06,CUST-294,Ergonomic Office Chair,Furniture,South,1,339.00,5,322.05
+ORD-30579,2026-03-06,CUST-340,Standing Desk,Furniture,South,2,529.00,5,1005.10
+ORD-30382,2026-03-07,CUST-268,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30397,2026-03-07,CUST-403,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-30406,2026-03-07,CUST-127,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30494,2026-03-07,CUST-195,Wireless Keyboard,Accessories,North,1,69.00,0,69.00
+ORD-30497,2026-03-07,CUST-109,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30561,2026-03-07,CUST-227,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30580,2026-03-07,CUST-468,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30386,2026-03-08,CUST-318,Business Tablet 10-inch,Electronics,South,2,399.00,0,798.00
+ORD-30409,2026-03-08,CUST-292,Ergonomic Office Chair,Furniture,West,1,339.00,5,322.05
+ORD-30418,2026-03-08,CUST-300,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-30445,2026-03-08,CUST-439,Mini PC Workstation,Electronics,West,2,799.00,10,1438.20
+ORD-30456,2026-03-08,CUST-506,Mini PC Workstation,Electronics,West,1,799.00,15,679.15
+ORD-30459,2026-03-08,CUST-227,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-30482,2026-03-08,CUST-296,Ergonomic Office Chair,Furniture,South,1,339.00,10,305.10
+ORD-30489,2026-03-08,CUST-497,Business Laptop 14-inch,Electronics,South,2,1099.00,0,2198.00
+ORD-30583,2026-03-08,CUST-419,QHD Monitor 27-inch,Electronics,East,2,289.00,5,549.10
+ORD-30586,2026-03-08,CUST-439,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-30593,2026-03-08,CUST-454,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-30394,2026-03-09,CUST-216,Portable SSD 1TB,Accessories,North,1,129.00,0,129.00
+ORD-30444,2026-03-09,CUST-213,Portable SSD 1TB,Accessories,West,1,129.00,5,122.55
+ORD-30453,2026-03-09,CUST-264,USB-C Docking Station,Accessories,West,1,159.00,0,159.00
+ORD-30479,2026-03-09,CUST-243,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30491,2026-03-09,CUST-521,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30547,2026-03-09,CUST-210,Noise-Cancelling Headset,Accessories,East,1,189.00,5,179.55
+ORD-30556,2026-03-09,CUST-186,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30424,2026-03-10,CUST-361,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+ORD-30425,2026-03-10,CUST-498,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30553,2026-03-10,CUST-200,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30564,2026-03-10,CUST-270,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-30571,2026-03-10,CUST-340,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30388,2026-03-11,CUST-467,QHD Monitor 27-inch,Electronics,South,2,289.00,0,578.00
+ORD-30414,2026-03-11,CUST-423,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30478,2026-03-11,CUST-317,USB-C Docking Station,Accessories,South,1,159.00,5,151.05
+ORD-30484,2026-03-11,CUST-257,Business Tablet 10-inch,Electronics,West,2,399.00,10,718.20
+ORD-30517,2026-03-11,CUST-425,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-30550,2026-03-11,CUST-432,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-30572,2026-03-11,CUST-346,Business Tablet 10-inch,Electronics,North,2,399.00,0,798.00
+ORD-30390,2026-03-12,CUST-360,QHD Monitor 27-inch,Electronics,North,2,289.00,0,578.00
+ORD-30412,2026-03-12,CUST-231,Business Tablet 10-inch,Electronics,South,1,399.00,5,379.05
+ORD-30443,2026-03-12,CUST-350,QHD Monitor 27-inch,Electronics,South,1,289.00,5,274.55
+ORD-30463,2026-03-12,CUST-336,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30499,2026-03-12,CUST-317,Noise-Cancelling Headset,Accessories,North,3,189.00,0,567.00
+ORD-30511,2026-03-12,CUST-436,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30514,2026-03-12,CUST-186,Noise-Cancelling Headset,Accessories,North,1,189.00,10,170.10
+ORD-30548,2026-03-12,CUST-432,USB-C Docking Station,Accessories,South,1,159.00,10,143.10
+ORD-30588,2026-03-12,CUST-140,Standing Desk,Furniture,East,1,529.00,5,502.55
+ORD-30375,2026-03-13,CUST-108,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30422,2026-03-13,CUST-487,QHD Monitor 27-inch,Electronics,South,1,289.00,10,260.10
+ORD-30435,2026-03-13,CUST-275,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30438,2026-03-13,CUST-244,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-30516,2026-03-13,CUST-207,QHD Monitor 27-inch,Electronics,North,1,289.00,10,260.10
+ORD-30555,2026-03-13,CUST-353,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-30379,2026-03-14,CUST-369,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-30392,2026-03-14,CUST-134,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30402,2026-03-14,CUST-365,QHD Monitor 27-inch,Electronics,East,2,289.00,5,549.10
+ORD-30503,2026-03-14,CUST-525,USB-C Docking Station,Accessories,West,2,159.00,5,302.10
+ORD-30528,2026-03-14,CUST-197,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30377,2026-03-15,CUST-179,Wireless Keyboard,Accessories,South,2,69.00,10,124.20
+ORD-30419,2026-03-15,CUST-442,Meeting Room Table,Furniture,South,1,1199.00,10,1079.10
+ORD-30434,2026-03-15,CUST-524,Mini PC Workstation,Electronics,North,1,799.00,10,719.10
+ORD-30465,2026-03-15,CUST-350,Meeting Room Table,Furniture,South,1,1199.00,5,1139.05
+ORD-30527,2026-03-15,CUST-342,Mini PC Workstation,Electronics,South,1,799.00,10,719.10
+ORD-30374,2026-03-16,CUST-469,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-30415,2026-03-16,CUST-103,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-30449,2026-03-16,CUST-334,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-30510,2026-03-16,CUST-342,QHD Monitor 27-inch,Electronics,East,2,289.00,0,578.00
+ORD-30526,2026-03-16,CUST-155,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+ORD-30531,2026-03-16,CUST-211,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30538,2026-03-16,CUST-291,Portable SSD 1TB,Accessories,West,1,129.00,10,116.10
+ORD-30544,2026-03-16,CUST-411,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-30383,2026-03-17,CUST-500,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30426,2026-03-17,CUST-414,Mini PC Workstation,Electronics,East,1,799.00,5,759.05
+ORD-30447,2026-03-17,CUST-391,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30451,2026-03-17,CUST-376,QHD Monitor 27-inch,Electronics,North,2,289.00,5,549.10
+ORD-30500,2026-03-17,CUST-181,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30522,2026-03-17,CUST-123,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30524,2026-03-17,CUST-479,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-30387,2026-03-18,CUST-193,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-30401,2026-03-18,CUST-308,Mini PC Workstation,Electronics,East,1,799.00,10,719.10
+ORD-30454,2026-03-18,CUST-285,Business Tablet 10-inch,Electronics,South,1,399.00,10,359.10
+ORD-30458,2026-03-18,CUST-235,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-30469,2026-03-18,CUST-462,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-30473,2026-03-18,CUST-136,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30496,2026-03-18,CUST-359,Mini PC Workstation,Electronics,North,1,799.00,15,679.15
+ORD-30507,2026-03-18,CUST-357,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-30535,2026-03-18,CUST-406,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30545,2026-03-18,CUST-304,QHD Monitor 27-inch,Electronics,West,1,289.00,15,245.65
+ORD-30549,2026-03-18,CUST-461,Ergonomic Office Chair,Furniture,East,1,339.00,5,322.05
+ORD-30582,2026-03-18,CUST-130,Wireless Keyboard,Accessories,North,2,69.00,5,131.10
+ORD-30378,2026-03-19,CUST-102,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30410,2026-03-19,CUST-426,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30421,2026-03-19,CUST-445,QHD Monitor 27-inch,Electronics,South,2,289.00,0,578.00
+ORD-30432,2026-03-19,CUST-221,Noise-Cancelling Headset,Accessories,North,2,189.00,0,378.00
+ORD-30433,2026-03-19,CUST-380,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-30441,2026-03-19,CUST-465,Meeting Room Table,Furniture,West,1,1199.00,15,1019.15
+ORD-30472,2026-03-19,CUST-173,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30509,2026-03-19,CUST-408,QHD Monitor 27-inch,Electronics,South,2,289.00,0,578.00
+ORD-30530,2026-03-19,CUST-340,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-30552,2026-03-19,CUST-510,Business Laptop 14-inch,Electronics,East,1,1099.00,5,1044.05
+ORD-30560,2026-03-19,CUST-440,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30461,2026-03-20,CUST-399,QHD Monitor 27-inch,Electronics,East,1,289.00,15,245.65
+ORD-30541,2026-03-20,CUST-400,Standing Desk,Furniture,East,1,529.00,10,476.10
+ORD-30546,2026-03-20,CUST-226,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-30559,2026-03-20,CUST-458,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-30574,2026-03-20,CUST-191,Meeting Room Table,Furniture,East,1,1199.00,10,1079.10
+ORD-30405,2026-03-21,CUST-267,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30413,2026-03-21,CUST-273,Ergonomic Office Chair,Furniture,West,1,339.00,5,322.05
+ORD-30416,2026-03-21,CUST-133,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-30439,2026-03-21,CUST-256,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-30446,2026-03-21,CUST-239,Standing Desk,Furniture,West,3,529.00,0,1587.00
+ORD-30529,2026-03-21,CUST-393,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30575,2026-03-21,CUST-167,USB-C Docking Station,Accessories,North,1,159.00,5,151.05
+ORD-30389,2026-03-22,CUST-126,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-30440,2026-03-22,CUST-410,QHD Monitor 27-inch,Electronics,East,2,289.00,0,578.00
+ORD-30505,2026-03-22,CUST-529,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30567,2026-03-22,CUST-435,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30399,2026-03-23,CUST-294,USB-C Docking Station,Accessories,East,1,159.00,10,143.10
+ORD-30523,2026-03-23,CUST-313,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30380,2026-03-24,CUST-504,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-30393,2026-03-24,CUST-338,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-30417,2026-03-24,CUST-179,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30462,2026-03-24,CUST-199,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-30470,2026-03-24,CUST-325,QHD Monitor 27-inch,Electronics,East,3,289.00,0,867.00
+ORD-30471,2026-03-24,CUST-335,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-30525,2026-03-24,CUST-384,USB-C Docking Station,Accessories,North,1,159.00,10,143.10
+ORD-30408,2026-03-25,CUST-499,Standing Desk,Furniture,South,2,529.00,5,1005.10
+ORD-30476,2026-03-25,CUST-401,USB-C Docking Station,Accessories,South,1,159.00,10,143.10
+ORD-30481,2026-03-25,CUST-209,Noise-Cancelling Headset,Accessories,East,2,189.00,5,359.10
+ORD-30483,2026-03-25,CUST-239,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30486,2026-03-25,CUST-517,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-30515,2026-03-25,CUST-410,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30551,2026-03-25,CUST-504,Business Tablet 10-inch,Electronics,West,1,399.00,10,359.10
+ORD-30584,2026-03-25,CUST-381,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30385,2026-03-26,CUST-112,Meeting Room Table,Furniture,East,2,1199.00,0,2398.00
+ORD-30396,2026-03-26,CUST-144,Noise-Cancelling Headset,Accessories,North,1,189.00,10,170.10
+ORD-30436,2026-03-26,CUST-228,Wireless Keyboard,Accessories,South,1,69.00,0,69.00
+ORD-30448,2026-03-26,CUST-288,Mini PC Workstation,Electronics,West,1,799.00,10,719.10
+ORD-30452,2026-03-26,CUST-430,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+ORD-30467,2026-03-26,CUST-294,Business Laptop 14-inch,Electronics,North,1,1099.00,5,1044.05
+ORD-30519,2026-03-26,CUST-215,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30536,2026-03-26,CUST-368,USB-C Docking Station,Accessories,West,1,159.00,0,159.00
+ORD-30566,2026-03-26,CUST-168,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30569,2026-03-26,CUST-287,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-30423,2026-03-27,CUST-474,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-30427,2026-03-27,CUST-509,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-30428,2026-03-27,CUST-397,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30437,2026-03-27,CUST-214,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30442,2026-03-27,CUST-378,Mini PC Workstation,Electronics,East,2,799.00,0,1598.00
+ORD-30501,2026-03-27,CUST-195,USB-C Docking Station,Accessories,South,1,159.00,0,159.00
+ORD-30504,2026-03-27,CUST-130,Wireless Keyboard,Accessories,South,2,69.00,0,138.00
+ORD-30554,2026-03-27,CUST-248,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30587,2026-03-27,CUST-235,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30592,2026-03-27,CUST-502,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-30391,2026-03-28,CUST-287,Ergonomic Office Chair,Furniture,South,1,339.00,5,322.05
+ORD-30430,2026-03-28,CUST-216,Mini PC Workstation,Electronics,South,1,799.00,10,719.10
+ORD-30450,2026-03-28,CUST-402,Portable SSD 1TB,Accessories,East,1,129.00,0,129.00
+ORD-30487,2026-03-28,CUST-226,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+ORD-30542,2026-03-28,CUST-488,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-30557,2026-03-28,CUST-245,Business Tablet 10-inch,Electronics,East,1,399.00,5,379.05
+ORD-30565,2026-03-28,CUST-395,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-30585,2026-03-28,CUST-420,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30591,2026-03-28,CUST-134,Business Laptop 14-inch,Electronics,East,3,1099.00,10,2967.30
+ORD-30384,2026-03-29,CUST-157,Standing Desk,Furniture,East,1,529.00,10,476.10
+ORD-30477,2026-03-29,CUST-167,Ergonomic Office Chair,Furniture,East,2,339.00,0,678.00
+ORD-30537,2026-03-29,CUST-361,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-30381,2026-03-30,CUST-362,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-30495,2026-03-30,CUST-452,Standing Desk,Furniture,North,1,529.00,10,476.10
+ORD-30506,2026-03-30,CUST-530,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30533,2026-03-30,CUST-378,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-30568,2026-03-30,CUST-125,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30573,2026-03-30,CUST-518,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-30576,2026-03-30,CUST-517,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-30595,2026-03-30,CUST-261,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30521,2026-03-31,CUST-473,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30532,2026-03-31,CUST-481,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-30589,2026-03-31,CUST-432,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30632,2026-04-01,CUST-422,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30638,2026-04-01,CUST-106,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-30713,2026-04-01,CUST-178,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30744,2026-04-01,CUST-326,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30763,2026-04-01,CUST-436,Mini PC Workstation,Electronics,East,1,799.00,5,759.05
+ORD-30779,2026-04-01,CUST-190,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30788,2026-04-01,CUST-502,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30650,2026-04-02,CUST-372,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30672,2026-04-02,CUST-200,Mini PC Workstation,Electronics,West,1,799.00,10,719.10
+ORD-30686,2026-04-02,CUST-489,Ergonomic Office Chair,Furniture,South,1,339.00,5,322.05
+ORD-30696,2026-04-02,CUST-199,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30718,2026-04-02,CUST-138,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30614,2026-04-03,CUST-375,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30634,2026-04-03,CUST-369,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-30667,2026-04-03,CUST-171,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30678,2026-04-03,CUST-460,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+ORD-30769,2026-04-03,CUST-395,Business Laptop 14-inch,Electronics,East,1,1099.00,5,1044.05
+ORD-30608,2026-04-04,CUST-328,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-30615,2026-04-04,CUST-233,QHD Monitor 27-inch,Electronics,North,1,289.00,10,260.10
+ORD-30651,2026-04-04,CUST-329,Business Laptop 14-inch,Electronics,South,2,1099.00,10,1978.20
+ORD-30717,2026-04-04,CUST-247,Wireless Keyboard,Accessories,East,2,69.00,0,138.00
+ORD-30761,2026-04-04,CUST-460,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30795,2026-04-04,CUST-295,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-30694,2026-04-05,CUST-178,Noise-Cancelling Headset,Accessories,West,1,189.00,5,179.55
+ORD-30695,2026-04-05,CUST-405,Business Tablet 10-inch,Electronics,North,2,399.00,0,798.00
+ORD-30703,2026-04-05,CUST-340,Standing Desk,Furniture,South,2,529.00,0,1058.00
+ORD-30724,2026-04-05,CUST-252,Business Laptop 14-inch,Electronics,East,1,1099.00,10,989.10
+ORD-30754,2026-04-05,CUST-408,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30682,2026-04-06,CUST-223,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30691,2026-04-06,CUST-351,Standing Desk,Furniture,East,1,529.00,10,476.10
+ORD-30731,2026-04-06,CUST-296,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30770,2026-04-06,CUST-352,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30603,2026-04-07,CUST-272,Portable SSD 1TB,Accessories,North,1,129.00,15,109.65
+ORD-30606,2026-04-07,CUST-368,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+ORD-30612,2026-04-07,CUST-514,Ergonomic Office Chair,Furniture,South,1,339.00,5,322.05
+ORD-30623,2026-04-07,CUST-198,Wireless Keyboard,Accessories,East,2,69.00,10,124.20
+ORD-30697,2026-04-07,CUST-321,Standing Desk,Furniture,South,2,529.00,0,1058.00
+ORD-30698,2026-04-07,CUST-388,Business Tablet 10-inch,Electronics,West,1,399.00,5,379.05
+ORD-30727,2026-04-07,CUST-151,Business Tablet 10-inch,Electronics,East,2,399.00,0,798.00
+ORD-30735,2026-04-07,CUST-410,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30789,2026-04-07,CUST-389,Noise-Cancelling Headset,Accessories,North,3,189.00,10,510.30
+ORD-30793,2026-04-07,CUST-312,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-30794,2026-04-07,CUST-204,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-30796,2026-04-07,CUST-199,Business Tablet 10-inch,Electronics,East,2,399.00,10,718.20
+ORD-30648,2026-04-08,CUST-384,USB-C Docking Station,Accessories,East,1,159.00,0,159.00
+ORD-30700,2026-04-08,CUST-311,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-30707,2026-04-08,CUST-463,Standing Desk,Furniture,East,1,529.00,5,502.55
+ORD-30714,2026-04-08,CUST-485,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+ORD-30737,2026-04-08,CUST-199,Portable SSD 1TB,Accessories,West,1,129.00,5,122.55
+ORD-30743,2026-04-08,CUST-353,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30753,2026-04-08,CUST-312,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+ORD-30777,2026-04-08,CUST-435,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-30620,2026-04-09,CUST-482,QHD Monitor 27-inch,Electronics,West,1,289.00,10,260.10
+ORD-30622,2026-04-09,CUST-367,Standing Desk,Furniture,North,1,529.00,10,476.10
+ORD-30636,2026-04-09,CUST-225,Portable SSD 1TB,Accessories,West,2,129.00,10,232.20
+ORD-30639,2026-04-09,CUST-478,Wireless Keyboard,Accessories,North,2,69.00,0,138.00
+ORD-30653,2026-04-09,CUST-209,Business Tablet 10-inch,Electronics,South,2,399.00,5,758.10
+ORD-30677,2026-04-09,CUST-344,QHD Monitor 27-inch,Electronics,East,1,289.00,10,260.10
+ORD-30690,2026-04-09,CUST-259,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-30692,2026-04-09,CUST-497,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30712,2026-04-09,CUST-276,Noise-Cancelling Headset,Accessories,North,1,189.00,10,170.10
+ORD-30719,2026-04-09,CUST-360,Business Tablet 10-inch,Electronics,West,1,399.00,5,379.05
+ORD-30736,2026-04-09,CUST-273,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30748,2026-04-09,CUST-134,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30767,2026-04-09,CUST-311,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30609,2026-04-10,CUST-444,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-30627,2026-04-10,CUST-256,Business Tablet 10-inch,Electronics,South,1,399.00,5,379.05
+ORD-30633,2026-04-10,CUST-260,QHD Monitor 27-inch,Electronics,West,2,289.00,0,578.00
+ORD-30655,2026-04-10,CUST-397,Standing Desk,Furniture,East,2,529.00,0,1058.00
+ORD-30675,2026-04-10,CUST-494,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-30709,2026-04-10,CUST-502,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30722,2026-04-10,CUST-510,Standing Desk,Furniture,East,1,529.00,5,502.55
+ORD-30751,2026-04-10,CUST-311,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30772,2026-04-10,CUST-473,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-30663,2026-04-11,CUST-335,Business Laptop 14-inch,Electronics,North,1,1099.00,15,934.15
+ORD-30729,2026-04-11,CUST-530,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30730,2026-04-11,CUST-236,Meeting Room Table,Furniture,West,1,1199.00,5,1139.05
+ORD-30792,2026-04-11,CUST-470,QHD Monitor 27-inch,Electronics,West,2,289.00,5,549.10
+ORD-30600,2026-04-12,CUST-422,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30601,2026-04-12,CUST-363,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30605,2026-04-12,CUST-459,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-30617,2026-04-12,CUST-136,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-30652,2026-04-12,CUST-291,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30661,2026-04-12,CUST-180,Noise-Cancelling Headset,Accessories,West,1,189.00,15,160.65
+ORD-30708,2026-04-12,CUST-501,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30799,2026-04-12,CUST-381,Business Tablet 10-inch,Electronics,North,1,399.00,10,359.10
+ORD-30621,2026-04-13,CUST-314,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-30689,2026-04-13,CUST-324,USB-C Docking Station,Accessories,South,1,159.00,0,159.00
+ORD-30741,2026-04-13,CUST-214,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-30619,2026-04-14,CUST-345,QHD Monitor 27-inch,Electronics,East,2,289.00,0,578.00
+ORD-30647,2026-04-14,CUST-113,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30664,2026-04-14,CUST-324,Business Tablet 10-inch,Electronics,West,1,399.00,5,379.05
+ORD-30683,2026-04-14,CUST-200,Business Tablet 10-inch,Electronics,North,1,399.00,10,359.10
+ORD-30740,2026-04-14,CUST-393,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30757,2026-04-14,CUST-139,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30771,2026-04-14,CUST-292,Portable SSD 1TB,Accessories,North,1,129.00,10,116.10
+ORD-30797,2026-04-14,CUST-311,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-30607,2026-04-15,CUST-306,Business Tablet 10-inch,Electronics,West,1,399.00,5,379.05
+ORD-30611,2026-04-15,CUST-153,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30626,2026-04-15,CUST-354,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30645,2026-04-15,CUST-176,Business Laptop 14-inch,Electronics,South,2,1099.00,0,2198.00
+ORD-30646,2026-04-15,CUST-120,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-30673,2026-04-15,CUST-493,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30702,2026-04-15,CUST-258,Meeting Room Table,Furniture,West,1,1199.00,5,1139.05
+ORD-30723,2026-04-15,CUST-422,Standing Desk,Furniture,East,1,529.00,10,476.10
+ORD-30733,2026-04-15,CUST-359,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30800,2026-04-15,CUST-388,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30642,2026-04-16,CUST-155,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30679,2026-04-16,CUST-349,QHD Monitor 27-inch,Electronics,North,1,289.00,10,260.10
+ORD-30684,2026-04-16,CUST-226,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30687,2026-04-16,CUST-331,Portable SSD 1TB,Accessories,East,3,129.00,0,387.00
+ORD-30699,2026-04-16,CUST-152,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-30720,2026-04-16,CUST-125,QHD Monitor 27-inch,Electronics,West,1,289.00,10,260.10
+ORD-30745,2026-04-16,CUST-307,USB-C Docking Station,Accessories,East,1,159.00,0,159.00
+ORD-30746,2026-04-16,CUST-422,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-30798,2026-04-16,CUST-437,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-30662,2026-04-17,CUST-472,Wireless Keyboard,Accessories,South,1,69.00,0,69.00
+ORD-30742,2026-04-17,CUST-141,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30597,2026-04-18,CUST-505,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-30598,2026-04-18,CUST-132,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-30654,2026-04-18,CUST-505,USB-C Docking Station,Accessories,North,1,159.00,10,143.10
+ORD-30659,2026-04-18,CUST-295,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30674,2026-04-18,CUST-173,USB-C Docking Station,Accessories,West,1,159.00,0,159.00
+ORD-30725,2026-04-18,CUST-267,USB-C Docking Station,Accessories,South,1,159.00,10,143.10
+ORD-30739,2026-04-18,CUST-343,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30790,2026-04-18,CUST-408,Business Tablet 10-inch,Electronics,North,2,399.00,0,798.00
+ORD-30596,2026-04-19,CUST-372,Business Tablet 10-inch,Electronics,South,1,399.00,5,379.05
+ORD-30616,2026-04-19,CUST-489,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-30660,2026-04-19,CUST-510,Ergonomic Office Chair,Furniture,East,2,339.00,0,678.00
+ORD-30693,2026-04-19,CUST-110,Ergonomic Office Chair,Furniture,West,1,339.00,10,305.10
+ORD-30710,2026-04-19,CUST-361,Ergonomic Office Chair,Furniture,East,2,339.00,5,644.10
+ORD-30749,2026-04-19,CUST-306,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30670,2026-04-20,CUST-372,QHD Monitor 27-inch,Electronics,South,1,289.00,5,274.55
+ORD-30726,2026-04-20,CUST-413,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-30752,2026-04-20,CUST-221,Business Laptop 14-inch,Electronics,East,1,1099.00,10,989.10
+ORD-30759,2026-04-20,CUST-119,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30778,2026-04-20,CUST-284,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+ORD-30782,2026-04-20,CUST-117,Business Tablet 10-inch,Electronics,East,1,399.00,5,379.05
+ORD-30618,2026-04-21,CUST-162,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30635,2026-04-21,CUST-294,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-30640,2026-04-21,CUST-516,Business Laptop 14-inch,Electronics,East,1,1099.00,10,989.10
+ORD-30669,2026-04-21,CUST-400,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-30676,2026-04-21,CUST-482,QHD Monitor 27-inch,Electronics,West,1,289.00,5,274.55
+ORD-30701,2026-04-21,CUST-265,Wireless Keyboard,Accessories,North,1,69.00,10,62.10
+ORD-30787,2026-04-21,CUST-117,USB-C Docking Station,Accessories,South,3,159.00,0,477.00
+ORD-30624,2026-04-22,CUST-511,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-30685,2026-04-22,CUST-263,Mini PC Workstation,Electronics,South,2,799.00,10,1438.20
+ORD-30765,2026-04-22,CUST-181,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30610,2026-04-23,CUST-306,Standing Desk,Furniture,North,1,529.00,10,476.10
+ORD-30628,2026-04-23,CUST-386,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-30644,2026-04-23,CUST-327,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30656,2026-04-23,CUST-198,Business Laptop 14-inch,Electronics,East,1,1099.00,10,989.10
+ORD-30657,2026-04-23,CUST-279,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-30762,2026-04-23,CUST-117,Business Tablet 10-inch,Electronics,West,1,399.00,5,379.05
+ORD-30766,2026-04-23,CUST-337,Noise-Cancelling Headset,Accessories,North,2,189.00,0,378.00
+ORD-30783,2026-04-23,CUST-339,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-30602,2026-04-24,CUST-148,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30631,2026-04-24,CUST-153,Business Laptop 14-inch,Electronics,West,2,1099.00,15,1868.30
+ORD-30643,2026-04-24,CUST-176,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30705,2026-04-24,CUST-209,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30711,2026-04-24,CUST-171,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30716,2026-04-24,CUST-142,Wireless Keyboard,Accessories,West,1,69.00,10,62.10
+ORD-30728,2026-04-24,CUST-402,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-30747,2026-04-24,CUST-259,Business Laptop 14-inch,Electronics,West,1,1099.00,10,989.10
+ORD-30756,2026-04-24,CUST-347,Business Laptop 14-inch,Electronics,East,1,1099.00,10,989.10
+ORD-30758,2026-04-24,CUST-387,Noise-Cancelling Headset,Accessories,South,1,189.00,5,179.55
+ORD-30604,2026-04-25,CUST-350,Mini PC Workstation,Electronics,West,1,799.00,15,679.15
+ORD-30629,2026-04-25,CUST-294,Ergonomic Office Chair,Furniture,South,1,339.00,5,322.05
+ORD-30630,2026-04-25,CUST-300,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-30649,2026-04-25,CUST-495,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-30680,2026-04-25,CUST-173,Wireless Keyboard,Accessories,West,1,69.00,15,58.65
+ORD-30704,2026-04-25,CUST-287,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30721,2026-04-25,CUST-345,Meeting Room Table,Furniture,North,2,1199.00,0,2398.00
+ORD-30734,2026-04-25,CUST-189,QHD Monitor 27-inch,Electronics,North,2,289.00,0,578.00
+ORD-30755,2026-04-25,CUST-259,Meeting Room Table,Furniture,West,2,1199.00,0,2398.00
+ORD-30786,2026-04-25,CUST-256,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30791,2026-04-25,CUST-115,QHD Monitor 27-inch,Electronics,West,1,289.00,5,274.55
+ORD-30599,2026-04-26,CUST-467,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-30641,2026-04-26,CUST-399,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30666,2026-04-26,CUST-337,Ergonomic Office Chair,Furniture,East,1,339.00,5,322.05
+ORD-30681,2026-04-26,CUST-210,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-30732,2026-04-26,CUST-246,Standing Desk,Furniture,South,1,529.00,10,476.10
+ORD-30774,2026-04-26,CUST-437,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-30780,2026-04-26,CUST-321,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-30784,2026-04-26,CUST-405,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30613,2026-04-27,CUST-343,Noise-Cancelling Headset,Accessories,East,1,189.00,10,170.10
+ORD-30625,2026-04-27,CUST-379,QHD Monitor 27-inch,Electronics,South,3,289.00,0,867.00
+ORD-30668,2026-04-27,CUST-381,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30706,2026-04-27,CUST-282,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-30750,2026-04-27,CUST-308,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-30637,2026-04-28,CUST-498,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30665,2026-04-28,CUST-121,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-30688,2026-04-28,CUST-311,Business Laptop 14-inch,Electronics,South,1,1099.00,10,989.10
+ORD-30715,2026-04-28,CUST-316,Portable SSD 1TB,Accessories,East,2,129.00,5,245.10
+ORD-30768,2026-04-28,CUST-369,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-30773,2026-04-28,CUST-196,Noise-Cancelling Headset,Accessories,North,1,189.00,0,189.00
+ORD-30776,2026-04-28,CUST-269,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-30785,2026-04-28,CUST-191,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-30671,2026-04-29,CUST-361,Portable SSD 1TB,Accessories,South,1,129.00,5,122.55
+ORD-30738,2026-04-29,CUST-250,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30760,2026-04-29,CUST-520,Ergonomic Office Chair,Furniture,East,1,339.00,10,305.10
+ORD-30781,2026-04-29,CUST-268,QHD Monitor 27-inch,Electronics,East,2,289.00,0,578.00
+ORD-30658,2026-04-30,CUST-257,QHD Monitor 27-inch,Electronics,East,1,289.00,10,260.10
+ORD-30764,2026-04-30,CUST-385,QHD Monitor 27-inch,Electronics,North,1,289.00,10,260.10
+ORD-30775,2026-04-30,CUST-400,Mini PC Workstation,Electronics,North,2,799.00,0,1598.00
+ORD-30829,2026-05-01,CUST-112,Standing Desk,Furniture,South,1,529.00,5,502.55
+ORD-30877,2026-05-01,CUST-261,Business Tablet 10-inch,Electronics,East,1,399.00,10,359.10
+ORD-30893,2026-05-01,CUST-124,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-30918,2026-05-01,CUST-323,Business Tablet 10-inch,Electronics,North,2,399.00,0,798.00
+ORD-30954,2026-05-01,CUST-405,Noise-Cancelling Headset,Accessories,North,2,189.00,0,378.00
+ORD-30992,2026-05-01,CUST-389,Noise-Cancelling Headset,Accessories,North,1,189.00,0,189.00
+ORD-30878,2026-05-02,CUST-233,Standing Desk,Furniture,West,1,529.00,5,502.55
+ORD-30886,2026-05-02,CUST-122,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30892,2026-05-02,CUST-347,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-30916,2026-05-02,CUST-371,Standing Desk,Furniture,East,2,529.00,0,1058.00
+ORD-30998,2026-05-02,CUST-155,Standing Desk,Furniture,West,1,529.00,5,502.55
+ORD-30836,2026-05-03,CUST-464,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30852,2026-05-03,CUST-475,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30873,2026-05-03,CUST-160,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30937,2026-05-03,CUST-422,Standing Desk,Furniture,East,1,529.00,5,502.55
+ORD-30940,2026-05-03,CUST-248,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30987,2026-05-03,CUST-348,QHD Monitor 27-inch,Electronics,North,2,289.00,0,578.00
+ORD-30833,2026-05-04,CUST-245,Noise-Cancelling Headset,Accessories,West,1,189.00,10,170.10
+ORD-30922,2026-05-04,CUST-422,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-30929,2026-05-04,CUST-409,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30944,2026-05-04,CUST-445,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30965,2026-05-04,CUST-517,Mini PC Workstation,Electronics,East,1,799.00,10,719.10
+ORD-30968,2026-05-04,CUST-218,Standing Desk,Furniture,South,2,529.00,0,1058.00
+ORD-30988,2026-05-04,CUST-482,Business Tablet 10-inch,Electronics,West,2,399.00,0,798.00
+ORD-31000,2026-05-04,CUST-290,Business Tablet 10-inch,Electronics,West,1,399.00,10,359.10
+ORD-31031,2026-05-04,CUST-346,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30820,2026-05-05,CUST-398,Ergonomic Office Chair,Furniture,West,1,339.00,15,288.15
+ORD-30842,2026-05-05,CUST-366,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+ORD-30901,2026-05-05,CUST-493,Meeting Room Table,Furniture,North,1,1199.00,10,1079.10
+ORD-30949,2026-05-05,CUST-253,Noise-Cancelling Headset,Accessories,West,1,189.00,10,170.10
+ORD-30991,2026-05-05,CUST-375,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-31008,2026-05-05,CUST-215,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31023,2026-05-05,CUST-295,Noise-Cancelling Headset,Accessories,North,1,189.00,0,189.00
+ORD-31035,2026-05-05,CUST-429,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30831,2026-05-06,CUST-518,Business Tablet 10-inch,Electronics,West,1,399.00,10,359.10
+ORD-30876,2026-05-06,CUST-506,Mini PC Workstation,Electronics,West,2,799.00,0,1598.00
+ORD-30888,2026-05-06,CUST-126,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-30899,2026-05-06,CUST-101,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30905,2026-05-06,CUST-186,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-30967,2026-05-06,CUST-263,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-31024,2026-05-06,CUST-434,USB-C Docking Station,Accessories,North,1,159.00,0,159.00
+ORD-30845,2026-05-07,CUST-365,Business Tablet 10-inch,Electronics,East,1,399.00,10,359.10
+ORD-30848,2026-05-07,CUST-273,Business Tablet 10-inch,Electronics,South,1,399.00,10,359.10
+ORD-30860,2026-05-07,CUST-425,USB-C Docking Station,Accessories,East,1,159.00,0,159.00
+ORD-30866,2026-05-07,CUST-158,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-30885,2026-05-07,CUST-189,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30906,2026-05-07,CUST-180,Business Laptop 14-inch,Electronics,South,2,1099.00,0,2198.00
+ORD-30934,2026-05-07,CUST-523,Standing Desk,Furniture,East,1,529.00,10,476.10
+ORD-30974,2026-05-07,CUST-345,Business Tablet 10-inch,Electronics,North,1,399.00,10,359.10
+ORD-30986,2026-05-07,CUST-398,Mini PC Workstation,Electronics,East,1,799.00,10,719.10
+ORD-31011,2026-05-07,CUST-128,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31025,2026-05-07,CUST-261,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-31039,2026-05-07,CUST-134,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-31040,2026-05-07,CUST-496,USB-C Docking Station,Accessories,East,1,159.00,0,159.00
+ORD-30816,2026-05-08,CUST-471,QHD Monitor 27-inch,Electronics,West,2,289.00,0,578.00
+ORD-30825,2026-05-08,CUST-257,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30832,2026-05-08,CUST-275,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30856,2026-05-08,CUST-460,QHD Monitor 27-inch,Electronics,West,3,289.00,0,867.00
+ORD-30862,2026-05-08,CUST-145,Wireless Keyboard,Accessories,West,3,69.00,5,196.65
+ORD-30872,2026-05-08,CUST-113,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-30880,2026-05-08,CUST-139,Mini PC Workstation,Electronics,West,1,799.00,10,719.10
+ORD-30912,2026-05-08,CUST-251,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-30939,2026-05-08,CUST-377,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30950,2026-05-08,CUST-226,QHD Monitor 27-inch,Electronics,North,1,289.00,10,260.10
+ORD-30957,2026-05-08,CUST-217,Portable SSD 1TB,Accessories,East,2,129.00,5,245.10
+ORD-30994,2026-05-08,CUST-111,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-31009,2026-05-08,CUST-375,Portable SSD 1TB,Accessories,North,2,129.00,10,232.20
+ORD-31027,2026-05-08,CUST-429,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30806,2026-05-09,CUST-467,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-30814,2026-05-09,CUST-520,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-30855,2026-05-09,CUST-218,Ergonomic Office Chair,Furniture,South,1,339.00,15,288.15
+ORD-30915,2026-05-09,CUST-163,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30930,2026-05-09,CUST-208,Portable SSD 1TB,Accessories,East,1,129.00,0,129.00
+ORD-30981,2026-05-09,CUST-116,Business Laptop 14-inch,Electronics,East,1,1099.00,5,1044.05
+ORD-31003,2026-05-09,CUST-226,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31016,2026-05-09,CUST-250,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30847,2026-05-10,CUST-252,Ergonomic Office Chair,Furniture,West,1,339.00,10,305.10
+ORD-30850,2026-05-10,CUST-439,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-30871,2026-05-10,CUST-477,Business Tablet 10-inch,Electronics,East,1,399.00,10,359.10
+ORD-30890,2026-05-10,CUST-369,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30933,2026-05-10,CUST-336,Business Tablet 10-inch,Electronics,South,1,399.00,10,359.10
+ORD-30963,2026-05-10,CUST-108,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30983,2026-05-10,CUST-500,Ergonomic Office Chair,Furniture,East,1,339.00,15,288.15
+ORD-30997,2026-05-10,CUST-461,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31015,2026-05-10,CUST-117,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31026,2026-05-10,CUST-208,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31037,2026-05-10,CUST-179,USB-C Docking Station,Accessories,South,1,159.00,5,151.05
+ORD-31038,2026-05-10,CUST-129,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-30823,2026-05-11,CUST-101,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30924,2026-05-11,CUST-366,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-30925,2026-05-11,CUST-384,QHD Monitor 27-inch,Electronics,East,2,289.00,0,578.00
+ORD-30971,2026-05-11,CUST-443,Mini PC Workstation,Electronics,North,2,799.00,0,1598.00
+ORD-30982,2026-05-11,CUST-303,QHD Monitor 27-inch,Electronics,South,1,289.00,15,245.65
+ORD-30989,2026-05-11,CUST-163,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-31001,2026-05-11,CUST-206,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-31019,2026-05-11,CUST-114,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31020,2026-05-11,CUST-376,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31034,2026-05-11,CUST-495,Business Laptop 14-inch,Electronics,South,2,1099.00,0,2198.00
+ORD-30843,2026-05-12,CUST-344,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-30851,2026-05-12,CUST-264,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-30882,2026-05-12,CUST-375,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-30907,2026-05-12,CUST-298,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-30947,2026-05-12,CUST-151,Business Laptop 14-inch,Electronics,South,2,1099.00,0,2198.00
+ORD-30952,2026-05-12,CUST-249,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-31022,2026-05-12,CUST-207,Noise-Cancelling Headset,Accessories,West,3,189.00,10,510.30
+ORD-30828,2026-05-13,CUST-419,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30894,2026-05-13,CUST-110,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30914,2026-05-13,CUST-356,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-30943,2026-05-13,CUST-288,USB-C Docking Station,Accessories,North,1,159.00,0,159.00
+ORD-30948,2026-05-13,CUST-113,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30990,2026-05-13,CUST-155,Ergonomic Office Chair,Furniture,East,2,339.00,0,678.00
+ORD-31014,2026-05-13,CUST-430,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-30801,2026-05-14,CUST-312,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-30817,2026-05-14,CUST-394,Standing Desk,Furniture,East,1,529.00,10,476.10
+ORD-30826,2026-05-14,CUST-128,Noise-Cancelling Headset,Accessories,South,2,189.00,10,340.20
+ORD-30911,2026-05-14,CUST-325,QHD Monitor 27-inch,Electronics,West,1,289.00,5,274.55
+ORD-30935,2026-05-14,CUST-363,QHD Monitor 27-inch,Electronics,North,2,289.00,10,520.20
+ORD-30941,2026-05-14,CUST-207,USB-C Docking Station,Accessories,East,1,159.00,0,159.00
+ORD-30975,2026-05-14,CUST-202,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-30979,2026-05-14,CUST-143,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-31006,2026-05-14,CUST-452,Business Laptop 14-inch,Electronics,South,1,1099.00,10,989.10
+ORD-31007,2026-05-14,CUST-487,Portable SSD 1TB,Accessories,North,1,129.00,5,122.55
+ORD-30898,2026-05-15,CUST-474,Business Tablet 10-inch,Electronics,West,1,399.00,5,379.05
+ORD-30913,2026-05-15,CUST-223,Wireless Keyboard,Accessories,South,2,69.00,0,138.00
+ORD-30917,2026-05-15,CUST-522,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30923,2026-05-15,CUST-229,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-30926,2026-05-15,CUST-323,Noise-Cancelling Headset,Accessories,West,1,189.00,5,179.55
+ORD-30945,2026-05-15,CUST-204,Mini PC Workstation,Electronics,South,2,799.00,0,1598.00
+ORD-30958,2026-05-15,CUST-321,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-30977,2026-05-15,CUST-267,USB-C Docking Station,Accessories,North,1,159.00,0,159.00
+ORD-30804,2026-05-16,CUST-127,Business Laptop 14-inch,Electronics,South,1,1099.00,5,1044.05
+ORD-30837,2026-05-16,CUST-464,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30841,2026-05-16,CUST-146,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-30849,2026-05-16,CUST-426,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-30884,2026-05-16,CUST-349,Standing Desk,Furniture,South,2,529.00,0,1058.00
+ORD-30920,2026-05-16,CUST-529,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-30953,2026-05-16,CUST-171,USB-C Docking Station,Accessories,South,1,159.00,5,151.05
+ORD-31002,2026-05-16,CUST-212,QHD Monitor 27-inch,Electronics,North,3,289.00,5,823.65
+ORD-31005,2026-05-16,CUST-155,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30827,2026-05-17,CUST-530,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-30858,2026-05-17,CUST-243,Meeting Room Table,Furniture,West,1,1199.00,10,1079.10
+ORD-30883,2026-05-17,CUST-440,Ergonomic Office Chair,Furniture,North,1,339.00,10,305.10
+ORD-30942,2026-05-17,CUST-449,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-30959,2026-05-17,CUST-198,Business Tablet 10-inch,Electronics,West,1,399.00,10,359.10
+ORD-30980,2026-05-17,CUST-186,Standing Desk,Furniture,East,2,529.00,10,952.20
+ORD-30887,2026-05-18,CUST-349,Business Tablet 10-inch,Electronics,East,1,399.00,15,339.15
+ORD-30910,2026-05-18,CUST-336,Business Laptop 14-inch,Electronics,West,2,1099.00,5,2088.10
+ORD-30951,2026-05-18,CUST-355,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-30969,2026-05-18,CUST-334,Business Tablet 10-inch,Electronics,West,2,399.00,5,758.10
+ORD-30857,2026-05-19,CUST-351,QHD Monitor 27-inch,Electronics,East,2,289.00,5,549.10
+ORD-30908,2026-05-19,CUST-413,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-30932,2026-05-19,CUST-119,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30962,2026-05-19,CUST-116,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-30984,2026-05-19,CUST-513,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-31004,2026-05-19,CUST-191,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-31018,2026-05-19,CUST-493,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-31029,2026-05-19,CUST-205,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31032,2026-05-19,CUST-397,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30861,2026-05-20,CUST-119,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30891,2026-05-20,CUST-504,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-30897,2026-05-20,CUST-232,Meeting Room Table,Furniture,East,1,1199.00,10,1079.10
+ORD-30902,2026-05-20,CUST-212,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-30921,2026-05-20,CUST-508,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-30961,2026-05-20,CUST-188,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31028,2026-05-20,CUST-365,QHD Monitor 27-inch,Electronics,West,2,289.00,0,578.00
+ORD-30818,2026-05-21,CUST-445,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-30821,2026-05-21,CUST-412,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-30956,2026-05-21,CUST-414,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-30973,2026-05-21,CUST-392,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30978,2026-05-21,CUST-317,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+ORD-30803,2026-05-22,CUST-478,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-30839,2026-05-22,CUST-405,Portable SSD 1TB,Accessories,East,1,129.00,0,129.00
+ORD-30976,2026-05-22,CUST-114,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-30996,2026-05-22,CUST-285,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-31017,2026-05-22,CUST-277,Wireless Keyboard,Accessories,East,1,69.00,5,65.55
+ORD-30807,2026-05-23,CUST-415,Ergonomic Office Chair,Furniture,West,1,339.00,5,322.05
+ORD-30854,2026-05-23,CUST-434,Noise-Cancelling Headset,Accessories,West,1,189.00,0,189.00
+ORD-30874,2026-05-23,CUST-294,Business Tablet 10-inch,Electronics,South,1,399.00,5,379.05
+ORD-30889,2026-05-23,CUST-234,Wireless Keyboard,Accessories,South,1,69.00,0,69.00
+ORD-30903,2026-05-23,CUST-406,Ergonomic Office Chair,Furniture,West,1,339.00,5,322.05
+ORD-30985,2026-05-23,CUST-181,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31010,2026-05-23,CUST-523,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31021,2026-05-23,CUST-140,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-30808,2026-05-24,CUST-400,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+ORD-30813,2026-05-24,CUST-174,Meeting Room Table,Furniture,West,1,1199.00,5,1139.05
+ORD-30838,2026-05-24,CUST-274,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30869,2026-05-24,CUST-415,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30993,2026-05-24,CUST-203,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+ORD-31030,2026-05-24,CUST-500,Mini PC Workstation,Electronics,North,1,799.00,10,719.10
+ORD-30809,2026-05-25,CUST-240,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30928,2026-05-25,CUST-171,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-30938,2026-05-25,CUST-423,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30964,2026-05-25,CUST-372,Standing Desk,Furniture,South,1,529.00,10,476.10
+ORD-31033,2026-05-25,CUST-123,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-31036,2026-05-25,CUST-430,Portable SSD 1TB,Accessories,North,2,129.00,0,258.00
+ORD-30830,2026-05-26,CUST-348,Business Tablet 10-inch,Electronics,West,1,399.00,5,379.05
+ORD-30859,2026-05-26,CUST-497,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-30870,2026-05-26,CUST-188,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-30955,2026-05-26,CUST-347,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-30810,2026-05-27,CUST-303,QHD Monitor 27-inch,Electronics,East,1,289.00,10,260.10
+ORD-30819,2026-05-27,CUST-321,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30863,2026-05-27,CUST-447,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30864,2026-05-27,CUST-294,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-30875,2026-05-27,CUST-138,USB-C Docking Station,Accessories,North,2,159.00,0,318.00
+ORD-30879,2026-05-27,CUST-453,Standing Desk,Furniture,North,1,529.00,10,476.10
+ORD-30970,2026-05-27,CUST-498,Portable SSD 1TB,Accessories,South,1,129.00,5,122.55
+ORD-30844,2026-05-28,CUST-101,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-30865,2026-05-28,CUST-505,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-30881,2026-05-28,CUST-220,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-30900,2026-05-28,CUST-163,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-30904,2026-05-28,CUST-433,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30909,2026-05-28,CUST-294,Business Tablet 10-inch,Electronics,West,1,399.00,5,379.05
+ORD-30927,2026-05-28,CUST-137,Wireless Keyboard,Accessories,West,2,69.00,10,124.20
+ORD-30946,2026-05-28,CUST-118,QHD Monitor 27-inch,Electronics,West,2,289.00,0,578.00
+ORD-30966,2026-05-28,CUST-282,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-30802,2026-05-29,CUST-341,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-30824,2026-05-29,CUST-211,USB-C Docking Station,Accessories,South,1,159.00,0,159.00
+ORD-30834,2026-05-29,CUST-383,Portable SSD 1TB,Accessories,South,3,129.00,0,387.00
+ORD-30840,2026-05-29,CUST-212,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-30853,2026-05-29,CUST-363,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-30868,2026-05-29,CUST-134,QHD Monitor 27-inch,Electronics,North,1,289.00,10,260.10
+ORD-30895,2026-05-29,CUST-385,Mini PC Workstation,Electronics,West,1,799.00,10,719.10
+ORD-30896,2026-05-29,CUST-267,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-30931,2026-05-29,CUST-162,Ergonomic Office Chair,Furniture,North,1,339.00,10,305.10
+ORD-30995,2026-05-29,CUST-132,Ergonomic Office Chair,Furniture,East,1,339.00,10,305.10
+ORD-30811,2026-05-30,CUST-391,USB-C Docking Station,Accessories,North,2,159.00,0,318.00
+ORD-30812,2026-05-30,CUST-168,Business Laptop 14-inch,Electronics,East,1,1099.00,15,934.15
+ORD-30815,2026-05-30,CUST-104,Mini PC Workstation,Electronics,North,1,799.00,10,719.10
+ORD-30822,2026-05-30,CUST-170,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-30846,2026-05-30,CUST-417,Business Tablet 10-inch,Electronics,East,2,399.00,5,758.10
+ORD-30867,2026-05-30,CUST-282,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-30972,2026-05-30,CUST-302,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-30805,2026-05-31,CUST-464,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-30835,2026-05-31,CUST-162,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-30919,2026-05-31,CUST-511,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-30936,2026-05-31,CUST-152,USB-C Docking Station,Accessories,West,1,159.00,0,159.00
+ORD-30960,2026-05-31,CUST-352,Noise-Cancelling Headset,Accessories,East,3,189.00,5,538.65
+ORD-30999,2026-05-31,CUST-162,Noise-Cancelling Headset,Accessories,South,2,189.00,0,378.00
+ORD-31012,2026-05-31,CUST-527,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-31013,2026-05-31,CUST-383,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31058,2026-06-01,CUST-296,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-31074,2026-06-01,CUST-417,Meeting Room Table,Furniture,East,3,1199.00,5,3417.15
+ORD-31125,2026-06-01,CUST-495,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31160,2026-06-01,CUST-451,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+ORD-31192,2026-06-01,CUST-109,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-31251,2026-06-01,CUST-430,Noise-Cancelling Headset,Accessories,South,1,189.00,10,170.10
+ORD-31093,2026-06-02,CUST-445,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-31127,2026-06-02,CUST-294,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-31177,2026-06-02,CUST-235,Noise-Cancelling Headset,Accessories,North,1,189.00,0,189.00
+ORD-31178,2026-06-02,CUST-479,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-31207,2026-06-02,CUST-368,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-31262,2026-06-02,CUST-147,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-31276,2026-06-02,CUST-331,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-31066,2026-06-03,CUST-287,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-31148,2026-06-03,CUST-394,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-31182,2026-06-03,CUST-254,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31185,2026-06-03,CUST-454,Business Tablet 10-inch,Electronics,West,1,399.00,5,379.05
+ORD-31197,2026-06-03,CUST-384,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-31226,2026-06-03,CUST-230,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-31249,2026-06-03,CUST-244,Wireless Keyboard,Accessories,North,1,69.00,0,69.00
+ORD-31175,2026-06-04,CUST-306,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-31213,2026-06-04,CUST-252,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-31243,2026-06-04,CUST-504,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31261,2026-06-04,CUST-328,Wireless Keyboard,Accessories,East,2,69.00,5,131.10
+ORD-31275,2026-06-04,CUST-184,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-31285,2026-06-04,CUST-400,Business Tablet 10-inch,Electronics,North,3,399.00,0,1197.00
+ORD-31052,2026-06-05,CUST-246,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31055,2026-06-05,CUST-353,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31068,2026-06-05,CUST-300,Portable SSD 1TB,Accessories,East,2,129.00,0,258.00
+ORD-31128,2026-06-05,CUST-370,QHD Monitor 27-inch,Electronics,North,1,289.00,10,260.10
+ORD-31146,2026-06-05,CUST-326,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-31181,2026-06-05,CUST-247,Ergonomic Office Chair,Furniture,West,2,339.00,10,610.20
+ORD-31186,2026-06-05,CUST-341,QHD Monitor 27-inch,Electronics,West,1,289.00,10,260.10
+ORD-31187,2026-06-05,CUST-337,Ergonomic Office Chair,Furniture,East,2,339.00,0,678.00
+ORD-31204,2026-06-05,CUST-268,Ergonomic Office Chair,Furniture,South,1,339.00,5,322.05
+ORD-31235,2026-06-05,CUST-525,Ergonomic Office Chair,Furniture,East,1,339.00,5,322.05
+ORD-31236,2026-06-05,CUST-102,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31268,2026-06-05,CUST-264,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-31073,2026-06-06,CUST-209,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31089,2026-06-06,CUST-303,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-31141,2026-06-06,CUST-389,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31174,2026-06-06,CUST-444,USB-C Docking Station,Accessories,West,1,159.00,10,143.10
+ORD-31292,2026-06-06,CUST-241,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-31298,2026-06-06,CUST-102,Meeting Room Table,Furniture,North,2,1199.00,0,2398.00
+ORD-31062,2026-06-07,CUST-241,Wireless Keyboard,Accessories,North,2,69.00,10,124.20
+ORD-31142,2026-06-07,CUST-152,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-31149,2026-06-07,CUST-325,Business Laptop 14-inch,Electronics,East,2,1099.00,0,2198.00
+ORD-31183,2026-06-07,CUST-129,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-31215,2026-06-07,CUST-297,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-31225,2026-06-07,CUST-305,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-31250,2026-06-07,CUST-373,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31257,2026-06-07,CUST-239,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+ORD-31265,2026-06-07,CUST-348,Business Laptop 14-inch,Electronics,North,1,1099.00,10,989.10
+ORD-31282,2026-06-07,CUST-510,QHD Monitor 27-inch,Electronics,West,1,289.00,5,274.55
+ORD-31059,2026-06-08,CUST-335,Mini PC Workstation,Electronics,East,1,799.00,10,719.10
+ORD-31064,2026-06-08,CUST-167,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31075,2026-06-08,CUST-220,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-31085,2026-06-08,CUST-520,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-31086,2026-06-08,CUST-107,QHD Monitor 27-inch,Electronics,North,1,289.00,15,245.65
+ORD-31118,2026-06-08,CUST-496,Business Tablet 10-inch,Electronics,East,2,399.00,5,758.10
+ORD-31129,2026-06-08,CUST-215,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31143,2026-06-08,CUST-453,Noise-Cancelling Headset,Accessories,North,1,189.00,0,189.00
+ORD-31163,2026-06-08,CUST-483,QHD Monitor 27-inch,Electronics,North,1,289.00,15,245.65
+ORD-31171,2026-06-08,CUST-262,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-31043,2026-06-09,CUST-318,Noise-Cancelling Headset,Accessories,West,1,189.00,10,170.10
+ORD-31082,2026-06-09,CUST-478,Business Laptop 14-inch,Electronics,East,2,1099.00,0,2198.00
+ORD-31109,2026-06-09,CUST-199,Meeting Room Table,Furniture,West,2,1199.00,10,2158.20
+ORD-31113,2026-06-09,CUST-222,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31120,2026-06-09,CUST-129,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-31201,2026-06-09,CUST-431,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-31232,2026-06-09,CUST-281,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-31239,2026-06-09,CUST-464,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-31240,2026-06-09,CUST-280,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-31044,2026-06-10,CUST-107,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31054,2026-06-10,CUST-132,Wireless Keyboard,Accessories,South,1,69.00,0,69.00
+ORD-31069,2026-06-10,CUST-235,Meeting Room Table,Furniture,South,2,1199.00,10,2158.20
+ORD-31077,2026-06-10,CUST-380,Ergonomic Office Chair,Furniture,South,1,339.00,5,322.05
+ORD-31084,2026-06-10,CUST-355,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-31119,2026-06-10,CUST-507,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31131,2026-06-10,CUST-348,Portable SSD 1TB,Accessories,North,1,129.00,0,129.00
+ORD-31136,2026-06-10,CUST-334,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-31147,2026-06-10,CUST-139,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-31180,2026-06-10,CUST-128,Ergonomic Office Chair,Furniture,South,1,339.00,5,322.05
+ORD-31224,2026-06-10,CUST-133,Meeting Room Table,Furniture,South,1,1199.00,5,1139.05
+ORD-31228,2026-06-10,CUST-206,QHD Monitor 27-inch,Electronics,South,1,289.00,10,260.10
+ORD-31244,2026-06-10,CUST-223,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31246,2026-06-10,CUST-122,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-31279,2026-06-10,CUST-384,USB-C Docking Station,Accessories,West,1,159.00,0,159.00
+ORD-31072,2026-06-11,CUST-473,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-31083,2026-06-11,CUST-429,Portable SSD 1TB,Accessories,West,1,129.00,0,129.00
+ORD-31252,2026-06-11,CUST-449,QHD Monitor 27-inch,Electronics,North,2,289.00,0,578.00
+ORD-31264,2026-06-11,CUST-355,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-31266,2026-06-11,CUST-199,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31293,2026-06-11,CUST-126,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-31088,2026-06-12,CUST-501,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-31104,2026-06-12,CUST-268,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-31117,2026-06-12,CUST-233,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-31151,2026-06-12,CUST-310,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31155,2026-06-12,CUST-119,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-31233,2026-06-12,CUST-447,Standing Desk,Furniture,West,1,529.00,5,502.55
+ORD-31269,2026-06-12,CUST-155,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31289,2026-06-12,CUST-478,Business Tablet 10-inch,Electronics,South,2,399.00,0,798.00
+ORD-31049,2026-06-13,CUST-313,USB-C Docking Station,Accessories,East,2,159.00,10,286.20
+ORD-31051,2026-06-13,CUST-342,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-31090,2026-06-13,CUST-374,Meeting Room Table,Furniture,North,1,1199.00,10,1079.10
+ORD-31135,2026-06-13,CUST-168,Meeting Room Table,Furniture,East,3,1199.00,10,3237.30
+ORD-31169,2026-06-13,CUST-118,Meeting Room Table,Furniture,East,2,1199.00,5,2278.10
+ORD-31221,2026-06-13,CUST-204,Wireless Keyboard,Accessories,East,1,69.00,10,62.10
+ORD-31223,2026-06-13,CUST-297,Business Tablet 10-inch,Electronics,North,2,399.00,0,798.00
+ORD-31253,2026-06-13,CUST-478,QHD Monitor 27-inch,Electronics,West,2,289.00,5,549.10
+ORD-31061,2026-06-14,CUST-511,Business Tablet 10-inch,Electronics,North,2,399.00,0,798.00
+ORD-31094,2026-06-14,CUST-160,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31107,2026-06-14,CUST-101,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31108,2026-06-14,CUST-165,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-31132,2026-06-14,CUST-336,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+ORD-31139,2026-06-14,CUST-408,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-31161,2026-06-14,CUST-344,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-31184,2026-06-14,CUST-332,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-31241,2026-06-14,CUST-286,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31247,2026-06-14,CUST-519,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-31273,2026-06-14,CUST-164,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31291,2026-06-14,CUST-174,Ergonomic Office Chair,Furniture,South,2,339.00,5,644.10
+ORD-31140,2026-06-15,CUST-341,USB-C Docking Station,Accessories,East,1,159.00,0,159.00
+ORD-31153,2026-06-15,CUST-465,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-31203,2026-06-15,CUST-195,USB-C Docking Station,Accessories,South,3,159.00,5,453.15
+ORD-31263,2026-06-15,CUST-290,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-31267,2026-06-15,CUST-391,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-31274,2026-06-15,CUST-236,Noise-Cancelling Headset,Accessories,South,2,189.00,0,378.00
+ORD-31288,2026-06-15,CUST-477,Standing Desk,Furniture,West,2,529.00,0,1058.00
+ORD-31296,2026-06-15,CUST-407,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31047,2026-06-16,CUST-480,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-31048,2026-06-16,CUST-416,Mini PC Workstation,Electronics,North,1,799.00,15,679.15
+ORD-31097,2026-06-16,CUST-219,Business Tablet 10-inch,Electronics,South,1,399.00,5,379.05
+ORD-31100,2026-06-16,CUST-407,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-31123,2026-06-16,CUST-256,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-31150,2026-06-16,CUST-216,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+ORD-31157,2026-06-16,CUST-392,Standing Desk,Furniture,South,2,529.00,0,1058.00
+ORD-31159,2026-06-16,CUST-273,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-31173,2026-06-16,CUST-101,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31202,2026-06-16,CUST-453,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31156,2026-06-17,CUST-465,QHD Monitor 27-inch,Electronics,South,1,289.00,15,245.65
+ORD-31190,2026-06-17,CUST-515,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-31220,2026-06-17,CUST-366,Meeting Room Table,Furniture,North,2,1199.00,0,2398.00
+ORD-31254,2026-06-17,CUST-500,Standing Desk,Furniture,North,1,529.00,10,476.10
+ORD-31041,2026-06-18,CUST-189,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31042,2026-06-18,CUST-518,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-31046,2026-06-18,CUST-406,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31080,2026-06-18,CUST-202,QHD Monitor 27-inch,Electronics,South,1,289.00,5,274.55
+ORD-31092,2026-06-18,CUST-131,Portable SSD 1TB,Accessories,West,1,129.00,0,129.00
+ORD-31102,2026-06-18,CUST-111,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31106,2026-06-18,CUST-125,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-31124,2026-06-18,CUST-127,QHD Monitor 27-inch,Electronics,East,2,289.00,0,578.00
+ORD-31176,2026-06-18,CUST-167,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+ORD-31214,2026-06-18,CUST-346,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-31238,2026-06-18,CUST-153,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+ORD-31287,2026-06-18,CUST-211,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-31056,2026-06-19,CUST-141,USB-C Docking Station,Accessories,West,1,159.00,10,143.10
+ORD-31060,2026-06-19,CUST-520,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-31091,2026-06-19,CUST-241,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31133,2026-06-19,CUST-165,Mini PC Workstation,Electronics,North,2,799.00,0,1598.00
+ORD-31208,2026-06-19,CUST-109,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31209,2026-06-19,CUST-384,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31210,2026-06-19,CUST-139,Mini PC Workstation,Electronics,West,1,799.00,10,719.10
+ORD-31295,2026-06-19,CUST-291,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31297,2026-06-19,CUST-103,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-31050,2026-06-20,CUST-211,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-31053,2026-06-20,CUST-150,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-31076,2026-06-20,CUST-300,QHD Monitor 27-inch,Electronics,South,2,289.00,0,578.00
+ORD-31095,2026-06-20,CUST-499,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-31170,2026-06-20,CUST-182,USB-C Docking Station,Accessories,North,1,159.00,10,143.10
+ORD-31193,2026-06-20,CUST-460,Standing Desk,Furniture,West,1,529.00,5,502.55
+ORD-31218,2026-06-20,CUST-202,Ergonomic Office Chair,Furniture,North,2,339.00,5,644.10
+ORD-31260,2026-06-20,CUST-517,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31071,2026-06-21,CUST-370,QHD Monitor 27-inch,Electronics,East,1,289.00,10,260.10
+ORD-31078,2026-06-21,CUST-127,Wireless Keyboard,Accessories,North,1,69.00,10,62.10
+ORD-31126,2026-06-21,CUST-476,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-31162,2026-06-21,CUST-221,Meeting Room Table,Furniture,East,1,1199.00,5,1139.05
+ORD-31167,2026-06-21,CUST-285,QHD Monitor 27-inch,Electronics,North,2,289.00,0,578.00
+ORD-31237,2026-06-21,CUST-164,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-31245,2026-06-21,CUST-153,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-31277,2026-06-21,CUST-492,Noise-Cancelling Headset,Accessories,North,1,189.00,5,179.55
+ORD-31280,2026-06-21,CUST-419,Ergonomic Office Chair,Furniture,East,1,339.00,5,322.05
+ORD-31294,2026-06-21,CUST-147,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-31057,2026-06-22,CUST-501,Portable SSD 1TB,Accessories,West,1,129.00,5,122.55
+ORD-31070,2026-06-22,CUST-101,Noise-Cancelling Headset,Accessories,South,2,189.00,15,321.30
+ORD-31079,2026-06-22,CUST-321,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31121,2026-06-22,CUST-215,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-31130,2026-06-22,CUST-528,QHD Monitor 27-inch,Electronics,North,1,289.00,10,260.10
+ORD-31164,2026-06-22,CUST-189,Standing Desk,Furniture,East,2,529.00,0,1058.00
+ORD-31211,2026-06-22,CUST-455,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-31216,2026-06-22,CUST-400,Business Laptop 14-inch,Electronics,South,1,1099.00,5,1044.05
+ORD-31217,2026-06-22,CUST-145,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-31219,2026-06-22,CUST-488,Meeting Room Table,Furniture,South,1,1199.00,5,1139.05
+ORD-31234,2026-06-22,CUST-187,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+ORD-31255,2026-06-22,CUST-366,Ergonomic Office Chair,Furniture,West,1,339.00,15,288.15
+ORD-31111,2026-06-23,CUST-252,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-31116,2026-06-23,CUST-463,USB-C Docking Station,Accessories,North,1,159.00,0,159.00
+ORD-31166,2026-06-23,CUST-413,Standing Desk,Furniture,West,1,529.00,5,502.55
+ORD-31200,2026-06-23,CUST-245,Mini PC Workstation,Electronics,East,1,799.00,5,759.05
+ORD-31222,2026-06-23,CUST-120,Ergonomic Office Chair,Furniture,West,2,339.00,0,678.00
+ORD-31231,2026-06-23,CUST-528,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31284,2026-06-23,CUST-177,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31067,2026-06-24,CUST-163,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31087,2026-06-24,CUST-330,Business Laptop 14-inch,Electronics,North,1,1099.00,10,989.10
+ORD-31105,2026-06-24,CUST-429,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31112,2026-06-24,CUST-374,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-31138,2026-06-24,CUST-460,QHD Monitor 27-inch,Electronics,North,2,289.00,10,520.20
+ORD-31152,2026-06-24,CUST-511,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-31165,2026-06-24,CUST-414,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-31199,2026-06-24,CUST-220,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+ORD-31205,2026-06-24,CUST-232,Wireless Keyboard,Accessories,North,1,69.00,0,69.00
+ORD-31278,2026-06-24,CUST-341,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-31281,2026-06-24,CUST-309,QHD Monitor 27-inch,Electronics,North,2,289.00,0,578.00
+ORD-31286,2026-06-24,CUST-489,Mini PC Workstation,Electronics,West,1,799.00,10,719.10
+ORD-31045,2026-06-25,CUST-152,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-31115,2026-06-25,CUST-476,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-31122,2026-06-25,CUST-434,Business Tablet 10-inch,Electronics,East,1,399.00,5,379.05
+ORD-31134,2026-06-25,CUST-365,Business Tablet 10-inch,Electronics,East,1,399.00,5,379.05
+ORD-31158,2026-06-25,CUST-121,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31212,2026-06-25,CUST-264,Business Tablet 10-inch,Electronics,North,1,399.00,10,359.10
+ORD-31144,2026-06-26,CUST-456,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-31154,2026-06-26,CUST-309,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31172,2026-06-26,CUST-386,Business Laptop 14-inch,Electronics,North,1,1099.00,10,989.10
+ORD-31194,2026-06-26,CUST-496,Noise-Cancelling Headset,Accessories,East,3,189.00,0,567.00
+ORD-31248,2026-06-26,CUST-241,Noise-Cancelling Headset,Accessories,West,1,189.00,0,189.00
+ORD-31270,2026-06-26,CUST-105,Ergonomic Office Chair,Furniture,North,1,339.00,10,305.10
+ORD-31271,2026-06-26,CUST-311,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-31081,2026-06-27,CUST-479,Portable SSD 1TB,Accessories,North,1,129.00,0,129.00
+ORD-31098,2026-06-27,CUST-381,USB-C Docking Station,Accessories,South,1,159.00,0,159.00
+ORD-31110,2026-06-27,CUST-184,Meeting Room Table,Furniture,East,2,1199.00,0,2398.00
+ORD-31145,2026-06-27,CUST-496,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-31198,2026-06-27,CUST-278,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-31259,2026-06-27,CUST-419,Wireless Keyboard,Accessories,North,1,69.00,0,69.00
+ORD-31272,2026-06-27,CUST-435,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31063,2026-06-28,CUST-193,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31065,2026-06-28,CUST-154,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-31096,2026-06-28,CUST-417,USB-C Docking Station,Accessories,West,3,159.00,5,453.15
+ORD-31099,2026-06-28,CUST-111,Ergonomic Office Chair,Furniture,East,1,339.00,10,305.10
+ORD-31114,2026-06-28,CUST-307,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-31189,2026-06-28,CUST-255,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-31195,2026-06-28,CUST-184,Ergonomic Office Chair,Furniture,East,1,339.00,5,322.05
+ORD-31206,2026-06-28,CUST-262,Meeting Room Table,Furniture,South,1,1199.00,10,1079.10
+ORD-31242,2026-06-28,CUST-482,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31283,2026-06-28,CUST-267,QHD Monitor 27-inch,Electronics,South,1,289.00,5,274.55
+ORD-31290,2026-06-28,CUST-352,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-31101,2026-06-29,CUST-164,Ergonomic Office Chair,Furniture,West,2,339.00,0,678.00
+ORD-31168,2026-06-29,CUST-166,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31179,2026-06-29,CUST-342,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31188,2026-06-29,CUST-249,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-31191,2026-06-29,CUST-311,Business Laptop 14-inch,Electronics,West,2,1099.00,0,2198.00
+ORD-31196,2026-06-29,CUST-468,USB-C Docking Station,Accessories,North,2,159.00,5,302.10
+ORD-31227,2026-06-29,CUST-278,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-31103,2026-06-30,CUST-452,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31137,2026-06-30,CUST-469,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-31229,2026-06-30,CUST-260,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-31230,2026-06-30,CUST-521,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31256,2026-06-30,CUST-230,Wireless Keyboard,Accessories,South,2,69.00,0,138.00
+ORD-31258,2026-06-30,CUST-465,QHD Monitor 27-inch,Electronics,West,1,289.00,5,274.55
+ORD-31300,2026-07-01,CUST-126,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31441,2026-07-01,CUST-394,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-31460,2026-07-01,CUST-191,USB-C Docking Station,Accessories,North,1,159.00,5,151.05
+ORD-31532,2026-07-01,CUST-270,Business Laptop 14-inch,Electronics,South,1,1099.00,5,1044.05
+ORD-31539,2026-07-01,CUST-321,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31558,2026-07-01,CUST-324,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31562,2026-07-01,CUST-155,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31377,2026-07-02,CUST-166,Business Laptop 14-inch,Electronics,West,1,1099.00,10,989.10
+ORD-31380,2026-07-02,CUST-224,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31394,2026-07-02,CUST-334,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-31421,2026-07-02,CUST-141,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-31437,2026-07-02,CUST-428,Wireless Keyboard,Accessories,East,2,69.00,0,138.00
+ORD-31454,2026-07-02,CUST-341,Noise-Cancelling Headset,Accessories,North,1,189.00,0,189.00
+ORD-31489,2026-07-02,CUST-369,Noise-Cancelling Headset,Accessories,South,2,189.00,0,378.00
+ORD-31307,2026-07-03,CUST-236,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-31322,2026-07-03,CUST-455,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-31325,2026-07-03,CUST-165,Standing Desk,Furniture,East,1,529.00,5,502.55
+ORD-31340,2026-07-03,CUST-411,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-31342,2026-07-03,CUST-447,Ergonomic Office Chair,Furniture,West,1,339.00,5,322.05
+ORD-31347,2026-07-03,CUST-129,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31414,2026-07-03,CUST-287,QHD Monitor 27-inch,Electronics,North,1,289.00,10,260.10
+ORD-31462,2026-07-03,CUST-341,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31515,2026-07-03,CUST-114,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31557,2026-07-03,CUST-244,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31567,2026-07-03,CUST-129,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+ORD-31303,2026-07-04,CUST-382,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-31311,2026-07-04,CUST-203,Noise-Cancelling Headset,Accessories,North,1,189.00,5,179.55
+ORD-31336,2026-07-04,CUST-362,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31379,2026-07-04,CUST-316,Standing Desk,Furniture,East,1,529.00,5,502.55
+ORD-31387,2026-07-04,CUST-530,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31401,2026-07-04,CUST-419,USB-C Docking Station,Accessories,East,2,159.00,0,318.00
+ORD-31444,2026-07-04,CUST-403,Mini PC Workstation,Electronics,North,2,799.00,0,1598.00
+ORD-31453,2026-07-04,CUST-449,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-31477,2026-07-04,CUST-434,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31485,2026-07-04,CUST-292,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-31556,2026-07-04,CUST-269,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-31396,2026-07-05,CUST-103,Mini PC Workstation,Electronics,South,1,799.00,10,719.10
+ORD-31416,2026-07-05,CUST-499,Business Laptop 14-inch,Electronics,South,1,1099.00,5,1044.05
+ORD-31423,2026-07-05,CUST-388,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-31552,2026-07-05,CUST-288,Business Laptop 14-inch,Electronics,North,1,1099.00,15,934.15
+ORD-31579,2026-07-05,CUST-438,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-31581,2026-07-05,CUST-113,Ergonomic Office Chair,Furniture,North,2,339.00,15,576.30
+ORD-31355,2026-07-06,CUST-425,Portable SSD 1TB,Accessories,South,1,129.00,15,109.65
+ORD-31412,2026-07-06,CUST-110,USB-C Docking Station,Accessories,West,2,159.00,0,318.00
+ORD-31467,2026-07-06,CUST-431,Business Tablet 10-inch,Electronics,West,1,399.00,5,379.05
+ORD-31500,2026-07-06,CUST-176,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31305,2026-07-07,CUST-263,USB-C Docking Station,Accessories,East,1,159.00,5,151.05
+ORD-31309,2026-07-07,CUST-151,Noise-Cancelling Headset,Accessories,South,3,189.00,10,510.30
+ORD-31314,2026-07-07,CUST-393,Meeting Room Table,Furniture,North,2,1199.00,0,2398.00
+ORD-31350,2026-07-07,CUST-434,Meeting Room Table,Furniture,North,1,1199.00,10,1079.10
+ORD-31373,2026-07-07,CUST-289,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-31375,2026-07-07,CUST-189,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+ORD-31397,2026-07-07,CUST-325,Wireless Keyboard,Accessories,West,2,69.00,0,138.00
+ORD-31405,2026-07-07,CUST-323,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31425,2026-07-07,CUST-413,Standing Desk,Furniture,South,1,529.00,10,476.10
+ORD-31434,2026-07-07,CUST-124,USB-C Docking Station,Accessories,West,1,159.00,5,151.05
+ORD-31442,2026-07-07,CUST-259,Portable SSD 1TB,Accessories,West,1,129.00,10,116.10
+ORD-31472,2026-07-07,CUST-350,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31493,2026-07-07,CUST-484,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-31509,2026-07-07,CUST-256,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-31525,2026-07-07,CUST-135,Wireless Keyboard,Accessories,North,1,69.00,0,69.00
+ORD-31537,2026-07-07,CUST-400,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+ORD-31549,2026-07-07,CUST-435,Mini PC Workstation,Electronics,East,2,799.00,15,1358.30
+ORD-31310,2026-07-08,CUST-163,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-31321,2026-07-08,CUST-130,QHD Monitor 27-inch,Electronics,West,1,289.00,5,274.55
+ORD-31333,2026-07-08,CUST-406,USB-C Docking Station,Accessories,East,1,159.00,5,151.05
+ORD-31367,2026-07-08,CUST-290,Business Laptop 14-inch,Electronics,North,1,1099.00,5,1044.05
+ORD-31388,2026-07-08,CUST-327,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-31428,2026-07-08,CUST-223,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-31436,2026-07-08,CUST-428,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-31438,2026-07-08,CUST-292,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-31440,2026-07-08,CUST-339,QHD Monitor 27-inch,Electronics,West,3,289.00,0,867.00
+ORD-31446,2026-07-08,CUST-350,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-31482,2026-07-08,CUST-379,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-31490,2026-07-08,CUST-200,Business Tablet 10-inch,Electronics,South,2,399.00,0,798.00
+ORD-31534,2026-07-08,CUST-473,QHD Monitor 27-inch,Electronics,South,1,289.00,10,260.10
+ORD-31551,2026-07-08,CUST-458,USB-C Docking Station,Accessories,East,1,159.00,0,159.00
+ORD-31574,2026-07-08,CUST-501,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-31582,2026-07-08,CUST-341,USB-C Docking Station,Accessories,North,1,159.00,0,159.00
+ORD-31304,2026-07-09,CUST-233,Portable SSD 1TB,Accessories,North,2,129.00,0,258.00
+ORD-31331,2026-07-09,CUST-502,QHD Monitor 27-inch,Electronics,West,1,289.00,10,260.10
+ORD-31371,2026-07-09,CUST-375,QHD Monitor 27-inch,Electronics,South,1,289.00,10,260.10
+ORD-31404,2026-07-09,CUST-147,Standing Desk,Furniture,South,1,529.00,5,502.55
+ORD-31419,2026-07-09,CUST-384,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31491,2026-07-09,CUST-511,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-31494,2026-07-09,CUST-402,Portable SSD 1TB,Accessories,South,1,129.00,15,109.65
+ORD-31514,2026-07-09,CUST-153,Noise-Cancelling Headset,Accessories,West,1,189.00,0,189.00
+ORD-31519,2026-07-09,CUST-485,Wireless Keyboard,Accessories,South,1,69.00,0,69.00
+ORD-31320,2026-07-10,CUST-483,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-31398,2026-07-10,CUST-500,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31484,2026-07-10,CUST-221,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31496,2026-07-10,CUST-436,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31504,2026-07-10,CUST-217,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-31516,2026-07-10,CUST-405,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31543,2026-07-10,CUST-174,Standing Desk,Furniture,East,1,529.00,5,502.55
+ORD-31338,2026-07-11,CUST-343,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-31362,2026-07-11,CUST-187,Business Tablet 10-inch,Electronics,East,1,399.00,5,379.05
+ORD-31376,2026-07-11,CUST-459,Standing Desk,Furniture,South,1,529.00,5,502.55
+ORD-31429,2026-07-11,CUST-413,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31439,2026-07-11,CUST-239,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31458,2026-07-11,CUST-492,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31502,2026-07-11,CUST-496,Business Laptop 14-inch,Electronics,South,1,1099.00,10,989.10
+ORD-31524,2026-07-11,CUST-186,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-31575,2026-07-11,CUST-242,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31344,2026-07-12,CUST-301,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-31402,2026-07-12,CUST-168,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-31474,2026-07-12,CUST-336,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+ORD-31488,2026-07-12,CUST-499,Standing Desk,Furniture,South,1,529.00,5,502.55
+ORD-31495,2026-07-12,CUST-319,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-31499,2026-07-12,CUST-414,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-31583,2026-07-12,CUST-302,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-31319,2026-07-13,CUST-144,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-31348,2026-07-13,CUST-291,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-31349,2026-07-13,CUST-491,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-31389,2026-07-13,CUST-130,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31390,2026-07-13,CUST-444,Business Laptop 14-inch,Electronics,West,1,1099.00,10,989.10
+ORD-31392,2026-07-13,CUST-407,Ergonomic Office Chair,Furniture,East,2,339.00,0,678.00
+ORD-31417,2026-07-13,CUST-291,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31445,2026-07-13,CUST-313,Business Tablet 10-inch,Electronics,South,1,399.00,10,359.10
+ORD-31468,2026-07-13,CUST-484,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31483,2026-07-13,CUST-353,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31492,2026-07-13,CUST-487,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31528,2026-07-13,CUST-105,QHD Monitor 27-inch,Electronics,North,3,289.00,5,823.65
+ORD-31555,2026-07-13,CUST-327,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31335,2026-07-14,CUST-111,Noise-Cancelling Headset,Accessories,South,2,189.00,0,378.00
+ORD-31341,2026-07-14,CUST-266,Meeting Room Table,Furniture,South,1,1199.00,5,1139.05
+ORD-31418,2026-07-14,CUST-199,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+ORD-31443,2026-07-14,CUST-248,QHD Monitor 27-inch,Electronics,South,1,289.00,5,274.55
+ORD-31451,2026-07-14,CUST-101,QHD Monitor 27-inch,Electronics,South,2,289.00,0,578.00
+ORD-31461,2026-07-14,CUST-223,Standing Desk,Furniture,East,1,529.00,5,502.55
+ORD-31301,2026-07-15,CUST-281,Meeting Room Table,Furniture,East,1,1199.00,10,1079.10
+ORD-31323,2026-07-15,CUST-199,Ergonomic Office Chair,Furniture,West,1,339.00,10,305.10
+ORD-31358,2026-07-15,CUST-289,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-31395,2026-07-15,CUST-521,Ergonomic Office Chair,Furniture,North,2,339.00,0,678.00
+ORD-31415,2026-07-15,CUST-448,Noise-Cancelling Headset,Accessories,South,1,189.00,10,170.10
+ORD-31435,2026-07-15,CUST-193,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31447,2026-07-15,CUST-436,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-31471,2026-07-15,CUST-385,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-31511,2026-07-15,CUST-240,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-31584,2026-07-15,CUST-456,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-31352,2026-07-16,CUST-240,QHD Monitor 27-inch,Electronics,West,1,289.00,10,260.10
+ORD-31356,2026-07-16,CUST-174,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31384,2026-07-16,CUST-289,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-31427,2026-07-16,CUST-395,Wireless Keyboard,Accessories,East,1,69.00,5,65.55
+ORD-31503,2026-07-16,CUST-476,QHD Monitor 27-inch,Electronics,North,2,289.00,0,578.00
+ORD-31517,2026-07-16,CUST-179,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-31536,2026-07-16,CUST-331,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31569,2026-07-16,CUST-320,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-31332,2026-07-17,CUST-314,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31408,2026-07-17,CUST-296,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31448,2026-07-17,CUST-299,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-31473,2026-07-17,CUST-105,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+ORD-31476,2026-07-17,CUST-478,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-31518,2026-07-17,CUST-479,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31522,2026-07-17,CUST-262,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-31313,2026-07-18,CUST-468,Standing Desk,Furniture,East,2,529.00,0,1058.00
+ORD-31487,2026-07-18,CUST-265,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31559,2026-07-18,CUST-166,Noise-Cancelling Headset,Accessories,East,2,189.00,0,378.00
+ORD-31564,2026-07-18,CUST-409,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-31565,2026-07-18,CUST-122,Meeting Room Table,Furniture,South,1,1199.00,10,1079.10
+ORD-31572,2026-07-18,CUST-150,Standing Desk,Furniture,South,1,529.00,5,502.55
+ORD-31573,2026-07-18,CUST-242,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31327,2026-07-19,CUST-449,QHD Monitor 27-inch,Electronics,West,1,289.00,15,245.65
+ORD-31351,2026-07-19,CUST-252,Business Tablet 10-inch,Electronics,North,1,399.00,5,379.05
+ORD-31363,2026-07-19,CUST-522,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31393,2026-07-19,CUST-313,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-31407,2026-07-19,CUST-204,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-31426,2026-07-19,CUST-118,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-31432,2026-07-19,CUST-457,QHD Monitor 27-inch,Electronics,West,2,289.00,0,578.00
+ORD-31449,2026-07-19,CUST-252,Wireless Keyboard,Accessories,East,2,69.00,0,138.00
+ORD-31457,2026-07-19,CUST-267,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-31459,2026-07-19,CUST-145,Business Tablet 10-inch,Electronics,South,1,399.00,5,379.05
+ORD-31553,2026-07-19,CUST-103,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31554,2026-07-19,CUST-226,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31566,2026-07-19,CUST-241,Noise-Cancelling Headset,Accessories,South,1,189.00,5,179.55
+ORD-31578,2026-07-19,CUST-265,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-31369,2026-07-20,CUST-455,Wireless Keyboard,Accessories,West,1,69.00,5,65.55
+ORD-31410,2026-07-20,CUST-160,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-31452,2026-07-20,CUST-147,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31505,2026-07-20,CUST-321,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-31512,2026-07-20,CUST-372,Mini PC Workstation,Electronics,East,1,799.00,5,759.05
+ORD-31526,2026-07-20,CUST-463,Ergonomic Office Chair,Furniture,South,1,339.00,5,322.05
+ORD-31546,2026-07-20,CUST-477,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-31308,2026-07-21,CUST-140,Mini PC Workstation,Electronics,East,1,799.00,10,719.10
+ORD-31315,2026-07-21,CUST-129,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31330,2026-07-21,CUST-271,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31357,2026-07-21,CUST-366,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+ORD-31366,2026-07-21,CUST-301,Wireless Keyboard,Accessories,North,1,69.00,15,58.65
+ORD-31378,2026-07-21,CUST-329,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31400,2026-07-21,CUST-309,Mini PC Workstation,Electronics,East,1,799.00,5,759.05
+ORD-31466,2026-07-21,CUST-181,USB-C Docking Station,Accessories,North,2,159.00,0,318.00
+ORD-31480,2026-07-21,CUST-241,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31531,2026-07-21,CUST-327,Portable SSD 1TB,Accessories,North,3,129.00,0,387.00
+ORD-31544,2026-07-21,CUST-500,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31548,2026-07-21,CUST-183,QHD Monitor 27-inch,Electronics,East,2,289.00,0,578.00
+ORD-31312,2026-07-22,CUST-197,Standing Desk,Furniture,South,1,529.00,5,502.55
+ORD-31326,2026-07-22,CUST-248,Business Tablet 10-inch,Electronics,West,1,399.00,10,359.10
+ORD-31370,2026-07-22,CUST-164,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+ORD-31372,2026-07-22,CUST-505,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-31409,2026-07-22,CUST-258,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-31430,2026-07-22,CUST-317,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31464,2026-07-22,CUST-209,QHD Monitor 27-inch,Electronics,West,1,289.00,10,260.10
+ORD-31561,2026-07-22,CUST-255,Meeting Room Table,Furniture,South,1,1199.00,5,1139.05
+ORD-31329,2026-07-23,CUST-470,QHD Monitor 27-inch,Electronics,West,1,289.00,5,274.55
+ORD-31337,2026-07-23,CUST-512,Ergonomic Office Chair,Furniture,West,1,339.00,5,322.05
+ORD-31343,2026-07-23,CUST-499,Mini PC Workstation,Electronics,South,2,799.00,0,1598.00
+ORD-31360,2026-07-23,CUST-276,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31381,2026-07-23,CUST-510,QHD Monitor 27-inch,Electronics,North,1,289.00,15,245.65
+ORD-31382,2026-07-23,CUST-212,Wireless Keyboard,Accessories,South,1,69.00,5,65.55
+ORD-31399,2026-07-23,CUST-222,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-31413,2026-07-23,CUST-382,Business Tablet 10-inch,Electronics,East,1,399.00,5,379.05
+ORD-31424,2026-07-23,CUST-220,Wireless Keyboard,Accessories,West,2,69.00,5,131.10
+ORD-31433,2026-07-23,CUST-503,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31455,2026-07-23,CUST-127,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+ORD-31508,2026-07-23,CUST-376,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-31521,2026-07-23,CUST-512,USB-C Docking Station,Accessories,West,1,159.00,0,159.00
+ORD-31306,2026-07-24,CUST-122,Mini PC Workstation,Electronics,West,1,799.00,10,719.10
+ORD-31361,2026-07-24,CUST-313,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-31364,2026-07-24,CUST-266,Wireless Keyboard,Accessories,North,1,69.00,5,65.55
+ORD-31368,2026-07-24,CUST-321,Portable SSD 1TB,Accessories,North,1,129.00,0,129.00
+ORD-31383,2026-07-24,CUST-367,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31391,2026-07-24,CUST-430,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-31470,2026-07-24,CUST-102,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31538,2026-07-24,CUST-230,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31318,2026-07-25,CUST-192,Standing Desk,Furniture,North,1,529.00,5,502.55
+ORD-31324,2026-07-25,CUST-166,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-31328,2026-07-25,CUST-381,Meeting Room Table,Furniture,West,2,1199.00,0,2398.00
+ORD-31345,2026-07-25,CUST-168,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-31463,2026-07-25,CUST-434,Portable SSD 1TB,Accessories,East,1,129.00,5,122.55
+ORD-31497,2026-07-25,CUST-377,Business Laptop 14-inch,Electronics,West,1,1099.00,10,989.10
+ORD-31560,2026-07-25,CUST-127,Ergonomic Office Chair,Furniture,South,1,339.00,5,322.05
+ORD-31563,2026-07-25,CUST-121,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31576,2026-07-25,CUST-426,USB-C Docking Station,Accessories,North,3,159.00,0,477.00
+ORD-31585,2026-07-25,CUST-163,USB-C Docking Station,Accessories,South,1,159.00,0,159.00
+ORD-31316,2026-07-26,CUST-453,Meeting Room Table,Furniture,South,1,1199.00,10,1079.10
+ORD-31385,2026-07-26,CUST-304,Noise-Cancelling Headset,Accessories,North,2,189.00,5,359.10
+ORD-31386,2026-07-26,CUST-195,Portable SSD 1TB,Accessories,North,1,129.00,0,129.00
+ORD-31403,2026-07-26,CUST-285,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31456,2026-07-26,CUST-107,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31507,2026-07-26,CUST-176,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31520,2026-07-26,CUST-511,Ergonomic Office Chair,Furniture,South,2,339.00,0,678.00
+ORD-31523,2026-07-26,CUST-259,QHD Monitor 27-inch,Electronics,East,1,289.00,10,260.10
+ORD-31550,2026-07-26,CUST-417,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-31571,2026-07-26,CUST-254,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31580,2026-07-26,CUST-198,Meeting Room Table,Furniture,East,1,1199.00,5,1139.05
+ORD-31353,2026-07-27,CUST-343,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31359,2026-07-27,CUST-461,Business Tablet 10-inch,Electronics,East,1,399.00,5,379.05
+ORD-31411,2026-07-27,CUST-290,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-31420,2026-07-27,CUST-451,Business Tablet 10-inch,Electronics,North,2,399.00,0,798.00
+ORD-31431,2026-07-27,CUST-520,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31469,2026-07-27,CUST-151,Standing Desk,Furniture,West,1,529.00,15,449.65
+ORD-31479,2026-07-27,CUST-319,QHD Monitor 27-inch,Electronics,West,3,289.00,5,823.65
+ORD-31481,2026-07-27,CUST-218,Meeting Room Table,Furniture,West,1,1199.00,0,1199.00
+ORD-31486,2026-07-27,CUST-398,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+ORD-31513,2026-07-27,CUST-469,USB-C Docking Station,Accessories,North,1,159.00,0,159.00
+ORD-31527,2026-07-27,CUST-109,USB-C Docking Station,Accessories,South,3,159.00,0,477.00
+ORD-31529,2026-07-27,CUST-242,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-31533,2026-07-27,CUST-507,Wireless Keyboard,Accessories,South,1,69.00,10,62.10
+ORD-31542,2026-07-27,CUST-453,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31302,2026-07-28,CUST-196,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-31354,2026-07-28,CUST-213,Standing Desk,Furniture,East,1,529.00,10,476.10
+ORD-31422,2026-07-28,CUST-282,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31478,2026-07-28,CUST-309,Noise-Cancelling Headset,Accessories,North,1,189.00,0,189.00
+ORD-31530,2026-07-28,CUST-263,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-31535,2026-07-28,CUST-414,QHD Monitor 27-inch,Electronics,South,1,289.00,10,260.10
+ORD-31541,2026-07-28,CUST-164,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-31334,2026-07-29,CUST-275,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-31339,2026-07-29,CUST-455,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31365,2026-07-29,CUST-203,Standing Desk,Furniture,West,1,529.00,5,502.55
+ORD-31475,2026-07-29,CUST-393,Ergonomic Office Chair,Furniture,East,1,339.00,0,339.00
+ORD-31498,2026-07-29,CUST-489,Ergonomic Office Chair,Furniture,East,1,339.00,10,305.10
+ORD-31506,2026-07-29,CUST-488,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31510,2026-07-29,CUST-477,Mini PC Workstation,Electronics,North,2,799.00,10,1438.20
+ORD-31540,2026-07-29,CUST-232,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31570,2026-07-29,CUST-239,Business Laptop 14-inch,Electronics,South,1,1099.00,5,1044.05
+ORD-31317,2026-07-30,CUST-280,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31374,2026-07-30,CUST-227,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-31406,2026-07-30,CUST-478,Noise-Cancelling Headset,Accessories,West,1,189.00,5,179.55
+ORD-31450,2026-07-30,CUST-358,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+ORD-31465,2026-07-30,CUST-513,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-31501,2026-07-30,CUST-170,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-31568,2026-07-30,CUST-441,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31577,2026-07-30,CUST-414,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31299,2026-07-31,CUST-353,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31346,2026-07-31,CUST-183,Mini PC Workstation,Electronics,West,1,799.00,5,759.05
+ORD-31545,2026-07-31,CUST-429,Ergonomic Office Chair,Furniture,East,1,339.00,5,322.05
+ORD-31547,2026-07-31,CUST-212,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-31619,2026-08-01,CUST-517,Ergonomic Office Chair,Furniture,West,1,339.00,5,322.05
+ORD-31667,2026-08-01,CUST-466,QHD Monitor 27-inch,Electronics,West,2,289.00,0,578.00
+ORD-31814,2026-08-01,CUST-144,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-31643,2026-08-02,CUST-173,Ergonomic Office Chair,Furniture,East,1,339.00,5,322.05
+ORD-31678,2026-08-02,CUST-402,Business Tablet 10-inch,Electronics,West,1,399.00,5,379.05
+ORD-31720,2026-08-02,CUST-399,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-31721,2026-08-02,CUST-268,Business Laptop 14-inch,Electronics,South,2,1099.00,0,2198.00
+ORD-31726,2026-08-02,CUST-236,Meeting Room Table,Furniture,West,2,1199.00,5,2278.10
+ORD-31788,2026-08-02,CUST-287,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31804,2026-08-02,CUST-296,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-31805,2026-08-02,CUST-140,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-31831,2026-08-02,CUST-273,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-31587,2026-08-03,CUST-378,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31602,2026-08-03,CUST-289,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-31618,2026-08-03,CUST-465,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31681,2026-08-03,CUST-336,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31710,2026-08-03,CUST-317,Ergonomic Office Chair,Furniture,West,2,339.00,0,678.00
+ORD-31736,2026-08-03,CUST-138,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31768,2026-08-03,CUST-196,Business Laptop 14-inch,Electronics,East,1,1099.00,10,989.10
+ORD-31792,2026-08-03,CUST-529,Noise-Cancelling Headset,Accessories,West,2,189.00,0,378.00
+ORD-31826,2026-08-03,CUST-468,QHD Monitor 27-inch,Electronics,East,1,289.00,10,260.10
+ORD-31629,2026-08-04,CUST-173,Standing Desk,Furniture,South,1,529.00,5,502.55
+ORD-31714,2026-08-04,CUST-149,USB-C Docking Station,Accessories,North,1,159.00,5,151.05
+ORD-31741,2026-08-04,CUST-350,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31773,2026-08-04,CUST-109,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-31783,2026-08-04,CUST-221,Business Laptop 14-inch,Electronics,North,1,1099.00,5,1044.05
+ORD-31824,2026-08-04,CUST-206,Noise-Cancelling Headset,Accessories,West,2,189.00,0,378.00
+ORD-31627,2026-08-05,CUST-424,Wireless Keyboard,Accessories,West,1,69.00,10,62.10
+ORD-31638,2026-08-05,CUST-162,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31646,2026-08-05,CUST-498,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-31673,2026-08-05,CUST-159,Wireless Keyboard,Accessories,West,2,69.00,0,138.00
+ORD-31719,2026-08-05,CUST-221,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31745,2026-08-05,CUST-501,Business Laptop 14-inch,Electronics,North,3,1099.00,0,3297.00
+ORD-31791,2026-08-05,CUST-360,USB-C Docking Station,Accessories,West,2,159.00,5,302.10
+ORD-31822,2026-08-05,CUST-408,Wireless Keyboard,Accessories,South,2,69.00,0,138.00
+ORD-31612,2026-08-06,CUST-306,Ergonomic Office Chair,Furniture,West,1,339.00,5,322.05
+ORD-31662,2026-08-06,CUST-338,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-31747,2026-08-06,CUST-283,Standing Desk,Furniture,East,1,529.00,5,502.55
+ORD-31761,2026-08-06,CUST-306,Business Tablet 10-inch,Electronics,North,1,399.00,10,359.10
+ORD-31776,2026-08-06,CUST-526,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-31809,2026-08-06,CUST-395,Business Tablet 10-inch,Electronics,East,3,399.00,10,1077.30
+ORD-31823,2026-08-06,CUST-190,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-31611,2026-08-07,CUST-188,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31665,2026-08-07,CUST-360,Noise-Cancelling Headset,Accessories,North,1,189.00,10,170.10
+ORD-31695,2026-08-07,CUST-215,USB-C Docking Station,Accessories,South,1,159.00,10,143.10
+ORD-31731,2026-08-07,CUST-278,Standing Desk,Furniture,North,1,529.00,10,476.10
+ORD-31737,2026-08-07,CUST-277,USB-C Docking Station,Accessories,East,1,159.00,0,159.00
+ORD-31751,2026-08-07,CUST-288,Noise-Cancelling Headset,Accessories,West,1,189.00,0,189.00
+ORD-31756,2026-08-07,CUST-340,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31758,2026-08-07,CUST-253,Portable SSD 1TB,Accessories,North,2,129.00,15,219.30
+ORD-31765,2026-08-07,CUST-167,Standing Desk,Furniture,East,2,529.00,10,952.20
+ORD-31780,2026-08-07,CUST-128,Meeting Room Table,Furniture,North,1,1199.00,0,1199.00
+ORD-31787,2026-08-07,CUST-222,Noise-Cancelling Headset,Accessories,West,1,189.00,0,189.00
+ORD-31828,2026-08-07,CUST-310,Wireless Keyboard,Accessories,South,1,69.00,0,69.00
+ORD-31592,2026-08-08,CUST-414,USB-C Docking Station,Accessories,South,2,159.00,5,302.10
+ORD-31623,2026-08-08,CUST-288,Meeting Room Table,Furniture,East,1,1199.00,5,1139.05
+ORD-31631,2026-08-08,CUST-337,Business Laptop 14-inch,Electronics,North,1,1099.00,5,1044.05
+ORD-31636,2026-08-08,CUST-230,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-31701,2026-08-08,CUST-305,QHD Monitor 27-inch,Electronics,West,2,289.00,0,578.00
+ORD-31718,2026-08-08,CUST-118,Portable SSD 1TB,Accessories,East,2,129.00,0,258.00
+ORD-31785,2026-08-08,CUST-526,Noise-Cancelling Headset,Accessories,East,1,189.00,5,179.55
+ORD-31790,2026-08-08,CUST-391,USB-C Docking Station,Accessories,South,1,159.00,10,143.10
+ORD-31597,2026-08-09,CUST-400,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-31628,2026-08-09,CUST-296,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-31644,2026-08-09,CUST-103,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-31663,2026-08-09,CUST-401,Standing Desk,Furniture,West,1,529.00,5,502.55
+ORD-31685,2026-08-09,CUST-312,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31688,2026-08-09,CUST-126,Ergonomic Office Chair,Furniture,West,1,339.00,0,339.00
+ORD-31707,2026-08-09,CUST-159,Wireless Keyboard,Accessories,West,3,69.00,15,175.95
+ORD-31766,2026-08-09,CUST-514,Meeting Room Table,Furniture,West,1,1199.00,5,1139.05
+ORD-31603,2026-08-10,CUST-232,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-31624,2026-08-10,CUST-368,Standing Desk,Furniture,West,1,529.00,15,449.65
+ORD-31671,2026-08-10,CUST-172,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31676,2026-08-10,CUST-311,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-31740,2026-08-10,CUST-333,USB-C Docking Station,Accessories,East,1,159.00,0,159.00
+ORD-31752,2026-08-10,CUST-345,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-31767,2026-08-10,CUST-520,Meeting Room Table,Furniture,South,2,1199.00,0,2398.00
+ORD-31775,2026-08-10,CUST-397,Business Laptop 14-inch,Electronics,South,1,1099.00,5,1044.05
+ORD-31793,2026-08-10,CUST-186,Meeting Room Table,Furniture,East,3,1199.00,0,3597.00
+ORD-31808,2026-08-10,CUST-167,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-31817,2026-08-10,CUST-490,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-31647,2026-08-11,CUST-427,Mini PC Workstation,Electronics,South,1,799.00,5,759.05
+ORD-31651,2026-08-11,CUST-525,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-31705,2026-08-11,CUST-216,Portable SSD 1TB,Accessories,East,2,129.00,5,245.10
+ORD-31730,2026-08-11,CUST-529,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31801,2026-08-11,CUST-489,Portable SSD 1TB,Accessories,North,1,129.00,10,116.10
+ORD-31813,2026-08-11,CUST-306,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-31620,2026-08-12,CUST-486,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31649,2026-08-12,CUST-458,Mini PC Workstation,Electronics,South,1,799.00,0,799.00
+ORD-31698,2026-08-12,CUST-149,Mini PC Workstation,Electronics,East,1,799.00,5,759.05
+ORD-31717,2026-08-12,CUST-126,USB-C Docking Station,Accessories,West,1,159.00,0,159.00
+ORD-31829,2026-08-12,CUST-277,Wireless Keyboard,Accessories,North,1,69.00,10,62.10
+ORD-31605,2026-08-13,CUST-387,USB-C Docking Station,Accessories,West,3,159.00,10,429.30
+ORD-31614,2026-08-13,CUST-314,Standing Desk,Furniture,West,1,529.00,0,529.00
+ORD-31635,2026-08-13,CUST-511,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-31640,2026-08-13,CUST-245,Mini PC Workstation,Electronics,North,1,799.00,5,759.05
+ORD-31642,2026-08-13,CUST-419,Wireless Keyboard,Accessories,North,2,69.00,5,131.10
+ORD-31652,2026-08-13,CUST-396,Business Laptop 14-inch,Electronics,West,1,1099.00,10,989.10
+ORD-31672,2026-08-13,CUST-442,QHD Monitor 27-inch,Electronics,West,1,289.00,15,245.65
+ORD-31687,2026-08-13,CUST-393,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-31690,2026-08-13,CUST-273,QHD Monitor 27-inch,Electronics,South,1,289.00,5,274.55
+ORD-31691,2026-08-13,CUST-476,USB-C Docking Station,Accessories,West,1,159.00,5,151.05
+ORD-31699,2026-08-13,CUST-404,Business Tablet 10-inch,Electronics,North,2,399.00,10,718.20
+ORD-31709,2026-08-13,CUST-400,QHD Monitor 27-inch,Electronics,North,1,289.00,10,260.10
+ORD-31733,2026-08-13,CUST-349,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-31734,2026-08-13,CUST-258,Noise-Cancelling Headset,Accessories,West,2,189.00,0,378.00
+ORD-31586,2026-08-14,CUST-187,QHD Monitor 27-inch,Electronics,East,2,289.00,5,549.10
+ORD-31590,2026-08-14,CUST-272,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-31670,2026-08-14,CUST-200,Business Tablet 10-inch,Electronics,East,1,399.00,10,359.10
+ORD-31697,2026-08-14,CUST-346,Mini PC Workstation,Electronics,South,2,799.00,5,1518.10
+ORD-31723,2026-08-14,CUST-507,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31763,2026-08-14,CUST-519,QHD Monitor 27-inch,Electronics,North,1,289.00,5,274.55
+ORD-31770,2026-08-14,CUST-344,Business Tablet 10-inch,Electronics,South,1,399.00,5,379.05
+ORD-31774,2026-08-14,CUST-233,Wireless Keyboard,Accessories,North,1,69.00,0,69.00
+ORD-31795,2026-08-14,CUST-477,Standing Desk,Furniture,East,1,529.00,10,476.10
+ORD-31830,2026-08-14,CUST-280,Business Laptop 14-inch,Electronics,North,2,1099.00,10,1978.20
+ORD-31606,2026-08-15,CUST-231,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31622,2026-08-15,CUST-278,Noise-Cancelling Headset,Accessories,South,1,189.00,0,189.00
+ORD-31650,2026-08-15,CUST-102,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31682,2026-08-15,CUST-122,Meeting Room Table,Furniture,South,1,1199.00,0,1199.00
+ORD-31754,2026-08-15,CUST-144,Noise-Cancelling Headset,Accessories,West,3,189.00,0,567.00
+ORD-31757,2026-08-15,CUST-459,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31806,2026-08-15,CUST-530,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31811,2026-08-15,CUST-342,Business Laptop 14-inch,Electronics,South,2,1099.00,0,2198.00
+ORD-31607,2026-08-16,CUST-139,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31617,2026-08-16,CUST-524,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-31621,2026-08-16,CUST-525,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-31708,2026-08-16,CUST-322,Standing Desk,Furniture,South,1,529.00,0,529.00
+ORD-31744,2026-08-16,CUST-251,Wireless Keyboard,Accessories,South,1,69.00,0,69.00
+ORD-31601,2026-08-17,CUST-386,Meeting Room Table,Furniture,East,1,1199.00,0,1199.00
+ORD-31632,2026-08-17,CUST-211,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31664,2026-08-17,CUST-287,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31683,2026-08-17,CUST-117,QHD Monitor 27-inch,Electronics,East,2,289.00,0,578.00
+ORD-31692,2026-08-17,CUST-178,Ergonomic Office Chair,Furniture,South,1,339.00,10,305.10
+ORD-31715,2026-08-17,CUST-490,Noise-Cancelling Headset,Accessories,North,2,189.00,5,359.10
+ORD-31755,2026-08-17,CUST-201,Mini PC Workstation,Electronics,North,2,799.00,5,1518.10
+ORD-31800,2026-08-17,CUST-203,Wireless Keyboard,Accessories,South,1,69.00,0,69.00
+ORD-31819,2026-08-17,CUST-418,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-31594,2026-08-18,CUST-513,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-31599,2026-08-18,CUST-417,Ergonomic Office Chair,Furniture,North,1,339.00,5,322.05
+ORD-31648,2026-08-18,CUST-280,QHD Monitor 27-inch,Electronics,West,2,289.00,0,578.00
+ORD-31659,2026-08-18,CUST-293,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-31722,2026-08-18,CUST-177,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31748,2026-08-18,CUST-487,Wireless Keyboard,Accessories,West,3,69.00,5,196.65
+ORD-31759,2026-08-18,CUST-304,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31815,2026-08-18,CUST-119,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31816,2026-08-18,CUST-271,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-31610,2026-08-19,CUST-487,USB-C Docking Station,Accessories,West,1,159.00,0,159.00
+ORD-31613,2026-08-19,CUST-294,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31637,2026-08-19,CUST-135,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-31669,2026-08-19,CUST-484,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31704,2026-08-19,CUST-393,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-31724,2026-08-19,CUST-348,QHD Monitor 27-inch,Electronics,West,1,289.00,10,260.10
+ORD-31764,2026-08-19,CUST-156,Business Laptop 14-inch,Electronics,East,1,1099.00,5,1044.05
+ORD-31799,2026-08-19,CUST-406,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-31807,2026-08-19,CUST-499,Mini PC Workstation,Electronics,North,1,799.00,0,799.00
+ORD-31820,2026-08-19,CUST-510,Standing Desk,Furniture,West,1,529.00,5,502.55
+ORD-31591,2026-08-20,CUST-233,QHD Monitor 27-inch,Electronics,East,1,289.00,15,245.65
+ORD-31639,2026-08-20,CUST-517,Wireless Keyboard,Accessories,South,1,69.00,0,69.00
+ORD-31657,2026-08-20,CUST-430,Noise-Cancelling Headset,Accessories,North,1,189.00,5,179.55
+ORD-31750,2026-08-20,CUST-218,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-31604,2026-08-21,CUST-505,Noise-Cancelling Headset,Accessories,East,3,189.00,0,567.00
+ORD-31738,2026-08-21,CUST-175,Business Tablet 10-inch,Electronics,East,1,399.00,5,379.05
+ORD-31810,2026-08-21,CUST-301,Noise-Cancelling Headset,Accessories,West,1,189.00,0,189.00
+ORD-31818,2026-08-21,CUST-259,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31821,2026-08-21,CUST-521,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-31668,2026-08-22,CUST-443,Wireless Keyboard,Accessories,East,2,69.00,5,131.10
+ORD-31686,2026-08-22,CUST-333,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-31694,2026-08-22,CUST-363,Ergonomic Office Chair,Furniture,East,1,339.00,5,322.05
+ORD-31706,2026-08-22,CUST-494,QHD Monitor 27-inch,Electronics,South,1,289.00,10,260.10
+ORD-31729,2026-08-22,CUST-206,Standing Desk,Furniture,East,1,529.00,0,529.00
+ORD-31781,2026-08-22,CUST-510,USB-C Docking Station,Accessories,South,1,159.00,0,159.00
+ORD-31641,2026-08-23,CUST-217,Ergonomic Office Chair,Furniture,East,3,339.00,5,966.15
+ORD-31654,2026-08-23,CUST-486,Mini PC Workstation,Electronics,South,1,799.00,10,719.10
+ORD-31702,2026-08-23,CUST-279,Business Laptop 14-inch,Electronics,East,1,1099.00,0,1099.00
+ORD-31703,2026-08-23,CUST-153,USB-C Docking Station,Accessories,East,2,159.00,5,302.10
+ORD-31743,2026-08-23,CUST-217,Noise-Cancelling Headset,Accessories,West,1,189.00,0,189.00
+ORD-31777,2026-08-23,CUST-408,Ergonomic Office Chair,Furniture,North,1,339.00,0,339.00
+ORD-31789,2026-08-23,CUST-212,Noise-Cancelling Headset,Accessories,North,1,189.00,15,160.65
+ORD-31803,2026-08-23,CUST-126,Standing Desk,Furniture,West,1,529.00,10,476.10
+ORD-31589,2026-08-24,CUST-268,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-31593,2026-08-24,CUST-171,USB-C Docking Station,Accessories,West,1,159.00,0,159.00
+ORD-31598,2026-08-24,CUST-256,Wireless Keyboard,Accessories,South,2,69.00,5,131.10
+ORD-31600,2026-08-24,CUST-346,Noise-Cancelling Headset,Accessories,North,1,189.00,0,189.00
+ORD-31615,2026-08-24,CUST-374,Meeting Room Table,Furniture,West,1,1199.00,5,1139.05
+ORD-31658,2026-08-24,CUST-201,Business Laptop 14-inch,Electronics,West,1,1099.00,5,1044.05
+ORD-31711,2026-08-24,CUST-397,Mini PC Workstation,Electronics,West,2,799.00,0,1598.00
+ORD-31712,2026-08-24,CUST-298,Mini PC Workstation,Electronics,East,1,799.00,0,799.00
+ORD-31732,2026-08-24,CUST-113,Noise-Cancelling Headset,Accessories,West,1,189.00,0,189.00
+ORD-31749,2026-08-24,CUST-429,Ergonomic Office Chair,Furniture,West,2,339.00,0,678.00
+ORD-31762,2026-08-24,CUST-435,QHD Monitor 27-inch,Electronics,North,1,289.00,15,245.65
+ORD-31796,2026-08-24,CUST-214,Standing Desk,Furniture,South,1,529.00,5,502.55
+ORD-31798,2026-08-24,CUST-238,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+ORD-31812,2026-08-24,CUST-442,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-31595,2026-08-25,CUST-138,QHD Monitor 27-inch,Electronics,South,1,289.00,0,289.00
+ORD-31609,2026-08-25,CUST-420,USB-C Docking Station,Accessories,North,1,159.00,0,159.00
+ORD-31616,2026-08-25,CUST-178,Business Tablet 10-inch,Electronics,West,1,399.00,0,399.00
+ORD-31655,2026-08-25,CUST-421,Noise-Cancelling Headset,Accessories,West,2,189.00,0,378.00
+ORD-31716,2026-08-25,CUST-394,Wireless Keyboard,Accessories,North,1,69.00,0,69.00
+ORD-31772,2026-08-25,CUST-216,Wireless Keyboard,Accessories,West,3,69.00,0,207.00
+ORD-31825,2026-08-25,CUST-440,QHD Monitor 27-inch,Electronics,West,1,289.00,10,260.10
+ORD-31827,2026-08-25,CUST-433,Portable SSD 1TB,Accessories,West,1,129.00,0,129.00
+ORD-31588,2026-08-26,CUST-315,Business Tablet 10-inch,Electronics,South,1,399.00,0,399.00
+ORD-31626,2026-08-26,CUST-491,Meeting Room Table,Furniture,South,1,1199.00,15,1019.15
+ORD-31633,2026-08-26,CUST-516,Wireless Keyboard,Accessories,North,2,69.00,0,138.00
+ORD-31645,2026-08-26,CUST-468,Standing Desk,Furniture,South,1,529.00,5,502.55
+ORD-31700,2026-08-26,CUST-457,Standing Desk,Furniture,East,1,529.00,5,502.55
+ORD-31725,2026-08-26,CUST-350,Standing Desk,Furniture,South,1,529.00,10,476.10
+ORD-31742,2026-08-26,CUST-345,Portable SSD 1TB,Accessories,West,1,129.00,5,122.55
+ORD-31753,2026-08-26,CUST-515,QHD Monitor 27-inch,Electronics,East,1,289.00,5,274.55
+ORD-31760,2026-08-26,CUST-270,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-31771,2026-08-26,CUST-227,Mini PC Workstation,Electronics,South,1,799.00,10,719.10
+ORD-31797,2026-08-26,CUST-176,Business Laptop 14-inch,Electronics,South,2,1099.00,0,2198.00
+ORD-31596,2026-08-27,CUST-480,QHD Monitor 27-inch,Electronics,East,1,289.00,0,289.00
+ORD-31784,2026-08-27,CUST-277,Standing Desk,Furniture,North,1,529.00,0,529.00
+ORD-31802,2026-08-27,CUST-378,QHD Monitor 27-inch,Electronics,North,1,289.00,0,289.00
+ORD-31625,2026-08-28,CUST-152,QHD Monitor 27-inch,Electronics,South,1,289.00,5,274.55
+ORD-31656,2026-08-28,CUST-437,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31677,2026-08-28,CUST-116,Portable SSD 1TB,Accessories,East,1,129.00,10,116.10
+ORD-31684,2026-08-28,CUST-114,Noise-Cancelling Headset,Accessories,West,3,189.00,10,510.30
+ORD-31713,2026-08-28,CUST-151,Business Laptop 14-inch,Electronics,West,1,1099.00,0,1099.00
+ORD-31778,2026-08-28,CUST-346,Business Laptop 14-inch,Electronics,South,1,1099.00,0,1099.00
+ORD-31634,2026-08-29,CUST-341,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-31660,2026-08-29,CUST-435,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31689,2026-08-29,CUST-395,Mini PC Workstation,Electronics,West,1,799.00,0,799.00
+ORD-31696,2026-08-29,CUST-454,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-31728,2026-08-29,CUST-222,Business Tablet 10-inch,Electronics,East,1,399.00,0,399.00
+ORD-31739,2026-08-29,CUST-336,Standing Desk,Furniture,North,1,529.00,15,449.65
+ORD-31779,2026-08-29,CUST-162,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+ORD-31786,2026-08-29,CUST-356,Ergonomic Office Chair,Furniture,East,1,339.00,5,322.05
+ORD-31653,2026-08-30,CUST-133,Wireless Keyboard,Accessories,East,1,69.00,0,69.00
+ORD-31661,2026-08-30,CUST-300,Business Laptop 14-inch,Electronics,North,1,1099.00,15,934.15
+ORD-31666,2026-08-30,CUST-347,Mini PC Workstation,Electronics,West,1,799.00,10,719.10
+ORD-31674,2026-08-30,CUST-484,Business Tablet 10-inch,Electronics,North,2,399.00,5,758.10
+ORD-31680,2026-08-30,CUST-350,Noise-Cancelling Headset,Accessories,East,1,189.00,0,189.00
+ORD-31727,2026-08-30,CUST-482,Ergonomic Office Chair,Furniture,South,1,339.00,0,339.00
+ORD-31746,2026-08-30,CUST-132,Business Laptop 14-inch,Electronics,North,1,1099.00,0,1099.00
+ORD-31769,2026-08-30,CUST-225,Wireless Keyboard,Accessories,West,1,69.00,0,69.00
+ORD-31782,2026-08-30,CUST-145,QHD Monitor 27-inch,Electronics,West,1,289.00,0,289.00
+ORD-31794,2026-08-30,CUST-311,Business Tablet 10-inch,Electronics,North,1,399.00,0,399.00
+ORD-31608,2026-08-31,CUST-152,Meeting Room Table,Furniture,North,1,1199.00,5,1139.05
+ORD-31630,2026-08-31,CUST-203,Portable SSD 1TB,Accessories,South,1,129.00,0,129.00
+ORD-31675,2026-08-31,CUST-329,Business Tablet 10-inch,Electronics,West,1,399.00,10,359.10
+ORD-31679,2026-08-31,CUST-193,QHD Monitor 27-inch,Electronics,West,1,289.00,5,274.55
+ORD-31693,2026-08-31,CUST-253,USB-C Docking Station,Accessories,North,1,159.00,0,159.00
+ORD-31735,2026-08-31,CUST-300,Business Laptop 14-inch,Electronics,West,2,1099.00,10,1978.20

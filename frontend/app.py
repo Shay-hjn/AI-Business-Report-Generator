@@ -1,6 +1,7 @@
 """Streamlit interface for the AI Business Report Generator."""
 
 import hashlib
+import time
 from datetime import datetime
 from html import escape
 from pathlib import Path
@@ -9,6 +10,8 @@ import altair as alt
 import pandas as pd
 import requests
 import streamlit as st
+
+from pdf_export import build_report_pdf
 
 
 API_URL = "http://127.0.0.1:8000/reports"
@@ -134,39 +137,53 @@ def style_chart(chart):
 
 
 def revenue_trend_chart(monthly_kpis):
+    """Show exact revenue above each dot; only the dots have hover details."""
     df = pd.DataFrame(
         [
-            {"Month": item["month"], "Revenue": item["total_revenue"]}
+            {
+                "Month": item["month"],
+                "Revenue": float(item["total_revenue"]),
+                "RevenueLabel": money(item["total_revenue"]),
+            }
             for item in monthly_kpis
         ]
     )
-    chart = (
-        alt.Chart(df)
-        .mark_line(
-            color="#37DCC9",
-            strokeWidth=3,
-            point=alt.OverlayMarkDef(color="#37DCC9", size=95, filled=True),
-        )
-        .encode(
-            x=alt.X(
-                "Month:N",
-                title=None,
-                sort=list(df["Month"]),
-                axis=alt.Axis(labelAngle=0, grid=False),
-            ),
-            y=alt.Y(
-                "Revenue:Q",
-                title="Revenue (€)",
-                scale=alt.Scale(zero=True),
-                axis=alt.Axis(format="~s"),
-            ),
-            tooltip=[
-                alt.Tooltip("Month:N"),
-                alt.Tooltip("Revenue:Q", title="Revenue (€)", format=",.2f"),
-            ],
-        )
-        .properties(height=295)
+    # Match the printable PDF's zero-based plot and space for value labels.
+    axis_max = max(float(df["Revenue"].max()) * 1.17, 1.0)
+    month_axis = alt.X(
+        "Month:N",
+        title=None,
+        sort=list(df["Month"]),
+        axis=alt.Axis(labelAngle=0, grid=False),
     )
+    revenue_axis = alt.Y(
+        "Revenue:Q",
+        title="Revenue (€)",
+        scale=alt.Scale(domain=[0, axis_max]),
+        axis=alt.Axis(format="~s", tickCount=8),
+    )
+    base = alt.Chart(df).encode(x=month_axis, y=revenue_axis)
+
+    # The line and the visible labels have NO tooltip. Only the teal dots
+    # respond to hover, showing month and exact revenue (no RevenueLabel).
+    line = base.mark_line(color="#37DCC9", strokeWidth=3, tooltip=False)
+    dots = base.mark_circle(color="#37DCC9", size=95).encode(
+        tooltip=[
+            alt.Tooltip("Month:N", title="Month"),
+            alt.Tooltip("Revenue:Q", title="Revenue (€)", format=",.2f"),
+        ]
+    )
+    labels = base.mark_text(
+        align="center",
+        baseline="bottom",
+        dy=-12,
+        fontSize=13,
+        fontWeight="bold",
+        color="#DFFCF6",
+        tooltip=False,
+    ).encode(text=alt.Text("RevenueLabel:N"))
+
+    chart = alt.layer(line, dots, labels).properties(height=295)
     return style_chart(chart)
 
 
@@ -215,11 +232,32 @@ def segment_chart(breakdowns, dimension):
 def show_csv_template():
     """Show the required CSV layout as a blank table."""
     st.caption("Use these exact column headers when preparing your sales CSV.")
-    blank_row = pd.DataFrame(
-        [{column: "" for column in CSV_COLUMNS}],
-        columns=CSV_COLUMNS,
+    # This is a reference schema, not an interactive data grid.
+    headers = "".join(
+        f'<th scope="col" style="padding:10px 9px; text-align:left; '
+        'font-weight:400; color:#B7C7DA; border:1px solid #25374D; '
+        f'white-space:nowrap;">{escape(column)}</th>'
+        for column in CSV_COLUMNS
     )
-    st.dataframe(blank_row, hide_index=True, width="stretch", height=98)
+    empty_cells = "".join(
+        '<td style="height:29px; padding:0; border:1px solid #25374D;">&nbsp;</td>'
+        for _ in CSV_COLUMNS
+    )
+    st.markdown(
+        # Put the rounded border on the table itself. Streamlit may add
+        # space after a Markdown table; a bordered wrapper made that space
+        # look like an extra empty row beneath the two intended blank rows.
+        '<div style="overflow-x:auto;">'
+        '<table style="width:100%; min-width:1000px; border-collapse:separate; '
+        'border-spacing:0; border:1px solid #25374D; border-radius:9px; '
+        'overflow:hidden; background:#0C1829; font-size:14px; '
+        'margin:0 !important;">'
+        f'<thead><tr style="background:#112035;">{headers}</tr></thead>'
+        f'<tbody><tr>{empty_cells}</tr><tr>{empty_cells}</tr></tbody>'
+        '</table></div>',
+        unsafe_allow_html=True,
+        anchors=False,
+    )
     st.caption(
         "Date: YYYY-MM-DD  ·  Quantity: positive whole number  ·  Discount: 0–100"
     )
@@ -232,7 +270,7 @@ def show_csv_template():
         data=",".join(CSV_COLUMNS) + "\n",
         file_name="sales_template.csv",
         mime="text/csv",
-        use_container_width=True,
+        use_container_width=False,
     )
 
 
@@ -241,6 +279,7 @@ def clear_previous_report():
     st.session_state.pop("report_data", None)
     st.session_state.pop("report_signature", None)
     st.session_state.pop("report_filename", None)
+    st.session_state.pop("report_created_at", None)
 
 
 # Use Streamlit's native single-file uploader, which supplies both the
@@ -294,6 +333,7 @@ with st.sidebar:
         disabled=uploaded_file is None,
     )
 
+    generation_succeeded = False
     if generate_clicked:
         st.session_state["report_data"] = None
         st.session_state["report_signature"] = None
@@ -312,13 +352,23 @@ with st.sidebar:
                     st.session_state["report_data"] = response.json()
                     st.session_state["report_signature"] = signature
                     st.session_state["report_filename"] = filename
-                    st.success("Report generated successfully.")
+                    st.session_state["report_created_at"] = (
+                        datetime.now().astimezone().strftime("%d %b %Y, %H:%M %Z")
+                    )
+                    generation_succeeded = True
             except requests.exceptions.RequestException:
                 st.error(
                     "Cannot reach FastAPI. Start the backend at http://127.0.0.1:8000."
                 )
             except ValueError:
                 st.error("The backend returned an invalid response.")
+
+        if generation_succeeded:
+            # Restore the notification to its original sidebar position.
+            success_message = st.empty()
+            success_message.success("Report generated successfully.")
+            time.sleep(2)
+            success_message.empty()
 
     st.divider()
     st.markdown(
@@ -341,7 +391,7 @@ with st.sidebar:
 # Hero: visible both before and after uploading.
 st.markdown(
     '<div class="si-hero">'
-    '<div class="si-eyebrow">AI-POWERED MANAGEMENT REPORTING SYSTEM</div>'
+    '<div class="si-eyebrow">Business Report Generator</div>'
     '<div class="si-hero-title" role="heading" aria-level="1">'
     "Business clarity, from your data.</div>"
     "<p>Turn your sales CSV into a validated performance overview, "
@@ -398,6 +448,27 @@ st.markdown(
     unsafe_allow_html=True,
     anchors=False,
 )
+
+# Download uses the existing API response; it does not rerun analytics or the LLM.
+try:
+    pdf_bytes = build_report_pdf(
+        report,
+        source_filename=st.session_state.get("report_filename", "sales.csv"),
+        generated_at=st.session_state.get("report_created_at", ""),
+    )
+    st.download_button(
+        "↓  Download PDF Report",
+        data=pdf_bytes,
+        file_name=(
+            f"business_report_{monthly[0]['month']}_to_{latest['month']}.pdf"
+        ),
+        mime="application/pdf",
+        type="secondary",
+        on_click="ignore",
+    )
+except Exception:
+    st.warning("PDF export is temporarily unavailable; the report is still accessible below.")
+
 
 section_heading("AI Management Report")
 if report.get("narrative_generated") and ai_report:

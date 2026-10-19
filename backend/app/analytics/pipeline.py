@@ -8,6 +8,7 @@ from .metrics import (
     calculate_monthly_comparisons,
     calculate_revenue_breakdowns,
     find_top_revenue_product,
+    calculate_report_highlights,
 )
 from .insights import detect_notable_changes
 
@@ -37,6 +38,9 @@ def analyze_sales_data(df: pd.DataFrame) -> dict:
         breakdowns,
     )
 
+    # Step 7: Calculate full-period highlights for grounded AI reporting
+    report_highlights = calculate_report_highlights(df, monthly_kpis, comparisons)
+
     # Return the complete analysis
     return {
         "monthly_kpis": monthly_kpis,
@@ -44,6 +48,7 @@ def analyze_sales_data(df: pd.DataFrame) -> dict:
         "revenue_breakdowns": breakdowns,
         "top_revenue_product": top_product,
         "notable_changes": notable_changes,
+        "report_highlights": report_highlights,
     }
 
 

@@ -153,3 +153,143 @@ def find_top_revenue_product(breakdowns: dict) -> dict | None:
         "product": top_product,
         "revenue": top_revenue,
     }
+
+
+def calculate_report_highlights(
+    df: pd.DataFrame, monthly_kpis: list[dict], comparisons: list[dict]
+) -> dict:
+    """Prepare verified reporting facts; interpretation remains the LLM's job.
+
+    Historical extremes are included only when at least three months are
+    present. Rank monthly revenue movements both by absolute EUR change and
+    by percentage change: those rankings may identify different month pairs.
+    A percentage is undefined when the preceding month's revenue is zero.
+    """
+    if not monthly_kpis:
+        raise ValueError("Cannot calculate report highlights without monthly KPIs.")
+
+    first = monthly_kpis[0]
+    last = monthly_kpis[-1]
+    month_count = len(monthly_kpis)
+
+    overall_change = None
+    if month_count >= 2:
+        first_revenue = float(first["total_revenue"])
+        last_revenue = float(last["total_revenue"])
+        overall_change = {
+            "from_month": first["month"],
+            "to_month": last["month"],
+            "from_revenue": first_revenue,
+            "to_revenue": last_revenue,
+            "absolute_change": round(last_revenue - first_revenue, 2),
+            "percentage_change": (
+                round((last_revenue - first_revenue) / first_revenue * 100, 2)
+                if first_revenue != 0
+                else None
+            ),
+        }
+
+    highest_month = None
+    lowest_month = None
+    largest_increase = None
+    largest_decrease = None
+    largest_percentage_increase = None
+    largest_percentage_decrease = None
+    if month_count >= 3:
+        maximum = max(float(item["total_revenue"]) for item in monthly_kpis)
+        minimum = min(float(item["total_revenue"]) for item in monthly_kpis)
+        # Report all tied months so the LLM does not invent a unique winner.
+        highest_month = {
+            "months": [item["month"] for item in monthly_kpis
+                       if float(item["total_revenue"]) == maximum],
+            "revenue": maximum,
+        }
+        lowest_month = {
+            "months": [item["month"] for item in monthly_kpis
+                       if float(item["total_revenue"]) == minimum],
+            "revenue": minimum,
+        }
+        revenue_changes = [
+            {
+                "from_month": item["from_month"],
+                "to_month": item["to_month"],
+                **item["changes"]["total_revenue"],
+            }
+            for item in comparisons
+        ]
+        increases = [item for item in revenue_changes if item["absolute_change"] > 0]
+        decreases = [item for item in revenue_changes if item["absolute_change"] < 0]
+        if increases:
+            largest_increase = max(increases, key=lambda item: item["absolute_change"])
+        if decreases:
+            largest_decrease = min(decreases, key=lambda item: item["absolute_change"])
+
+        # A small base can produce a large percentage gain but a modest EUR
+        # gain. Keep both rankings explicit rather than conflating them.
+        measurable_increases = [
+            item for item in increases if item["percentage_change"] is not None
+        ]
+        measurable_decreases = [
+            item for item in decreases if item["percentage_change"] is not None
+        ]
+        if measurable_increases:
+            largest_percentage_increase = max(
+                measurable_increases,
+                key=lambda item: (item["percentage_change"], item["absolute_change"]),
+            )
+        if measurable_decreases:
+            largest_percentage_decrease = min(
+                measurable_decreases,
+                key=lambda item: (item["percentage_change"], item["absolute_change"]),
+            )
+
+    # Two separate rankings: monetary contribution and units sold. Neither
+    # should be mistaken for product popularity or unique buyers.
+    totals = (
+        df.assign(
+            total_sales=pd.to_numeric(df["total_sales"]),
+            quantity=pd.to_numeric(df["quantity"]),
+        )
+        .groupby("product", sort=True)[["total_sales", "quantity"]]
+        .sum()
+    )
+    top_by_revenue = sorted(
+        ((str(product), round(float(row["total_sales"]), 2))
+         for product, row in totals.iterrows()),
+        key=lambda item: (-item[1], item[0]),
+    )[0]
+    top_by_units = sorted(
+        ((str(product), int(row["quantity"])) for product, row in totals.iterrows()),
+        key=lambda item: (-item[1], item[0]),
+    )[0]
+
+    # Keep every co-leader at the top unit count. The older single-leader
+    # field stays for compatibility with existing reports and charts.
+    unit_coleaders = [
+        {"product": product, "units_sold": units}
+        for product, units in sorted(
+            ((str(product), int(row["quantity"]))
+             for product, row in totals.iterrows()),
+            key=lambda item: (-item[1], item[0]),
+        )
+        if units == top_by_units[1]
+    ]
+    return {
+        "month_count": month_count,
+        "first_month": first["month"],
+        "last_month": last["month"],
+        "overall_revenue_change": overall_change,
+        "highest_revenue_month": highest_month,
+        "lowest_revenue_month": lowest_month,
+        "largest_monthly_revenue_increase": largest_increase,
+        "largest_monthly_revenue_decrease": largest_decrease,
+        "largest_monthly_revenue_percentage_increase": largest_percentage_increase,
+        "largest_monthly_revenue_percentage_decrease": largest_percentage_decrease,
+        "top_product_by_revenue_full_period": {
+            "product": top_by_revenue[0], "revenue": top_by_revenue[1]
+        },
+        "top_product_by_units_full_period": {
+            "product": top_by_units[0], "units_sold": top_by_units[1]
+        },
+        "top_products_tied_by_units_full_period": unit_coleaders,
+    }
