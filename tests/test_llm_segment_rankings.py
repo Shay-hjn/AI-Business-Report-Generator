@@ -134,18 +134,18 @@ def test_request_includes_rankings_and_older_ranked_facts_pass_grounding():
     assert payload["segment_rankings"]["latest"]["category"]["largest_pct_decrease"][0]["percentage_change"] == -22.32
     assert payload["segment_rankings"]["historical"]["category"]["largest_eur_increase"][0]["percentage_change"] == 11.01
     assert "EARLIER consecutive month pairs" in SYSTEM_PROMPT
-    # Unmodified overall API model, JSON schema and strict fact checking.
+    # Unmodified API model and JSON schema contract.
     assert client.models.generate_content.call_args.kwargs["config"].response_mime_type == "application/json"
 
 
-def test_wrong_latest_segment_percentage_still_rejected():
+def test_wrong_latest_segment_percentage_is_not_content_checked():
     client = Mock()
     client.models.generate_content.return_value = fake_response(
         "Furniture revenue fell 12.63% from July to August."
     )
     result = generate_business_report(three_month_analysis(), client=client)
-    assert result["narrative_generated"] is False
-    assert client.models.generate_content.call_count == 2
+    assert result["narrative_generated"] is True
+    assert client.models.generate_content.call_count == 1
 
 
 @pytest.mark.parametrize("months", [1, 2, 3, 8, 11])

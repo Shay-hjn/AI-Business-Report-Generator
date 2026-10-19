@@ -1,16 +1,11 @@
-"""Conservative context-aware validation of segment percentage statements.
-
-Run with: python -m pytest tests/test_llm_attribution.py -q
-"""
+"""Checks model input facts and the deliberate absence of prose fact-checking."""
 import json
 from types import SimpleNamespace
 from unittest.mock import Mock
 
-from backend.app.schemas import BusinessReport
 from backend.app.services.llm_service import (
     SYSTEM_PROMPT,
     build_latest_segment_comparisons,
-    check_segment_percentage_attribution,
     generate_business_report,
 )
 
@@ -47,11 +42,6 @@ def analysis():
     }
 
 
-def report(insight):
-    return BusinessReport(
-        executive_summary="Revenue decreased in August.",
-        key_insights=[insight], notable_changes=[],
-    )
 
 
 def fake_response(content):
@@ -71,58 +61,14 @@ def test_python_provides_attributed_latest_period_facts():
     assert facts["category"]["Electronics"]["percentage_change"] == -12.63
 
 
-def test_detects_wrong_region_rate_even_when_number_is_verified_elsewhere():
-    errors = check_segment_percentage_attribution(
-        report("East revenue fell 35.55% from July to Aug, "
-               "North fell 35.55%, while West rose 62.27% in the same interval."),
-        analysis(),
-    )
-    assert len(errors) == 1
-    assert "East" in errors[0]
-    assert "33.84%" in errors[0]
 
 
-def test_correct_region_rates_pass():
-    errors = check_segment_percentage_attribution(
-        report("East revenue fell 33.84% from July to Aug, "
-               "North fell 35.55%, while West rose 62.27% in the same interval."),
-        analysis(),
-    )
-    assert errors == []
 
 
-def test_detects_direction_mismatch_with_correct_number():
-    errors = check_segment_percentage_attribution(
-        report("East revenue rose 33.84% from July to August."), analysis(),
-    )
-    assert errors and "East" in errors[0]
 
 
-def test_explicit_historical_period_is_not_confused_with_latest():
-    history = analysis()
-    history["revenue_breakdowns"] = {
-        "2026-05": {"region": {"East": 100, "North": 100}},
-        "2026-06": {"region": {"East": 150, "North": 100}},
-        "2026-07": {"region": {"East": 100, "North": 50}},
-    }
-    assert check_segment_percentage_attribution(
-        report("East revenue rose 50% from May to June 2026."), history,
-    ) == []
-    errors = check_segment_percentage_attribution(
-        report("East revenue declined 50% from June to July 2026."), history,
-    )
-    assert len(errors) == 1
-    assert "33.33%" in errors[0]
 
 
-def test_ambiguous_period_skipped_not_false_rejected():
-    assert check_segment_percentage_attribution(
-        report("East revenue declined 35.55% during the year."),
-        {**analysis(), "revenue_breakdowns": {
-            **analysis()["revenue_breakdowns"],
-            "2026-06": {"region": {"East": 30000}},
-        }},
-    ) == []
 
 
 def test_single_month_uses_no_prior_period():
@@ -130,24 +76,8 @@ def test_single_month_uses_no_prior_period():
         "region": {"East": 200}, "category": {"Office": 200},
     }}}
     assert build_latest_segment_comparisons(one)["from_month"] is None
-    assert check_segment_percentage_attribution(
-        report("East revenue rose 25% in August."), one,
-    ) == []
 
 
-def test_validation_retries_one_wrong_attribution_and_preserves_ai_freedom():
-    client = Mock()
-    client.models.generate_content.side_effect = [
-        fake_response("East revenue fell 35.55% from July to August."),
-        fake_response("East revenue fell 33.84% from July to August."),
-    ]
-    result = generate_business_report(analysis(), client=client)
-    assert result["narrative_generated"] is True
-    assert client.models.generate_content.call_count == 2
-    assert "East" in client.models.generate_content.call_args_list[1].kwargs["contents"]
-    payload = json.loads(client.models.generate_content.call_args_list[0].kwargs["contents"].split("\n", 1)[1])
-    assert payload["latest_segment_comparisons"]["region"]["East"]["percentage_change"] == -33.84
-    assert "lowest" in SYSTEM_PROMPT.lower()
 
 
 def test_report_with_no_required_high_low_mentions_is_still_accepted():
@@ -157,3 +87,15 @@ def test_report_with_no_required_high_low_mentions_is_still_accepted():
     )
     assert generate_business_report(analysis(), client=client)["narrative_generated"]
     assert client.models.generate_content.call_count == 1
+
+
+def test_incorrect_natural_language_claim_is_no_longer_rejected():
+    """The trade-off: JSON is valid even if a narrative claim is inaccurate."""
+    client = Mock()
+    client.models.generate_content.return_value = fake_response(
+        "East revenue fell 35.55% from July to August."  # actual: 33.84%
+    )
+    result = generate_business_report(analysis(), client=client)
+    assert result["narrative_generated"] is True
+    assert client.models.generate_content.call_count == 1
+    assert "35.55%" in result["ai_report"]["key_insights"][0]

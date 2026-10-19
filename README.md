@@ -10,10 +10,10 @@ The application is designed around a clear division of responsibilities: Python 
 - **Business metrics:** monthly revenue, distinct order count, units sold, average order value, and revenue per unit.
 - **Performance comparisons:** changes between reported periods, revenue breakdowns by category, region, and product, and notable movements and rankings.
 - **AI-assisted reporting:** an executive summary, key insights, and notable changes generated from Python-derived evidence rather than raw transactions.
-- **Grounding safeguards:** structured-output validation and checks for several kinds of unsupported numerical, ranking, currency, and causal claims.
+- **Structured-output validation:** the Gemini response must be valid JSON matching the required schema. Natural-language factual claims are not automatically verified.
 - **Interactive dashboard:** a Streamlit interface with KPI cards and Altair charts.
 - **PDF export:** a formatted ReportLab report built from the existing analysis and narrative, without making another AI request.
-- **Graceful degradation:** if Gemini is unavailable or its response fails validation, the verified analytics and charts remain available.
+- **Graceful degradation:** if Gemini is unavailable or its response fails JSON/schema validation, verified analytics and charts remain available.
 
 ## How it works
 
@@ -34,7 +34,7 @@ FastAPI              (backend/app/api/reports.py)
                          Generate narrative
                                   │
                                   ▼
-                         Validate AI response
+                         Validate JSON structure (not narrative facts)
    │
    ▼
 JSON report: verified metrics + optional narrative
@@ -94,7 +94,7 @@ Optional environment variables:
 | --- | --- | --- |
 | `LLM_THINKING_LEVEL` | `medium` | Gemini thinking level: `low`, `medium`, or `high` |
 | `LLM_MAX_OUTPUT_TOKENS` | `6000` | Maximum generated tokens (256–65,536) |
-| `LLM_RETRY_CONTENT_VALIDATION` | `0` | Set to `1` to allow one additional attempt when returned narrative content fails validation; does not retry HTTP/API errors |
+| `LLM_RETRY_CONTENT_VALIDATION` | `0` | Set to `1` to allow one additional attempt for malformed JSON or schema errors; does not retry HTTP/API errors or incorrect narrative claims |
 
 Keep `.env` private. The repository includes `.env.example` only as a configuration template.
 
@@ -170,7 +170,7 @@ Run the offline regression suite:
 python -m pytest tests/ -q
 ```
 
-Tests cover CSV validation, financial calculations, period and segment comparisons, API responses, narrative safeguards, PDF generation, and selected frontend behavior. Model responses are mocked, so the offline suite does **not** require paid API calls.
+Tests cover CSV validation, financial calculations, period and segment comparisons, API responses, JSON/schema checks, prompt preparation, PDF generation, and selected frontend behavior. Model responses are mocked, so the offline suite does **not** require paid API calls.
 
 For a local analysis check without contacting Gemini:
 
@@ -190,7 +190,7 @@ python -m scripts.check_llm
 | --- | --- |
 | Deterministic financial calculations in Python | Keeps metrics reproducible and independent of LLM arithmetic |
 | Send analytical evidence, not raw CSV rows, to Gemini | Limits the data shared and narrows the model's task to interpretation and writing |
-| Validate the AI's structured output and factual claims | Detects several known failure patterns before displaying the narrative |
+| Validate the AI's JSON structure only | Rejects malformed or incorrectly shaped responses without attempting to interpret arbitrary prose |
 | Separate API, analytics, and UI responsibilities | Makes the code easier to test, review, and extend |
 | Keep analytics available when Gemini fails | Ensures an API outage does not discard useful computed results |
 | Generate PDF from the report already in memory | Avoids duplicate calculations and extra LLM requests |
@@ -200,8 +200,8 @@ python -m scripts.check_llm
 - **EUR only:** no currency conversion or multi-currency aggregation.
 - **Reported months only:** missing calendar months are not assumed to have zero sales. Comparisons use successive months present in the CSV, which may not be consecutive calendar months.
 - **Zero baselines:** percentage changes with a zero denominator are undefined rather than represented as an invented percentage.
-- **Descriptive analytics:** revenue trends do not establish profit, customer demand, or the causes of a change. The application does not infer unverified business causes.
-- **LLM accuracy:** validation mitigates several hallucination risks but cannot guarantee that every narrative statement is correct. Important business decisions require human review.
+- **Descriptive analytics:** revenue trends do not establish profit, customer demand, or the causes of a change. Gemini is instructed not to infer unsupported causes, but its narrative is not automatically fact-checked.
+- **LLM accuracy:** the generated narrative is not fact-checked by Python. Prompt instructions and Python-derived inputs reduce risk but cannot guarantee correctness. Important business decisions require human review.
 - **API limitations:** Gemini availability, quotas, model access, and response times vary. No automatic model fallback or HTTP retry mechanism is implemented.
 - **Local-first operation:** the Streamlit frontend expects FastAPI at `127.0.0.1:8000`. Deployment to separate hosts would require configuring the API URL.
 - **No persistence or account system:** uploaded reports are processed on demand; the application does not provide authentication, scheduled generation, or a saved report history.
@@ -213,7 +213,7 @@ backend/
   app/
     analytics/           CSV validation, metrics, insights, and pipeline
     api/                 FastAPI report endpoint
-    services/            Gemini integration and narrative validation
+    services/            Gemini integration and JSON response validation
     main.py              FastAPI application and health endpoint
 frontend/
   app.py                 Streamlit dashboard
@@ -236,4 +236,4 @@ Never commit `.env`, API keys, virtual environments, or confidential sales files
 
 ## Development note
 
-AI-assisted development tools, including ChatGPT, were used during implementation, debugging, test-case design, and documentation. The application itself uses Google Gemini for report narration; core financial calculations and validation remain in Python.
+AI-assisted development tools, including ChatGPT, were used during implementation, debugging, test-case design, and documentation. The application itself uses Google Gemini for report narration; core financial calculations and CSV/JSON validation remain in Python.

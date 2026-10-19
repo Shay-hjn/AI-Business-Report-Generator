@@ -105,7 +105,6 @@ def test_eur_and_metric_definitions_are_sent():
     request = client.models.generate_content.call_args.kwargs
 
     # Verify our current model configuration.
-
     level = request["config"].thinking_config.thinking_level
     assert str(getattr(level, "value", level)).lower() == "medium"
     assert request["config"].max_output_tokens == 6000
@@ -143,95 +142,12 @@ def test_euro_symbol_is_allowed():
     assert client.models.generate_content.call_count == 1
 
 
-def test_wrong_currency_is_retried():
-    """Incorrect currency should trigger exactly one retry."""
-
-    client = Mock()
-
-    client.models.generate_content.side_effect = [
-        fake_response(report_json(summary="Revenue was $100.")),
-        fake_response(report_json(summary="Revenue was €100.")),
-    ]
-
-    result = generate_business_report(
-        sample_analysis(),
-        client=client,
-    )
-
-    assert result["narrative_generated"] is True
-    assert client.models.generate_content.call_count == 2
-
-    retry_request = client.models.generate_content.call_args_list[1].kwargs
-
-    feedback = retry_request["contents"]
-
-    assert "Unsupported currency" in feedback
 
 
-def test_wrong_currency_twice_uses_fallback():
-    """Two wrong-currency responses should trigger fallback."""
-
-    client = Mock()
-
-    client.models.generate_content.return_value = fake_response(
-        report_json(summary="Revenue was £100.")
-    )
-
-    result = generate_business_report(
-        sample_analysis(),
-        client=client,
-    )
-
-    assert result == {
-        "narrative_generated": False,
-        "ai_report": None,
-    }
-
-    assert client.models.generate_content.call_count == 2
 
 
-def test_top_selling_terminology_is_retried():
-    """Revenue ranking must not be confused with units sold."""
-
-    client = Mock()
-
-    client.models.generate_content.side_effect = [
-        fake_response(report_json(insight="The top-selling product was Office Desk.")),
-        fake_response(
-            report_json(insight=("The highest-revenue product was Office Desk."))
-        ),
-    ]
-
-    result = generate_business_report(
-        sample_analysis(),
-        client=client,
-    )
-
-    assert result["narrative_generated"] is True
-    assert client.models.generate_content.call_count == 2
-
-    assert result["ai_report"]["key_insights"] == [
-        "The highest-revenue product was Office Desk."
-    ]
 
 
-def test_top_selling_twice_uses_fallback():
-    """Repeated incorrect terminology must trigger fallback."""
-
-    client = Mock()
-
-    client.models.generate_content.return_value = fake_response(
-        report_json(insight="The best-selling product was Office Desk.")
-    )
-
-    result = generate_business_report(
-        sample_analysis(),
-        client=client,
-    )
-
-    assert result["narrative_generated"] is False
-    assert result["ai_report"] is None
-    assert client.models.generate_content.call_count == 2
 
 
 def test_spacing_normalization():
@@ -283,19 +199,12 @@ def test_report_spacing_is_corrected_automatically():
 
 def test_multi_month_scope_and_product_rankings_are_passed_to_gemini():
     from backend.app.services.llm_service import SYSTEM_PROMPT
-
     client = Mock()
     analysis = sample_analysis()
     analysis["report_highlights"] = {
         "month_count": 3,
-        "top_product_by_units_full_period": {
-            "product": "Office Desk",
-            "units_sold": 90,
-        },
-        "top_product_by_revenue_full_period": {
-            "product": "Office Desk",
-            "revenue": 120,
-        },
+        "top_product_by_units_full_period": {"product": "Office Desk", "units_sold": 90},
+        "top_product_by_revenue_full_period": {"product": "Office Desk", "revenue": 120},
     }
     analysis["monthly_kpis"].append({"month": "2026-10", "total_revenue": 120})
     client.models.generate_content.return_value = fake_response(report_json())
@@ -309,70 +218,12 @@ def test_multi_month_scope_and_product_rankings_are_passed_to_gemini():
     assert "THREE OR MORE MONTHS" in SYSTEM_PROMPT
 
 
-def test_verified_unit_rank_is_allowed_but_best_selling_is_not():
-    from backend.app.services.llm_service import has_unsupported_product_ranking
-    from backend.app.schemas import BusinessReport
-
-    report = BusinessReport.model_validate(
-        json.loads(
-            report_json(
-                insight="Office Desk had the most units sold over the full reporting period."
-            )
-        )
-    )
-    assert has_unsupported_product_ranking(report, sample_analysis())
-    known = sample_analysis()
-    known["report_highlights"] = {
-        "top_product_by_units_full_period": {"product": "Office Desk", "units_sold": 90}
-    }
-    assert not has_unsupported_product_ranking(report, known)
-    report2 = BusinessReport.model_validate(
-        json.loads(report_json(insight="Office Desk is the best-selling product."))
-    )
-    assert has_unsupported_product_ranking(report2, known)
 
 
-def test_unverified_euro_amount_is_retried():
-    client = Mock()
-    client.models.generate_content.side_effect = [
-        fake_response(report_json(insight="Revenue rose to €999.00.")),
-        fake_response(report_json(insight="Revenue was €100.00.")),
-    ]
-    result = generate_business_report(sample_analysis(), client=client)
-    assert result["narrative_generated"]
-    assert client.models.generate_content.call_count == 2
-    feedback = client.models.generate_content.call_args_list[1].kwargs["contents"]
-    assert "Unverified EUR amount" in feedback
 
 
-def test_unsupported_efficiency_claim_is_retried():
-    client = Mock()
-    client.models.generate_content.side_effect = [
-        fake_response(
-            report_json(
-                insight="Revenue per unit rose, reflecting improved efficiency."
-            )
-        ),
-        fake_response(report_json(insight="Revenue per unit rose.")),
-    ]
-    result = generate_business_report(sample_analysis(), client=client)
-    assert result["narrative_generated"]
-    assert client.models.generate_content.call_count == 2
-    feedback = client.models.generate_content.call_args_list[1].kwargs["contents"]
-    assert "Unsupported causal explanation" in feedback
 
 
-def test_bad_percent_retried_but_rounded_verified_percent_allowed():
-    client = Mock()
-    analysis = sample_analysis()
-    analysis["monthly_kpis"][-1]["revenue_growth_pct"] = 43.74
-    client.models.generate_content.side_effect = [
-        fake_response(report_json(insight="Revenue increased 75%.")),
-        fake_response(report_json(insight="Revenue increased roughly 44%.")),
-    ]
-    result = generate_business_report(analysis, client=client)
-    assert result["narrative_generated"]
-    assert client.models.generate_content.call_count == 2
 
 
 def test_no_mandatory_coverage_validation_is_added():
@@ -392,7 +243,6 @@ def test_no_mandatory_coverage_validation_is_added():
 
 def test_decline_display_removes_redundant_negative_euro_sign():
     from backend.app.services.llm_service import normalize_text_spacing
-
     result = normalize_text_spacing(
         "Revenue declined by -€26,459.3; an absolute decrease of -€100.00."
     )
@@ -403,7 +253,6 @@ def test_decline_display_removes_redundant_negative_euro_sign():
 
 def test_decline_display_removes_parenthesized_redundant_minus():
     from backend.app.services.llm_service import normalize_text_spacing
-
     assert normalize_text_spacing("Revenue declined by -€100 (-10%).") == (
         "Revenue declined by €100.00 (10%)."
     )

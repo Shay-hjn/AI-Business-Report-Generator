@@ -68,38 +68,8 @@ def test_prompt_explicitly_rules_out_unverified_price_explanations():
     assert "by themselves, establish lower selling prices" in SYSTEM_PROMPT
 
 
-def test_unsupported_price_inference_gets_one_retry():
-    client = Mock()
-    client.models.generate_content.side_effect = [
-        fake_response(report_json(
-            "Revenue per unit declined, indicating a shift toward lower-priced items."
-        )),
-        fake_response(report_json(
-            "Revenue per unit declined while units sold increased."
-        )),
-    ]
-
-    result = generate_business_report(sample_analysis(), client=client)
-
-    assert result["narrative_generated"] is True
-    assert client.models.generate_content.call_count == 2
-    assert result["ai_report"]["key_insights"] == [
-        "Revenue per unit declined while units sold increased."
-    ]
-    feedback = client.models.generate_content.call_args_list[1].kwargs["contents"]
-    assert "Unsupported price explanation" in feedback
 
 
-def test_price_inference_twice_returns_fallback():
-    client = Mock()
-    client.models.generate_content.return_value = fake_response(report_json(
-        "Revenue per unit declined, suggesting lower-priced products."
-    ))
-
-    result = generate_business_report(sample_analysis(), client=client)
-
-    assert result == {"narrative_generated": False, "ai_report": None}
-    assert client.models.generate_content.call_count == 2
 
 
 def test_final_report_formats_euro_values_in_all_sections():

@@ -1,4 +1,3 @@
-import calendar
 import json
 import logging
 import os
@@ -19,29 +18,6 @@ logger = logging.getLogger(__name__)
 # This prototype assumes that all uploaded sales amounts are in EUR.
 REPORT_CURRENCY = "EUR"
 REPORT_CURRENCY_SYMBOL = "€"
-
-UNSUPPORTED_CURRENCY_PATTERN = re.compile(
-    r"[$£¥₹]|\b(?:USD|GBP|JPY|INR|dollars?|"
-    r"pounds?(?: sterling)?|yen|rupees?)\b",
-    flags=re.IGNORECASE,
-)
-
-# "Best-selling" and "popular" are ambiguous even when units are known.
-# Explicit "most units sold" is allowed only when Python supplied that ranking.
-UNSUPPORTED_PRODUCT_RANKING_PATTERN = re.compile(
-    r"\b(?:top|best|highest)[\s\-\u2010-\u2015]+selling\b"
-    r"|\bmost[\s-]+popular\b",
-    flags=re.IGNORECASE,
-)
-
-# This catches the specific unsupported price explanation seen in dataset 05.
-# It is a narrow guardrail, not a general factual-accuracy validator.
-UNSUPPORTED_PRICE_INFERENCE_PATTERN = re.compile(
-    r"\b(?:indicat(?:e|es|ing)|suggest(?:s|ing)|reflect(?:s|ing))\b"
-    r"[^.!?]{0,120}\b(?:lower[\s-]+priced|higher[\s-]+priced|"
-    r"price cuts?|discount(?:ing|s)?|pric(?:e|ing)[\s-]+mix)\b",
-    flags=re.IGNORECASE,
-)
 
 EURO_AMOUNT_PATTERN = re.compile(
     r"€\s*(?P<amount>(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d{1,2})?)"
@@ -191,27 +167,6 @@ WRITING QUALITY:
 - Use empty lists when no relevant evidence is available.
 - Return only a JSON object matching the required schema.
 """
-
-# These phrases imply evidence not present in the uploaded sales CSV.
-# This guardrail is intentionally narrow: Python cannot understand or
-# comprehensively fact-check arbitrary natural-language explanations.
-UNSUPPORTED_CAUSAL_INFERENCE_PATTERN = re.compile(
-    r"\b(?:improved|greater|higher)\s+(?:operational\s+)?efficiency\b"
-    r"|\bmarket\s+expansion\b"
-    r"|\bproject[\s-]+driven\s+sales\b"
-    r"|\b(?:increased|higher|stronger|weaker|lower)\s+customer\s+demand\b"
-    r"|\bdue\s+to\s+(?:customer\s+)?demand\b",
-    flags=re.IGNORECASE,
-)
-
-# Validate only values that Python has supplied as calculated monetary
-# amounts or percentages. Matching a value is NOT proof its surrounding
-# sentence attributes it to the right metric or month.
-PERCENTAGE_PATTERN = re.compile(
-    r"(?<![\w.,])(?P<amount>[+-]?(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?)\s*%"
-)
-
-
 
 def build_segment_directions(analysis: dict) -> dict:
     """Identify latest-month category and region changes in Python."""
@@ -478,279 +433,6 @@ def _safe_api_error_detail(error: Exception) -> str:
     return " ".join(safe.split())[:450]
 
 
-# Only check segment percentages in statements whose comparison period can
-# be determined without guessing. This is NOT general language fact-checking.
-_MONTH_NAME = (
-    r"Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|"
-    r"Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|"
-    r"Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?"
-)
-_MONTH_PAIR_PATTERN = re.compile(
-    rf"\b(?P<first>{_MONTH_NAME})(?:\s+20\d{{2}})?"
-    rf"\s*(?:to|through|and|[-–—])\s*"
-    rf"(?P<second>{_MONTH_NAME})(?:\s+20\d{{2}})?\b",
-    re.IGNORECASE,
-)
-_DIRECTION_PATTERN = re.compile(
-    r"^\s*(?:(?:region(?:al)?|category|revenue)\s+){0,3}"
-    r"(?P<verb>rose|grew|increased|gained|climbed|jumped|"
-    r"fell|declined|decreased|dropped|slipped|lost)\b",
-    re.IGNORECASE,
-)
-_RATE_IN_CLAUSE = re.compile(r"(?<!\w)[+-]?(?:\d+(?:\.\d+)?)\s*%")
-_UP_WORDS = {"rose", "grew", "increased", "gained", "climbed", "jumped"}
-
-
-def _comparison_period_for_sentence(sentence: str, breakdowns: dict):
-    """Find a unique consecutive month pair explicitly named in a sentence."""
-    months = sorted(breakdowns)
-    if len(months) < 2:
-        return None
-    mentioned = list(_MONTH_PAIR_PATTERN.finditer(sentence))
-    if mentioned:
-        candidates = set()
-        for match in mentioned:
-            a = list(calendar.month_abbr).index(match.group("first")[:3].title())
-            b = list(calendar.month_abbr).index(match.group("second")[:3].title())
-            candidates.update(
-                (previous, current)
-                for previous, current in zip(months, months[1:])
-                if int(previous[5:]) == a and int(current[5:]) == b
-            )
-        return next(iter(candidates)) if len(candidates) == 1 else None
-    if len(months) == 2 or re.search(
-        r"\b(?:latest|most recent)\s+(?:month|period|comparison)\b",
-        sentence, re.IGNORECASE,
-    ):
-        return months[-2], months[-1]
-    return None
-
-
-def check_segment_percentage_attribution(
-    report: BusinessReport, analysis: dict
-) -> list[str]:
-    """Catch clear claims attaching another segment's rate to a region/category.
-
-    Ambiguous prose is deliberately skipped. We do not require the LLM to
-    mention any particular fact, and a missed check is not treated as proof
-    that the prose is correct.
-    """
-    breakdowns = analysis.get("revenue_breakdowns") or {}
-    if len(breakdowns) < 2:
-        return []
-
-    all_names = sorted({
-        str(name)
-        for month in breakdowns.values()
-        for dimension in ("region", "category")
-        for name in month.get(dimension, {})
-    }, key=len, reverse=True)
-    if not all_names:
-        return []
-    names_re = re.compile(
-        r"(?<!\w)(?:" + "|".join(re.escape(name) for name in all_names)
-        + r")(?!\w)", re.IGNORECASE,
-    )
-    lookup = {name.casefold(): name for name in all_names}
-    errors = []
-    for section in report_sections(report):
-        for sentence in re.split(r"(?<=[.!?])\s+(?=[A-Z])", section):
-            period = _comparison_period_for_sentence(sentence, breakdowns)
-            if period is None:
-                continue
-            previous_month, current_month = period
-            mentions = list(names_re.finditer(sentence))
-            for index, mention in enumerate(mentions):
-                name = lookup[mention.group(0).casefold()]
-                end = mentions[index + 1].start() if index + 1 < len(mentions) else len(sentence)
-                tail = sentence[mention.end():end]
-                direction = _DIRECTION_PATTERN.match(tail)
-                if not direction:
-                    continue
-                # The percentage must follow the segment's own change verb.
-                # Do not cross into a different segment's clause.
-                match = _RATE_IN_CLAUSE.search(tail[direction.end():])
-                if not match:
-                    continue
-                # Avoid assigning a rate embedded in an unrelated sub-clause.
-                if match.start() > 85:
-                    continue
-                actual_dimension = next(
-                    (dimension for dimension in ("region", "category")
-                     if name in breakdowns[previous_month].get(dimension, {})
-                     or name in breakdowns[current_month].get(dimension, {})),
-                    None,
-                )
-                if actual_dimension is None:
-                    continue
-                before = float(breakdowns[previous_month].get(actual_dimension, {}).get(name, 0))
-                after = float(breakdowns[current_month].get(actual_dimension, {}).get(name, 0))
-                if before == 0:
-                    continue  # a zero baseline has no defined growth percentage
-                expected = (after - before) / before * 100
-                stated = float(match.group(0).replace("%", "").strip())
-                precision = (len(match.group(0).split(".", 1)[1].split("%", 1)[0])
-                             if "." in match.group(0) else 0)
-                tolerance = 0.51 * 10 ** (-precision) + 0.011
-                verb_is_up = direction.group("verb").lower() in _UP_WORDS
-                if (abs(abs(stated) - abs(expected)) > tolerance
-                        or (verb_is_up != (expected > 0) and abs(expected) > tolerance)):
-                    errors.append(
-                        f"Incorrect {actual_dimension} percentage for {name} "
-                        f"({previous_month} to {current_month}): "
-                        f"stated {match.group(0)}, verified {expected:+.2f}%."
-                    )
-    return list(dict.fromkeys(errors))
-
-
-def report_sections(report: BusinessReport) -> list[str]:
-    """Collect all narrative text for quality checks."""
-    return [
-        report.executive_summary,
-        *report.key_insights,
-        *report.notable_changes,
-    ]
-
-
-def has_unsupported_currency(report: BusinessReport) -> bool:
-    return any(
-        UNSUPPORTED_CURRENCY_PATTERN.search(text) for text in report_sections(report)
-    )
-
-
-def has_unsupported_product_ranking(
-    report: BusinessReport, analysis: dict | None = None
-) -> bool:
-    texts = report_sections(report)
-    if any(UNSUPPORTED_PRODUCT_RANKING_PATTERN.search(text) for text in texts):
-        return True
-    unit_ranking = (analysis or {}).get("report_highlights", {}).get(
-        "top_product_by_units_full_period"
-    )
-    # A product units ranking must be calculated, not guessed from revenue.
-    return not unit_ranking and any(
-        re.search(r"\bmost[\s-]+units[\s-]+sold\b", text, re.IGNORECASE)
-        for text in texts
-    )
-
-
-def has_unsupported_price_inference(report: BusinessReport) -> bool:
-    return any(
-        UNSUPPORTED_PRICE_INFERENCE_PATTERN.search(text)
-        for text in report_sections(report)
-    )
-
-
-def has_unsupported_causal_inference(report: BusinessReport) -> bool:
-    return any(
-        UNSUPPORTED_CAUSAL_INFERENCE_PATTERN.search(text)
-        for text in report_sections(report)
-    )
-
-
-def verified_numeric_values(analysis: dict) -> tuple[set[int], list[float]]:
-    """Return verified EUR amounts (in cents) and percentages (in points).
-
-    Do not accept an order count as a currency amount merely because it is
-    numerically equal: only explicitly monetary fields are included.
-    """
-    euro_cents: set[int] = set()
-    percentages: list[float] = []
-
-    def add_euro(value):
-        if isinstance(value, (int, float)) and not isinstance(value, bool):
-            euro_cents.add(round(abs(float(value)) * 100))
-
-    def add_pct(value):
-        if isinstance(value, (int, float)) and not isinstance(value, bool):
-            percentages.append(abs(float(value)))
-
-    for month in analysis.get("monthly_kpis", []):
-        for field in ("total_revenue", "average_order_value", "revenue_per_unit"):
-            add_euro(month.get(field))
-        add_pct(month.get("revenue_growth_pct"))
-
-    for comparison in analysis.get("comparisons", []):
-        for metric, change in comparison.get("changes", {}).items():
-            if metric in ("total_revenue", "average_order_value", "revenue_per_unit"):
-                add_euro(change.get("absolute_change"))
-            add_pct(change.get("percentage_change"))
-
-    for month_breakdowns in analysis.get("revenue_breakdowns", {}).values():
-        for groups in month_breakdowns.values():
-            for amount in groups.values():
-                add_euro(amount)
-
-    latest_segments = build_latest_segment_comparisons(analysis)
-    for dimension in ("region", "category"):
-        for segment in latest_segments[dimension].values():
-            add_euro(segment["absolute_change"])
-            add_pct(segment["percentage_change"])
-
-    # The prompt can also cite Python-ranked historical segment movements,
-    # which are not necessarily present among threshold-filtered notable events.
-    historical = build_segment_rankings(analysis).get("historical", {})
-    for dimension in ("category", "region"):
-        for winners in historical.get(dimension, {}).values():
-            for event in winners:
-                add_euro(event["absolute_change"])
-                add_pct(event["percentage_change"])
-
-    add_euro((analysis.get("top_revenue_product") or {}).get("revenue"))
-
-    for change in analysis.get("notable_changes", []):
-        for field in ("previous_revenue", "current_revenue", "absolute_change"):
-            # Divergence findings have no monetary absolute change.
-            if change.get("type") != "revenue_volume_divergence":
-                add_euro(change.get(field))
-        for field in (
-            "percentage_change", "revenue_change_pct",
-            "order_count_change_pct", "units_sold_change_pct",
-        ):
-            add_pct(change.get(field))
-
-    highlights = analysis.get("report_highlights") or {}
-    for field in ("overall_revenue_change", "largest_monthly_revenue_increase",
-                  "largest_monthly_revenue_decrease",
-                  "largest_monthly_revenue_percentage_increase",
-                  "largest_monthly_revenue_percentage_decrease"):
-        item = highlights.get(field) or {}
-        for amount_key in ("from_revenue", "to_revenue", "absolute_change"):
-            add_euro(item.get(amount_key))
-        add_pct(item.get("percentage_change"))
-    for field in ("highest_revenue_month", "lowest_revenue_month",
-                  "top_product_by_revenue_full_period"):
-        add_euro((highlights.get(field) or {}).get("revenue"))
-
-    return euro_cents, percentages
-
-
-def check_numeric_grounding(report: BusinessReport, analysis: dict) -> list[str]:
-    """Flag quoted amounts absent from verified calculations.
-
-    Allow ordinary whole-number rounding of percentages (e.g. 44% for
-    43.74%). This checks existence, NOT semantic attribution or direction.
-    No assertion is made about unmarked numbers in the narrative.
-    """
-    euro_cents, percentages = verified_numeric_values(analysis)
-    errors = []
-    for section in report_sections(report):
-        for match in EURO_AMOUNT_PATTERN.finditer(section):
-            amount = float(match.group("amount").replace(",", ""))
-            if round(amount * 100) not in euro_cents:
-                errors.append(f"Unverified EUR amount: €{amount:,.2f}.")
-        for match in PERCENTAGE_PATTERN.finditer(section):
-            token = match.group("amount").replace(",", "")
-            numeric = abs(float(token))
-            decimals = len(token.split(".", 1)[1]) if "." in token else 0
-            tolerance = 0.51 * 10 ** (-decimals) + 0.001
-            if not any(
-                abs(numeric - verified) <= tolerance for verified in percentages
-            ):
-                errors.append(f"Unverified percentage: {match.group(0)}.")
-    return list(dict.fromkeys(errors))
-
-
 def normalize_text_spacing(text: str) -> str:
     """Fix unambiguous punctuation and EUR formatting, without changing values."""
     # Standardize negative currency notation, including Unicode minus signs.
@@ -818,7 +500,7 @@ def fallback_response() -> dict:
 
 
 def generate_business_report(analysis: dict, client=None) -> dict:
-    """Generate a grounded report using the configured LLM provider."""
+    """Generate a structured report from Python-computed analytical facts."""
     project_root = Path(__file__).resolve().parents[3]
     load_dotenv(project_root / ".env")
     try:
@@ -935,7 +617,7 @@ def generate_business_report(analysis: dict, client=None) -> dict:
     ]
 
     # Provider API errors return verified analytics without another request.
-    # Optionally retry once only when the returned content fails validation.
+    # Optionally retry once only for malformed JSON or invalid JSON structure.
     for attempt in range(2):
         try:
             content = provider.generate(
@@ -953,41 +635,13 @@ def generate_business_report(analysis: dict, client=None) -> dict:
             return fallback_response()
 
         try:
+            # Validate the JSON shape only; narrative accuracy is handled by
+            # prompt constraints and human review, not fragile text patterns.
             report = BusinessReport.model_validate(json.loads(content))
-            errors = []
-
-            if has_unsupported_currency(report):
-                errors.append("Unsupported currency. All values are EUR; use €.")
-            if has_unsupported_product_ranking(report, analysis):
-                errors.append(
-                    "Unsupported product ranking. Use explicit 'highest-revenue' "
-                    "or 'most units sold' ONLY when a verified units ranking is "
-                    "provided; avoid 'best-selling' or popularity claims."
-                )
-            if has_unsupported_price_inference(report):
-                errors.append(
-                    "Unsupported price explanation. Lower prices or "
-                    "discounting cannot be inferred from average order "
-                    "value or revenue per unit alone. State the observed "
-                    "metric changes without asserting their cause."
-                )
-
-            if has_unsupported_causal_inference(report):
-                errors.append(
-                    "Unsupported causal explanation. The CSV does not establish "
-                    "efficiency gains, customer demand, project-driven sales, "
-                    "or market expansion; describe verified metric changes."
-                )
-
-            cleaned = normalize_report_spacing(report)
-            errors.extend(check_numeric_grounding(cleaned, analysis))
-            errors.extend(check_segment_percentage_attribution(cleaned, analysis))
-            if not errors:
-                return {
-                    "narrative_generated": True,
-                    "ai_report": cleaned.model_dump(),
-                }
-            validation_feedback = " ".join(errors)
+            return {
+                "narrative_generated": True,
+                "ai_report": normalize_report_spacing(report).model_dump(),
+            }
 
         except json.JSONDecodeError as error:
             validation_feedback = (
@@ -1005,9 +659,7 @@ def generate_business_report(analysis: dict, client=None) -> dict:
             attempt + 1,
             validation_feedback,
         )
-        # Optional quota-saving mode for free-tier development. Keep all
-        # content checks, but do not spend a second generation on rejection.
-        # No additional request is made unless explicitly enabled.
+        # No extra request unless explicitly enabled for JSON/schema errors.
         allow_validation_retry = settings.retry_content_validation
         if attempt == 0 and allow_validation_retry:
             messages.append(
@@ -1016,10 +668,9 @@ def generate_business_report(analysis: dict, client=None) -> dict:
                     "content": (
                         "Your previous response failed validation: "
                         f"{validation_feedback}\n"
-                        "Generate the report again with the required JSON "
-                        "schema, using the original verified data and all "
-                        "factual, EUR, and metric-definition rules. "
-                        "Do not invent facts or perform new calculations."
+                        "Generate the report again using the required JSON "
+                        "schema and the original verified data. Do not invent "
+                        "facts or perform new calculations."
                     ),
                 }
             )

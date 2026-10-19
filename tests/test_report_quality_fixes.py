@@ -151,14 +151,10 @@ def test_long_narrative_uses_continuation_page_for_kpis_instead_of_blank_page():
     assert len(re.findall(rb"/Type\s*/Page\b", content)) == 3
 
 
-def test_quota_saving_mode_disables_second_content_generation(monkeypatch):
+def test_quota_saving_mode_disables_second_request_for_invalid_json(monkeypatch):
     monkeypatch.setenv("LLM_RETRY_CONTENT_VALIDATION", "0")
-    invalid_answer = {
-        "executive_summary": "Revenue rose due to stronger customer demand.",
-        "key_insights": [], "notable_changes": [],
-    }
     client = Mock()
-    client.models.generate_content.return_value = SimpleNamespace(text=json.dumps(invalid_answer))
+    client.models.generate_content.return_value = SimpleNamespace(text="not json")
     result = generate_business_report(_analysis(), client=client)
     assert result == {"narrative_generated": False, "ai_report": None}
     assert client.models.generate_content.call_count == 1
