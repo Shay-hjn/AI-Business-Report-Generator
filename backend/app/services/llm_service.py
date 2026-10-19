@@ -9,7 +9,9 @@ from pydantic import ValidationError
 
 from backend.app.schemas import BusinessReport
 from backend.app.services.llm_providers import (
-    LLMSettings, make_provider, read_llm_settings,
+    LLMSettings,
+    make_provider,
+    read_llm_settings,
 )
 
 
@@ -168,6 +170,7 @@ WRITING QUALITY:
 - Return only a JSON object matching the required schema.
 """
 
+
 def build_segment_directions(analysis: dict) -> dict:
     """Identify latest-month category and region changes in Python."""
     breakdowns = analysis.get("revenue_breakdowns", {})
@@ -214,8 +217,7 @@ def build_latest_segment_comparisons(analysis: dict) -> dict:
     """
     breakdowns = analysis.get("revenue_breakdowns", {})
     months = sorted(breakdowns)
-    result = {"from_month": None, "to_month": None,
-              "category": {}, "region": {}}
+    result = {"from_month": None, "to_month": None, "category": {}, "region": {}}
     if len(months) < 2:
         return result
 
@@ -261,8 +263,11 @@ def build_segment_rankings(analysis: dict) -> dict:
     latest_facts = build_latest_segment_comparisons(analysis)
     for dimension in ("category", "region"):
         rows = [
-            {"name": name, "absolute_change": facts["absolute_change"],
-             "percentage_change": facts["percentage_change"]}
+            {
+                "name": name,
+                "absolute_change": facts["absolute_change"],
+                "percentage_change": facts["percentage_change"],
+            }
             for name, facts in latest_facts[dimension].items()
         ]
         result["latest"][dimension] = _rank_segment_movements(rows)
@@ -279,17 +284,20 @@ def build_segment_rankings(analysis: dict) -> dict:
                 old = round(float(previous.get(name, 0)), 2)
                 new = round(float(current.get(name, 0)), 2)
                 change = round(new - old, 2)
-                events.append({
-                    "from_month": before,
-                    "to_month": after,
-                    "name": name,
-                    "absolute_change": change,
-                    "percentage_change": (
-                        round(change / old * 100, 2) if old else None
-                    ),
-                })
+                events.append(
+                    {
+                        "from_month": before,
+                        "to_month": after,
+                        "name": name,
+                        "absolute_change": change,
+                        "percentage_change": (
+                            round(change / old * 100, 2) if old else None
+                        ),
+                    }
+                )
         result["historical"][dimension] = _rank_segment_movements(
-            events, include_percentage_rankings=False,
+            events,
+            include_percentage_rankings=False,
         )
     return result
 
@@ -306,10 +314,12 @@ def _rank_segment_movements(
         label = "eur" if measure == "absolute_change" else "pct"
         for direction in ("increase", "decrease"):
             eligible = [
-                item for item in events
+                item
+                for item in events
                 if item.get(measure) is not None
-                and (item[measure] > 0 if direction == "increase"
-                     else item[measure] < 0)
+                and (
+                    item[measure] > 0 if direction == "increase" else item[measure] < 0
+                )
             ]
             key = f"largest_{label}_{direction}"
             if not eligible:
@@ -318,9 +328,7 @@ def _rank_segment_movements(
             extreme = (max if direction == "increase" else min)(
                 item[measure] for item in eligible
             )
-            ranks[key] = [
-                item for item in eligible if item[measure] == extreme
-            ]
+            ranks[key] = [item for item in eligible if item[measure] == extreme]
     return ranks
 
 
@@ -329,7 +337,7 @@ def build_llm_analysis(analysis: dict) -> dict:
 
     FastAPI still returns the COMPLETE Python analysis for KPIs, charts and PDF.
     Only the model-facing copy is reduced to limit token consumption. The
-    original analysis is also retained for output grounding and validation.
+    original analysis remains unchanged and available for the API response.
 
     For 1-2 months, preserve the existing model input to avoid unnecessary
     changes to the already-tested reporting behavior.
@@ -346,9 +354,9 @@ def build_llm_analysis(analysis: dict) -> dict:
         categories = month_breakdown.get("category", {})
         regions = month_breakdown.get("region", {})
         products = month_breakdown.get("product", {})
-        top_products = sorted(
-            products.items(), key=lambda item: (-item[1], item[0])
-        )[:5]
+        top_products = sorted(products.items(), key=lambda item: (-item[1], item[0]))[
+            :5
+        ]
         monthly_breakdowns[month] = {
             "category": categories,
             "region": regions,
@@ -361,14 +369,18 @@ def build_llm_analysis(analysis: dict) -> dict:
         # Historical revenue comparisons capture the trend; the final pair
         # retains order and unit comparisons for the current KPI narrative.
         changes = comparison.get("changes") or {}
-        keep = changes if index == len(comparisons) - 1 else {
-            "total_revenue": changes.get("total_revenue", {})
-        }
-        compact_comparisons.append({
-            "from_month": comparison.get("from_month"),
-            "to_month": comparison.get("to_month"),
-            "changes": keep,
-        })
+        keep = (
+            changes
+            if index == len(comparisons) - 1
+            else {"total_revenue": changes.get("total_revenue", {})}
+        )
+        compact_comparisons.append(
+            {
+                "from_month": comparison.get("from_month"),
+                "to_month": comparison.get("to_month"),
+                "changes": keep,
+            }
+        )
 
     notable = analysis.get("notable_changes") or []
     latest = monthly[-1]["month"]
@@ -378,19 +390,25 @@ def build_llm_analysis(analysis: dict) -> dict:
     # Retain recent discoveries first, followed by the most financially
     # important historical anomalies. These remain only CANDIDATES: the model
     # decides which ones deserve narrative emphasis.
-    recent.sort(key=lambda finding: (
-        0 if finding.get("type") == "overall_revenue_change" else 1,
-        -abs(float(finding.get("absolute_change", 0) or 0)),
-    ))
-    historic.sort(key=lambda finding: (
-        -abs(float(finding.get("absolute_change", 0) or 0)),
-        str(finding.get("to_month", "")),
-    ))
+    recent.sort(
+        key=lambda finding: (
+            0 if finding.get("type") == "overall_revenue_change" else 1,
+            -abs(float(finding.get("absolute_change", 0) or 0)),
+        )
+    )
+    historic.sort(
+        key=lambda finding: (
+            -abs(float(finding.get("absolute_change", 0) or 0)),
+            str(finding.get("to_month", "")),
+        )
+    )
     selected = recent[:7] + historic[:6]
-    selected.sort(key=lambda finding: (
-        str(finding.get("to_month", "")),
-        str(finding.get("type", "")),
-    ))
+    selected.sort(
+        key=lambda finding: (
+            str(finding.get("to_month", "")),
+            str(finding.get("type", "")),
+        )
+    )
 
     return {
         "monthly_kpis": monthly,
@@ -428,7 +446,8 @@ def _safe_api_error_detail(error: Exception) -> str:
     safe = re.sub(r"\borg_[A-Za-z0-9_-]+\b", "[organization]", safe)
     safe = re.sub(
         r"(?i)\b(x-goog-api-key|api[_ -]?key)\s*[:=]\s*[^\s,;]+",
-        r"\1=[redacted]", safe,
+        r"\1=[redacted]",
+        safe,
     )
     return " ".join(safe.split())[:450]
 
@@ -445,11 +464,15 @@ def normalize_text_spacing(text: str) -> str:
     # the redundant minus; the directional verb already expresses the fall.
     text = re.sub(
         r"\b(decreased|declined|fell|dropped|reduced|shrunk)\s+by\s+-(?=€|\d+(?:\.\d+)?%)",
-        lambda m: m.group(0)[:-1], text, flags=re.IGNORECASE,
+        lambda m: m.group(0)[:-1],
+        text,
+        flags=re.IGNORECASE,
     )
     text = re.sub(
         r"\b(decrease|decline|drop|fall)\s+of\s+-(?=€|\d+(?:\.\d+)?%)",
-        lambda m: m.group(0)[:-1], text, flags=re.IGNORECASE,
+        lambda m: m.group(0)[:-1],
+        text,
+        flags=re.IGNORECASE,
     )
 
     # In "revenue declined by €100 (-10%)" the verb already conveys
@@ -457,7 +480,8 @@ def normalize_text_spacing(text: str) -> str:
     text = re.sub(
         r"\b((?:decreased|declined|fell|dropped|reduced|shrunk)\s+by\s+€[\d,.]+)\s*\(-([\d.]+%)\)",
         lambda m: f"{m.group(1)} ({m.group(2)})",
-        text, flags=re.IGNORECASE,
+        text,
+        flags=re.IGNORECASE,
     )
 
     # Parenthesized "(-65% increase)" contradicts its own direction.
@@ -466,7 +490,8 @@ def normalize_text_spacing(text: str) -> str:
     text = re.sub(
         r"\(-(?P<rate>\d+(?:\.\d+)?)\s*%\s+(?P<word>increase|rise|gain|growth)\)",
         lambda m: f"({m.group('rate')}% {m.group('word')})",
-        text, flags=re.IGNORECASE,
+        text,
+        flags=re.IGNORECASE,
     )
 
     def format_euro(match: re.Match) -> str:
@@ -512,11 +537,13 @@ def generate_business_report(analysis: dict, client=None) -> dict:
             settings = LLMSettings(
                 provider="gemini",
                 model=os.getenv("LLM_MODEL", "").strip() or "gemini-3.8-flash",
-                api_key="", max_output_tokens=6000,
+                api_key="",
+                max_output_tokens=6000,
                 thinking_level="medium",
-                retry_content_validation=os.getenv(
-                    "LLM_RETRY_CONTENT_VALIDATION", "0"
-                ).strip().lower() not in {"0", "false", "no", "off"},
+                retry_content_validation=os.getenv("LLM_RETRY_CONTENT_VALIDATION", "0")
+                .strip()
+                .lower()
+                not in {"0", "false", "no", "off"},
             )
             provider = make_provider(settings, client=client)
     except ValueError as error:
@@ -561,16 +588,21 @@ def generate_business_report(analysis: dict, client=None) -> dict:
             ),
         },
         "reporting_scope": (
-            "single_month" if len(analysis.get("monthly_kpis", [])) == 1
-            else "two_months" if len(analysis.get("monthly_kpis", [])) == 2
+            "single_month"
+            if len(analysis.get("monthly_kpis", [])) == 1
+            else "two_months"
+            if len(analysis.get("monthly_kpis", [])) == 2
             else "three_or_more_months"
         ),
         "reporting_calendar_gaps": [
             {
-                "from_month": older["month"], "to_month": newer["month"],
+                "from_month": older["month"],
+                "to_month": newer["month"],
                 "missing_month_count": (
                     (int(newer["month"][:4]) - int(older["month"][:4])) * 12
-                    + int(newer["month"][5:7]) - int(older["month"][5:7]) - 1
+                    + int(newer["month"][5:7])
+                    - int(older["month"][5:7])
+                    - 1
                 ),
             }
             for older, newer in zip(
@@ -578,7 +610,9 @@ def generate_business_report(analysis: dict, client=None) -> dict:
                 analysis.get("monthly_kpis", [])[1:],
             )
             if (int(newer["month"][:4]) - int(older["month"][:4])) * 12
-            + int(newer["month"][5:7]) - int(older["month"][5:7]) > 1
+            + int(newer["month"][5:7])
+            - int(older["month"][5:7])
+            > 1
         ],
         "verified_analysis": build_llm_analysis(analysis),
         "latest_segment_directions": build_segment_directions(analysis),
@@ -609,9 +643,8 @@ def generate_business_report(analysis: dict, client=None) -> dict:
             "role": "user",
             "content": (
                 "Generate a business report using only this verified "
-                "analysis data:\n" + json.dumps(
-                    llm_input, ensure_ascii=False, separators=(",", ":")
-                )
+                "analysis data:\n"
+                + json.dumps(llm_input, ensure_ascii=False, separators=(",", ":"))
             ),
         },
     ]
@@ -621,14 +654,16 @@ def generate_business_report(analysis: dict, client=None) -> dict:
     for attempt in range(2):
         try:
             content = provider.generate(
-                messages, model,
+                messages,
+                model,
                 max_output_tokens=settings.max_output_tokens,
                 thinking_level=settings.thinking_level,
             )
         except Exception as error:
             logger.error(
                 "%s API failure: %s (HTTP status: %s). %s",
-                provider.name.capitalize(), type(error).__name__,
+                provider.name.capitalize(),
+                type(error).__name__,
                 getattr(error, "status_code", getattr(error, "code", "N/A")),
                 _safe_api_error_detail(error),
             )
