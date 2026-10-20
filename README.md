@@ -15,6 +15,31 @@ The application separates numerical analysis from natural-language generation. P
 - **PDF export:** Produces a formatted report using ReportLab from the existing results, without another Gemini request.
 - **Graceful error handling:** Keeps computed KPIs and charts available when the AI narrative cannot be generated.
 
+
+## Application Preview
+
+Screenshots of the Streamlit application, from preparing a CSV to viewing the generated report.
+
+### Main page
+
+![Streamlit report generator home screen with CSV upload controls](docs/images/4.PNG)
+
+### CSV input template
+
+![CSV input template showing the required sales data columns](docs/images/5.PNG)
+
+### AI management report
+
+![Generated executive summary, key insights, and notable changes](docs/images/1.PNG)
+
+### Key performance indicators and revenue trend
+
+![KPI dashboard and monthly revenue trend chart](docs/images/2.PNG)
+
+### Category and regional revenue comparisons
+
+![Revenue comparison charts by product category and region](docs/images/3.PNG)
+
 ## Architecture
 
 ```text
@@ -22,34 +47,44 @@ Sales CSV
    |
    v
 Streamlit dashboard (frontend/app.py)
-   |  POST /reports — multipart CSV upload
+   |  HTTP POST /reports (CSV upload)
    v
-FastAPI backend (backend/app/api/reports.py)
-   |
-   +-- CSV validation
-   +-- Python analytics: KPIs, comparisons, rankings, notable changes
-   +-- Gemini: narrative generation from structured analytical data
-   |      |
-   |      +-- JSON parsing and Pydantic schema validation
-   |
+FastAPI endpoint (backend/app/api/reports.py)
+   |  Python function calls
    v
-Structured API response: analytics + optional AI narrative
-   |
-   +-- Streamlit dashboard and Altair charts
-   +-- Downloadable ReportLab PDF
+CSV validation + analytics (backend/app/analytics/)
+   |  Calculated KPIs, comparisons, and rankings
+   v
+LLM service (backend/app/services/llm_service.py)
+   |  Prepares a prompt from calculated results
+   v
+Gemini provider (backend/app/services/llm_providers.py)
+   |  Google GenAI SDK -> HTTPS request -> Google Gemini API
+   |  Google GenAI SDK <- HTTPS response <- Google Gemini API
+   v
+LLM service: parse JSON and validate Pydantic schema
+   |  Return analytics + optional AI narrative
+   v
+FastAPI endpoint
+   |  HTTP JSON response
+   v
+Streamlit: KPI cards, Altair charts, and ReportLab PDF export
 ```
 
-**Technology stack:** Python, FastAPI, Pandas, Pydantic, Google Gemini API, Streamlit, Altair, and ReportLab.
+FastAPI, analytics, and Gemini integration are all Python code within the same backend. They communicate through function calls; the external communication occurs between Streamlit and FastAPI, and between the Google GenAI SDK and Gemini.
+
+**Technology stack:** Python, FastAPI, Pandas, Pydantic, Google GenAI SDK, Google Gemini API, Streamlit, Altair, and ReportLab.
 
 The application processes reports on demand and does not require a database.
+
+ 
 
 ## Getting started
 
 ### Prerequisites
 
-- **Python 3.14**, used for development and testing. Other versions have not been fully verified.
+- **Python 3.14**, used for development and testing.
 - A [Google Gemini API key](https://aistudio.google.com/apikey) for AI narrative generation.
-- Internet access for Gemini requests.
 
 ### 1. Clone and install
 
@@ -87,17 +122,15 @@ GEMINI_API_KEY=your_gemini_api_key
 LLM_RETRY_CONTENT_VALIDATION=0
 ```
 
-`LLM_MODEL` selects the Gemini model used for generation. To switch models, update the setting and restart FastAPI. The selected model must be accessible to your API key; availability and quotas vary.
+`LLM_MODEL` selects the Gemini model used for generation. If you need a different model, you can manually choose an alternative such as `gemini-3.6-flash`, `gemini-3.5-flash-lite`, or `gemini-3.1-flash-lite`, then restart FastAPI. Model availability and quotas depend on your API key and can change.
 
 Additional configuration:
 
 | Setting | Default | Description |
 | --- | --- | --- |
 | `LLM_THINKING_LEVEL` | `medium` | Gemini thinking level: `low`, `medium`, or `high` |
-| `LLM_MAX_OUTPUT_TOKENS` | `6000` | Output token limit (256–65,536) |
+| `LLM_MAX_OUTPUT_TOKENS` | `6000` | Output token limit |
 | `LLM_RETRY_CONTENT_VALIDATION` | `0` | Set to `1` to allow one additional generation attempt when JSON parsing or schema validation fails |
-
-Keep `.env` private. `.env.example` contains placeholder values for local setup.
 
 ### 3. Run the application
 
@@ -119,7 +152,7 @@ The backend runs at **http://127.0.0.1:8000**, with interactive API documentatio
 
 ## CSV input format
 
-The dashboard's **View CSV input template** dialog displays the required columns and provides a blank CSV download.
+The dashboard provides a blank CSV template. Use the following column names in your CSV file:
 
 ```csv
 order_id,date,customer_id,product,category,region,quantity,unit_price,discount_pct,total_sales
@@ -136,11 +169,7 @@ order_id,date,customer_id,product,category,region,quantity,unit_price,discount_p
 
 Each CSV row represents a sales line item. Multiple rows can share an `order_id`; monthly order counts use distinct order IDs.
 
-The expected revenue for each row is:
-
-```text
-total_sales = quantity * unit_price * (1 - discount_pct / 100)
-```
+The expected line-item calculation is `quantity × unit_price × (1 − discount_pct / 100)`.
 
 Validation allows a difference of up to approximately **€0.01** for rounding. All monetary figures are interpreted as **EUR**.
 
@@ -161,7 +190,7 @@ curl -X POST http://127.0.0.1:8000/reports \
   -F "file=@data/samples/sales_01_steady_growth.csv"
 ```
 
-Invalid CSV input produces **HTTP 422**. When the CSV is valid but Gemini is unavailable or returns an invalid structured response, the API still returns the computed analytics, with `narrative_generated: false` and `ai_report: null`.
+Invalid CSV input produces **HTTP 422**. When the CSV is valid but Gemini is unavailable or returns a response that fails JSON or schema validation, the API still returns the computed analytics, with `narrative_generated: false` and `ai_report: null`.
 
 ## Testing
 
@@ -173,67 +202,73 @@ python -m pytest tests/ -q
 
 Tests cover CSV validation, KPI calculations, period and segment comparisons, API responses, Gemini response formatting, PDF generation, and selected frontend behavior. Model responses are mocked, so the suite does not make live Gemini API calls.
 
-To inspect Python-generated analytics without contacting Gemini:
-
-```bash
-python -m scripts.check_real_report sales_09_eight_month_business_performance.csv --analysis-only
-```
-
-To check the live configured Gemini connection (requires an API key and uses API quota):
-
-```bash
-python -m scripts.check_llm
-```
-
 ## Design decisions
 
-| Decision | Rationale |
+| Decision | Reason |
 | --- | --- |
-| Calculate financial metrics in Python | Provides reproducible numerical results independent of the language model |
-| Send aggregated analytical data to Gemini | Focuses the model on report writing while reducing exposure of individual transactions |
-| Validate structured AI responses with Pydantic | Enforces a consistent report format for the dashboard and PDF exporter |
-| Separate the API, analytics, and presentation layers | Improves testability and maintainability |
-| Keep analytics available if AI generation fails | Preserves useful results during model or API errors |
-| Generate PDFs from the existing API response | Avoids duplicate analysis and additional AI calls |
+| Calculate financial metrics in Python | LLMs can make arithmetic errors or hallucinate numerical values. Python provides deterministic, testable, and reproducible calculations. |
+| Send aggregated analytical data to Gemini | Focuses the model on business interpretation and report writing without sending raw transaction data. |
+| Validate structured AI responses with Pydantic | Ensures responses follow the required schema for the dashboard and PDF exporter. |
+| Separate the API, analytics, and presentation layers | Improves modularity, testability, and maintainability. |
+| Keep analytics available if AI generation fails | Preserves calculated metrics and charts when Gemini is unavailable or returns an invalid response. |
+| Generate PDFs from the existing API response | Reuses calculated results and AI narratives without duplicate analysis or additional Gemini API calls, avoiding duplicate calculations.  |
+| Avoid unnecessary database integration | Reports are generated on demand and can be saved as PDFs. Since persistent storage and user accounts are not required for the current workflow, a database would add unnecessary complexity. |
 
-## Assumptions and limitations
+## Limitations
 
-- **Currency:** Monetary values are interpreted as EUR; multi-currency aggregation and conversion are not supported.
-- **Reporting gaps:** Missing calendar months are not treated as zero-sales months. Comparisons use successive *reported* months, which may not be consecutive on the calendar.
-- **Zero baselines:** Percentage changes with a zero denominator are reported as undefined rather than as a numerical percentage.
-- **Interpretation:** Revenue data alone does not establish profitability, customer demand, or the causes of performance changes. AI-generated narratives may contain inaccuracies and should be reviewed before business decisions.
-- **Model availability:** Gemini model access, rate limits, and latency depend on the API service and account. Model selection is manual; requests are not automatically routed to other models.
-- **Local configuration:** The Streamlit frontend expects FastAPI at `127.0.0.1:8000`. Hosting the services separately requires configuring the API URL.
-- **Scope:** Reports are processed on demand. User accounts, saved report history, and scheduled report generation are not included.
+| Limitation | Description |
+| --- | --- |
+| Currency | All prices and sales amounts are treated as euros (€). Other currencies are not currently supported. |
+| Missing months | If a month is missing from the CSV, the application does not assume that sales were zero. Comparisons use the months available in the data, even if they are not consecutive. |
+| Zero values | When a percentage change cannot be calculated because the starting value is zero, the result is shown as undefined. |
+| AI accuracy | Gemini generates business insights from Python-calculated data, but its explanations may still contain mistakes. Important findings should be reviewed before making business decisions. |
+| Model availability | Gemini models have different availability, usage limits, and response times. Model selection is manual, with no automatic switching if a model becomes unavailable. |
+| Local setup | Streamlit connects to FastAPI at `127.0.0.1:8000`. Deploying the frontend and backend separately would require configuring the backend URL. |
+
+## Possible future improvements
+
+| Improvement | Description |
+| --- | --- |
+| Multi-agent AI validation | Introduce a second LLM to review the first model's report, checking numerical claims and business interpretations against the Python-calculated results. This could improve reliability, although it would not guarantee accuracy. |
+| More advanced AI models | Support higher-capability models, including paid options, to potentially improve the depth and quality of business insights. |
+| Automatic model fallback | Automatically switch to another configured Gemini model when the primary model is unavailable, reaches its usage limit, or encounters certain API errors. |
+| Multi-currency support | Allow users to select a currency and optionally support currency conversion using exchange rates. |
+| Customizable reports | Let users choose which KPIs, categories, regions, and time periods to include in their reports. |
+| Background report generation | Process large datasets or slow AI requests in the background, allowing users to continue using the interface while their reports are being prepared. |
+| Scheduled reporting | Allow users to generate reports automatically at regular intervals, such as weekly or monthly. |
 
 ## Project structure
 
 ```text
-backend/
-  app/
-    analytics/          CSV validation, KPIs, insights, pipeline
-    api/                FastAPI reports endpoint
-    services/           Gemini integration and response validation
-    main.py             FastAPI application and health endpoint
-frontend/
-  app.py                Streamlit dashboard
-  styles.css            Dashboard styles
-  pdf_export.py         PDF exporter
-data/samples/            Synthetic CSV test datasets
-scripts/                 Local diagnostic commands
-tests/                   Offline regression tests
-.streamlit/config.toml   Streamlit configuration
-.env.example             Environment variable template
-requirements.txt         Python dependencies
-README.md
+AI-Business-Report-Generator/
+│
+├── backend/
+│   └── app/
+│       ├── analytics/          # CSV validation, KPIs, insights, and pipeline
+│       ├── api/                # FastAPI report endpoint
+│       ├── services/           # Gemini integration and response validation
+│       ├── schemas.py          # Pydantic data models
+│       └── main.py             # FastAPI application
+│
+├── frontend/
+│   ├── app.py                  # Streamlit dashboard
+│   ├── styles.css              # Dashboard styling
+│   └── pdf_export.py           # PDF report generation
+│
+├── data/
+│   └── samples/                # Synthetic CSV test datasets
+│
+├── docs/
+│   └── images/                # Application screenshots
+│
+├── scripts/                   # Local diagnostic tools
+├── tests/                     # Automated regression tests
+│
+├── .streamlit/
+│   └── config.toml             # Streamlit configuration
+│
+├── .env.example                # Environment variable template
+├── .gitignore                  # Git exclusion rules
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation
 ```
-
-## Security and data handling
-
-Sales CSV files are processed by the local FastAPI service. Gemini receives selected analytical data derived from the CSV, rather than the uploaded file itself. Review your data-handling requirements before processing confidential or personal business information with an external AI service.
-
-Do not commit API keys, `.env`, `.venv`, generated caches, or confidential CSV files to the repository. The included sample datasets are synthetic.
-
-## AI-assisted development
-
-AI coding tools, including ChatGPT, were used to assist with implementation, debugging, test design, and documentation. The application uses Google Gemini to generate management narratives; CSV validation and financial calculations are implemented in Python.
