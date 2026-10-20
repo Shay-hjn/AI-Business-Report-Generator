@@ -220,7 +220,6 @@ Tests cover CSV validation, KPI calculations, period and segment comparisons, AP
 | --- | --- |
 | Currency | All prices and sales amounts are treated as euros (€). Other currencies are not currently supported. |
 | Missing months | If a month is missing from the CSV, the application does not assume that sales were zero. Comparisons use the months available in the data, even if they are not consecutive. |
-| Zero values | When a percentage change cannot be calculated because the starting value is zero, the result is shown as undefined. |
 | AI accuracy | Gemini generates business insights from Python-calculated data, but its explanations may still contain mistakes. Important findings should be reviewed before making business decisions. |
 | Model availability | Gemini models have different availability, usage limits, and response times. Model selection is manual, with no automatic switching if a model becomes unavailable. |
 | Local setup | Streamlit connects to FastAPI at `127.0.0.1:8000`. Deploying the frontend and backend separately would require configuring the backend URL. |
